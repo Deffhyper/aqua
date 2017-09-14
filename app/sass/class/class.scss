@@ -1,0 +1,24 @@
+.list-inline {
+  li {
+    display: inline-block;
+  }
+}
+
+mark {
+  background-color: transparent;
+  color: #ff7038;
+  font-weight: bold;
+}
+
+
+/////////////////////////////// sprite block ///////////////////////////////////
+
+.sprite {
+  display: inline-block;
+}
+.sprite-user {
+  @include sprite($user);
+}
+.sprite-black-cart {
+  @include sprite($white-cart);
+}

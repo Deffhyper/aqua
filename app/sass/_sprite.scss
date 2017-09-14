@@ -1,0 +1,145 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$black-cart-name: 'black-cart';
+$black-cart-x: 28px;
+$black-cart-y: 72px;
+$black-cart-offset-x: -28px;
+$black-cart-offset-y: -72px;
+$black-cart-width: 16px;
+$black-cart-height: 13px;
+$black-cart-total-width: 104px;
+$black-cart-total-height: 88px;
+$black-cart-image: '../img/png_sprite/sprite.png';
+$black-cart: (28px, 72px, -28px, -72px, 16px, 13px, 104px, 88px, '../img/png_sprite/sprite.png', 'black-cart', );
+$helper-name: 'helper';
+$helper-x: 0px;
+$helper-y: 0px;
+$helper-offset-x: 0px;
+$helper-offset-y: 0px;
+$helper-width: 72px;
+$helper-height: 72px;
+$helper-total-width: 104px;
+$helper-total-height: 88px;
+$helper-image: '../img/png_sprite/sprite.png';
+$helper: (0px, 0px, 0px, 0px, 72px, 72px, 104px, 88px, '../img/png_sprite/sprite.png', 'helper', );
+$inverse-cart-name: 'inverse--cart';
+$inverse-cart-x: 72px;
+$inverse-cart-y: 0px;
+$inverse-cart-offset-x: -72px;
+$inverse-cart-offset-y: 0px;
+$inverse-cart-width: 32px;
+$inverse-cart-height: 32px;
+$inverse-cart-total-width: 104px;
+$inverse-cart-total-height: 88px;
+$inverse-cart-image: '../img/png_sprite/sprite.png';
+$inverse-cart: (72px, 0px, -72px, 0px, 32px, 32px, 104px, 88px, '../img/png_sprite/sprite.png', 'inverse--cart', );
+$user-white-name: 'user-white';
+$user-white-x: 0px;
+$user-white-y: 72px;
+$user-white-offset-x: 0px;
+$user-white-offset-y: -72px;
+$user-white-width: 14px;
+$user-white-height: 16px;
+$user-white-total-width: 104px;
+$user-white-total-height: 88px;
+$user-white-image: '../img/png_sprite/sprite.png';
+$user-white: (0px, 72px, 0px, -72px, 14px, 16px, 104px, 88px, '../img/png_sprite/sprite.png', 'user-white', );
+$user-name: 'user';
+$user-x: 14px;
+$user-y: 72px;
+$user-offset-x: -14px;
+$user-offset-y: -72px;
+$user-width: 14px;
+$user-height: 16px;
+$user-total-width: 104px;
+$user-total-height: 88px;
+$user-image: '../img/png_sprite/sprite.png';
+$user: (14px, 72px, -14px, -72px, 14px, 16px, 104px, 88px, '../img/png_sprite/sprite.png', 'user', );
+$white-cart-name: 'white-cart';
+$white-cart-x: 72px;
+$white-cart-y: 32px;
+$white-cart-offset-x: -72px;
+$white-cart-offset-y: -32px;
+$white-cart-width: 32px;
+$white-cart-height: 32px;
+$white-cart-total-width: 104px;
+$white-cart-total-height: 88px;
+$white-cart-image: '../img/png_sprite/sprite.png';
+$white-cart: (72px, 32px, -72px, -32px, 32px, 32px, 104px, 88px, '../img/png_sprite/sprite.png', 'white-cart', );
+$spritesheet-width: 104px;
+$spritesheet-height: 88px;
+$spritesheet-image: '../img/png_sprite/sprite.png';
+$spritesheet-sprites: ($black-cart, $helper, $inverse-cart, $user-white, $user, $white-cart, );
+$spritesheet: (104px, 88px, '../img/png_sprite/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
