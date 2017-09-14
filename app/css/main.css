@@ -465,7 +465,8 @@ mark {
     background-color: #fff; }
 
 .menu-open .header-logo {
-  background: url("../img/jpeg_files/logo-inverse.png") no-repeat center;
+  background: url("../img/jpeg_files/logo-inverse.png") no-repeat center/cover;
+  background-size: 100%;
   position: relative;
   z-index: 11; }
   .menu-open .header-logo img {
@@ -555,6 +556,8 @@ mark {
       border-bottom: 1px dashed #1c5685;
       padding-bottom: 12px;
       margin-bottom: 9px; }
+      .header-menu__item--list li:last-child {
+        border: 0; }
 
 .header-catalog {
   color: #fff;
@@ -582,6 +585,18 @@ mark {
     font-size: 36px; }
     .header-catalog__left li {
       margin-bottom: 3px; }
+      .header-catalog__left li a:before {
+        content: "";
+        display: inline-block;
+        height: 4px;
+        width: 0;
+        background-color: #fff;
+        margin-bottom: 10px;
+        margin-right: 5px;
+        -webkit-transition: width .3s ease;
+        transition: width .3s ease; }
+      .header-catalog__left li a:hover:before {
+        width: 50px; }
   .header-catalog__right {
     display: inline-block;
     font-family: "Proxima-Nova-Light", sans-serif;
@@ -590,11 +605,121 @@ mark {
     .header-catalog__right li {
       margin-bottom: 27px; }
 
+.mob-menu-back {
+  display: none; }
+
 @media (max-width: 1279px) {
   .header-logo {
     margin-left: -40px; }
   .header-catalog-button {
     margin-left: 0; } }
+
+@media (max-width: 991px) {
+  .header {
+    padding: 5px 0; }
+  .header-burder-menu {
+    position: relative;
+    bottom: 4px; }
+  .header-catalog-button {
+    display: none; }
+  .header-logo {
+    width: 125px;
+    height: 45px; }
+  .header-overlay {
+    position: relative;
+    padding-top: 30px;
+    overflow: hidden;
+    height: auto; }
+  .header.menu-open {
+    background-color: #064579;
+    position: fixed;
+    z-index: 14;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    bottom: 0; }
+  .header-menu__item {
+    width: 100%; }
+  .header-catalog {
+    padding-left: 0;
+    padding-top: 0;
+    display: block; }
+  .header-menu {
+    display: block; }
+  .header-menu.open {
+    display: block; }
+  .header-menu__item--list {
+    position: absolute;
+    top: 0;
+    left: -9999px;
+    -webkit-transition: .3s ease 0s;
+    transition: .3s ease 0s; }
+  .header-catalog__right {
+    display: none; }
+  .header-menu__item--title {
+    font-size: 14px;
+    margin-bottom: 15px;
+    padding-bottom: 12px;
+    border-bottom: 1px dashed #1c5685;
+    position: relative;
+    width: 50%;
+    padding-right: 30px;
+    cursor: pointer; }
+    .header-menu__item--title:after {
+      content: '';
+      display: block;
+      width: 7px;
+      height: 7px;
+      border-top: 1px solid #fff;
+      border-right: 1px solid #fff;
+      -webkit-transform: rotateZ(45deg);
+          -ms-transform: rotate(45deg);
+              transform: rotateZ(45deg);
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      margin-top: -10px;
+      pointer-events: none; }
+  .header-catalog__left {
+    width: 50%;
+    font-size: 22px;
+    margin-bottom: 10px; }
+  .header-catalog__left li a:before {
+    margin-bottom: 7px; }
+  .header-menu__item--list {
+    width: 50%; }
+    .header-menu__item--list.open {
+      left: 14px;
+      background-color: #064579;
+      z-index: 15;
+      min-height: 100vh;
+      height: 500px; }
+  .mob-menu-back {
+    display: inline-block;
+    border: 1px solid #1c5685;
+    padding: 7px 23px; } }
+
+@media (max-width: 767px) {
+  .header-menu__item--title {
+    width: 100%; }
+  .header-menu__item--list {
+    width: 100%; }
+  .header-logo {
+    margin-left: 0; }
+  .header-tel-block .dropdown-toggle:after {
+    content: none; }
+  .header-tel-block .fa-phone {
+    font-size: 22px;
+    margin-left: 15px; }
+  .header-auth {
+    margin-right: 15px; }
+  .menu-trigger {
+    left: -10px; }
+  .header-catalog__left {
+    width: 100%; } }
 
 .footer {
   background-color: #343434;
