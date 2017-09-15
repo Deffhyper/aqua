@@ -1,6 +1,30 @@
 @media ($desktop) {
 
+  .top-slider__item--left {
+    width: 70%;
+    padding-left: 0;
+    padding-right: 30px;
+  }
 
+  .top-slider__item--right {
+    width: 30%;
+    position: relative;
+    height: 67vh;
+  }
+
+  .top-slider__item {
+    height: 500px;
+    padding: 0 10%;
+  }
+
+  .top-slider-block {
+    height: 560px;
+  }
+
+  .block-orange-bg {
+    height: inherit;
+    margin-bottom: 20px;
+  }
 
 
 

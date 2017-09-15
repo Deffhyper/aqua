@@ -10,6 +10,34 @@ mark {
   font-weight: bold;
 }
 
+.title-md {
+  font-family: $proxima-extra;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.link {
+  font-size: 12px;
+  border-bottom: 1px dotted $text-color;
+  transition: .3s ease;
+
+  &:hover {
+    border-color: transparent;
+  }
+}
+
+.section-block {
+  padding: 70px 0;
+}
+
+.title-light {
+  color: #343434;
+  font-family: $proxima-light;
+  font-size: 24px;
+}
+
 
 /////////////////////////////// sprite block ///////////////////////////////////
 
@@ -19,6 +47,273 @@ mark {
 .sprite-user {
   @include sprite($user);
 }
-.sprite-black-cart {
+.sprite-header-cart {
   @include sprite($white-cart);
 }
+
+.sprite-black-cart {
+  @include sprite($black-cart);
+}
+
+.sprite-b-new {
+  @include sprite($b-new);
+  &:hover {
+    @include sprite($b-new-dark);
+  }
+}
+
+/////////////////////////// small goods /////////////////////////
+
+.small-goods {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  margin-bottom: 15px;
+  position: relative;
+
+  &__image {
+    width: 65px;
+    height: 65px;
+    position: relative;
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      max-height: 100%;
+    }
+  }
+  &__prop {
+    padding-top: 13px;
+    padding-left: 7px;
+  }
+
+  .goods-price-current {
+    font-size: 14px;
+  }
+}
+
+///////////////////////////// goods //////////////////////
+
+.goods {
+  max-width: 222px;
+  position: relative;
+}
+
+.goods-link {
+  font-family: $proxima-bold;
+  color: #343434;
+  letter-spacing: .4px;
+  margin-bottom: 5px;
+}
+
+.goods-price-current {
+  font-family: $font-bold;
+  font-size: 16px;
+  color: #343434;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.goods-price-old {
+  font-family: $font-bold;
+  font-size: 12px;
+  color: #c9c9c9;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.goods-add-to-cart {
+  display: inline-block;
+  float: right;
+}
+
+.goods-image {
+  height: 225px;
+  position: relative;
+  a {
+    display: block;
+    height: 100%;
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  &--gray {
+    background-color: #f0f0f0;
+  }
+}
+
+/////////////////////////////////////////// link arrow ////////////////////////////////
+
+.link-arrow {
+  font-family: $proxima-semibold;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #1d1d1d;
+  span {
+    display: inline-block;
+    position: relative;
+    padding-right: 40px;
+    &:after {
+      content: '';
+      display: block;
+      width: 6px;
+      height: 6px;
+      border-top: 2px solid #1d1d1d;
+      border-right: 2px solid #1d1d1d;
+      transform: rotateZ(45deg);
+      position: absolute;
+      top: 3px;
+      right: 0;
+    }
+    &:before {
+      content: '';
+      display: block;
+      width: 8px;
+      background-color: #1d1d1d;
+      height: 2px;
+      position: absolute;
+      top: 5px;
+      right: 2px;
+    }
+  }
+}
+
+/////////////////////////////////////// slick slider ////////////////////////
+
+.slick-arrow {
+  background-color: transparent;
+  color: transparent;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #0d0d0d;
+  padding: 0;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  margin-top: -20px;
+  transition: .3s ease;
+  &:hover {
+    background-color: #0d0d0d;
+    &:before {
+      border-color: #fff;
+    }
+    &:after {
+      background-color: #fff;
+    }
+  }
+  &:after, &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    transition: .3s ease;
+  }
+  &:after {
+    width: 13px;
+    height: 2px;
+    background-color: #0d0d0d;
+    top: 18px;
+    left: 11px;
+  }
+  &:before {
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #0d0d0d;
+    border-right: 2px solid #0d0d0d;
+  }
+  &.slick-next {
+    right: 0;
+    &:before {
+      transform: rotateZ(45deg);
+      top: 14px;
+      left: 13px;
+    }
+  }
+  &.slick-prev {
+    left: 0;
+    &:before {
+      transform: rotateZ(-135deg);
+      top: 14px;
+      left: 12px;
+    }
+  }
+
+}
+
+.slick-dots {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0;
+  .slick-active {
+    border-color: $text-color;
+    background-color: #fff;
+    button {
+      display: none;
+    }
+  }
+  li {
+    display: inline-block;
+    margin-right: 20px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: relative;
+    border: 2px solid transparent;
+
+
+    button {
+      padding: 0;
+      color: transparent;
+      width: 7px;
+      height: 7px;
+      border: 0;
+      border-radius: 50%;
+      background-color: #969696;
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+
+///////////////////////////////// social list //////////////////////////
+
+.social-list {
+  li {
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    width: 33px;
+    height: 33px;
+    border: 2px solid #55545a;
+    color: #55545a;
+    border-radius: 50%;
+    overflow: hidden;
+    &:hover {
+      color: #000;
+      border-color: #000;
+    }
+    a {
+      display: block;
+      height: 100%;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+    i {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 20px;
+    }
+  }
+}
+

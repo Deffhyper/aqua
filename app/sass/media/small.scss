@@ -1,4 +1,41 @@
 @media ($mobile) {
 
+  .top-slider-goods-set__list {
+    display: none;
+  }
+  .top-slider__item {
+    height: 370px;
+  }
+
+  .top-slider-block {
+    height: 430px;
+  }
+
+  .top-slider__item--left {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .top-slider-subtitle {
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+
+  .top-slider-title {
+    font-size: 24px;
+  }
+
+  .section-block {
+    padding: 20px 10px;
+  }
+
+  .block-orange-bg__image {
+    float: none;
+    text-align: center;
+  }
+
+  .block-orange-bg__btn--prop {
+    margin-right: 10px;
+  }
 
 }
