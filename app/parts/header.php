@@ -27,7 +27,7 @@
                         <ul class="dropdown-menu" aria-labelledby="header-tel">
                             <li><a href="tel:0800302828">0 800 - 30 28 28</a></li>
                             <li><a href="tel:0800302828">0 800 - 30 28 28</a></li>
-                            <li><a href="tel:0800302828">0 800 - 30 28 28</a></li>
+                            <li class="text-right"><a href="#"><span class="link">все контакты</span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -40,6 +40,7 @@
                     <div class="header-compare">
                         <a href="#">
                             <span class="iconmoon icon-compare"></span>
+                            <span class="header-compare__label">2</span>
                         </a>
                     </div>
                     <div class="header-cart">

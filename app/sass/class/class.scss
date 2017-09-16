@@ -30,6 +30,7 @@ mark {
 
 .section-block {
   padding: 70px 0;
+
 }
 
 .title-light {
@@ -44,12 +45,6 @@ mark {
 .sprite {
   display: inline-block;
 }
-.sprite-user {
-  @include sprite($user);
-}
-.sprite-header-cart {
-  @include sprite($white-cart);
-}
 
 .sprite-black-cart {
   @include sprite($black-cart);
@@ -63,18 +58,29 @@ mark {
 }
 
 /////////////////////////// small goods /////////////////////////
+.small-goods-wrapper {
+  position: relative;
+  max-width: 222px;
+  height: 70px;
+  margin-bottom: 15px;
+}
 
 .small-goods {
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
-  margin-bottom: 15px;
-  position: relative;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: .3s ease;
 
   &__image {
     width: 65px;
     height: 65px;
     position: relative;
+
     img {
       position: absolute;
       top: 50%;
@@ -86,18 +92,97 @@ mark {
   &__prop {
     padding-top: 13px;
     padding-left: 7px;
+    width: 157px;
+    &--list {
+      text-align: center;
+      color: #fff;
+      font-size: 0;
+      height: 0;
+      overflow: hidden;
+      transition: .3s ease;
+      b {
+        font-family: $font-bold;
+      }
+    }
   }
 
   .goods-price-current {
     font-size: 14px;
   }
+  .goods-link {
+    text-transform: uppercase;
+    width: 152px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .goods-subtitle {
+    margin-bottom: 5px;
+    width: 152px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+.small-goods:hover {
+  background-color: #0152a1;
+  text-align: center;
+  color: #fff;
+  z-index: 20;
+
+  .small-goods__image {
+    width: 100%;
+    height: 140px;
+    position: relative;
+  }
+  .small-goods__prop {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+  }
+
+  .goods-link {
+    color: #fff;
+    width: 100%;
+  }
+
+  .goods-subtitle {
+    width: 100%;
+  }
+  .goods-price-current {
+    color: #fff;
+  }
+
+  .goods-add-to-cart {
+    display: none;
+  }
+
+  .goods-property__ctrl {
+    display: block;
+  }
+
+  .small-goods__prop--list {
+    font-size: 12px;
+    height: auto;
+    padding: 10px 0;
+  }
+
 }
 
 ///////////////////////////// goods //////////////////////
 
-.goods {
+.goods-wrapper {
   max-width: 222px;
+  height: 330px;
   position: relative;
+  cursor: pointer;
+  transition: .3s ease;
+}
+
+.goods {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .goods-link {
@@ -105,6 +190,7 @@ mark {
   color: #343434;
   letter-spacing: .4px;
   margin-bottom: 5px;
+  transition: .3s ease;
 }
 
 .goods-price-current {
@@ -131,6 +217,8 @@ mark {
 .goods-image {
   height: 225px;
   position: relative;
+  margin-bottom: 22px;
+  transition: .3s ease;
   a {
     display: block;
     height: 100%;
@@ -139,11 +227,117 @@ mark {
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+      transition: .3s ease;
     }
+  }
+  &__label {
+    position: absolute;
+    top: -5px;
+    left: -5px;
   }
   &--gray {
     background-color: #f0f0f0;
+    transition: .3s ease;
   }
+}
+
+.goods-property {
+  &__list {
+    height: 0;
+    overflow: hidden;
+    transition: .3s ease;
+    color: #fff;
+    text-align: center;
+
+    &--item {
+      font-family: $font-light;
+      font-size: 0;
+      margin-bottom: 5px;
+      transition: .3s ease;
+      b {
+        font-family: $font-bold;
+      }
+    }
+
+  }
+  &__ctrl {
+    padding: 10px 0;
+    display: none;
+    &--icon {
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      border: 2px solid #fff;
+      position: relative;
+      cursor: pointer;
+      transition: .3s ease;
+      margin-right: 7px;
+      .iconmoon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: block;
+      }
+      &:hover {
+        background-color: #fff;
+        color: $text-color;
+      }
+    }
+  }
+}
+
+.goods-subtitle {
+  height: 15px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.goods:hover {
+  background-color: #0152a1;
+  text-align: center;
+  color: #fff;
+  z-index: 20;
+
+  .goods-image--gray {
+    background-color: #0152a1;
+  }
+
+  .goods-image {
+    height: 140px;
+  }
+
+  .goods-image a img {
+    max-height: 60%;
+    width: auto;
+  }
+
+  .goods-link {
+    color: #fff;
+  }
+
+  .goods-price-current {
+    color: #fff;
+  }
+  .goods-add-to-cart {
+    display: none;
+  }
+
+  .goods-property {
+    &__list {
+      height: auto;
+      margin-bottom: 15px;
+      &--item {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .goods-property__ctrl {
+    display: block;
+  }
+
 }
 
 /////////////////////////////////////////// link arrow ////////////////////////////////
@@ -316,4 +510,14 @@ mark {
     }
   }
 }
-
+ /////////////////////////////////////// one -two item slider
+.two-item-slider, .one-item-slider {
+  height: 455px;
+  position: relative;
+  z-index: 1;
+  &.slider-hover {
+    .slick-list {
+      height: 800px;
+    }
+  }
+}

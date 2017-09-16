@@ -155,24 +155,43 @@
   }
   .dropdown-menu {
     left: inherit;
-    right: -22px;
-    top: 20px;
+    right: -32px;
+    top: 30px;
     min-width: inherit;
-    padding: 0;
+    border-radius: 2px;
+    padding: 10px 0;
     margin: 0;
-    color: $text-color;
+    color: #fff;
     text-align: center;
     border: 0;
-    border-radius: 0;
     box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.25);
+    background-color: #064579;
+    &:after {
+      content: '';
+      width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 14px solid #064579;
+      position: absolute;
+      top: -7px;
+      right: 10px;
+    }
     li {
+
       a {
         font-family: $font-bold;
         font-size: 14px;
-        padding: 10px 20px;
+        padding: 6px 30px;
         display: block;
         white-space: nowrap;
         transition: .3s ease;
+
+        .link {
+          border-color: #fff;
+          font-size: 11px;
+        }
+
         &:hover {
           background-color: $accent;
           color: #fff;
@@ -190,11 +209,25 @@
 .header-compare {
   display: inline-block;
   margin-right: 20px;
+  position: relative;
 
   &:hover {
     .icon-compare {
       color: #d3d3d3;
     }
+  }
+
+  &__label {
+    display: inline-block;
+    color: #fff;
+    background-color: #005abb;
+    font-size: 11px;
+    padding: 3px 6px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: -9px;
+    right: -12px;
   }
 
   .icon-compare {
@@ -347,7 +380,20 @@
     position: relative;
     z-index: 11;
   }
+  .header-cart-icon {
+    background-color: #fff;
+    .icon-basket {
+      color: $text-color;
+    }
+  }
 
+  .header-auth .icon-user2 {
+    color: #fff;
+  }
+
+  .header-compare .icon-compare {
+    color: #fff;
+  }
 
 
   .header-cart__message {

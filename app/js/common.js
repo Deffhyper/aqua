@@ -122,8 +122,59 @@ $(function() {
 
     $('.tel-input').mask("(999) 999-99-99", {autoclear: false});
 
+//////////////////////// two item slider /////////////////////////////////////
 
+    $('.two-item-slider').slick({dots: true,
+        infinite: true,
+        arrows: false,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1279,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+    
+    $('.one-item-slider').slick({dots: true,
+        infinite: true,
+        arrows: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1279,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
 
+    $('.two-item-slider, .one-item-slider').hover(function () {
+        $(this).addClass('slider-hover');
+    }, function () {
+        $(this).removeClass('slider-hover');
+    });
 
 
 

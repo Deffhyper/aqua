@@ -21,6 +21,16 @@
 }
 
 @font-face {
+  font-family: "Open-Sans-Light";
+  src: url("../fonts/open-sans/OpenSansLight.eot");
+  src: url("../fonts/open-sans/OpenSansLight.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/open-sans/OpenSansLight.woff") format("woff"),
+  url("../fonts/open-sans/OpenSans-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
   font-family: "Proxima-Nova-Regular";
   src: url("../fonts/proxima-nova-2/proxima_nova_regular-webfont.eot");
   src: url("../fonts/proxima-nova-2/proxima_nova_regular-webfont.eot?#iefix")format("embedded-opentype"),

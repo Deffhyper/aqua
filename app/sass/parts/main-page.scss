@@ -185,7 +185,16 @@
 }
 
 .goods-combo {
-  .goods {
-    margin-bottom: 20px;
+  margin: 5px;
+  position: relative;
+
+  .goods-wrapper {
+    margin-bottom: 15px;
+  }
+}
+
+.goods-combo-small {
+  .small-goods-wrapper {
+    margin-bottom: 17px;
   }
 }
