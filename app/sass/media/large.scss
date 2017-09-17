@@ -1,5 +1,6 @@
 @media ($desktop) {
 
+
   .top-slider__item--left {
     width: 70%;
     padding-left: 0;
@@ -24,6 +25,26 @@
   .block-orange-bg {
     height: inherit;
     margin-bottom: 20px;
+  }
+
+  .section-title__border:after {
+    left: -110px;
+  }
+
+  .section-block {
+    padding: 40px 0 0;
+  }
+
+  .two-item-slider, .one-item-slider {
+    margin-bottom: 25px;
+  }
+
+  .four-item-slider .slick-arrow.slick-prev {
+    left: -235px;
+  }
+
+  .four-item-slider .slick-arrow.slick-next {
+    left: -185px;
   }
 
 

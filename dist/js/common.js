@@ -101,6 +101,16 @@ $(function() {
         triggerSiteMenu(window.innerWidth);
     });
 
+    /////////////////////////////////// fixed header //////////////////////////////////////
+
+    $(document).on('scroll', function () {
+       if($(this).scrollTop() >= 103){
+           $('.header').addClass('menu-scroll');
+       } else {
+           $('.header').removeClass('menu-scroll');
+       }
+    });
+
     /////////////////////////////////////////////////// top slider ///////////////////////////
 
     $('.top-slider').slick({
@@ -118,12 +128,137 @@ $(function() {
         ]
     });
 
+
+    /////////////////////////////////////////////////// main news slider ///////////////////////////
+
+    $('.main-news-slider').slick({
+        infinite: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
+        arrows: false
+    });
+
     //////////////////////////////////////////// masked tel input ////////////////
 
     $('.tel-input').mask("(999) 999-99-99", {autoclear: false});
 
+//////////////////////// two item slider /////////////////////////////////////
+
+    $('.four-item-slider').slick({
+        dots: false,
+        infinite: true,
+        arrows: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1279,
+                settings: {
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
 
 
+    $('.two-item-slider').slick({dots: true,
+        infinite: true,
+        arrows: false,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1279,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+    
+    $('.one-item-slider').slick({dots: true,
+        infinite: true,
+        arrows: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1279,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+
+    $('.two-item-slider, .one-item-slider').hover(function () {
+        $(this).addClass('slider-hover');
+    }, function () {
+        $(this).removeClass('slider-hover');
+    });
+
+
+    //////////////////////////////// video slider ////////////////////////////////////////////
+
+
+    $('.main-video-slider__back').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        fade: true
+        // asNavFor: '.slider-nav'
+    });
+    // $('.slider-nav').slick({
+    //     slidesToShow: 3,
+    //     slidesToScroll: 1,
+    //     asNavFor: '.slider-for',
+    //     dots: true,
+    //     centerMode: true,
+    //     focusOnSelect: true
+    // });
 
 
 

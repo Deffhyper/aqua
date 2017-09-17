@@ -4,11 +4,11 @@
     display: none;
   }
   .top-slider__item {
-    height: 370px;
+    height: 200px;
   }
 
   .top-slider-block {
-    height: 430px;
+    height: 230px;
   }
 
   .top-slider__item--left {
@@ -26,7 +26,7 @@
   }
 
   .section-block {
-    padding: 20px 10px;
+    padding: 20px 10px 0;
   }
 
   .block-orange-bg__image {
@@ -37,5 +37,120 @@
   .block-orange-bg__btn--prop {
     margin-right: 10px;
   }
+
+  .block-orange-bg__title {
+    font-size: 30px;
+  }
+
+  .goods-combo .goods-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .small-goods-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .main-news-item__left {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: 15px;
+  }
+
+  .main-news-item__right {
+    width: 100%;
+  }
+
+  .main-completed-work {
+    padding: 20px 0 0;
+    display: block;
+  }
+
+  .main-completed-work__left {
+    width: 100%;
+  }
+
+  .main-completed-work__right {
+    width: 100%;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 20px;
+  }
+
+  .section-subtitle {
+    margin-bottom: 5px;
+  }
+
+  .main-completed-work__right .section-goods-link {
+    margin: 0 0 5px;
+  }
+
+  .main-completed-work__right .section-goods-price {
+    margin-bottom: 15px;
+  }
+
+  .main-completed-work-item {
+    margin: 10px 0 0;
+  }
+
+  .four-item-slider .slick-arrow.slick-prev {
+    left: 0;
+    top: 77px;
+  }
+
+  .four-item-slider .slick-arrow.slick-next {
+    left: inherit;
+    top: 77px;
+  }
+
+  .main-reviews__link {
+    position: relative;
+    left: 0;
+    bottom: 0;
+  }
+
+  .main-brand a {
+    height: 238px;
+  }
+
+  .main-reviews__item {
+    background-color: #f0f0f0;
+  }
+
+  .main-reviews__item:after {
+    border-bottom-color: #f0f0f0;
+  }
+
+  .main-reviews {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .main-contacts {
+    margin-top: 0;
+  }
+
+  .main-contacts .section-subtitle {
+    margin-top: 0;
+  }
+
+  .main-contacts__map {
+    padding-left: 0;
+    margin-top: 15px;
+  }
+
+  .section-block.section-block__slider {
+    padding: 30px 0 30px;
+  }
+
+
+
+
+
+
 
 }

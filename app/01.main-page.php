@@ -21,44 +21,10 @@
                                 <div class="top-slider-goods-set">
                                     <div class="row top-slider-goods-set__list">
                                         <div class="col-lg-6 col-sm-12">
-                                            <div class="small-goods">
-                                                <div class="small-goods__image">
-                                                    <a href="#">
-                                                        <img src="img/jpeg_files/goods-sm-1.png" alt="image" height="47"
-                                                             width="55">
-                                                    </a>
-                                                </div>
-                                                <div class="small-goods__prop">
-                                                    <div class="goods-link"><a href="#"> Leo 3.0 380 В 5.5 кВт </a>
-                                                    </div>
-                                                    <div class="goods-price">
-                                                        <span class="goods-price-current">₴ 12 600 </span>
-                                                        <span class="goods-price-old">₴ 13 000</span>
-                                                        <a href="#" class="goods-add-to-cart"><span
-                                                                class="iconmoon icon-basket"></span></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            <?php include "parts/small-goods.php" ?>
                                         </div>
                                         <div class="col-lg-6 col-sm-12">
-                                            <div class="small-goods">
-                                                <div class="small-goods__image">
-                                                    <a href="#">
-                                                        <img src="img/jpeg_files/goods-sm-2.png" alt="image" height="55"
-                                                             width="42">
-                                                    </a>
-                                                </div>
-                                                <div class="small-goods__prop">
-                                                    <div class="goods-link"><a href="#"> Leo 3.0 380 В 5.5 кВт </a>
-                                                    </div>
-                                                    <div class="goods-price">
-                                                        <span class="goods-price-current">₴ 12 600 </span>
-                                                        <span class="goods-price-old">₴ 13 000</span>
-                                                        <a href="#" class="goods-add-to-cart"><span
-                                                                class="iconmoon icon-basket"></span></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            <?php include "parts/small-goods.php" ?>
                                         </div>
                                     </div>
                                     <div class="row top-slider-goods-set__all">
@@ -89,44 +55,10 @@
                                 <div class="top-slider-goods-set">
                                     <div class="row top-slider-goods-set__list">
                                         <div class="col-lg-6 col-sm-12">
-                                            <div class="small-goods">
-                                                <div class="small-goods__image">
-                                                    <a href="#">
-                                                        <img src="img/jpeg_files/goods-sm-1.png" alt="image" height="47"
-                                                             width="55">
-                                                    </a>
-                                                </div>
-                                                <div class="small-goods__prop">
-                                                    <div class="goods-link"><a href="#"> Leo 3.0 380 В 5.5 кВт </a>
-                                                    </div>
-                                                    <div class="goods-price">
-                                                        <span class="goods-price-current">₴ 12 600 </span>
-                                                        <span class="goods-price-old">₴ 13 000</span>
-                                                        <a href="#" class="goods-add-to-cart"><span
-                                                                class="iconmoon icon-basket"></span></a>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            <?php include "parts/small-goods.php" ?>
                                         </div>
                                         <div class="col-lg-6 col-sm-12">
-                                            <div class="small-goods">
-                                                <div class="small-goods__image">
-                                                    <a href="#">
-                                                        <img src="img/jpeg_files/goods-sm-2.png" alt="image" height="55"
-                                                             width="42">
-                                                    </a>
-                                                </div>
-                                                <div class="small-goods__prop">
-                                                    <div class="goods-link"><a href="#"> Leo 3.0 380 В 5.5 кВт </a>
-                                                    </div>
-                                                    <div class="goods-price">
-                                                        <span class="goods-price-current">₴ 12 600 </span>
-                                                        <span class="goods-price-old">₴ 13 000</span>
-                                                        <a href="#" class="goods-add-to-cart"><span
-                                                                class="iconmoon icon-basket"></span></a>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            <?php include "parts/small-goods.php" ?>
                                         </div>
                                     </div>
                                     <div class="row top-slider-goods-set__all">
@@ -157,44 +89,10 @@
                                 <div class="top-slider-goods-set">
                                     <div class="row top-slider-goods-set__list">
                                         <div class="col-lg-6 col-sm-12">
-                                            <div class="small-goods">
-                                                <div class="small-goods__image">
-                                                    <a href="#">
-                                                        <img src="img/jpeg_files/goods-sm-1.png" alt="image" height="47"
-                                                             width="55">
-                                                    </a>
-                                                </div>
-                                                <div class="small-goods__prop">
-                                                    <div class="goods-link"><a href="#"> Leo 3.0 380 В 5.5 кВт </a>
-                                                    </div>
-                                                    <div class="goods-price">
-                                                        <span class="goods-price-current">₴ 12 600 </span>
-                                                        <span class="goods-price-old">₴ 13 000</span>
-                                                        <a href="#" class="goods-add-to-cart"><span
-                                                                class="iconmoon icon-basket"></span></a>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            <?php include "parts/small-goods.php" ?>
                                         </div>
                                         <div class="col-lg-6 col-sm-12">
-                                            <div class="small-goods">
-                                                <div class="small-goods__image">
-                                                    <a href="#">
-                                                        <img src="img/jpeg_files/goods-sm-2.png" alt="image" height="55"
-                                                             width="42">
-                                                    </a>
-                                                </div>
-                                                <div class="small-goods__prop">
-                                                    <div class="goods-link"><a href="#"> Leo 3.0 380 В 5.5 кВт </a>
-                                                    </div>
-                                                    <div class="goods-price">
-                                                        <span class="goods-price-current">₴ 12 600 </span>
-                                                        <span class="goods-price-old">₴ 13 000</span>
-                                                        <a href="#" class="goods-add-to-cart"><span
-                                                                class="iconmoon icon-basket"></span></a>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            <?php include "parts/small-goods.php" ?>
                                         </div>
                                     </div>
                                     <div class="row top-slider-goods-set__all">
@@ -431,13 +329,13 @@
         <div class="col-12">
             <div class="container four-item-slider-block">
                 <div class="row no-gutters">
-                    <div class="col-lg-3 col-sm-12">
+                    <div class="col-lg-3 col-sm-3 col-xs-12">
                         <div class="four-item-slider-left">
                             <p class="section-subtitle">Сотрудничество</p>
                             <p class="section-title">Наши <br> парнеры</p>
                         </div>
                     </div>
-                    <div class="col-lg-9 col-sm-12">
+                    <div class="col-lg-9 col-sm-9 col-xs-12">
                         <div class="four-item-slider">
                             <div>
                                 <div class="main-brand">
@@ -658,8 +556,11 @@
     <div class="row">
         <div class="col-xl-3 col-md-6">
             <div class="main-completed-work-item">
+                <div class="main-completed-work-item__overlay">
+                    <span></span>
+                    <img src="img/jpeg_files/item-back.jpg" alt="back" width="273" height="482">
+                </div>
                 <div class="block-w-border">
-                    <div class="main-completed-work-item__overlay"></div>
                     <div class="main-completed-work-item__image">
                         <a href="#">
                             <img src="img/jpeg_files/completed-sm-1.png" alt="img" height="121" width="160">
@@ -675,9 +576,9 @@
                         <span class="goods-price-current">₴ 12 600 </span>
                     </div>
                     <div class="main-completed-work-item__text">
-                        <p class="text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores et facilis minima porro
-                            quisquam quos. Asperiores blanditiis consequuntur eaque eum eveniet ex fugiat ipsam
-                            laboriosam molestiae nesciunt, provident quod reprehenderit!</p>
+                        <p class="text-gray">На сегодняшний день очистительные фильтры в доме — это не редкость, а
+                            актуальность. Некоторые используют комплекты Аквафор или Барьер, но большинство людей отдают
+                            предпочтение устройствам «Гейзер 3» для бытового использования</p>
                     </div>
                     <div class="main-completed-work-item__ctrl">
                         <a href="#" class="link-arrow"><span>читать далее</span></a>
@@ -688,11 +589,14 @@
         </div>
         <div class="col-xl-3 col-md-6">
             <div class="main-completed-work-item">
+                <div class="main-completed-work-item__overlay">
+                    <span></span>
+                    <img src="img/jpeg_files/item-back.jpg" alt="back" width="273" height="482">
+                </div>
                 <div class="block-w-border">
-                    <div class="main-completed-work-item__overlay"></div>
                     <div class="main-completed-work-item__image">
                         <a href="#">
-                            <img src="img/jpeg_files/completed-sm-1.png" alt="img" height="121" width="160">
+                            <img src="img/jpeg_files/completed-sm-2.png" alt="img" height="163" width="163">
                         </a>
                     </div>
                     <div class="main-completed-work-item__title">
@@ -705,9 +609,9 @@
                         <span class="goods-price-current">₴ 12 600 </span>
                     </div>
                     <div class="main-completed-work-item__text">
-                        <p class="text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores et facilis minima porro
-                            quisquam quos. Asperiores blanditiis consequuntur eaque eum eveniet ex fugiat ipsam
-                            laboriosam molestiae nesciunt, provident quod reprehenderit!</p>
+                        <p class="text-gray">На сегодняшний день очистительные фильтры в доме — это не редкость, а
+                            актуальность. Некоторые используют комплекты Аквафор или Барьер, но большинство людей отдают
+                            предпочтение устройствам «Гейзер 3» для бытового использования</p>
                     </div>
                     <div class="main-completed-work-item__ctrl">
                         <a href="#" class="link-arrow"><span>читать далее</span></a>
@@ -718,11 +622,14 @@
         </div>
         <div class="col-xl-3 col-md-6">
             <div class="main-completed-work-item">
+                <div class="main-completed-work-item__overlay">
+                    <span></span>
+                    <img src="img/jpeg_files/item-back.jpg" alt="back" width="273" height="482">
+                </div>
                 <div class="block-w-border">
-                    <div class="main-completed-work-item__overlay"></div>
                     <div class="main-completed-work-item__image">
                         <a href="#">
-                            <img src="img/jpeg_files/completed-sm-1.png" alt="img" height="121" width="160">
+                            <img src="img/jpeg_files/completed-sm-3.png" alt="img" height="118" width="182">
                         </a>
                     </div>
                     <div class="main-completed-work-item__title">
@@ -735,9 +642,9 @@
                         <span class="goods-price-current">₴ 12 600 </span>
                     </div>
                     <div class="main-completed-work-item__text">
-                        <p class="text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores et facilis minima porro
-                            quisquam quos. Asperiores blanditiis consequuntur eaque eum eveniet ex fugiat ipsam
-                            laboriosam molestiae nesciunt, provident quod reprehenderit!</p>
+                        <p class="text-gray">На сегодняшний день очистительные фильтры в доме — это не редкость, а
+                            актуальность. Некоторые используют комплекты Аквафор или Барьер, но большинство людей отдают
+                            предпочтение устройствам «Гейзер 3» для бытового использования</p>
                     </div>
                     <div class="main-completed-work-item__ctrl">
                         <a href="#" class="link-arrow"><span>читать далее</span></a>
@@ -748,8 +655,11 @@
         </div>
         <div class="col-xl-3 col-md-6">
             <div class="main-completed-work-item">
+                <div class="main-completed-work-item__overlay">
+                    <span></span>
+                    <img src="img/jpeg_files/item-back.jpg" alt="back" width="273" height="482">
+                </div>
                 <div class="block-w-border">
-                    <div class="main-completed-work-item__overlay"></div>
                     <div class="main-completed-work-item__image">
                         <a href="#">
                             <img src="img/jpeg_files/completed-sm-1.png" alt="img" height="121" width="160">
@@ -765,15 +675,183 @@
                         <span class="goods-price-current">₴ 12 600 </span>
                     </div>
                     <div class="main-completed-work-item__text">
-                        <p class="text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores et facilis minima porro
-                            quisquam quos. Asperiores blanditiis consequuntur eaque eum eveniet ex fugiat ipsam
-                            laboriosam molestiae nesciunt, provident quod reprehenderit!</p>
+                        <p class="text-gray">На сегодняшний день очистительные фильтры в доме — это не редкость, а
+                            актуальность. Некоторые используют комплекты Аквафор или Барьер, но большинство людей отдают
+                            предпочтение устройствам «Гейзер 3» для бытового использования</p>
                     </div>
                     <div class="main-completed-work-item__ctrl">
                         <a href="#" class="link-arrow"><span>читать далее</span></a>
                     </div>
 
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---->
+<!--<div class="main-video-slider">-->
+<!--    <div class="main-video-slider__back">-->
+<!--        <div>-->
+<!--            <div class="main-video-slider__back--item">-->
+<!--                <iframe width="100%" height="475"-->
+<!--                        src="https://www.youtube.com/embed/Rn-qkLkFS3s?rel=0&amp;controls=0&amp;showinfo=0"-->
+<!--                        frameborder="0" allowfullscreen>-->
+<!--                </iframe>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <div class="main-video-slider__back--item">-->
+<!--                <iframe width="100%" height="475"-->
+<!--                        src="https://www.youtube.com/embed/Rn-qkLkFS3s?rel=0&amp;controls=0&amp;showinfo=0"-->
+<!--                        frameborder="0" allowfullscreen>-->
+<!--                </iframe>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <div class="main-video-slider__back--item">-->
+<!--                <iframe width="100%" height="475"-->
+<!--                        src="https://www.youtube.com/embed/Rn-qkLkFS3s?rel=0&amp;controls=0&amp;showinfo=0"-->
+<!--                        frameborder="0" allowfullscreen>-->
+<!--                </iframe>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
+<div class="main-reviews container four-item-slider-block">
+    <div class="row no-gutters">
+        <div class="col-lg-3 col-sm-3 col-xs-12">
+            <div class="four-item-slider-left">
+                <p class="section-subtitle">Отзывы</p>
+                <p class="section-title">О нас <br> Говорят</p>
+                <a href="#" class="main-reviews__link link-arrow link-arrow--blue"><span>оставить отзыв</span></a>
+            </div>
+        </div>
+        <div class="col-lg-9 col-sm-9 col-xs-12">
+            <div class="four-item-slider">
+                <div>
+                    <div class="main-reviews__item">
+                        <a href="#">
+                            <span class="main-reviews__item--title">Артем Иванов</span>
+                            <span class="main-reviews__item--text text-gray">Выбирали станцию по отзывам здесь. Надеюсь прослужит долго. Пользуемся больше 4 мес.</span>
+                            <span class="main-reviews__item--link link-arrow"><span>посмотреть</span></span>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div class="main-reviews__item">
+                        <a href="#">
+                            <span class="main-reviews__item--title">Артем Иванов</span>
+                            <span class="main-reviews__item--text text-gray">Выбирали станцию по отзывам здесь. Надеюсь прослужит долго. Пользуемся больше 4 мес.</span>
+                            <span class="main-reviews__item--link link-arrow"><span>посмотреть</span></span>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div class="main-reviews__item">
+                        <a href="#">
+                            <span class="main-reviews__item--title">Артем Иванов</span>
+                            <span class="main-reviews__item--text text-gray">Выбирали станцию по отзывам здесь. Надеюсь прослужит долго. Пользуемся больше 4 мес.</span>
+                            <span class="main-reviews__item--link link-arrow"><span>посмотреть</span></span>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div class="main-reviews__item">
+                        <a href="#">
+                            <span class="main-reviews__item--title">Артем Иванов</span>
+                            <span class="main-reviews__item--text text-gray">Выбирали станцию по отзывам здесь. Надеюсь прослужит долго. Пользуемся больше 4 мес.</span>
+                            <span class="main-reviews__item--link link-arrow"><span>посмотреть</span></span>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div class="main-reviews__item">
+                        <a href="#">
+                            <span class="main-reviews__item--title">Артем Иванов</span>
+                            <span class="main-reviews__item--text text-gray">Выбирали станцию по отзывам здесь. Надеюсь прослужит долго. Пользуемся больше 4 мес.</span>
+                            <span class="main-reviews__item--link link-arrow"><span>посмотреть</span></span>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div class="main-reviews__item">
+                        <a href="#">
+                            <span class="main-reviews__item--title">Артем Иванов</span>
+                            <span class="main-reviews__item--text text-gray">Выбирали станцию по отзывам здесь. Надеюсь прослужит долго. Пользуемся больше 4 мес.</span>
+                            <span class="main-reviews__item--link link-arrow"><span>посмотреть</span></span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main-contacts container">
+    <div class="row no-gutters">
+        <div class="col-xl-2 col-lg-3 col-md-3 col-xs-12">
+            <p class="section-subtitle">Контакты</p>
+            <p class="section-title">Как с нами <br> связаться</p>
+
+            <div class="main-contacts__choice">
+                <div class="dropdown">
+                    <a href="#" class="dropdown-toggle" role="button" id="city-choice" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">выберите ваш город</a>
+                    <ul class="dropdown-menu" aria-labelledby="city-choice">
+                        <li><a href="#">Город-1</a></li>
+                        <li><a href="#">Город-2</a></li>
+                        <li><a href="#">Город-3</a></li>
+                        <li><a href="#">Город-4</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="main-contacts__title">Адрес</p>
+            <p class="text-gray">Украина <br>
+                Черновецкая область <br>
+                Черновцы, Галицкий путь
+            </p>
+
+            <p class="main-contacts__title">E-mail</p>
+            <p><a href="mailto:apc-company@mail.ru" class="text-gray">apc-company@mail.ru</a></p>
+
+            <p class="main-contacts__title">Телефон</p>
+            <p><a href="tel:0800302828">0 800 30 28 28</a></p>
+
+            <ul class="social-list">
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            </ul>
+
+
+        </div>
+
+
+        <div class="col-xl-10 col-lg-9 col-md-9 col-xs-12">
+            <div class="main-contacts__map">
+                <div id="map" class="contact-map">
+                    <script>
+                        function initMap() {
+                            var image = 'http://front.webvision.in.ua/promSIZ/img/jpeg_files/m-icon.png';
+                            var map = new google.maps.Map(document.getElementById('map'), {
+                                center: {lat: 50.4434022, lng: 30.5202183},
+                                scrollwheel: false,
+                                zoom: 13
+                            });
+                            var marker = new google.maps.Marker({
+                                map: map,
+                                position: map.getCenter(),
+                                icon: image
+                            });
+                        }
+                    </script>
+                    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUXKVYkyQErp_WoaAk24K9diLh7ShZu28&callback=initMap"
+                            async defer></script>
+                </div>
+
             </div>
         </div>
     </div>

@@ -101,6 +101,16 @@ $(function() {
         triggerSiteMenu(window.innerWidth);
     });
 
+    /////////////////////////////////// fixed header //////////////////////////////////////
+
+    $(document).on('scroll', function () {
+       if($(this).scrollTop() >= 103){
+           $('.header').addClass('menu-scroll');
+       } else {
+           $('.header').removeClass('menu-scroll');
+       }
+    });
+
     /////////////////////////////////////////////////// top slider ///////////////////////////
 
     $('.top-slider').slick({
@@ -178,6 +188,13 @@ $(function() {
                 }
             },
             {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1
+                }
+            },
+            {
                 breakpoint: 767,
                 settings: {
                     slidesToShow: 1,
@@ -196,7 +213,14 @@ $(function() {
             {
                 breakpoint: 1279,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 4,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 3,
                     slidesToScroll: 1
                 }
             },
@@ -215,6 +239,26 @@ $(function() {
     }, function () {
         $(this).removeClass('slider-hover');
     });
+
+
+    //////////////////////////////// video slider ////////////////////////////////////////////
+
+
+    $('.main-video-slider__back').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        fade: true
+        // asNavFor: '.slider-nav'
+    });
+    // $('.slider-nav').slick({
+    //     slidesToShow: 3,
+    //     slidesToScroll: 1,
+    //     asNavFor: '.slider-for',
+    //     dots: true,
+    //     centerMode: true,
+    //     focusOnSelect: true
+    // });
 
 
 
