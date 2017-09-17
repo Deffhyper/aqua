@@ -198,3 +198,140 @@
     margin-bottom: 17px;
   }
 }
+
+.main-brand {
+  height: 204px;
+  margin: 5px;
+  position: relative;
+  a {
+    display: block;
+    height: 137px;
+    position: absolute;
+    top: 50%;
+    background-color: #fff;
+    width: 100%;
+    transform: translateY(-50%);
+    transition: .3s ease;
+    &:hover {
+      height: 238px;
+      background-color: $text-color;
+    }
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: auto;
+      max-height: 100%;
+    }
+  }
+}
+
+
+.main-news-slider {
+  padding: 100px 0 50px;
+}
+.main-news-item {
+  display: flex;
+  flex-wrap: wrap;
+
+
+  &__left {
+    width: 45%;
+    padding-left: 12%;
+    padding-right: 20px;
+    padding-top: 20px;
+
+    .text-gray {
+      line-height: 2;
+      padding-right: 10px;
+      height: 78px;
+      overflow: hidden;
+      margin-bottom: 23px;
+    }
+  }
+  &__right {
+    width: 55%;
+    .block-w-border {
+      padding: 0;
+      text-align: center;
+      img {
+        display: inline;
+      }
+    }
+  }
+}
+
+.section-block {
+  &__ctrl {
+    .link-arrow {
+      margin-right: 40px;
+    }
+  }
+}
+
+
+
+.main-completed-work {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 45px 0 45px;
+
+  &__left {
+    width: 52%;
+    background-color: #f0f0f0;
+    position: relative;
+    text-align: center;
+    padding: 25px;
+    max-height: 360px;
+    img {
+      max-height: 360px;
+      width: auto;
+    }
+  }
+  &__right {
+    width: 48%;
+    padding-top: 25px;
+    padding-left: 60px;
+    padding-right: 45px;
+
+    .section-goods-link {
+      margin: 40px 0 5px;
+    }
+    .section-goods-price {
+      margin-bottom: 25px;
+    }
+
+  }
+}
+
+.main-completed-work-item {
+  margin: 25px 0;
+
+  .block-w-border {
+    padding: 0 15px 15px;
+    text-align: left;
+  }
+  &__image {
+    height: 180px;
+    width: 100%;
+    position: relative;
+    a {
+      display: block;
+      height: 100%;
+      img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 100%;
+        width: auto;
+      }
+    }
+  }
+
+  &__title {
+    font-family: $proxima-bold;
+    font-size: 16px;
+  }
+}

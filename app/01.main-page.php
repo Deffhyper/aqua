@@ -302,32 +302,32 @@
                     <div class="two-item-slider">
                         <div>
                             <div class="goods-combo">
-                                <?php include "parts/goods.php"?>
-                                <?php include "parts/small-goods.php"?>
+                                <?php include "parts/goods.php" ?>
+                                <?php include "parts/small-goods.php" ?>
                             </div>
                         </div>
                         <div>
                             <div class="goods-combo">
-                                <?php include "parts/goods.php"?>
-                                <?php include "parts/small-goods.php"?>
+                                <?php include "parts/goods.php" ?>
+                                <?php include "parts/small-goods.php" ?>
                             </div>
                         </div>
                         <div>
                             <div class="goods-combo">
-                                <?php include "parts/goods.php"?>
-                                <?php include "parts/small-goods.php"?>
+                                <?php include "parts/goods.php" ?>
+                                <?php include "parts/small-goods.php" ?>
                             </div>
                         </div>
                         <div>
                             <div class="goods-combo">
-                                <?php include "parts/goods.php"?>
-                                <?php include "parts/small-goods.php"?>
+                                <?php include "parts/goods.php" ?>
+                                <?php include "parts/small-goods.php" ?>
                             </div>
                         </div>
                         <div>
                             <div class="goods-combo">
-                                <?php include "parts/goods.php"?>
-                                <?php include "parts/small-goods.php"?>
+                                <?php include "parts/goods.php" ?>
+                                <?php include "parts/small-goods.php" ?>
                             </div>
                         </div>
                     </div>
@@ -339,32 +339,32 @@
                             <div class="one-item-slider">
                                 <div>
                                     <div class="goods-combo">
-                                        <?php include "parts/goods.php"?>
-                                        <?php include "parts/small-goods.php"?>
+                                        <?php include "parts/goods.php" ?>
+                                        <?php include "parts/small-goods.php" ?>
                                     </div>
                                 </div>
                                 <div>
                                     <div class="goods-combo">
-                                        <?php include "parts/goods.php"?>
-                                        <?php include "parts/small-goods.php"?>
+                                        <?php include "parts/goods.php" ?>
+                                        <?php include "parts/small-goods.php" ?>
                                     </div>
                                 </div>
                                 <div>
                                     <div class="goods-combo">
-                                        <?php include "parts/goods.php"?>
-                                        <?php include "parts/small-goods.php"?>
+                                        <?php include "parts/goods.php" ?>
+                                        <?php include "parts/small-goods.php" ?>
                                     </div>
                                 </div>
                                 <div>
                                     <div class="goods-combo">
-                                        <?php include "parts/goods.php"?>
-                                        <?php include "parts/small-goods.php"?>
+                                        <?php include "parts/goods.php" ?>
+                                        <?php include "parts/small-goods.php" ?>
                                     </div>
                                 </div>
                                 <div>
                                     <div class="goods-combo">
-                                        <?php include "parts/goods.php"?>
-                                        <?php include "parts/small-goods.php"?>
+                                        <?php include "parts/goods.php" ?>
+                                        <?php include "parts/small-goods.php" ?>
                                     </div>
                                 </div>
                             </div>
@@ -374,47 +374,47 @@
                             <div class="one-item-slider">
                                 <div>
                                     <div class="goods-combo-small">
-                                        <?php include "parts/small-goods.php"?>
-                                        <?php include "parts/small-goods.php"?>
-                                        <?php include "parts/small-goods.php"?>
-                                        <?php include "parts/small-goods.php"?>
-                                        <?php include "parts/small-goods.php"?>
+                                        <?php include "parts/small-goods.php" ?>
+                                        <?php include "parts/small-goods.php" ?>
+                                        <?php include "parts/small-goods.php" ?>
+                                        <?php include "parts/small-goods.php" ?>
+                                        <?php include "parts/small-goods.php" ?>
                                     </div>
                                 </div>
                                 <div>
                                     <div class="goods-combo-small">
-                                        <?php include "parts/small-goods.php"?>
-                                        <?php include "parts/small-goods.php"?>
-                                        <?php include "parts/small-goods.php"?>
-                                        <?php include "parts/small-goods.php"?>
-                                        <?php include "parts/small-goods.php"?>
+                                        <?php include "parts/small-goods.php" ?>
+                                        <?php include "parts/small-goods.php" ?>
+                                        <?php include "parts/small-goods.php" ?>
+                                        <?php include "parts/small-goods.php" ?>
+                                        <?php include "parts/small-goods.php" ?>
                                     </div>
                                 </div>
                                 <div>
                                     <div class="goods-combo-small">
-                                        <?php include "parts/small-goods.php"?>
-                                        <?php include "parts/small-goods.php"?>
-                                        <?php include "parts/small-goods.php"?>
-                                        <?php include "parts/small-goods.php"?>
-                                        <?php include "parts/small-goods.php"?>
+                                        <?php include "parts/small-goods.php" ?>
+                                        <?php include "parts/small-goods.php" ?>
+                                        <?php include "parts/small-goods.php" ?>
+                                        <?php include "parts/small-goods.php" ?>
+                                        <?php include "parts/small-goods.php" ?>
                                     </div>
                                 </div>
                                 <div>
                                     <div class="goods-combo-small">
-                                        <?php include "parts/small-goods.php"?>
-                                        <?php include "parts/small-goods.php"?>
-                                        <?php include "parts/small-goods.php"?>
-                                        <?php include "parts/small-goods.php"?>
-                                        <?php include "parts/small-goods.php"?>
+                                        <?php include "parts/small-goods.php" ?>
+                                        <?php include "parts/small-goods.php" ?>
+                                        <?php include "parts/small-goods.php" ?>
+                                        <?php include "parts/small-goods.php" ?>
+                                        <?php include "parts/small-goods.php" ?>
                                     </div>
                                 </div>
                                 <div>
                                     <div class="goods-combo-small">
-                                        <?php include "parts/small-goods.php"?>
-                                        <?php include "parts/small-goods.php"?>
-                                        <?php include "parts/small-goods.php"?>
-                                        <?php include "parts/small-goods.php"?>
-                                        <?php include "parts/small-goods.php"?>
+                                        <?php include "parts/small-goods.php" ?>
+                                        <?php include "parts/small-goods.php" ?>
+                                        <?php include "parts/small-goods.php" ?>
+                                        <?php include "parts/small-goods.php" ?>
+                                        <?php include "parts/small-goods.php" ?>
                                     </div>
                                 </div>
                             </div>
@@ -426,15 +426,358 @@
     </div>
 </div>
 
-<div class="container section-block">
+<div class="container-fluid section-block section-block__slider section-block--gray">
     <div class="row">
         <div class="col-12">
-           
+            <div class="container four-item-slider-block">
+                <div class="row no-gutters">
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="four-item-slider-left">
+                            <p class="section-subtitle">Сотрудничество</p>
+                            <p class="section-title">Наши <br> парнеры</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-sm-12">
+                        <div class="four-item-slider">
+                            <div>
+                                <div class="main-brand">
+                                    <a href="#">
+                                        <img src="img/jpeg_files/brand-1.png" alt="brand" height="38" width="152">
+                                    </a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="main-brand">
+                                    <a href="#">
+                                        <img src="img/jpeg_files/brand-2.png" alt="brand" height="27" width="153">
+                                    </a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="main-brand">
+                                    <a href="#">
+                                        <img src="img/jpeg_files/brand-3.png" alt="brand" height="36" width="146">
+                                    </a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="main-brand">
+                                    <a href="#">
+                                        <img src="img/jpeg_files/brand-4.png" alt="brand" height="31" width="112">
+                                    </a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="main-brand">
+                                    <a href="#">
+                                        <img src="img/jpeg_files/brand-1.png" alt="brand" height="38" width="152">
+                                    </a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="main-brand">
+                                    <a href="#">
+                                        <img src="img/jpeg_files/brand-2.png" alt="brand" height="27" width="153">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    
 </div>
 
+<div class="container ">
+    <div class="row">
+        <div class="col-12">
+            <div class="main-news-slider">
+                <div>
+                    <div class="main-news-item">
+                        <div class="main-news-item__left">
+                            <p class="section-subtitle">Статьи</p>
+                            <p class="section-title section-title__border">Расход воды через
+                                трубу: возможен ли
+                                простой расчет?
+                            </p>
+                            <p class="text-gray">Возможен ли сколь-нибудь простой расчет расхода воды по диаметру трубы?
+                                Или
+                                единственный способ — обращаться к специалистам ...</p>
+                            <div class="section-block__ctrl">
+                                <a href="#" class="link-arrow"><span>читать далее</span></a>
+                                <a href="#" class="btn btn__sm  btn__sm--gray">все статьи</a>
+                            </div>
+
+                        </div>
+                        <div class="main-news-item__right">
+                            <div class="block-w-border">
+                                <a href="#">
+                                    <img src="img/jpeg_files/news-big-1.jpg" alt="news" width="320" height="322">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="main-news-item">
+                        <div class="main-news-item__left">
+                            <p class="section-subtitle">Статьи</p>
+                            <p class="section-title section-title__border">Расход воды через
+                                трубу: возможен ли
+                                простой расчет?
+                            </p>
+                            <p class="text-gray">Возможен ли сколь-нибудь простой расчет расхода воды по диаметру трубы?
+                                Или
+                                единственный способ — обращаться к специалистам ...</p>
+                            <div class="section-block__ctrl">
+                                <a href="#" class="link-arrow"><span>читать далее</span></a>
+                                <a href="#" class="btn btn__sm  btn__sm--gray">все статьи</a>
+                            </div>
+
+                        </div>
+                        <div class="main-news-item__right">
+                            <div class="block-w-border">
+                                <a href="#">
+                                    <img src="img/jpeg_files/news-big-1.jpg" alt="news" width="320" height="322">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="main-news-item">
+                        <div class="main-news-item__left">
+                            <p class="section-subtitle">Статьи</p>
+                            <p class="section-title section-title__border">Расход воды через
+                                трубу: возможен ли
+                                простой расчет?
+                            </p>
+                            <p class="text-gray">Возможен ли сколь-нибудь простой расчет расхода воды по диаметру трубы?
+                                Или
+                                единственный способ — обращаться к специалистам ...</p>
+                            <div class="section-block__ctrl">
+                                <a href="#" class="link-arrow"><span>читать далее</span></a>
+                                <a href="#" class="btn btn__sm  btn__sm--gray">все статьи</a>
+                            </div>
+
+                        </div>
+                        <div class="main-news-item__right">
+                            <div class="block-w-border">
+                                <a href="#">
+                                    <img src="img/jpeg_files/news-big-1.jpg" alt="news" width="320" height="322">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="main-news-item">
+                        <div class="main-news-item__left">
+                            <p class="section-subtitle">Статьи</p>
+                            <p class="section-title section-title__border">Расход воды через
+                                трубу: возможен ли
+                                простой расчет?
+                            </p>
+                            <p class="text-gray">Возможен ли сколь-нибудь простой расчет расхода воды по диаметру трубы?
+                                Или
+                                единственный способ — обращаться к специалистам ...</p>
+                            <div class="section-block__ctrl">
+                                <a href="#" class="link-arrow"><span>читать далее</span></a>
+                                <a href="#" class="btn btn__sm  btn__sm--gray">все статьи</a>
+                            </div>
+
+                        </div>
+                        <div class="main-news-item__right">
+                            <div class="block-w-border">
+                                <a href="#">
+                                    <img src="img/jpeg_files/news-big-1.jpg" alt="news" width="320" height="322">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="main-news-item">
+                        <div class="main-news-item__left">
+                            <p class="section-subtitle">Статьи</p>
+                            <p class="section-title section-title__border">Расход воды через
+                                трубу: возможен ли
+                                простой расчет?
+                            </p>
+                            <p class="text-gray">Возможен ли сколь-нибудь простой расчет расхода воды по диаметру трубы?
+                                Или
+                                единственный способ — обращаться к специалистам ...</p>
+                            <div class="section-block__ctrl">
+                                <a href="#" class="link-arrow"><span>читать далее</span></a>
+                                <a href="#" class="btn btn__sm  btn__sm--gray">все статьи</a>
+                            </div>
+
+                        </div>
+                        <div class="main-news-item__right">
+                            <div class="block-w-border">
+                                <a href="#">
+                                    <img src="img/jpeg_files/news-big-1.jpg" alt="news" width="320" height="322">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="main-completed-work">
+                <div class="main-completed-work__left">
+                    <a href="#">
+                        <img src="img/jpeg_files/completed.png" alt="goods" width="255" height="312">
+                    </a>
+                </div>
+                <div class="main-completed-work__right">
+                    <p class="section-subtitle">Выполненные работы</p>
+                    <p class="section-title">Первый запуск насосной станции на базе погружного
+                        насоса</p>
+                    <div class="section-goods-link">
+                        <a href="#" class="goods-link">Könner & Söhnen KS 80TW</a>
+                    </div>
+                    <div class="section-goods-price">
+                        <span class="goods-price-current">₴ 12 600 </span>
+                    </div>
+                    <div class="section-block__ctrl">
+                        <a href="#" class="link-arrow"><span>читать далее</span></a>
+                        <a href="#" class="btn btn__sm  btn__sm--gray">все работы</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xl-3 col-md-6">
+            <div class="main-completed-work-item">
+                <div class="block-w-border">
+                    <div class="main-completed-work-item__overlay"></div>
+                    <div class="main-completed-work-item__image">
+                        <a href="#">
+                            <img src="img/jpeg_files/completed-sm-1.png" alt="img" height="121" width="160">
+                        </a>
+                    </div>
+                    <div class="main-completed-work-item__title">
+                        <a href="#">Установка Мотопомпы для грязной воды</a>
+                    </div>
+                    <div class="section-goods-link">
+                        <a href="#" class="goods-link">Könner & Söhnen KS 80TW</a>
+                    </div>
+                    <div class="section-goods-price">
+                        <span class="goods-price-current">₴ 12 600 </span>
+                    </div>
+                    <div class="main-completed-work-item__text">
+                        <p class="text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores et facilis minima porro
+                            quisquam quos. Asperiores blanditiis consequuntur eaque eum eveniet ex fugiat ipsam
+                            laboriosam molestiae nesciunt, provident quod reprehenderit!</p>
+                    </div>
+                    <div class="main-completed-work-item__ctrl">
+                        <a href="#" class="link-arrow"><span>читать далее</span></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+            <div class="main-completed-work-item">
+                <div class="block-w-border">
+                    <div class="main-completed-work-item__overlay"></div>
+                    <div class="main-completed-work-item__image">
+                        <a href="#">
+                            <img src="img/jpeg_files/completed-sm-1.png" alt="img" height="121" width="160">
+                        </a>
+                    </div>
+                    <div class="main-completed-work-item__title">
+                        <a href="#">Установка Мотопомпы для грязной воды</a>
+                    </div>
+                    <div class="section-goods-link">
+                        <a href="#" class="goods-link">Könner & Söhnen KS 80TW</a>
+                    </div>
+                    <div class="section-goods-price">
+                        <span class="goods-price-current">₴ 12 600 </span>
+                    </div>
+                    <div class="main-completed-work-item__text">
+                        <p class="text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores et facilis minima porro
+                            quisquam quos. Asperiores blanditiis consequuntur eaque eum eveniet ex fugiat ipsam
+                            laboriosam molestiae nesciunt, provident quod reprehenderit!</p>
+                    </div>
+                    <div class="main-completed-work-item__ctrl">
+                        <a href="#" class="link-arrow"><span>читать далее</span></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+            <div class="main-completed-work-item">
+                <div class="block-w-border">
+                    <div class="main-completed-work-item__overlay"></div>
+                    <div class="main-completed-work-item__image">
+                        <a href="#">
+                            <img src="img/jpeg_files/completed-sm-1.png" alt="img" height="121" width="160">
+                        </a>
+                    </div>
+                    <div class="main-completed-work-item__title">
+                        <a href="#">Установка Мотопомпы для грязной воды</a>
+                    </div>
+                    <div class="section-goods-link">
+                        <a href="#" class="goods-link">Könner & Söhnen KS 80TW</a>
+                    </div>
+                    <div class="section-goods-price">
+                        <span class="goods-price-current">₴ 12 600 </span>
+                    </div>
+                    <div class="main-completed-work-item__text">
+                        <p class="text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores et facilis minima porro
+                            quisquam quos. Asperiores blanditiis consequuntur eaque eum eveniet ex fugiat ipsam
+                            laboriosam molestiae nesciunt, provident quod reprehenderit!</p>
+                    </div>
+                    <div class="main-completed-work-item__ctrl">
+                        <a href="#" class="link-arrow"><span>читать далее</span></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+            <div class="main-completed-work-item">
+                <div class="block-w-border">
+                    <div class="main-completed-work-item__overlay"></div>
+                    <div class="main-completed-work-item__image">
+                        <a href="#">
+                            <img src="img/jpeg_files/completed-sm-1.png" alt="img" height="121" width="160">
+                        </a>
+                    </div>
+                    <div class="main-completed-work-item__title">
+                        <a href="#">Установка Мотопомпы для грязной воды</a>
+                    </div>
+                    <div class="section-goods-link">
+                        <a href="#" class="goods-link">Könner & Söhnen KS 80TW</a>
+                    </div>
+                    <div class="section-goods-price">
+                        <span class="goods-price-current">₴ 12 600 </span>
+                    </div>
+                    <div class="main-completed-work-item__text">
+                        <p class="text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores et facilis minima porro
+                            quisquam quos. Asperiores blanditiis consequuntur eaque eum eveniet ex fugiat ipsam
+                            laboriosam molestiae nesciunt, provident quod reprehenderit!</p>
+                    </div>
+                    <div class="main-completed-work-item__ctrl">
+                        <a href="#" class="link-arrow"><span>читать далее</span></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <?php include_once "parts/footer.php" ?>
 

@@ -1,3 +1,22 @@
+.btn {
+  display: inline-block;
+  border: 0;
+  border-radius: 2px;
+  font-size: 13px;
+  transition: .3s ease;
+  &__sm {
+    padding: 9px 20px;
+    &--gray {
+      background-color: #f0f0f0;
+      &:hover {
+        background-color: $accent-hover;
+        color: #fff;
+      }
+    }
+  }
+}
+
+
 .list-inline {
   li {
     display: inline-block;
@@ -31,12 +50,60 @@ mark {
 .section-block {
   padding: 70px 0;
 
+  &.section-block__slider {
+    padding: 60px 0 30px;
+  }
+
+  &--gray {
+    background-color: #f0f0f0;
+  }
+
 }
 
 .title-light {
   color: #343434;
   font-family: $proxima-light;
   font-size: 24px;
+}
+
+.section-subtitle {
+  font-size: 13px;
+  font-family: $proxima-semibold;
+  color: #c4c4c4;
+}
+
+.section-title {
+  font-family: $proxima-extra;
+  font-size: 36px;
+  &__border {
+    position: relative;
+    &:after {
+      content: '';
+      display: block;
+      width: 100px;
+      height: 4px;
+      background-color: $text-color;
+      position: absolute;
+      top: 25px;
+      left: -125px;
+    }
+  }
+}
+
+.section-goods-link {
+  .goods-link {
+    font-size: 16px;
+  }
+}
+
+.section-goods-price {
+  .goods-price-current {
+    color: #006cbf;
+  }
+}
+
+.text-gray {
+  color: $text-gray;
 }
 
 
@@ -350,7 +417,7 @@ mark {
   span {
     display: inline-block;
     position: relative;
-    padding-right: 40px;
+    padding-right: 30px;
     &:after {
       content: '';
       display: block;
@@ -518,6 +585,19 @@ mark {
   &.slider-hover {
     .slick-list {
       height: 800px;
+    }
+  }
+}
+
+.four-item-slider {
+  .slick-arrow {
+    &.slick-next {
+      left: -250px;
+      margin-top: 15px;
+    }
+    &.slick-prev {
+      left: -300px;
+      margin-top: 15px;
     }
   }
 }

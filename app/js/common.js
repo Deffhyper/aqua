@@ -118,11 +118,51 @@ $(function() {
         ]
     });
 
+
+    /////////////////////////////////////////////////// main news slider ///////////////////////////
+
+    $('.main-news-slider').slick({
+        infinite: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
+        arrows: false
+    });
+
     //////////////////////////////////////////// masked tel input ////////////////
 
     $('.tel-input').mask("(999) 999-99-99", {autoclear: false});
 
 //////////////////////// two item slider /////////////////////////////////////
+
+    $('.four-item-slider').slick({
+        dots: false,
+        infinite: true,
+        arrows: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1279,
+                settings: {
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
+
 
     $('.two-item-slider').slick({dots: true,
         infinite: true,
