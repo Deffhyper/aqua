@@ -215,6 +215,18 @@
     &:hover {
       height: 238px;
       background-color: $text-color;
+      .main-brand__first {
+        opacity: 0;
+      }
+      .main-brand__second {
+        opacity: 1;
+      }
+    }
+    &__second {
+      opacity: 0;
+    }
+    &__first {
+      opacity: 1;
     }
     img {
       position: absolute;
@@ -223,6 +235,7 @@
       transform: translate(-50%, -50%);
       width: auto;
       max-height: 100%;
+      transition: .3s ease;
     }
   }
 }
@@ -616,4 +629,25 @@
   height: 210px;
   margin-bottom: 20px;
   overflow-y: auto;
+}
+
+
+.main-video-slider {
+  margin-top: 40px;
+  margin-bottom: 35px;
+  &__back {
+    &--item {
+      height: 476px;
+      position: relative;
+      overflow: hidden;
+      img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
 }

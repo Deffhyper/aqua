@@ -216,18 +216,6 @@
                                 <?php include "parts/small-goods.php" ?>
                             </div>
                         </div>
-                        <div>
-                            <div class="goods-combo">
-                                <?php include "parts/goods.php" ?>
-                                <?php include "parts/small-goods.php" ?>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="goods-combo">
-                                <?php include "parts/goods.php" ?>
-                                <?php include "parts/small-goods.php" ?>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-12">
@@ -253,41 +241,11 @@
                                         <?php include "parts/small-goods.php" ?>
                                     </div>
                                 </div>
-                                <div>
-                                    <div class="goods-combo">
-                                        <?php include "parts/goods.php" ?>
-                                        <?php include "parts/small-goods.php" ?>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="goods-combo">
-                                        <?php include "parts/goods.php" ?>
-                                        <?php include "parts/small-goods.php" ?>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                         <div class="col-xl-6 col-sm-12">
                             <p class="title-light">Распродажа</p>
                             <div class="one-item-slider">
-                                <div>
-                                    <div class="goods-combo-small">
-                                        <?php include "parts/small-goods.php" ?>
-                                        <?php include "parts/small-goods.php" ?>
-                                        <?php include "parts/small-goods.php" ?>
-                                        <?php include "parts/small-goods.php" ?>
-                                        <?php include "parts/small-goods.php" ?>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="goods-combo-small">
-                                        <?php include "parts/small-goods.php" ?>
-                                        <?php include "parts/small-goods.php" ?>
-                                        <?php include "parts/small-goods.php" ?>
-                                        <?php include "parts/small-goods.php" ?>
-                                        <?php include "parts/small-goods.php" ?>
-                                    </div>
-                                </div>
                                 <div>
                                     <div class="goods-combo-small">
                                         <?php include "parts/small-goods.php" ?>
@@ -340,42 +298,48 @@
                             <div>
                                 <div class="main-brand">
                                     <a href="#">
-                                        <img src="img/jpeg_files/brand-1.png" alt="brand" height="38" width="152">
+                                        <img src="img/jpeg_files/brand-1-inverse.png" class="main-brand__second" alt="brand" height="38" width="152">
+                                        <img src="img/jpeg_files/brand-1.png" class="main-brand__first" alt="brand" height="38" width="152">
                                     </a>
                                 </div>
                             </div>
                             <div>
                                 <div class="main-brand">
                                     <a href="#">
-                                        <img src="img/jpeg_files/brand-2.png" alt="brand" height="27" width="153">
+                                        <img src="img/jpeg_files/brand-2-inverse.png"  class="main-brand__second" alt="brand" height="27" width="153">
+                                        <img src="img/jpeg_files/brand-2.png" class="main-brand__first" alt="brand" height="27" width="153">
                                     </a>
                                 </div>
                             </div>
                             <div>
                                 <div class="main-brand">
                                     <a href="#">
-                                        <img src="img/jpeg_files/brand-3.png" alt="brand" height="36" width="146">
+                                        <img src="img/jpeg_files/brand-3-inverse.png" class="main-brand__second" alt="brand" height="36" width="146">
+                                        <img src="img/jpeg_files/brand-3.png" class="main-brand__first" alt="brand" height="36" width="146">
                                     </a>
                                 </div>
                             </div>
                             <div>
                                 <div class="main-brand">
                                     <a href="#">
-                                        <img src="img/jpeg_files/brand-4.png" alt="brand" height="31" width="112">
+                                        <img src="img/jpeg_files/brand-4-inverse.png" class="main-brand__second" alt="brand" height="31" width="112">
+                                        <img src="img/jpeg_files/brand-4.png" class="main-brand__first" alt="brand" height="31" width="112">
                                     </a>
                                 </div>
                             </div>
                             <div>
                                 <div class="main-brand">
                                     <a href="#">
-                                        <img src="img/jpeg_files/brand-1.png" alt="brand" height="38" width="152">
+                                        <img src="img/jpeg_files/brand-1-inverse.png" class="main-brand__second" alt="brand" height="38" width="152">
+                                        <img src="img/jpeg_files/brand-1.png" class="main-brand__first" alt="brand" height="38" width="152">
                                     </a>
                                 </div>
                             </div>
                             <div>
                                 <div class="main-brand">
                                     <a href="#">
-                                        <img src="img/jpeg_files/brand-2.png" alt="brand" height="27" width="153">
+                                        <img src="img/jpeg_files/brand-4-inverse.png" class="main-brand__second" alt="brand" height="31" width="112">
+                                        <img src="img/jpeg_files/brand-4.png" class="main-brand__first" alt="brand" height="31" width="112">
                                     </a>
                                 </div>
                             </div>
@@ -689,34 +653,30 @@
     </div>
 </div>
 
-<!--<div class="main-video-slider">-->
-<!--    <div class="main-video-slider__back">-->
-<!--        <div>-->
-<!--            <div class="main-video-slider__back--item">-->
-<!--                <iframe width="100%" height="475"-->
-<!--                        src="https://www.youtube.com/embed/Rn-qkLkFS3s?rel=0&amp;controls=0&amp;showinfo=0"-->
-<!--                        frameborder="0" allowfullscreen>-->
-<!--                </iframe>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div>-->
-<!--            <div class="main-video-slider__back--item">-->
-<!--                <iframe width="100%" height="475"-->
-<!--                        src="https://www.youtube.com/embed/Rn-qkLkFS3s?rel=0&amp;controls=0&amp;showinfo=0"-->
-<!--                        frameborder="0" allowfullscreen>-->
-<!--                </iframe>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div>-->
-<!--            <div class="main-video-slider__back--item">-->
-<!--                <iframe width="100%" height="475"-->
-<!--                        src="https://www.youtube.com/embed/Rn-qkLkFS3s?rel=0&amp;controls=0&amp;showinfo=0"-->
-<!--                        frameborder="0" allowfullscreen>-->
-<!--                </iframe>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
+<!--<iframe width="100%" height="475"-->
+<!--        src="https://www.youtube.com/embed/Rn-qkLkFS3s?rel=0&amp;controls=0&amp;showinfo=0"-->
+<!--        frameborder="0" allowfullscreen>-->
+<!--</iframe>-->
+
+<div class="main-video-slider">
+    <div class="main-video-slider__back">
+        <div>
+            <div class="main-video-slider__back--item">
+                <img src="img/jpeg_files/video-bg.jpg" alt="v" width="1360" height="476">
+            </div>
+        </div>
+        <div>
+            <div class="main-video-slider__back--item">
+                <img src="img/jpeg_files/video-bg.jpg" alt="v" width="1360" height="476">
+            </div>
+        </div>
+        <div>
+            <div class="main-video-slider__back--item">
+                <img src="img/jpeg_files/video-bg.jpg" alt="v" width="1360" height="476">
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="main-reviews container four-item-slider-block">
     <div class="row no-gutters">

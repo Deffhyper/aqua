@@ -101,10 +101,30 @@ $(function() {
         triggerSiteMenu(window.innerWidth);
     });
 
+    $('.header-catalog__left').find('li').hover(function () {
+
+        var index = $(this).index();
+
+        if($(document).innerWidth() >= 1280) {
+            $('.header-catalog__right').find('.header-catalog__right--tab').addClass('active').eq(index).siblings().removeClass('active');
+        }
+
+    }, function () {
+        if($(document).innerWidth() >= 1280) {
+            $('.header-catalog__right').find('.header-catalog__right--tab').removeClass('active');
+        }
+    });
+
     /////////////////////////////////// fixed header //////////////////////////////////////
 
     $(document).on('scroll', function () {
        if($(this).scrollTop() >= 103){
+
+           if($('.header-tel-block').find('.dropdown').hasClass('show')) {
+
+               $('.header-tel-block').find('.dropdown').find('.dropdown-toggle').trigger('click');
+           }
+
            $('.header').addClass('menu-scroll');
        } else {
            $('.header').removeClass('menu-scroll');
@@ -234,14 +254,14 @@ $(function() {
         ]
     });
 
-    $('.two-item-slider, .one-item-slider').hover(function () {
+    $('.two-item-slider .goods-combo, .one-item-slider .goods-combo').hover(function () {
 
         if($(document).innerWidth() >= 1280) {
-            $(this).addClass('slider-hover');
+            $(this).closest('.slick-slider').addClass('slider-hover');
         }
 
     }, function () {
-        $(this).removeClass('slider-hover');
+        $(this).closest('.slick-slider').removeClass('slider-hover');
     });
 
 
@@ -263,6 +283,23 @@ $(function() {
     //     centerMode: true,
     //     focusOnSelect: true
     // });
+
+
+    ///////////////////////////// scroll to top button /////////////////////
+
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 100) {
+            $('.scrollToTop').fadeIn();
+        } else {
+            $('.scrollToTop').fadeOut();
+        }
+    });
+
+    //Click event to scroll to top
+    $('.scrollToTop').click(function(){
+        $('html, body').animate({scrollTop : 0},800);
+        return false;
+    });
 
 
 

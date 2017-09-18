@@ -25,6 +25,8 @@
         </div>
     </div>
 
+    <div class="scrollToTop"></div>
+
 </footer>
 
 

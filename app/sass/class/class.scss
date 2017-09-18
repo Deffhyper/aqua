@@ -202,7 +202,7 @@ mark {
   top: 0;
   left: 0;
   width: 100%;
-  transition: .3s ease;
+  //transition: .3s ease;
 
   &__image {
     width: 65px;
@@ -307,7 +307,7 @@ mark {
   height: 330px;
   position: relative;
   cursor: pointer;
-  transition: .3s ease;
+  transition: .3s ease 0s;
 }
 
 .goods {
@@ -322,7 +322,7 @@ mark {
   color: #343434;
   letter-spacing: .4px;
   margin-bottom: 5px;
-  transition: .3s ease;
+  transition: .3s ease 0s;
 }
 
 .goods-price-current {
@@ -350,7 +350,7 @@ mark {
   height: 225px;
   position: relative;
   margin-bottom: 22px;
-  transition: .3s ease;
+  transition: .3s ease 0s;
   a {
     display: block;
     height: 100%;
@@ -359,7 +359,7 @@ mark {
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      transition: .3s ease;
+      //transition: .3s ease 0s;
     }
   }
   &__label {
@@ -369,7 +369,7 @@ mark {
   }
   &--gray {
     background-color: #f0f0f0;
-    transition: .3s ease;
+    transition: height .6s ease;
   }
 }
 
@@ -377,7 +377,7 @@ mark {
   &__list {
     height: 0;
     overflow: hidden;
-    transition: .3s ease;
+
     color: #fff;
     text-align: center;
 
@@ -385,7 +385,7 @@ mark {
       font-family: $font-light;
       font-size: 0;
       margin-bottom: 5px;
-      transition: .3s ease;
+      transition: .2s ease 0s;
       b {
         font-family: $font-bold;
       }
@@ -403,7 +403,7 @@ mark {
       border: 2px solid #fff;
       position: relative;
       cursor: pointer;
-      transition: .3s ease;
+      transition: .3s ease 0s;
       margin-right: 7px;
       .iconmoon {
         position: absolute;
