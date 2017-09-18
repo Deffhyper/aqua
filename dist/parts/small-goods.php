@@ -21,7 +21,7 @@
             <div class="goods-price">
                 <span class="goods-price-current">₴ 12 600 </span>
                 <span class="goods-price-old">₴ 13 000</span>
-                <span class="goods-add-to-cart"><span class="iconmoon icon-basket"></span></i></span>
+                <a href="#" class="goods-add-to-cart"><span class="iconmoon icon-basket"></span></i></a>
             </div>
             <ul class="goods-property__ctrl">
                 <li class="goods-property__ctrl--icon"><a href="#"><span class="iconmoon icon-basket"></span></a></li>

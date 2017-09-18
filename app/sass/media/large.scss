@@ -47,6 +47,18 @@
     left: -185px;
   }
 
+  .main-reviews__item {
+    background-color: #f0f0f0;
+  }
+
+  .main-reviews__item:hover {
+    border-bottom-color: #f0f0f0;
+  }
+
+  .main-reviews__item .main-reviews__item--link {
+    opacity: 1;
+  }
+
 
 
 

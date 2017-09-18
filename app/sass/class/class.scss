@@ -127,6 +127,65 @@ mark {
 }
 
 /////////////////////////// small goods /////////////////////////
+
+
+.small-goods-no-hover {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  position: relative;
+  width: 222px;
+  height: 70px;
+  margin-bottom: 15px;
+
+  .goods-price-current {
+    font-size: 14px;
+  }
+  .goods-link {
+    text-transform: uppercase;
+    width: 152px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .goods-subtitle {
+    margin-bottom: 5px;
+    width: 152px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  &__image {
+    width: 65px;
+    height: 65px;
+    position: relative;
+
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      max-height: 100%;
+    }
+  }
+
+  &__prop {
+    padding-top: 13px;
+    padding-left: 7px;
+    width: 157px;
+    &--list {
+      text-align: center;
+      color: #fff;
+      font-size: 0;
+      height: 0;
+      overflow: hidden;
+      transition: .3s ease;
+      b {
+        font-family: $font-bold;
+      }
+    }
+  }
+}
+
 .small-goods-wrapper {
   position: relative;
   width: 222px;
@@ -192,50 +251,54 @@ mark {
   }
 }
 
-.small-goods:hover {
-  background-color: #0152a1;
-  text-align: center;
-  color: #fff;
-  z-index: 20;
-
-  .small-goods__image {
-    width: 100%;
-    height: 140px;
-    position: relative;
-  }
-  .small-goods__prop {
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 100%;
-  }
-
-  .goods-link {
+@media (min-width: 1280px) {
+  .small-goods:hover {
+    background-color: #0152a1;
+    text-align: center;
     color: #fff;
-    width: 100%;
-  }
+    z-index: 20;
 
-  .goods-subtitle {
-    width: 100%;
-  }
-  .goods-price-current {
-    color: #fff;
-  }
+    .small-goods__image {
+      width: 100%;
+      height: 140px;
+      position: relative;
+    }
+    .small-goods__prop {
+      padding-left: 15px;
+      padding-right: 15px;
+      width: 100%;
+    }
 
-  .goods-add-to-cart {
-    display: none;
-  }
+    .goods-link {
+      color: #fff;
+      width: 100%;
+    }
 
-  .goods-property__ctrl {
-    display: block;
-  }
+    .goods-subtitle {
+      width: 100%;
+    }
+    .goods-price-current {
+      color: #fff;
+    }
 
-  .small-goods__prop--list {
-    font-size: 12px;
-    height: auto;
-    padding: 10px 0;
-  }
+    .goods-add-to-cart {
+      display: none;
+    }
 
+    .goods-property__ctrl {
+      display: block;
+    }
+
+    .small-goods__prop--list {
+      font-size: 12px;
+      height: auto;
+      padding: 10px 0;
+    }
+
+  }
 }
+
+
 
 ///////////////////////////// goods //////////////////////
 
@@ -363,50 +426,54 @@ mark {
   margin-bottom: 20px;
 }
 
-.goods:hover {
-  background-color: #0152a1;
-  text-align: center;
-  color: #fff;
-  z-index: 20;
 
-  .goods-image--gray {
+
+@media (min-width: 1280px) {
+  .goods:hover {
     background-color: #0152a1;
-  }
-
-  .goods-image {
-    height: 140px;
-  }
-
-  .goods-image a img {
-    max-height: 60%;
-    width: auto;
-  }
-
-  .goods-link {
+    text-align: center;
     color: #fff;
-  }
+    z-index: 20;
 
-  .goods-price-current {
-    color: #fff;
-  }
-  .goods-add-to-cart {
-    display: none;
-  }
+    .goods-image--gray {
+      background-color: #0152a1;
+    }
 
-  .goods-property {
-    &__list {
-      height: auto;
-      margin-bottom: 15px;
-      &--item {
-        font-size: 12px;
+    .goods-image {
+      height: 140px;
+    }
+
+    .goods-image a img {
+      max-height: 60%;
+      width: auto;
+    }
+
+    .goods-link {
+      color: #fff;
+    }
+
+    .goods-price-current {
+      color: #fff;
+    }
+    .goods-add-to-cart {
+      display: none;
+    }
+
+    .goods-property {
+      &__list {
+        height: auto;
+        margin-bottom: 15px;
+        &--item {
+          font-size: 12px;
+        }
       }
     }
-  }
 
-  .goods-property__ctrl {
-    display: block;
-  }
+    .goods-property__ctrl {
+      display: block;
+    }
 
+  }
 }
 
 /////////////////////////////////////////// link arrow ////////////////////////////////

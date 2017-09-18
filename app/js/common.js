@@ -120,7 +120,7 @@ $(function() {
         dots: true,
         responsive: [
             {
-                breakpoint: 767,
+                breakpoint: 766,
                 settings: {
                     arrows: false
                 }
@@ -141,7 +141,7 @@ $(function() {
 
     //////////////////////////////////////////// masked tel input ////////////////
 
-    $('.tel-input').mask("(999) 999-99-99", {autoclear: false});
+    $('.tel-input').mask("(9 9 9) 9 9 9 - 9 9 - 9 9", {autoclear: false});
 
 //////////////////////// two item slider /////////////////////////////////////
 
@@ -165,7 +165,7 @@ $(function() {
                 }
             },
             {
-                breakpoint: 767,
+                breakpoint: 766,
                 settings: {
                     slidesToShow: 1
                 }
@@ -195,7 +195,7 @@ $(function() {
                 }
             },
             {
-                breakpoint: 767,
+                breakpoint: 766,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1
@@ -225,7 +225,7 @@ $(function() {
                 }
             },
             {
-                breakpoint: 767,
+                breakpoint: 766,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1
@@ -235,7 +235,11 @@ $(function() {
     });
 
     $('.two-item-slider, .one-item-slider').hover(function () {
-        $(this).addClass('slider-hover');
+
+        if($(document).innerWidth() >= 1280) {
+            $(this).addClass('slider-hover');
+        }
+
     }, function () {
         $(this).removeClass('slider-hover');
     });

@@ -62,6 +62,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
+                    <p class="mob-menu-title">Каталог</p>
                     <ul class="header-menu">
                         <li class="header-menu__item">
                             <p class="header-menu__item--title">водоснабжение</p>

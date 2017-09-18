@@ -21,10 +21,10 @@
                                 <div class="top-slider-goods-set">
                                     <div class="row top-slider-goods-set__list">
                                         <div class="col-lg-6 col-sm-12">
-                                            <?php include "parts/small-goods.php" ?>
+                                            <?php include "parts/small-goods-no-hover.php" ?>
                                         </div>
                                         <div class="col-lg-6 col-sm-12">
-                                            <?php include "parts/small-goods.php" ?>
+                                            <?php include "parts/small-goods-no-hover.php" ?>
                                         </div>
                                     </div>
                                     <div class="row top-slider-goods-set__all">
@@ -55,10 +55,10 @@
                                 <div class="top-slider-goods-set">
                                     <div class="row top-slider-goods-set__list">
                                         <div class="col-lg-6 col-sm-12">
-                                            <?php include "parts/small-goods.php" ?>
+                                            <?php include "parts/small-goods-no-hover.php" ?>
                                         </div>
                                         <div class="col-lg-6 col-sm-12">
-                                            <?php include "parts/small-goods.php" ?>
+                                            <?php include "parts/small-goods-no-hover.php" ?>
                                         </div>
                                     </div>
                                     <div class="row top-slider-goods-set__all">
@@ -89,10 +89,10 @@
                                 <div class="top-slider-goods-set">
                                     <div class="row top-slider-goods-set__list">
                                         <div class="col-lg-6 col-sm-12">
-                                            <?php include "parts/small-goods.php" ?>
+                                            <?php include "parts/small-goods-no-hover.php" ?>
                                         </div>
                                         <div class="col-lg-6 col-sm-12">
-                                            <?php include "parts/small-goods.php" ?>
+                                            <?php include "parts/small-goods-no-hover.php" ?>
                                         </div>
                                     </div>
                                     <div class="row top-slider-goods-set__all">
@@ -329,13 +329,13 @@
         <div class="col-12">
             <div class="container four-item-slider-block">
                 <div class="row no-gutters">
-                    <div class="col-lg-3 col-sm-3 col-xs-12">
+                    <div class="col-lg-3 col-md-3 col-sm-12">
                         <div class="four-item-slider-left">
                             <p class="section-subtitle">Сотрудничество</p>
                             <p class="section-title">Наши <br> парнеры</p>
                         </div>
                     </div>
-                    <div class="col-lg-9 col-sm-9 col-xs-12">
+                    <div class="col-lg-9 col-md-9 col-sm-12">
                         <div class="four-item-slider">
                             <div>
                                 <div class="main-brand">
@@ -688,7 +688,7 @@
         </div>
     </div>
 </div>
-<!---->
+
 <!--<div class="main-video-slider">-->
 <!--    <div class="main-video-slider__back">-->
 <!--        <div>-->
@@ -720,14 +720,14 @@
 
 <div class="main-reviews container four-item-slider-block">
     <div class="row no-gutters">
-        <div class="col-lg-3 col-sm-3 col-xs-12">
+        <div class="col-lg-3 col-md-3 col-sm-12 ">
             <div class="four-item-slider-left">
                 <p class="section-subtitle">Отзывы</p>
                 <p class="section-title">О нас <br> Говорят</p>
                 <a href="#" class="main-reviews__link link-arrow link-arrow--blue"><span>оставить отзыв</span></a>
             </div>
         </div>
-        <div class="col-lg-9 col-sm-9 col-xs-12">
+        <div class="col-lg-9 col-md-9 col-sm-12">
             <div class="four-item-slider">
                 <div>
                     <div class="main-reviews__item">
@@ -807,18 +807,46 @@
                     </ul>
                 </div>
             </div>
+            <div class="main-contacts-block">
 
-            <p class="main-contacts__title">Адрес</p>
-            <p class="text-gray">Украина <br>
-                Черновецкая область <br>
-                Черновцы, Галицкий путь
-            </p>
+                <p class="main-contacts__title">Адрес</p>
+                <p class="text-gray">Украина <br>
+                    Черновецкая область <br>
+                    Черновцы, Галицкий путь
+                </p>
 
-            <p class="main-contacts__title">E-mail</p>
-            <p><a href="mailto:apc-company@mail.ru" class="text-gray">apc-company@mail.ru</a></p>
+                <p class="main-contacts__title">E-mail</p>
+                <p><a href="mailto:apc-company@mail.ru" class="text-gray">apc-company@mail.ru</a></p>
 
-            <p class="main-contacts__title">Телефон</p>
-            <p><a href="tel:0800302828">0 800 30 28 28</a></p>
+                <p class="main-contacts__title">Телефон</p>
+                <p><a href="tel:0800302828">0 800 30 28 28</a></p>
+
+                <p class="main-contacts__title">Адрес</p>
+                <p class="text-gray">Украина <br>
+                    Черновецкая область <br>
+                    Черновцы, Галицкий путь
+                </p>
+
+                <p class="main-contacts__title">E-mail</p>
+                <p><a href="mailto:apc-company@mail.ru" class="text-gray">apc-company@mail.ru</a></p>
+
+                <p class="main-contacts__title">Телефон</p>
+                <p><a href="tel:0800302828">0 800 30 28 28</a></p>
+
+                <p class="main-contacts__title">Адрес</p>
+                <p class="text-gray">Украина <br>
+                    Черновецкая область <br>
+                    Черновцы, Галицкий путь
+                </p>
+
+                <p class="main-contacts__title">E-mail</p>
+                <p><a href="mailto:apc-company@mail.ru" class="text-gray">apc-company@mail.ru</a></p>
+
+                <p class="main-contacts__title">Телефон</p>
+                <p><a href="tel:0800302828">0 800 30 28 28</a></p>
+
+
+            </div>
 
             <ul class="social-list">
                 <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
