@@ -689,3 +689,23 @@ mark {
     }
   }
 }
+
+/////////////////////////////// modals ///////////////////
+
+.modal {
+  z-index: 103;
+  background-color: rgba(0,0,0, .8);
+}
+
+.close {
+  float: right;
+  font-size: 25px;
+  font-weight: lighter;
+  color: #fff;
+  text-shadow: none;
+  opacity: 1;
+  &:hover {
+    color: #fff;
+  }
+}
+

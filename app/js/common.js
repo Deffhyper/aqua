@@ -254,7 +254,7 @@ $(function() {
         ]
     });
 
-    $('.two-item-slider .goods-combo, .one-item-slider .goods-combo').hover(function () {
+    $('.two-item-slider .goods-combo, .one-item-slider .goods-combo-small, .one-item-slider .goods-combo').hover(function () {
 
         if($(document).innerWidth() >= 1280) {
             $(this).closest('.slick-slider').addClass('slider-hover');
@@ -271,18 +271,20 @@ $(function() {
     $('.main-video-slider__back').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: true,
-        fade: true
-        // asNavFor: '.slider-nav'
+        arrows: false,
+        fade: true,
+        asNavFor: '.main-video-slider__front'
     });
-    // $('.slider-nav').slick({
-    //     slidesToShow: 3,
-    //     slidesToScroll: 1,
-    //     asNavFor: '.slider-for',
-    //     dots: true,
-    //     centerMode: true,
-    //     focusOnSelect: true
-    // });
+
+    $('.main-video-slider__front').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        asNavFor: '.main-video-slider__back',
+        dots: false,
+        centerMode: true,
+        focusOnSelect: true,
+        arrows: true
+    });
 
 
     ///////////////////////////// scroll to top button /////////////////////
@@ -300,6 +302,17 @@ $(function() {
         $('html, body').animate({scrollTop : 0},800);
         return false;
     });
+    
+    ////////////////////////////////// video slider //////////////////////////////
+
+    $("#video-modal").on("hidden.bs.modal",function(){
+        $("#iframeYoutube").attr("src","");
+    });
+
+    $('.video-modal-launcher').on('click', function () {
+        var videoAddress = $(this).data('address');
+        $("#iframeYoutube").attr("src","https://www.youtube.com/embed/"+videoAddress);
+    })
 
 
 

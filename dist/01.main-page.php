@@ -653,11 +653,6 @@
     </div>
 </div>
 
-<!--<iframe width="100%" height="475"-->
-<!--        src="https://www.youtube.com/embed/Rn-qkLkFS3s?rel=0&amp;controls=0&amp;showinfo=0"-->
-<!--        frameborder="0" allowfullscreen>-->
-<!--</iframe>-->
-
 <div class="main-video-slider">
     <div class="main-video-slider__back">
         <div>
@@ -676,7 +671,96 @@
             </div>
         </div>
     </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="main-video-slider__front">
+                    <div>
+                        <div class="main-video-slider__front--item">
+                            <div class="video-slide">
+                                <p class="section-subtitle">Наши видеоматериалы</p>
+                                <div class="video-slide__image">
+                                    <img src="img/jpeg_files/video-1.jpg" alt="video" width="149" height="84">
+                                </div>
+                                <p class="video-slide__title">
+                                    Правильное обустройство водонапорной системы
+                                </p>
+                                <div class="video-slide__link">
+                                    <a href="#" class="video-modal-launcher" role="button" data-toggle="modal" data-target="#video-modal" data-address="cNN97OOj7Ag"></a>
+                                    <object data="img/svg/play.svg" type="image/svg+xml" width="57" height="57"></object>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="main-video-slider__front--item">
+                            <div class="video-slide">
+                                <p class="section-subtitle">Наши видеоматериалы</p>
+                                <div class="video-slide__image">
+                                    <img src="img/jpeg_files/video-1.jpg" alt="video" width="149" height="84">
+                                </div>
+                                <p class="video-slide__title">
+                                    Первый запуск насосной станции на базе погружного насоса
+                                </p>
+                                <div class="video-slide__link">
+                                    <a href="#" class="video-modal-launcher" role="button" data-toggle="modal" data-target="#video-modal" data-address="Rn-qkLkFS3s"></a>
+                                    <object data="img/svg/play.svg" type="image/svg+xml" width="57" height="57"></object>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="main-video-slider__front--item">
+                            <div class="video-slide">
+                                <p class="section-subtitle">Наши видеоматериалы</p>
+                                <div class="video-slide__image">
+                                    <img src="img/jpeg_files/video-2.jpg" alt="video" width="149" height="84">
+                                </div>
+                                <p class="video-slide__title">
+                                    Регулировка давления
+                                    в системе водоснабжения
+                                </p>
+                                <div class="video-slide__link">
+                                    <a href="#" class="video-modal-launcher" role="button" data-toggle="modal" data-target="#video-modal" data-address="S6NKwy1fvMw"></a>
+                                    <object data="img/svg/play.svg" type="image/svg+xml" width="57" height="57"></object>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="main-video-slider__front--item">
+                            <div class="video-slide">
+                                <p class="section-subtitle">Наши видеоматериалы</p>
+                                <div class="video-slide__image">
+                                    <img src="img/jpeg_files/video-1.jpg" alt="video" width="149" height="84">
+                                </div>
+                                <p class="video-slide__title">
+                                    Правильное обустройство водонапорной системы
+                                </p>
+                                <div class="video-slide__link">
+                                    <a href="#" class="video-modal-launcher" role="button" data-toggle="modal" data-target="#video-modal" data-address="Rn-qkLkFS3s"></a>
+                                    <object data="img/svg/play.svg" type="image/svg+xml" width="57" height="57"></object>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="video-modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-video" role="document">
+
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <iframe id="iframeYoutube" width="100%" height="475" src="https://www.youtube.com/embed/" frameborder="0" allowfullscreen></iframe>
+           
+        </div>
+    </div>
 </div>
+
+
 
 <div class="main-reviews container four-item-slider-block">
     <div class="row no-gutters">

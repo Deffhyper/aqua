@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="57" height="57" viewBox="0 0 57 57">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #323232;
+        fill-opacity: 0;
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle id="Эллипс_6" data-name="Эллипс 6" class="cls-1" cx="28.5" cy="28.5" r="26.5"/>
+  <path id="Фигура_1" data-name="Фигура 1" class="cls-2" d="M25,37.839V19.184c0-.867.582-1.513,1.157-1.005,0.461,0.406,9.676,8.608,10.462,9.309a1.521,1.521,0,0,1,0,2.021c-0.566.514-9.816,8.758-10.486,9.331C25.643,39.259,25,38.8,25,37.839Z"/>
+</svg>

@@ -635,7 +635,13 @@
 .main-video-slider {
   margin-top: 40px;
   margin-bottom: 35px;
+  height: 476px;
+  position: relative;
   &__back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     &--item {
       height: 476px;
       position: relative;
@@ -650,4 +656,126 @@
       }
     }
   }
+
+  &__front {
+
+    .slick-arrow.slick-prev {
+      left: 216px;
+      top: 49%;
+      background-color: #343434;
+      border-color: #343434;
+      &:before {
+        border-color: #fff;
+      }
+      &:after {
+        background-color: #fff;
+      }
+    }
+
+    .slick-arrow.slick-next {
+      right: 216px;
+      top: 49%;
+      background-color: #343434;
+      border-color: #343434;
+      &:before {
+        border-color: #fff;
+      }
+      &:after {
+        background-color: #fff;
+      }
+    }
+
+    .slick-center {
+
+      .video-slide .section-subtitle {
+        opacity: 1;
+      }
+
+      .video-slide__image {
+        display: none;
+      }
+
+      .video-slide__title {
+        font-family: $proxima-extra;
+        font-size: 30px;
+      }
+
+      .video-slide {
+        width: 400px;
+        padding-bottom: 0;
+        top: 46%;
+      }
+
+      .video-slide__link {
+        display: block;
+      }
+
+      .main-video-slider__front--item {
+
+      }
+    }
+
+    &--item {
+      height: 476px;
+      position: relative;
+    }
+  }
+}
+
+.video-slide {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 170px;
+  text-align: center;
+  color: #fff;
+
+  .section-subtitle {
+    opacity: 0;
+    transition: .3s ease;
+  }
+
+  &__link {
+    a {
+      position: absolute;
+      display: block;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+    }
+    display: none;
+    height: 57px;
+    width: 57px;
+    position: absolute;
+    left: 50%;
+    bottom: -55px;
+    transform: translateX(-50%);
+  }
+
+  &__image {
+    width: 150px;
+    height: 85px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto 10px;
+    img {
+      width: 100%;
+      height: auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  &__title {
+    font-family: $proxima-regular;
+    font-size: 13px;
+  }
+}
+
+.modal-dialog-video {
+  max-width: 980px;
 }
