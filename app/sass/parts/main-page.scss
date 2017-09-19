@@ -778,4 +778,10 @@
 
 .modal-dialog-video {
   max-width: 980px;
+  padding: 20px;
+  iframe {
+    width: 100%;
+    min-height: 475px;
+    max-width: 100%;
+  }
 }

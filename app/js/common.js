@@ -101,18 +101,18 @@ $(function() {
         triggerSiteMenu(window.innerWidth);
     });
 
-    $('.header-catalog__left').find('li').hover(function () {
+    $('.header-catalog__left').find('li').find('a').hover(function () {
 
-        var index = $(this).index();
+        var index = $(this).parent('li').index();
 
         if($(document).innerWidth() >= 1280) {
             $('.header-catalog__right').find('.header-catalog__right--tab').addClass('active').eq(index).siblings().removeClass('active');
         }
 
     }, function () {
-        if($(document).innerWidth() >= 1280) {
-            $('.header-catalog__right').find('.header-catalog__right--tab').removeClass('active');
-        }
+        // if($(document).innerWidth() >= 1280) {
+        //     $('.header-catalog__right').find('.header-catalog__right--tab').removeClass('active');
+        // }
     });
 
     /////////////////////////////////// fixed header //////////////////////////////////////
@@ -283,7 +283,17 @@ $(function() {
         dots: false,
         centerMode: true,
         focusOnSelect: true,
-        arrows: true
+        arrows: true,
+        responsive: [
+
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 1,
+                    centerMode: true
+                }
+            }
+        ]
     });
 
 

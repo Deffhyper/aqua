@@ -73,5 +73,18 @@
     height: 225px;
   }
 
+  .main-video-slider__back--item img {
+    width: auto;
+    height: 100%;
+    max-width: none;
+  }
+
+  .main-video-slider__front .slick-arrow.slick-next {
+    right: 0;
+  }
+
+  .main-video-slider__front .slick-arrow.slick-prev {
+    left: 0;
+  }
 
 }

@@ -59,6 +59,20 @@
     opacity: 1;
   }
 
+  .main-video-slider__front .slick-arrow.slick-next {
+    right: 170px;
+  }
+
+  .main-video-slider__front .slick-arrow.slick-prev {
+    left: 170px;
+  }
+
+  .main-video-slider__back--item,
+  .main-video-slider,
+  .main-video-slider__front--item {
+    height: 360px;
+  }
+
 
 
 
