@@ -657,19 +657,21 @@
     <div class="main-video-slider__back">
         <div>
             <div class="main-video-slider__back--item">
-                <img src="img/jpeg_files/video-bg.jpg" alt="v" width="1360" height="476">
+                <video id="media" class="slider-video" loop="loop" autoplay="autoplay">
+                    <source src="img/video/coffee.mp4" type="video/mp4">
+                </video>
             </div>
         </div>
-        <div>
-            <div class="main-video-slider__back--item">
-                <img src="img/jpeg_files/video-bg.jpg" alt="v" width="1360" height="476">
-            </div>
-        </div>
-        <div>
-            <div class="main-video-slider__back--item">
-                <img src="img/jpeg_files/video-bg.jpg" alt="v" width="1360" height="476">
-            </div>
-        </div>
+<!--        <div>-->
+<!--            <div class="main-video-slider__back--item">-->
+<!--                <img src="img/jpeg_files/video-bg.jpg" alt="v" width="1360" height="476">-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <div class="main-video-slider__back--item">-->
+<!--                <img src="img/jpeg_files/video-bg.jpg" alt="v" width="1360" height="476">-->
+<!--            </div>-->
+<!--        </div>-->
     </div>
     <div class="container">
         <div class="row">

@@ -527,7 +527,24 @@ mark {
 
 .goods-add-to-cart {
   display: inline-block;
-  float: right; }
+  float: right;
+  height: 26px;
+  width: 26px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  position: relative;
+  bottom: 5px;
+  -webkit-transition: .3s ease;
+  transition: .3s ease; }
+  .goods-add-to-cart:hover {
+    background-color: #e6e4e4; }
+  .goods-add-to-cart .icon-basket {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
 
 .goods-image {
   height: 225px;
@@ -631,7 +648,15 @@ mark {
   font-family: "Proxima-Nova-Semibold", sans-serif;
   text-transform: uppercase;
   font-size: 12px;
-  color: #1d1d1d; }
+  color: #1d1d1d;
+  -webkit-transition: .3s ease;
+  transition: .3s ease; }
+  .link-arrow:hover {
+    color: #006cbf; }
+    .link-arrow:hover span:after {
+      border-color: #006cbf; }
+    .link-arrow:hover span:before {
+      background-color: #006cbf; }
   .link-arrow.link-arrow--blue {
     color: #006cbf; }
     .link-arrow.link-arrow--blue span:after {
@@ -654,7 +679,9 @@ mark {
               transform: rotateZ(45deg);
       position: absolute;
       top: 3px;
-      right: 0; }
+      right: 0;
+      -webkit-transition: .3s ease;
+      transition: .3s ease; }
     .link-arrow span:before {
       content: '';
       display: block;
@@ -663,7 +690,9 @@ mark {
       height: 2px;
       position: absolute;
       top: 5px;
-      right: 2px; }
+      right: 2px;
+      -webkit-transition: .3s ease;
+      transition: .3s ease; }
 
 .slick-arrow {
   background-color: transparent;
@@ -816,6 +845,16 @@ mark {
   opacity: 1; }
   .close:hover {
     color: #fff; }
+
+.slider-video {
+  min-width: 100%;
+  display: block; }
+
+@media (max-width: 767px) {
+  .slider-video {
+    min-width: 100%;
+    display: block;
+    height: 100%; } }
 
 body:before {
   content: '';

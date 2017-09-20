@@ -344,6 +344,21 @@ mark {
 .goods-add-to-cart {
   display: inline-block;
   float: right;
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 5px;
+  transition: .3s ease;
+  &:hover {
+    background-color: #e6e4e4;
+  }
+  .icon-basket {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 .goods-image {
@@ -483,6 +498,18 @@ mark {
   text-transform: uppercase;
   font-size: 12px;
   color: #1d1d1d;
+  transition: .3s ease;
+  &:hover {
+    color: #006cbf;
+    span {
+      &:after {
+        border-color: #006cbf;
+      }
+      &:before {
+        background-color: #006cbf;
+      }
+    }
+  }
 
   &.link-arrow--blue {
     color: #006cbf;
@@ -494,7 +521,6 @@ mark {
         background-color: #006cbf;
       }
     }
-
   }
   span {
     display: inline-block;
@@ -511,6 +537,7 @@ mark {
       position: absolute;
       top: 3px;
       right: 0;
+      transition: .3s ease;
     }
     &:before {
       content: '';
@@ -521,6 +548,7 @@ mark {
       position: absolute;
       top: 5px;
       right: 2px;
+      transition: .3s ease;
     }
   }
 }
@@ -709,3 +737,18 @@ mark {
   }
 }
 
+
+//////////////////////////////////////// slider video /////////////////////////////////
+
+.slider-video {
+  min-width: 100%;
+  display: block;
+}
+
+@media ($mobile) {
+  .slider-video {
+    min-width: 100%;
+    display: block;
+    height: 100%;
+  }
+}

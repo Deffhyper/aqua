@@ -268,18 +268,18 @@ $(function() {
     //////////////////////////////// video slider ////////////////////////////////////////////
 
 
-    $('.main-video-slider__back').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: false,
-        fade: true,
-        asNavFor: '.main-video-slider__front'
-    });
+    // $('.main-video-slider__back').slick({
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    //     arrows: false,
+    //     fade: true,
+    //     asNavFor: '.main-video-slider__front'
+    // });
 
     $('.main-video-slider__front').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
-        asNavFor: '.main-video-slider__back',
+        // asNavFor: '.main-video-slider__back',
         dots: false,
         centerMode: true,
         focusOnSelect: true,
