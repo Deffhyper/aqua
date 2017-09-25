@@ -56,6 +56,13 @@
   font-weight: normal; }
 
 @font-face {
+  font-family: "Plumb-Regular";
+  src: url("../fonts/plumb/plumb-regular-webfont.eot");
+  src: url("../fonts/plumb/plumb-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/plumb/plumb-regular-webfont.ttf") format("truetype"), url("../fonts/plumb/plumb-regular-webfont.woff") format("woff"), url("../fonts/plumb/plumb-regular-webfont.woff2") format("woff2"), url("../fonts/plumb/plumb-regular-webfont.svg#webfont") format("swg");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
   font-family: "FontAwesome";
   src: url("../fonts/awesome/FontAwesome.otf");
   src: url("../fonts/awesome/fontawesome-webfont.woff") format("woff"), url("../fonts/awesome/fontawesome-webfont.ttf") format("truetype"), url("../fonts/awesome/fontawesome-webfont.woff2") format("woff2");
@@ -666,7 +673,7 @@ mark {
   .link-arrow span {
     display: inline-block;
     position: relative;
-    padding-right: 30px; }
+    padding-right: 25px; }
     .link-arrow span:after {
       content: '';
       display: block;
@@ -863,6 +870,9 @@ body:before {
   height: 103px;
   background-color: #f0f0f0; }
 
+body.before-white:before {
+  background-color: #fff; }
+
 .header {
   background-color: #f0f0f0;
   padding: 20px 0;
@@ -875,6 +885,8 @@ body:before {
   z-index: 10;
   -webkit-transition: .3s ease;
   transition: .3s ease; }
+  .header.header--white {
+    background-color: #fff; }
   .header.menu-scroll {
     padding: 4px 0; }
 
@@ -2237,6 +2249,112 @@ body:after {
     width: 100%;
     min-height: 475px;
     max-width: 100%; }
+
+.page-title {
+  font-family: "Proxima-Nova-Extra", sans-serif;
+  font-size: 36px; }
+
+.pagination > div {
+  display: inline-block;
+  vertical-align: middle; }
+
+.pagination-left__link--label {
+  font-family: "Open-Sans-Light", sans-serif;
+  font-size: 12px;
+  color: #707070; }
+
+.pagination-left__link--icon {
+  display: inline-block;
+  background-color: #f0f0f0;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  position: relative; }
+  .pagination-left__link--icon:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
+
+.pagination-right {
+  margin-left: auto;
+  font-family: "Plumb-Regular", sans-serif;
+  font-size: 13px; }
+  .pagination-right__item.active > a {
+    background-color: #f0f0f0; }
+  .pagination-right__item > a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    line-height: 2.6; }
+
+.breadcrumbs {
+  padding: 30px 0;
+  font-family: "Proxima-Nova-Regular", sans-serif;
+  color: #707070;
+  font-size: 15px; }
+  .breadcrumbs__item a {
+    text-decoration: underline; }
+    .breadcrumbs__item a:hover {
+      text-decoration: none; }
+    .breadcrumbs__item a:after {
+      content: '/';
+      display: inline-block;
+      padding: 0 10px;
+      pointer-events: none; }
+
+.left-sidebar__item > a {
+  color: #818181;
+  font-family: "Proxima-Nova-Semibold", sans-serif;
+  text-transform: uppercase; }
+
+.left-sidebar__item.active > a {
+  font-family: "Proxima-Nova-Bold", sans-serif;
+  color: #343434; }
+
+.left-sidebar-second__item > a {
+  color: #b5b5b5; }
+
+.media-image {
+  -webkit-align-self: flex-start;
+      -ms-flex-item-align: start;
+          align-self: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 35px;
+  height: 211px;
+  width: 211px;
+  position: relative; }
+  .media-image > img {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
+
+.media-body__time {
+  font-family: "Proxima-Nova-Semibold", sans-serif;
+  color: #b5b5b5;
+  font-size: 12px; }
+
+.media-body__title {
+  font-family: "Proxima-Nova-Bold", sans-serif;
+  font-size: 24px; }
+
+.media-body__text {
+  color: #707070; }
 
 @media (max-width: 1279px) {
   .top-slider__item--left {

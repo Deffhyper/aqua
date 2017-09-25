@@ -89,6 +89,18 @@
   font-weight: normal;
 }
 
+@font-face {
+  font-family: "Plumb-Regular";
+  src: url("../fonts/plumb/plumb-regular-webfont.eot");
+  src: url("../fonts/plumb/plumb-regular-webfont.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/plumb/plumb-regular-webfont.ttf") format("truetype"),
+  url("../fonts/plumb/plumb-regular-webfont.woff") format("woff"),
+  url("../fonts/plumb/plumb-regular-webfont.woff2") format("woff2"),
+  url("../fonts/plumb/plumb-regular-webfont.svg#webfont") format("swg");
+  font-style: normal;
+  font-weight: normal;
+}
+
 
 @font-face {
   font-family: "FontAwesome";
