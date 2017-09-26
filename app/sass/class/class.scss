@@ -1,3 +1,18 @@
+.mb-7 {
+  margin-bottom: 70px;
+}
+
+.d-flex-lg {
+  display: flex;
+  align-items: flex-start;
+}
+
+@media ($tablet) {
+  .d-flex-lg {
+    display: block;
+  }
+}
+
 .btn {
   display: inline-block;
   border: 0;
@@ -499,6 +514,21 @@ mark {
   font-size: 12px;
   color: #1d1d1d;
   transition: .3s ease;
+  &.inverse {
+    span {
+      padding-right: 0;
+      padding-left: 25px;
+      &:after {
+        transform: rotateZ(-135deg);
+        position: absolute;
+        left: 0;
+      }
+      &:before {
+        top: 5px;
+        left: 2px;
+      }
+    }
+  }
   &:hover {
     color: #006cbf;
     span {
@@ -688,7 +718,7 @@ mark {
   }
 }
  /////////////////////////////////////// one -two item slider
-.two-item-slider, .one-item-slider {
+.two-item-slider, .one-item-slider, .related-product__slider {
   height: 455px;
   position: relative;
   z-index: 1;
@@ -705,6 +735,10 @@ mark {
   }
 }
 
+.related-product__slider {
+  height: 360px;
+}
+
 .four-item-slider {
   .slick-arrow {
     &.slick-next {
@@ -714,6 +748,24 @@ mark {
     &.slick-prev {
       left: -300px;
       margin-top: 15px;
+    }
+  }
+}
+
+.four-image-slider {
+
+  .slick-dots {
+    padding: 30px 0;
+  }
+
+  &__item {
+    width: 220px;
+    height: 220px;
+    position: relative;
+    overflow: hidden;
+
+    img {
+      @include center;
     }
   }
 }

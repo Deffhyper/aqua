@@ -1,9 +1,12 @@
 .page-title {
   font-family: $proxima-extra;
   font-size: 36px;
+  margin-bottom: 25px;
 }
 
 .pagination {
+  padding: 15px 0;
+
   &>div {
     display: inline-block;
     vertical-align: middle;
@@ -14,6 +17,7 @@
         font-family: $font-light;
         font-size: 12px;
         color: #707070;
+        margin-left: 8px;
       }
       &--icon {
         display: inline-block;
@@ -54,7 +58,7 @@
 }
 
 .breadcrumbs {
-  padding: 30px 0;
+  padding: 34px 0;
   font-family: $proxima-regular;
   color: #707070;
   font-size: 15px;
@@ -75,12 +79,65 @@
   }
 }
 
+.left-block {
+  flex: 0 0 18%;
+  max-width: 18%;
+  &__mob-title {
+    a {
+      border: 1px solid #b5b5b5;
+      padding: 10px 10px 8px;
+      border-radius: 3px;
+      position: relative;
+      font-family: $proxima-regular;
+      font-size: 16px;
+      color: #1d1d1d;
+      display: none;
+
+      &:after {
+        display: inline-block;
+        content: "";
+        height: 6px;
+        width: 6px;
+        border-top: 1px solid #343434;
+        border-right: 1px solid #343434;
+        transform: rotateZ(135deg);
+        position: absolute;
+        top: 16px;
+        right: 13px;
+        transition: .3s ease;
+      }
+    }
+
+    &.open {
+      a:after {
+        transform: rotateZ(-45deg);
+      }
+    }
+  }
+}
+
+.right-block {
+  flex: 0 0 82%;
+  max-width: 82%;
+  padding-left: 35px;
+  padding-top: 10px;
+  &.offset-left {
+    margin-left: 18%;
+  }
+}
+
 .left-sidebar {
   &__item {
+    margin-bottom: 13px;
+
     &>a {
       color: #818181;
       font-family: $proxima-semibold;
       text-transform: uppercase;
+      transition: .3s ease;
+      &:hover {
+        color: $text-color;
+      }
     }
 
     &.active {
@@ -88,27 +145,88 @@
         font-family: $proxima-bold;
         color: #343434;
       }
-
     }
   }
 }
 
 .left-sidebar-second {
+  padding: 17px 0 6px;
+  display: none;
+
   &__item {
+    margin-bottom: 14px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+
     &>a {
       color: #b5b5b5;
+      transition: .3s ease;
+      &:hover {
+        color: $text-color;
+      }
     }
   }
 }
 
 .media {
+  margin-bottom: 35px;
+  &.image-less {
+    display: block;
+    .media-body {
+      max-width: none;
+      padding-left: 25%;
 
+      .media-body__title{
+        max-width: 100%;
+      }
+    }
+
+  }
+  &.big {
+    margin-top: 10px;
+    margin-bottom: 50px;
+
+    .media-image {
+      height: 355px;
+      width: 672px;
+      margin-right: 65px;
+      position: relative;
+
+      img {
+        @include center;
+        //max-height: 100%;
+        //max-width: none;
+      }
+
+      .block-w-border {
+        padding: 0;
+        width: 100%;
+        overflow: hidden;
+      }
+    }
+
+    .media-body {
+      &__title {
+        font-family: $proxima-extra;
+        font-size: 36px;
+        max-height: 210px;
+        max-width: 370px;
+        margin-bottom: 45px;
+      }
+    }
+  }
+}
+
+.media-body {
+  padding-top: 18px;
+  max-width: 800px;
 }
 
 .media-image {
   align-self: flex-start;
   display: flex;
-  margin-right: 35px;
+  margin-right: 40px;
   height: 211px;
   width: 211px;
   position: relative;
@@ -123,12 +241,110 @@
     font-family: $proxima-semibold;
     color: #b5b5b5;
     font-size: 12px;
+    margin-bottom: 12px;
+    display: block;
+
+    &--user {
+      margin-left: 20px;
+      display: inline-block;
+    }
   }
   &__title {
     font-family: $proxima-bold;
     font-size: 24px;
+    margin-bottom: 12px;
+    max-height: 56px;
+    overflow: hidden;
   }
   &__text {
     color: #707070;
+    line-height: 1.5;
+    height: 57px;
+    overflow: hidden;
+  }
+  &__category {
+    font-family: $proxima-semibold;
+    font-size: 12px;
+    text-transform: uppercase;
   }
 }
+
+.text-block {
+  color: #707070;
+
+  p {
+    line-height: 2;
+    margin-bottom: 20px;
+  }
+
+  h2, h3, h4, h5 {
+    font-family: $proxima-light;
+  }
+  h3 {
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+  ul {
+    padding-left: 10px;
+    margin-bottom: 30px;
+    &>li {
+      margin-bottom: 12px;
+
+      &:before {
+        content: '-';
+        display: inline-block;
+        padding-right: 5px;
+      }
+    }
+  }
+}
+
+.detail-ctrl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.related-product {
+  &__title {
+    font-family: $proxima-bold;
+    font-size: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

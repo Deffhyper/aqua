@@ -349,7 +349,7 @@ body.before-white:before {
 }
 
 .menu-open {
-  background-color: #064579;
+  background-color: #064579 !important;
   position: fixed;
   left: 0;
   right: 0;
@@ -713,6 +713,10 @@ body.before-white:before {
 
 @media ($mobile) {
 
+  body:before {
+    height: 60px;
+  }
+
   .header-compare {
     margin-right: 18px;
   }
@@ -759,7 +763,7 @@ body.before-white:before {
   }
 
   .header-cart {
-    margin-right: 10px;
+    margin-right: -5px;
   }
 
   .header-tel-block .dropdown.show .dropdown-toggle:before {

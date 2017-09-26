@@ -163,7 +163,7 @@ $(function() {
 
     $('.tel-input').mask("(9 9 9) 9 9 9 - 9 9 - 9 9", {autoclear: false});
 
-//////////////////////// two item slider /////////////////////////////////////
+//////////////////////// nth item slider /////////////////////////////////////
 
     $('.four-item-slider').slick({
         dots: false,
@@ -186,6 +186,76 @@ $(function() {
             },
             {
                 breakpoint: 766,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
+
+    $('.four-image-slider').slick({
+
+        infinite: true,
+        arrows: false,
+        dots: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1279,
+                settings: {
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 766,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 500,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
+
+    $('.related-product__slider').slick({
+
+        infinite: true,
+        arrows: false,
+        dots: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1279,
+                settings: {
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 766,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 500,
                 settings: {
                     slidesToShow: 1
                 }
@@ -254,7 +324,7 @@ $(function() {
         ]
     });
 
-    $('.two-item-slider .goods-combo, .one-item-slider .goods-combo-small, .one-item-slider .goods-combo').hover(function () {
+    $('.two-item-slider .goods-combo, .one-item-slider .goods-combo-small, .one-item-slider .goods-combo, .related-product__slider .goods-combo').hover(function () {
 
         if($(document).innerWidth() >= 1280) {
             $(this).closest('.slick-slider').addClass('slider-hover');
@@ -324,6 +394,22 @@ $(function() {
         $("#iframeYoutube").attr("src","https://www.youtube.com/embed/"+videoAddress);
     })
 
+    
+    ////////////////////////////////////////////// left sidebar ///////////////////////////////////////
+    
+    $('.left-sidebar__item.has-child').on('click', 'a', function (e) {
+        e.preventDefault();
+        $(this).parent().toggleClass('active');
+        $(this).next('.left-sidebar-second').slideToggle();
+    })
 
+
+    ///////////////////////////////////////// left sidebar tablet /////////////////////////////////
+
+    $('.left-block__mob-title').find('a').on('click', function (e) {
+        e.preventDefault();
+        $(this).parent().toggleClass('open');
+        $(this).parent().next().slideToggle();
+    });
 
 });

@@ -7,11 +7,11 @@
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <h1 class="page-title">Статьи</h1>
+            <h1 class="page-title">Отзывы</h1>
             <div class="row">
                 <div class="col-12 d-flex-lg">
                     <div class="left-block">
-                        <div class="left-block__mob-title"><a href="#" role="button">Список статей</a></div>
+                        <div class="left-block__mob-title"><a href="#" role="button">Список</a></div>
                         <ul class="left-sidebar">
                             <li class="left-sidebar__item"><a href="#">Водоснабжение</a></li>
                             <li class="left-sidebar__item has-child">
@@ -57,7 +57,9 @@
                                     </a>
                                 </div>
                                 <div class="media-body">
-                                    <time class="media-body__time" datetime="27.08.2017">27.08.2017</time>
+                                    <p class="media-body__time">
+                                        <time datetime="27.08.2017">27.08.2017</time> <span class="media-body__time--user">Иван Стругацкий</span>
+                                    </p>
                                     <p class="media-body__title"><a href="#">Правильный выбор насоса для садового участка:
                                             мнение профессионалов и опыт дачников</a></p>
                                     <p class="media-body__text">Возможен ли сколь-нибудь простой расчет расхода воды по диаметру
@@ -73,7 +75,9 @@
                                     </a>
                                 </div>
                                 <div class="media-body">
-                                    <time class="media-body__time" datetime="27.08.2017">27.08.2017</time>
+                                    <p class="media-body__time">
+                                        <time datetime="27.08.2017">27.08.2017</time> <span class="media-body__time--user">Людмила</span>
+                                    </p>
                                     <p class="media-body__title"><a href="#">Правильный выбор насоса для садового участка:
                                             мнение профессионалов и опыт дачников</a></p>
                                     <p class="media-body__text">Возможен ли сколь-нибудь простой расчет расхода воды по диаметру
@@ -84,7 +88,9 @@
                             </li>
                             <li class="media">
                                 <div class="media-body">
-                                    <time class="media-body__time" datetime="27.08.2017">27.08.2017</time>
+                                    <p class="media-body__time">
+                                        <time datetime="27.08.2017">27.08.2017</time> <span class="media-body__time--user">Иван</span>
+                                    </p>
                                     <p class="media-body__title"><a href="#">Правильный выбор насоса для садового участка:
                                             мнение профессионалов и опыт дачников</a></p>
                                     <p class="media-body__text">Возможен ли сколь-нибудь простой расчет расхода воды по диаметру
@@ -100,7 +106,9 @@
                                     </a>
                                 </div>
                                 <div class="media-body">
-                                    <time class="media-body__time" datetime="27.08.2017">27.08.2017</time>
+                                    <p class="media-body__time">
+                                        <time datetime="27.08.2017">27.08.2017</time> <span class="media-body__time--user">Илья Наумов</span>
+                                    </p>
                                     <p class="media-body__title"><a href="#">Правильный выбор насоса для садового участка:
                                             мнение профессионалов и опыт дачников</a></p>
                                     <p class="media-body__text">Возможен ли сколь-нибудь простой расчет расхода воды по диаметру
