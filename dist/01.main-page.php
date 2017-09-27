@@ -195,22 +195,25 @@
     <div class="row">
         <div class="col-xl-10 col-lg-12 offset-xl-1 offset-lg-0">
             <div class="row">
-                <div class="col-xl-6 col-lg-12">
-                    <p class="title-light">Просмотренные товары</p>
-                    <div class="two-item-slider">
-                        <div>
+
+<!--                либо два слайдера, либо блок вместо них -->
+
+                <div class="col-xl-9 col-md-12">
+                    <p class="title-light">Рекомендуем</p>
+                    <div class="row">
+                        <div class="col-sm-4">
                             <div class="goods-combo">
                                 <?php include "parts/goods.php" ?>
                                 <?php include "parts/small-goods.php" ?>
                             </div>
                         </div>
-                        <div>
+                        <div class="col-sm-4">
                             <div class="goods-combo">
                                 <?php include "parts/goods.php" ?>
                                 <?php include "parts/small-goods.php" ?>
                             </div>
                         </div>
-                        <div>
+                        <div class="col-sm-4">
                             <div class="goods-combo">
                                 <?php include "parts/goods.php" ?>
                                 <?php include "parts/small-goods.php" ?>
@@ -218,61 +221,83 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-12">
-                    <div class="row">
-                        <div class="col-xl-6 col-sm-12">
-                            <p class="title-light">Рекомендуем</p>
-                            <div class="one-item-slider">
-                                <div>
-                                    <div class="goods-combo">
-                                        <?php include "parts/goods.php" ?>
-                                        <?php include "parts/small-goods.php" ?>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="goods-combo">
-                                        <?php include "parts/goods.php" ?>
-                                        <?php include "parts/small-goods.php" ?>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="goods-combo">
-                                        <?php include "parts/goods.php" ?>
-                                        <?php include "parts/small-goods.php" ?>
-                                    </div>
-                                </div>
+
+
+<!--                <div class="col-xl-6 col-lg-12">-->
+<!--                    <p class="title-light">Просмотренные товары</p>-->
+<!--                    <div class="two-item-slider">-->
+<!--                        <div>-->
+<!--                            <div class="goods-combo">-->
+<!--                                --><?php //include "parts/goods.php" ?>
+<!--                                --><?php //include "parts/small-goods.php" ?>
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div>-->
+<!--                            <div class="goods-combo">-->
+<!--                                --><?php //include "parts/goods.php" ?>
+<!--                                --><?php //include "parts/small-goods.php" ?>
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div>-->
+<!--                            <div class="goods-combo">-->
+<!--                                --><?php //include "parts/goods.php" ?>
+<!--                                --><?php //include "parts/small-goods.php" ?>
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-xl-3 col-md-12">-->
+<!--                    <p class="title-light">Рекомендуем</p>-->
+<!--                    <div class="one-item-slider">-->
+<!--                        <div>-->
+<!--                            <div class="goods-combo">-->
+<!--                                --><?php //include "parts/goods.php" ?>
+<!--                                --><?php //include "parts/small-goods.php" ?>
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div>-->
+<!--                            <div class="goods-combo">-->
+<!--                                --><?php //include "parts/goods.php" ?>
+<!--                                --><?php //include "parts/small-goods.php" ?>
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div>-->
+<!--                            <div class="goods-combo">-->
+<!--                                --><?php //include "parts/goods.php" ?>
+<!--                                --><?php //include "parts/small-goods.php" ?>
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+
+                <div class="col-xl-3 col-md-12">
+                    <p class="title-light">Распродажа</p>
+                    <div class="one-item-slider">
+                        <div>
+                            <div class="goods-combo-small">
+                                <?php include "parts/small-goods.php" ?>
+                                <?php include "parts/small-goods.php" ?>
+                                <?php include "parts/small-goods.php" ?>
+                                <?php include "parts/small-goods.php" ?>
+                                <?php include "parts/small-goods.php" ?>
                             </div>
                         </div>
-                        <div class="col-xl-6 col-sm-12">
-                            <p class="title-light">Распродажа</p>
-                            <div class="one-item-slider">
-                                <div>
-                                    <div class="goods-combo-small">
-                                        <?php include "parts/small-goods.php" ?>
-                                        <?php include "parts/small-goods.php" ?>
-                                        <?php include "parts/small-goods.php" ?>
-                                        <?php include "parts/small-goods.php" ?>
-                                        <?php include "parts/small-goods.php" ?>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="goods-combo-small">
-                                        <?php include "parts/small-goods.php" ?>
-                                        <?php include "parts/small-goods.php" ?>
-                                        <?php include "parts/small-goods.php" ?>
-                                        <?php include "parts/small-goods.php" ?>
-                                        <?php include "parts/small-goods.php" ?>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="goods-combo-small">
-                                        <?php include "parts/small-goods.php" ?>
-                                        <?php include "parts/small-goods.php" ?>
-                                        <?php include "parts/small-goods.php" ?>
-                                        <?php include "parts/small-goods.php" ?>
-                                        <?php include "parts/small-goods.php" ?>
-                                    </div>
-                                </div>
+                        <div>
+                            <div class="goods-combo-small">
+                                <?php include "parts/small-goods.php" ?>
+                                <?php include "parts/small-goods.php" ?>
+                                <?php include "parts/small-goods.php" ?>
+                                <?php include "parts/small-goods.php" ?>
+                                <?php include "parts/small-goods.php" ?>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="goods-combo-small">
+                                <?php include "parts/small-goods.php" ?>
+                                <?php include "parts/small-goods.php" ?>
+                                <?php include "parts/small-goods.php" ?>
+                                <?php include "parts/small-goods.php" ?>
+                                <?php include "parts/small-goods.php" ?>
                             </div>
                         </div>
                     </div>
@@ -865,7 +890,7 @@
                 <p><a href="mailto:apc-company@mail.ru" class="text-gray">apc-company@mail.ru</a></p>
 
                 <p class="main-contacts__title">Телефон</p>
-                <p><a href="tel:0800302828">0 800 30 28 28</a></p>
+                <p><a href="tel:0800302828" class="text-gray">0 800 30 28 28</a></p>
 
                 <p class="main-contacts__title">Адрес</p>
                 <p class="text-gray">Украина <br>
@@ -877,7 +902,7 @@
                 <p><a href="mailto:apc-company@mail.ru" class="text-gray">apc-company@mail.ru</a></p>
 
                 <p class="main-contacts__title">Телефон</p>
-                <p><a href="tel:0800302828">0 800 30 28 28</a></p>
+                <p><a href="tel:0800302828" class="text-gray">0 800 30 28 28</a></p>
 
                 <p class="main-contacts__title">Адрес</p>
                 <p class="text-gray">Украина <br>
@@ -889,7 +914,7 @@
                 <p><a href="mailto:apc-company@mail.ru" class="text-gray">apc-company@mail.ru</a></p>
 
                 <p class="main-contacts__title">Телефон</p>
-                <p><a href="tel:0800302828">0 800 30 28 28</a></p>
+                <p><a href="tel:0800302828" class="text-gray">0 800 30 28 28</a></p>
 
 
             </div>

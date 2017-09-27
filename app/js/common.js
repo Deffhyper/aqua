@@ -392,7 +392,7 @@ $(function() {
     $('.video-modal-launcher').on('click', function () {
         var videoAddress = $(this).data('address');
         $("#iframeYoutube").attr("src","https://www.youtube.com/embed/"+videoAddress);
-    })
+    });
 
     
     ////////////////////////////////////////////// left sidebar ///////////////////////////////////////
@@ -401,7 +401,7 @@ $(function() {
         e.preventDefault();
         $(this).parent().toggleClass('active');
         $(this).next('.left-sidebar-second').slideToggle();
-    })
+    });
 
 
     ///////////////////////////////////////// left sidebar tablet /////////////////////////////////

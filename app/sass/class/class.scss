@@ -13,6 +13,10 @@
   }
 }
 
+.gray-border {
+  border: 14px solid #f0f0f0;
+}
+
 .btn {
   display: inline-block;
   border: 0;
@@ -80,6 +84,14 @@ mark {
   font-family: $proxima-light;
   font-size: 24px;
 }
+
+.title-sm-light {
+  color: #343434;
+  font-family: $proxima-light;
+  font-size: 20px;
+}
+
+
 
 .section-subtitle {
   font-size: 13px;
@@ -722,6 +734,11 @@ mark {
   height: 455px;
   position: relative;
   z-index: 1;
+
+  &.height-auto {
+    height: auto;
+  }
+
   &.slider-hover {
     .slick-list {
       height: 720px;

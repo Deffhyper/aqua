@@ -26,7 +26,7 @@
                                 <span>Рубрика: водоснабжение</span>
                             </p>
                             <p class="media-body__category">
-                                <span>Рубрика: водоснабжение</span>
+                                <span>Подрубрика: Дренажные насосы </span>
                             </p>
                         </div>
                     </div>
