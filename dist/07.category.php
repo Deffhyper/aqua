@@ -11,45 +11,10 @@
             <div class="row">
                 <div class="col-12 d-flex-lg">
                     <div class="left-block">
-                        <div class="left-block__mob-title"><a href="#" role="button">Список</a></div>
-                        <ul class="left-sidebar">
-                            <li class="left-sidebar__item"><a href="#">Водоснабжение</a></li>
-                            <li class="left-sidebar__item has-child">
-                                <a href="#">Водоотведение</a>
-                                <ul class="left-sidebar-second">
-                                    <li class="left-sidebar-second__item"><a href="#">Дренажные насосы</a></li>
-                                    <li class="left-sidebar-second__item"><a href="#">Фекальные насосы</a></li>
-                                    <li class="left-sidebar-second__item"><a href="#">Комплектующие</a></li>
-                                </ul>
-                            </li>
-                            <li class="left-sidebar__item has-child">
-                                <a href="#">Трубопроводы и арматура</a>
-                                <ul class="left-sidebar-second">
-                                    <li class="left-sidebar-second__item"><a href="#">Дренажные насосы</a></li>
-                                    <li class="left-sidebar-second__item"><a href="#">Фекальные насосы</a></li>
-                                    <li class="left-sidebar-second__item"><a href="#">Комплектующие</a></li>
-                                </ul>
-                            </li>
-                            <li class="left-sidebar__item has-child">
-                                <a href="#">Отопление</a>
-                                <ul class="left-sidebar-second">
-                                    <li class="left-sidebar-second__item"><a href="#">Дренажные насосы</a></li>
-                                    <li class="left-sidebar-second__item"><a href="#">Фекальные насосы</a></li>
-                                    <li class="left-sidebar-second__item"><a href="#">Комплектующие</a></li>
-                                </ul>
-                            </li>
-                            <li class="left-sidebar__item has-child">
-                                <a href="#">Фильтрация</a>
-                                <ul class="left-sidebar-second">
-                                    <li class="left-sidebar-second__item"><a href="#">Дренажные насосы</a></li>
-                                    <li class="left-sidebar-second__item"><a href="#">Фекальные насосы</a></li>
-                                    <li class="left-sidebar-second__item"><a href="#">Комплектующие</a></li>
-                                </ul>
-                            </li>
-                        </ul>
+                        <?php include_once "parts/left-sidebar.php" ?>
                     </div>
                     <div class="right-block">
-                        <div class="category-block">
+                        <div class="category-block mt-minus-top">
                             <h2 class="category-block__title">Водоотведение</h2>
                             <ul class="category-block__list list-inline">
                                 <li class="category-block__list--item">

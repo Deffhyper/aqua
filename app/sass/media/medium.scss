@@ -1,5 +1,9 @@
 @media ($tablet) {
 
+  body:before {
+    height: 50px;
+  }
+
   a {
     transition: none !important;
   }
@@ -177,14 +181,14 @@
     padding: 25px 40px 40px;
   }
 
-  .category-block {
-    margin-top: 0;
-  }
-
   .category-block__title {
     font-size: 20px;
     margin-bottom: 20px;
   }
+
+  ///////////////////////////////////// catalog ///////////////////////////////
+
+
 
 
 

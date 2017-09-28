@@ -324,7 +324,8 @@ $(function() {
         ]
     });
 
-    $('.one-item-slider-2').slick({dots: true,
+    $('.one-item-slider-2').slick({
+        dots: true,
         infinite: true,
         arrows: false,
         slidesToShow: 1,
@@ -345,6 +346,16 @@ $(function() {
                 }
             }
         ]
+    });
+
+
+    $('.catalog-list-slider').slick({
+        dots: true,
+        infinite: false,
+        arrows: false,
+        slidesToShow: 1,
+        slidesToScroll: 1
+
     });
 
     $('.two-item-slider .goods-combo, .one-item-slider .goods-combo-small, .one-item-slider .goods-combo, .related-product__slider .goods-combo').hover(function () {
@@ -434,5 +445,25 @@ $(function() {
         $(this).parent().toggleClass('open');
         $(this).parent().next().slideToggle();
     });
+
+
+
+    /////////////////////////////////////////////////////// filter /////////////////////////
+
+    $(document).on('click', '.filter-item__limit-open', function (event) {
+        event.preventDefault();
+        if(!$(this).hasClass('open')){
+            $(this).addClass('open');
+            $(this).prev('ul').css('height', 'auto');
+        } else {
+            $(this).removeClass('open');
+            $(this).prev('ul').removeAttr('style');
+        }
+
+    })
+
+
+
+
 
 });

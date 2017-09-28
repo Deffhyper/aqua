@@ -4,6 +4,7 @@
 
 <?php include_once "parts/breadcrumbs.php" ?>
 
+
 <div class="container">
     <div class="row">
         <div class="col-12">
@@ -12,42 +13,119 @@
                 <div class="col-12 d-flex-lg">
                     <div class="left-block">
                         <?php include_once "parts/left-sidebar.php" ?>
+                        <?php include_once "parts/filter.php" ?>
+
                     </div>
                     <div class="right-block">
-                        <div class="category-block mt-minus-top">
-                            <h2 class="category-block__title">Водоотведение</h2>
-                            <ul class="category-block__list list-inline">
-                                <li class="category-block__list--item">
-                                    <a href="#" class="category">
-                                        <span class="category__image gray-border">
-                                            <img src="img/jpeg_files/cat-1.jpg" alt="category" width="79" height="156">
+                       <div class="catalog mt-minus-top">
+                           <h2 class="catalog-title">Фекальные насосы</h2>
+                           <div class="catalog-ctrl">
+                                <div class="row">
+                                    <div class="col-md-3 col-sm-12">
+                                        <span class="catalog-ctrl__label">Сортировка: </span>
+                                        <div class="catalog-ctrl__dropdown dropdown">
+                                            <a href="#" class="dropdown-toggle" role="button" id="sort-price"
+                                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span class="hidden-sm-down">цена</span>
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="sort-price">
+                                                <li><a href="#">по популярности</a></li>
+                                                <li><a href="#">по популярности</a></li>
+                                                <li><a href="#">по популярности</a></li>
+                                                <li><a href="#">по популярности</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-12">
+                                        <span class="catalog-ctrl__label">Показывать по:</span>
+                                        <div class="catalog-ctrl__dropdown dropdown">
+                                            <a href="#" class="dropdown-toggle" role="button" id="sort-count"
+                                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span class="hidden-sm-down">16</span>
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="sort-count">
+                                                <li><a href="#">32</a></li>
+                                                <li><a href="#">48</a></li>
+                                                <li><a href="#">64</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-12 text-lg-center">
+                                        <span class="catalog-ctrl__label">Вид:</span>
+                                        <span class="catalog-ctrl__orient">
+                                            <a href="#" class="catalog-ctrl__orient--vertical active">
+                                                <span></span><span></span><span></span><span></span>
+                                            </a>
+                                            <a href="#" class="catalog-ctrl__orient--horizontal">
+                                                <span></span><span></span>
+                                            </a>
                                         </span>
-                                        <span class="category__link">
-                                            <span class="link-arrow"><span>Дренажные насосы</span></span>
-                                        </span>
-                                    </a>
-                                </li>
-                                <li class="category-block__list--item">
-                                    <a href="#" class="category">
-                                        <span class="category__image gray-border">
-                                            <img src="img/jpeg_files/cat-2.jpg" alt="category" width="79" height="156">
-                                        </span>
-                                        <span class="category__link">
-                                            <span class="link-arrow"><span>Фекальные насосы</span></span>
-                                        </span>
-                                    </a>
-                                </li>
-                                <li class="category-block__list--item">
-                                    <a href="#" class="category">
-                                        <span class="category__image gray-border">
-                                            <img src="img/jpeg_files/cat-3.jpg" alt="category" width="79" height="156">
-                                        </span>
-                                        <span class="category__link">
-                                            <span class="link-arrow"><span>Комплектующие</span></span>
-                                        </span>
-                                    </a>
-                                </li>
-                            </ul>
+                                    </div>
+                                    <div class="col-md-3 col-sm-12 text-lg-right">
+                                        <span class="catalog-ctrl__label">К сравнению: </span>
+                                        <a href="#" class="catalog-ctrl__compare"><span>4 товара</span></a>
+                                    </div>
+                                </div>
+                           </div>
+                       </div>
+
+                        <div class="catalog-list row">
+                            <div class="col-xl-3">
+                                <?php include "parts/goods.php" ?>
+                            </div>
+                            <div class="col-xl-3">
+                                <?php include "parts/goods.php" ?>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="catalog-list-slider">
+                                    <div>
+                                        <a href="#" class="catalog-list-slider__item" style="background: url('img/jpeg_files/catalog-banner.jpg') no-repeat center/cover">
+                                            <span class="catalog-list-slider__item--subtitle">Специальное предложение</span>
+                                            <span class="catalog-list-slider__item--title">Сделаем бесплатно анализ воды</span>
+                                            <span class="catalog-list-slider__item--link link-arrow white"><span>подробнее</span></span>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="catalog-list-slider__item" style="background: url('img/jpeg_files/catalog-banner.jpg') no-repeat center/cover">
+                                            <span class="catalog-list-slider__item--subtitle">Специальное предложение</span>
+                                            <span class="catalog-list-slider__item--title">Сделаем бесплатно анализ воды</span>
+                                            <span class="catalog-list-slider__item--link link-arrow white"><span>подробнее</span></span>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="catalog-list-slider__item" style="background: url('img/jpeg_files/catalog-banner.jpg') no-repeat center/cover">
+                                            <span class="catalog-list-slider__item--subtitle">Специальное предложение</span>
+                                            <span class="catalog-list-slider__item--title">Сделаем бесплатно анализ воды</span>
+                                            <span class="catalog-list-slider__item--link link-arrow white"><span>подробнее</span></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <?php include "parts/goods.php" ?>
+                            </div>
+                            <div class="col-xl-3">
+                                <?php include "parts/goods.php" ?>
+                            </div>
+                            <div class="col-xl-3">
+                                <?php include "parts/goods.php" ?>
+                            </div>
+                            <div class="col-xl-3">
+                                <?php include "parts/goods.php" ?>
+                            </div>
+                            <div class="col-xl-3">
+                                <?php include "parts/goods.php" ?>
+                            </div>
+                            <div class="col-xl-3">
+                                <?php include "parts/goods.php" ?>
+                            </div>
+                            <div class="col-xl-3">
+                                <?php include "parts/goods.php" ?>
+                            </div>
+                            <div class="col-xl-3">
+                                <?php include "parts/goods.php" ?>
+                            </div>
+
                         </div>
 
                         <div class="three-items-block row">

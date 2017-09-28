@@ -19,7 +19,7 @@ body.before-white:before {
   right: 0;
   top: 0;
   width: 100%;
-  z-index: 10;
+  z-index: 30;
   transition: .3s ease;
 
   &.header--white {
@@ -118,90 +118,14 @@ body.before-white:before {
   display: inline-block;
   vertical-align: middle;
 
-  .dropdown {
-    margin-right: 20px;
-  }
 
-  .dropdown.show .dropdown-toggle:after {
-    transform: rotateZ(-45deg);
-    border-color: #fff;
-    top: 8px;
-  }
-  .dropdown.show .dropdown-toggle:before {
-    background-color: #ff7038;
-  }
-  .dropdown-toggle {
-    font-family: $font-bold;
-    font-size: 16px;
-    &:hover {
-      &:before {
-        background-color: rgba(0, 0, 0, 0.25);
-      }
-      &:after {
-        border-color: #d5d5d5;
-      }
-
-    }
-    &:before {
-      content: '';
-      display: block;
-      width: 13px;
-      height: 13px;
-      border-radius: 50%;
-      position: absolute;
-      top: 3px;
-      right: -18px;
-      background-color: transparent;
-      transition: .3s ease;
-    }
-    &:after {
-      display: inline-block;
-      content: "";
-      height: 6px;
-      width: 6px;
-      border-top: 2px solid $text-color;
-      border-right: 2px solid $text-color;
-      border-left: 0;
-      transform: rotateZ(135deg);
-      position: absolute;
-      top: 6px;
-      right: -15px;
-      transition: .3s ease;
-    }
-  }
   .dropdown-menu {
-    left: inherit;
-    right: -32px;
-    top: 30px;
-    min-width: inherit;
-    border-radius: 2px;
-    padding: 10px 0;
-    margin: 0;
-    color: #fff;
-    text-align: center;
-    border: 0;
-    box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.25);
     background-color: #064579;
-    &:after {
-      content: '';
-      width: 0;
-      height: 0;
-      border-left: 10px solid transparent;
-      border-right: 10px solid transparent;
-      border-bottom: 14px solid #064579;
-      position: absolute;
-      top: -7px;
-      right: 10px;
-    }
     li {
 
       a {
         font-family: $font-bold;
         font-size: 14px;
-        padding: 6px 30px;
-        display: block;
-        white-space: nowrap;
-        transition: .3s ease;
 
         .link {
           border-color: #fff;
@@ -278,8 +202,7 @@ body.before-white:before {
 
   &:hover {
     .header-cart__message {
-      z-index: 2;
-      opacity: 1;
+     display: block;
     }
     .header-cart-icon {
       background-color: #d3d3d3;
@@ -309,9 +232,7 @@ body.before-white:before {
     color: #fff;
     border-radius: 2px;
     padding: 6px 11px;
-    z-index: -1;
-    opacity: 0;
-    transition: opacity .3s ease;
+    display: none;
     &:after {
       content: '';
       width: 0;
