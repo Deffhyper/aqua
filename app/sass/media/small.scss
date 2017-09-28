@@ -48,15 +48,8 @@
     font-size: 30px;
   }
 
-  .goods-combo .goods-wrapper {
-    margin-left: auto;
-    margin-right: auto;
-  }
 
-  .small-goods-wrapper {
-    margin-left: auto;
-    margin-right: auto;
-  }
+
 
   .main-news-item__left {
     width: 100%;
@@ -250,6 +243,21 @@
         line-height: 3;
       }
     }
+  }
+
+  .category__image {
+    height: 140px;
+    width: 140px;
+    position: relative;
+    margin-bottom: 17px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .category-block__list--item {
+    width: 50%;
+    margin-right: 0 !important;
+    text-align: center;
   }
 
 

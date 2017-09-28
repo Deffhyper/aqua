@@ -303,7 +303,7 @@ $(function() {
             {
                 breakpoint: 1279,
                 settings: {
-                    slidesToShow: 4,
+                    slidesToShow: 3,
                     slidesToScroll: 1
                 }
             },
@@ -311,6 +311,29 @@ $(function() {
                 breakpoint: 991,
                 settings: {
                     slidesToShow: 3,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 766,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+
+    $('.one-item-slider-2').slick({dots: true,
+        infinite: true,
+        arrows: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1279,
+                settings: {
+                    slidesToShow: 2,
                     slidesToScroll: 1
                 }
             },

@@ -201,19 +201,19 @@
                 <div class="col-xl-9 col-md-12">
                     <p class="title-light">Рекомендуем</p>
                     <div class="row">
-                        <div class="col-sm-4">
+                        <div class="col-lg-4 col-sm-12">
                             <div class="goods-combo">
                                 <?php include "parts/goods.php" ?>
                                 <?php include "parts/small-goods.php" ?>
                             </div>
                         </div>
-                        <div class="col-sm-4">
+                        <div class="col-lg-4 col-sm-12">
                             <div class="goods-combo">
                                 <?php include "parts/goods.php" ?>
                                 <?php include "parts/small-goods.php" ?>
                             </div>
                         </div>
-                        <div class="col-sm-4">
+                        <div class="col-lg-4 col-sm-12">
                             <div class="goods-combo">
                                 <?php include "parts/goods.php" ?>
                                 <?php include "parts/small-goods.php" ?>

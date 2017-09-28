@@ -111,10 +111,12 @@
                             <div class="col-xl-4 col-md-12">
                                 <div class="padding-lg-block block-yellow-bg">
                                     <p class="title-md">регистрация</p>
-                                    <p class="block-yellow-bg__text">Получите <br> больше преимуществ и специальные условия</p>
+                                    <p class="block-yellow-bg__text">Получите <br> больше преимуществ и специальные
+                                        условия</p>
                                     <div class="form-registration">
                                         <form action="#">
-                                            <input type="text" class="tel-input form-registration__input" placeholder="(_ _ _) _ _ _ - _ _ - _ _">
+                                            <input type="text" class="tel-input form-registration__input"
+                                                   placeholder="(_ _ _) _ _ _ - _ _ - _ _">
                                             <input type="submit" class="form-registration__button" value="регистрация">
                                         </form>
                                     </div>
@@ -126,43 +128,115 @@
 
                         </div>
 
-                        <div class="three-items-block row">
+                        <div class="row">
                             <div class="col-xl-4">
-                                <div class="one-item-slider height-auto">
+                                <div class="one-item-slider-2 height-auto">
                                     <div>
-                                        <img src="img/jpeg_files/art-sm.jpg" alt="">
+                                        <div class="article-slide gray-border">
+                                            <p class="section-subtitle">Статьи</p>
+                                            <a href="#" class="article-slide__title">Расход воды через трубу:
+                                                возможен ли простой расчет?
+                                            </a>
+                                            <p class="article-slide__text">Возможен ли сколь-нибудь простой расчет
+                                                расхода воды по диаметру трубы? Или единственный способ — обращаться к
+                                                специалистам ...</p>
+                                            <a href="#" class="article-slide__link link-arrow"><span>читать далее</span></a>
+                                        </div>
                                     </div>
                                     <div>
-                                        <img src="img/jpeg_files/art-sm.jpg" alt="">
+                                        <div class="article-slide gray-border">
+                                            <p class="section-subtitle">Статьи</p>
+                                            <a href="#" class="article-slide__title">Расход воды через трубу:
+                                                возможен ли простой расчет?
+                                            </a>
+                                            <p class="article-slide__text">Возможен ли сколь-нибудь простой расчет
+                                                расхода воды по диаметру трубы? Или единственный способ — обращаться к
+                                                специалистам ...</p>
+                                            <a href="#" class="article-slide__link link-arrow"><span>читать далее</span></a>
+                                        </div>
                                     </div>
                                     <div>
-                                        <img src="img/jpeg_files/art-sm.jpg" alt="">
+                                        <div class="article-slide gray-border">
+                                            <p class="section-subtitle">Статьи</p>
+                                            <a href="#" class="article-slide__title">Расход воды через трубу:
+                                                возможен ли простой расчет?
+                                            </a>
+                                            <p class="article-slide__text">Возможен ли сколь-нибудь простой расчет
+                                                расхода воды по диаметру трубы? Или единственный способ — обращаться к
+                                                специалистам ...</p>
+                                            <a href="#" class="article-slide__link link-arrow"><span>читать далее</span></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-4">
-                                <div class="one-item-slider height-auto">
+                                <div class="one-item-slider-2 height-auto">
                                     <div>
-                                        <img src="img/jpeg_files/art-sm-2.jpg" alt="">
+                                        <div class="article-slide article-slide--bg" style="background: url('img/jpeg_files/art-sm-2.jpg') no-repeat center / cover">
+                                            <p class="section-subtitle">Выполненные работы</p>
+                                            <a href="#" class="article-slide__title">Расход воды через трубу:
+                                                возможен ли простой расчет?
+                                            </a>
+
+                                            <a href="#" class="article-slide__link link-arrow"><span>читать далее</span></a>
+                                        </div>
                                     </div>
                                     <div>
-                                        <img src="img/jpeg_files/art-sm-2.jpg" alt="">
+                                        <div class="article-slide article-slide--bg" style="background: url('img/jpeg_files/art-sm-2.jpg') no-repeat center / cover">
+                                            <p class="section-subtitle">Выполненные работы</p>
+                                            <a href="#" class="article-slide__title">Расход воды через трубу:
+                                                возможен ли простой расчет?
+                                            </a>
+
+                                            <a href="#" class="article-slide__link link-arrow"><span>читать далее</span></a>
+                                        </div>
                                     </div>
                                     <div>
-                                        <img src="img/jpeg_files/art-sm-2.jpg" alt="">
+                                        <div class="article-slide article-slide--bg" style="background: url('img/jpeg_files/art-sm-2.jpg') no-repeat center / cover">
+                                            <p class="section-subtitle">Выполненные работы</p>
+                                            <a href="#" class="article-slide__title">Расход воды через трубу:
+                                                возможен ли простой расчет?
+                                            </a>
+
+                                            <a href="#" class="article-slide__link link-arrow"><span>читать далее</span></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-4">
-                                <div class="one-item-slider height-auto">
+                                <div class="one-item-slider-2 height-auto">
                                     <div>
-                                        <img src="img/jpeg_files/art-sm-3.jpg" alt="">
+                                        <a href="#" class="article-slide  article-slide--bg article-slide--video" style="background: url('img/jpeg_files/art-sm-3.jpg') no-repeat center / cover">
+                                            <span class="section-subtitle">Видео</span>
+                                            <span class="article-slide__play">
+                                                <object data="img/svg/play.svg" type="image/svg+xml" width="57" height="57"></object>
+                                            </span>
+                                            <span class="article-slide__title">Расход воды через трубу:
+                                                возможен ли простой расчет?
+                                            </span>
+                                        </a>
                                     </div>
                                     <div>
-                                        <img src="img/jpeg_files/art-sm-3.jpg" alt="">
+                                        <a href="#" class="article-slide  article-slide--bg article-slide--video" style="background: url('img/jpeg_files/art-sm-3.jpg') no-repeat center / cover">
+                                            <span class="section-subtitle">Видео</span>
+                                            <span class="article-slide__play">
+                                                <object data="img/svg/play.svg" type="image/svg+xml" width="57" height="57"></object>
+                                            </span>
+                                            <span class="article-slide__title">Расход воды через трубу:
+                                                возможен ли простой расчет?
+                                            </span>
+                                        </a>
                                     </div>
                                     <div>
-                                        <img src="img/jpeg_files/art-sm-3.jpg" alt="">
+                                        <a href="#" class="article-slide  article-slide--bg article-slide--video" style="background: url('img/jpeg_files/art-sm-3.jpg') no-repeat center / cover">
+                                            <span class="section-subtitle">Видео</span>
+                                            <span class="article-slide__play">
+                                                <object data="img/svg/play.svg" type="image/svg+xml" width="57" height="57"></object>
+                                            </span>
+                                            <span class="article-slide__title">Расход воды через трубу:
+                                                возможен ли простой расчет?
+                                            </span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -172,8 +246,10 @@
                             <div class="text-block mb-7">
                                 <h3>Общая классификация насосов</h3>
                                 <p>Насос это гидравлическая машина, используемая для откачки, транспортировки, подачи и
-                                    обеспечения циркуляции в замкнутом пространстве различных жидких сред, в том числе жидкостей
-                                    с некоторым содержанием паров, газов и твердых частиц, а также для передачи через жидкость
+                                    обеспечения циркуляции в замкнутом пространстве различных жидких сред, в том числе
+                                    жидкостей
+                                    с некоторым содержанием паров, газов и твердых частиц, а также для передачи через
+                                    жидкость
                                     механической энергии в качестве привода к каким-либо механизмам.</p>
                                 <ul>
                                     <li>по характеру движения рабочих органов;</li>
@@ -185,17 +261,23 @@
 
                                 <h3>Классификация двигателей к насосам</h3>
 
-                                <p>В качестве активаторов насосных установок широко применяются следующие виды двигателей:
-                                    тепловые, электрические, водяные, работающие от энергии ветра. Вид используемого двигателя и
-                                    способ, которым он соединяется с агрегатом, зависит от следующих факторов: вид насосной
-                                    установки, тип энергии на которой работает насос и необходимая мощность. Помимо этого, при
+                                <p>В качестве активаторов насосных установок широко применяются следующие виды
+                                    двигателей:
+                                    тепловые, электрические, водяные, работающие от энергии ветра. Вид используемого
+                                    двигателя и
+                                    способ, которым он соединяется с агрегатом, зависит от следующих факторов: вид
+                                    насосной
+                                    установки, тип энергии на которой работает насос и необходимая мощность. Помимо
+                                    этого, при
                                     выборе насоса учитывается экономическая составляющая.</p>
 
                                 <br>
 
-                                <p>В случае если доступна электрическая энергия, наиболее часто используется электромотор,
+                                <p>В случае если доступна электрическая энергия, наиболее часто используется
+                                    электромотор,
                                     особенно если установка частично или полностью автоматизирована. Если электроэнергия
-                                    недоступна или на местности имеется экономичное топливо, газовое или паровое хозяйство,
+                                    недоступна или на местности имеется экономичное топливо, газовое или паровое
+                                    хозяйство,
                                     широко применяется система турбин или соответствующих двигателей.</p>
                             </div>
                         </div>
@@ -206,8 +288,7 @@
     </div>
 
 
-
-<!--    --><?php //include_once "parts/contacts.php" ?>
+    <!--    --><?php //include_once "parts/contacts.php" ?>
     <?php include_once "parts/footer.php" ?>
 
     <script src="js/libs.min.js"></script>
