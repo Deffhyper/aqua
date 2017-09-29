@@ -260,6 +260,52 @@
     text-align: center;
   }
 
+  ///////////////////////////////////// catalog //////////////////////////////
+  .catalog-list-slider__item {
+    padding: 45px 25px 16px;
+  }
+
+  .catalog-list.catalog-list--horizontal .catalog-list-slider__item {
+    height: 315px;
+    position: relative;
+    padding: 45px 25px 16px;
+  }
+
+  .catalog-list.catalog-list--horizontal .catalog-list-slider__item--subtitle {
+    width: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: left;
+    transform: rotateZ(0deg) translate(0, 0);
+  }
+
+  .catalog-list.catalog-list--horizontal .catalog-list-slider__item--title {
+    height: 105px;
+    margin-bottom: 34px;
+  }
+
+  .catalog-list.catalog-list--horizontal .catalog-list-slider .slick-dots {
+    position: absolute;
+    bottom: 35px;
+    right: 25px;
+  }
+
+  .catalog-list.catalog-list--horizontal {
+    padding-top: 330px;
+  }
+
+  .catalog-list.catalog-list--horizontal .catalog-list-slider__item--link {
+    top: 0;
+    right: 0;
+    position: relative;
+  }
+
+  .catalog-list.catalog-list--horizontal .goods-horizontal {
+    margin-bottom: 25px;
+  }
+
+
 
 
 

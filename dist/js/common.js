@@ -459,9 +459,61 @@ $(function() {
             $(this).removeClass('open');
             $(this).prev('ul').removeAttr('style');
         }
+    });
 
-    })
+    $(document).on('click', '.filter__mob-title', function (event) {
+        event.preventDefault();
+        if(!$(this).hasClass('open')){
+            $(this).addClass('open');
+            $(this).next('.filter-wrapper').slideDown();
+        } else {
+            $(this).removeClass('open');
+            $(this).next('.filter-wrapper').slideUp();
+        }
+    });
 
+    $(document).on('click', '.catalog-ctrl__title--mob', function (event) {
+        event.preventDefault();
+        if(!$(this).hasClass('open')){
+            $(this).addClass('open');
+            $(this).next('.catalog-ctrl-wrapper').slideDown();
+        } else {
+            $(this).removeClass('open');
+            $(this).next('.catalog-ctrl-wrapper').slideUp();
+        }
+    });
+
+
+    ////////////////////////////////////////// range slider //////////////////////////////////////
+
+    $("#slider-range").slider({
+        range: true,
+        min: 0,
+        max: 3500,
+        values: [679, 2790],
+        slide: function (event, ui) {
+            $("#amount-max").val(ui.values[1]);
+            $("#amount-min").val(ui.values[0]);
+        }
+    });
+
+    $("#amount-max").val($("#slider-range").slider("values", 1));
+    $("#amount-min").val($("#slider-range").slider("values", 0));
+
+    $("#amount-max, #amount-min").on('blur', function(){
+        var aMax = $('#amount-max').val();
+        var aMin = $('#amount-min').val();
+        var absolutMin = Number($("#slider-range").slider("option", "min"));
+
+        if(aMin > aMax){
+            $("#slider-range").slider("values", [aMin, aMin]);
+            $("#amount-min").val(absolutMin);
+
+        } else {
+            $("#slider-range").slider("values", [aMin, aMax]);
+
+        }
+    });
 
 
 
