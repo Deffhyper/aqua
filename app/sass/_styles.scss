@@ -1002,30 +1002,154 @@
 }
 
 .compare-left-block {
-  flex: 0 0 18%;
-  max-width: 18%;
+  flex: 0 0 20%;
+  max-width: 20%;
+  padding-right: 20px;
+
+  &__ctrl {
+    height: 365px;
+    &--add {
+      margin-bottom: 20px;
+      display: block;
+    }
+    &--subtitle {
+      font-family: $proxima-bold;
+      font-size: 16px;
+      text-align: center;
+      max-width: 120px;
+      margin: 0 auto 40px;
+    }
+  }
+
+  &__property {
+    font-family: $proxima-bold;
+    font-size: 14px;
+    &--item {
+      margin-bottom: 24px;
+      line-height: 1.4;
+    }
+  }
+
+
 }
 
 .compare-right-block {
-  flex: 0 0 82%;
-  max-width: 82%;
+  flex: 0 0 80%;
+  max-width: 80%;
 }
 
 .compare-slider {
-  &__item {
 
+  .slick-arrow {
+    top: 260px;
+    &.slick-prev {
+      left: -170px;
+    }
+    &.slick-next {
+      left:-120px;
+    }
   }
-}
-
-.compare-ctrl {
   &__item {
-    &.title {
-      font-family:$proxima-light;
-      font-size: 24px;
+    max-width:210px;
+
+    .goods-link {
+      font-size: 18px;
+    }
+    .goods-property__list {
+      height: auto;
+      color: #707070;
+      text-align: left;
+      &--item {
+        font-size: 13px;
+      }
     }
   }
 }
 
+.compare-ctrl {
+  padding-top: 10px;
+  padding-left: 240px;
+
+  &__item {
+    font-family:$proxima-light;
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    vertical-align: middle;
+    a {
+      display: block;
+      padding: 10px 15px 5px;
+      background-color: #f0f0f0;
+      border-radius: 3px;
+    }
+
+    .close-btn {
+      border-radius: 50%;
+      background-color: #fff;
+      margin-bottom: 5px;
+      margin-left: 3px;
+    }
+    &.title {
+      font-size: 24px;
+      a {
+        padding: 0;
+        background: none;
+      }
+      .close-btn {
+        background-color: #f0f0f0;
+      }
+    }
+  }
+}
+
+.goods-compare {
+
+  .goods-image {
+    height: 210px;
+  }
+
+  .goods-link {
+    font-size: 18px;
+    height: 18px;
+    margin-bottom: 8px;
+  }
+
+  .goods-price {
+    margin-bottom: 35px;
+  }
+
+  .goods-property__list {
+    height: auto;
+    color: #707070;
+    text-align: left;
+    &--item {
+      font-size: 13px;
+      margin-bottom: 25px;
+      line-height: 1.4;
+    }
+  }
+
+  .goods-property {
+    border-bottom: 1px solid #c4c4c4;
+    padding-right: 20px;
+    margin-bottom: 10px;
+  }
+
+  .goods-property__ctrl {
+    display: block;
+    text-align: center;
+  }
+}
+
+.compare-close-button {
+  display: block;
+  height: 55px;
+  text-align: center;
+  .close-btn {
+    margin-top: 8px;
+  }
+}
 
 
 

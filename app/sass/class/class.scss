@@ -45,6 +45,18 @@
       }
     }
   }
+  &--green {
+    background-color: $green;
+    color: #fff;
+    .iconmoon {
+      display: inline-block;
+      margin-right: 5px;
+      margin-top: 1px;
+    }
+    &:hover {
+      background-color: $green-hover;
+    }
+  }
 }
 
 
@@ -362,6 +374,8 @@ mark {
   letter-spacing: .4px;
   margin-bottom: 5px;
   transition: .3s ease 0s;
+  height: 13px;
+  overflow: hidden;
 }
 
 .goods-price-current {
@@ -1100,13 +1114,15 @@ mark {
   width: 20px;
   height: 20px;
   position: relative;
+  display: inline-block;
+  vertical-align: middle;
 
   &:before, &:after {
     position: absolute;
     left: 9px;
-    top: 5px;
+    top: 4px;
     content: ' ';
-    height: 10px;
+    height: 13px;
     width: 2px;
     background-color: #333;
   }
@@ -1118,8 +1134,18 @@ mark {
     transform: rotate(-45deg);
   }
 
-  &--sm {
-
+  &.close-btn--sm {
+    width: 15px;
+    height: 15px;
+    &:before, &:after {
+      position: absolute;
+      left: 7px;
+      top: 3px;
+      content: ' ';
+      height: 9px;
+      width: 1px;
+      background-color: #333;
+    }
   }
 
 }

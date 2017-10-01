@@ -306,6 +306,52 @@
   }
 
 
+  .goods-compare .goods-image {
+    height: 160px;
+  }
+
+  .compare-left-block,
+  .compare-right-block {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 5px;
+  }
+
+  .compare-slider .slick-arrow.slick-next {
+    left: -85px;
+  }
+  .compare-slider .slick-arrow.slick-prev {
+    left: -130px;
+  }
+
+  .compare-ctrl__item.title {
+    font-size: 20px;
+  }
+
+  .compare-ctrl__item {
+    font-size: 13px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+
+  .compare-ctrl {
+    padding-bottom: 10px;
+  }
+
+  .pagination-left__link--label {
+    color: #707070;
+    margin-left: 0;
+    display: block;
+    margin-top: 10px;
+  }
+
+  .compare-left-block__ctrl--add {
+    text-align: center;
+  }
+
+  .compare-left-block__ctrl {
+    height: 320px;
+  }
 
 
 

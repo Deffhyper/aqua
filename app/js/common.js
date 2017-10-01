@@ -517,67 +517,99 @@ $(function() {
 
     ////////////////////////////////////////////// compare ///////////////////////////////////////////////
 
-    // var compareTrueWidth = 0;
-    // $('.compare-items__top').find('li').each(function () {
-    //     compareTrueWidth += parseInt($(this).innerWidth() / 1.66, 10);
-    // });
-    //
-    // $('.compare-items__top').css('width', compareTrueWidth);
-    // $('.compare-items__bottom').css('width', compareTrueWidth);
-    //
-    // $('.compare-items__wrapper').mCustomScrollbar({
-    //     theme: "dark",
-    //     horizontalScroll: true,
-    //     autoDraggerLength: true,
-    //     advanced: {updateOnContentResize: true, updateOnBrowserResize: true},
-    //     scrollButtons: {
-    //         enable: true
-    //     }
-    // });
-    //
-    // function fixHeightsCompareRows() {
-    //
-    //     var arrayOfHeights = [];
-    //     var arrayOfSecondHeights = [];
-    //     var concatArrays = [];
-    //
-    //     $('.compare-items__bottom > table > tbody').children().each(function () {
-    //         var i = $(this).first().height();
-    //         arrayOfHeights.push(i);
-    //     });
-    //
-    //     $('.compare-ctrl__bottom > table > tbody').children().each(function () {
-    //         var i = $(this).first().height();
-    //         arrayOfSecondHeights.push(i);
-    //     });
-    //
-    //
-    //     for (var i = 0; i < arrayOfHeights.length; i++) {
-    //         if (arrayOfHeights[i] > arrayOfSecondHeights[i]) {
-    //             concatArrays.push(arrayOfHeights[i]);
-    //         } else {
-    //             concatArrays.push(arrayOfSecondHeights[i]);
-    //         }
-    //     }
-    //
-    //     //console.log(arrayOfHeights);
-    //     //console.log(arrayOfSecondHeights);
-    //     //console.log(concatArrays);
-    //
-    //     if ($('.compare').length) {
-    //         for (var j = 0; j < concatArrays.length; j++) {
-    //             $('.compare-ctrl__bottom').find('table').find('tbody').children().eq(j).first('td').css('height', concatArrays[j]);
-    //             $('.compare-items__bottom').find('table').find('tbody').children().eq(j).first('td').css('height', concatArrays[j]);
-    //         }
-    //     }
-    //
-    // }
-    //
-    // fixHeightsCompareRows();
-    //
-    // $(window).resize(function () {
-    //     fixHeightsCompareRows();
-    // });
+    $('.compare-slider').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        dots: false,
+        centerMode: false,
+        arrows: true,
+        infinite: false,
+        responsive: [
+
+            {
+                breakpoint: 1279,
+                settings: {
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
+
+    function fixHeightsCompareRows() {
+
+        var arrayOfHeights = [];
+        var arrayOfSecondHeights = [];
+        var concatArrays = [];
+
+
+        $('.compare-left-block__property').children().each(function () {
+            var i = parseInt($(this).height());
+            arrayOfHeights.push(i);
+        });
+
+        $('.compare-slider__item').each(function () {
+            var item = [];
+            $(this).find('.goods-property__list').children().each(function () {
+                var i = parseInt($(this).height());
+                item.push(i);
+            });
+            arrayOfSecondHeights.push(item);
+        });
+
+
+
+
+
+        // for(var i = 0; i < arrayOfHeights.length; i++){
+        //     var cash =[];
+        //
+        //     for(var a = 0; a < arrayOfSecondHeights.length; a++){
+        //
+        //         for(var j = 0; j < arrayOfSecondHeights[a].length; j++){
+        //             if(arrayOfHeights[j] < arrayOfSecondHeights[a][j]){
+        //                 concatArrays.push(arrayOfSecondHeights[a][j]);
+        //             } else {
+        //                 concatArrays.push(arrayOfHeights[j]);
+        //             }
+        //         }
+        //     }
+        // }
+
+
+        console.log(arrayOfHeights);
+        console.log(arrayOfSecondHeights);
+        console.log(concatArrays);
+
+        if ($('.compare').length) {
+
+            for (var j = 0; j < concatArrays.length; j++) {
+                $('.compare-left-block__property').children().eq(j).css('height', concatArrays[j]);
+                $('.goods-property__list').children().eq(j).css('height', concatArrays[j]);
+            }
+        }
+
+        $('.compare-slider').slick('refresh');
+
+    }
+
+    fixHeightsCompareRows();
+
+    $(window).resize(function () {
+        fixHeightsCompareRows();
+
+    });
 
 
 
