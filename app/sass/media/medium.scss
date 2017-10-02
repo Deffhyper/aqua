@@ -276,6 +276,29 @@
     padding-left: 0;
   }
 
+  .compare-ctrl__mob a{
+    display: block;
+  }
+
+  .compare-ctrl__item {
+    font-size: 13px;
+    margin-right: 0;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .compare-ctrl__item.title a {
+    padding: 10px 15px 5px;
+  }
+
+  .compare-ctrl {
+    display: none;
+  }
+
+  .compare-ctrl-wrapper {
+    margin-bottom: 20px;
+  }
 
 
 

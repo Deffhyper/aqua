@@ -45,6 +45,7 @@ gulp.task('scripts', function() {
 		'app/libs/tether/dist/js/tether.min.js', // connect popper
 		'app/libs/bootstrap/dist/js/bootstrap.min.js',
 		'app/libs/masked-input/masked-input.js',
+        'app/libs/scrollbar/jquery.mCustomScrollbar.concat.min.js', // Custom scrollbar
 		'app/libs/range/jquery-ui.min.js'
 
 		])

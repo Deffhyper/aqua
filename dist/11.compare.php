@@ -9,18 +9,24 @@
     <div class="row">
         <div class="col-12">
             <h1 class="page-title">Сравнение</h1>
+            <div class="compare-ctrl-wrapper">
 
-            <ul class="compare-ctrl mt-minus-top">
-                <li class="compare-ctrl__item title"><a href="#">Фекальные насосы <i
-                            class="close-btn close-btn--sm"></i></a>
-                </li>
-                <li class="compare-ctrl__item"><a href="#">Фильтры для воды <i
-                            class="close-btn close-btn--sm"></i></a></li>
+                <div class="compare-ctrl__mob">
+                    <a href="#" role="button" >Фильтровать по:</a>
+                </div>
 
-                <li class="compare-ctrl__item"><a href="#">Фильтры для воды <i
-                            class="close-btn close-btn--sm"></i></a></li>
+                <ul class="compare-ctrl mt-minus-top">
+                    <li class="compare-ctrl__item title"><a href="#">Фекальные насосы <i
+                                    class="close-btn close-btn--sm"></i></a>
+                    </li>
+                    <li class="compare-ctrl__item"><a href="#">Фильтры для воды <i
+                                    class="close-btn close-btn--sm"></i></a></li>
 
-            </ul>
+                    <li class="compare-ctrl__item"><a href="#">Фильтры для воды <i
+                                    class="close-btn close-btn--sm"></i></a></li>
+                </ul>
+            </div>
+
 
             <div class="compare">
 
@@ -51,240 +57,252 @@
 
                             </fieldset>
                         </form>
+
+                        <div class="compare-left-block__ctrl--arrows">
+                            <a href="#" id="scroll-left" class="btn-prev"></a>
+                            <a href="#" id="scroll-right" class="btn-next"></a>
+                        </div>
+
                     </div>
 
-                    <ul class="compare-left-block__property">
-                        <li class="compare-left-block__property--item">Тип</li>
-                        <li class="compare-left-block__property--item">Питание</li>
-                        <li class="compare-left-block__property--item">Мощность</li>
-                        <li class="compare-left-block__property--item">Производительность</li>
-                        <li class="compare-left-block__property--item">Двигатель</li>
-                        <li class="compare-left-block__property--item">Высота подачи</li>
-                        <li class="compare-left-block__property--item">Давление</li>
-                        <li class="compare-left-block__property--item">Холостой ход</li>
-                        <li class="compare-left-block__property--item">Диаметр входного отверстия</li>
-                        <li class="compare-left-block__property--item">Диаметр выходного отверстия</li>
-                    </ul>
-                    
-
+                    <table class="compare-left-block__property">
+                        <tbody>
+                            <tr class="compare-left-block__property--item"><td>Тип</td></tr>
+                            <tr class="compare-left-block__property--item"><td>Питание</td></tr>
+                            <tr class="compare-left-block__property--item"><td>Мощность</td></tr>
+                            <tr class="compare-left-block__property--item"><td>Производительность</td></tr>
+                            <tr class="compare-left-block__property--item"><td>Двигатель</td></tr>
+                            <tr class="compare-left-block__property--item"><td>Высота подачи</td></tr>
+                            <tr class="compare-left-block__property--item"><td>Давление</td></tr>
+                            <tr class="compare-left-block__property--item"><td>Холостой ход</td></tr>
+                            <tr class="compare-left-block__property--item"><td>Диаметр входного отверстия</td></tr>
+                            <tr class="compare-left-block__property--item"><td>Диаметр выходного отверстия</td></tr>
+                        </tbody>
+                    </table>
                 </div>
 
                 <div class="compare-right-block ">
 
                     <div class="compare-slider">
-                        <div>
-                            <div class="compare-slider__item">
 
-                                <a href="#" class="compare-close-button">
-                                    <i class="close-btn"></i>
-                                </a>
+                            <ul class="compare-slider__top">
+                                <li class="compare-slider__top--item">
+                                    <a href="#" class="compare-close-button">
+                                        <i class="close-btn"></i>
+                                    </a>
+                                    <div class="goods-compare">
+                                        <div class="goods-image goods-image--gray">
+                                            <a href="#">
+                                                <img src="img/jpeg_files/goods-md-1.png" alt="goods" height="142"
+                                                     width="134">
+                                            </a>
+                                        </div>
+                                        <div class="goods-link">
+                                            <a href="#">BPS 25-6ESA-180</a>
+                                        </div>
+                                        <div class="goods-price">
+                                            <span class="goods-price-current">₴ 12 600 </span>
+                                            <span class="goods-price-old">₴ 13 000</span>
+                                        </div>
 
-                                <div class="goods-compare">
-                                    <div class="goods-image goods-image--gray">
-                                        <a href="#">
-                                            <img src="img/jpeg_files/goods-md-1.png" alt="goods" height="142"
-                                                 width="134">
-                                        </a>
                                     </div>
-                                    <div class="goods-link">
-                                        <a href="#">BPS 25-6ESA-180</a>
-                                    </div>
-                                    <div class="goods-price">
-                                        <span class="goods-price-current">₴ 12 600 </span>
-                                        <span class="goods-price-old">₴ 13 000</span>
-                                    </div>
+                                </li>
+                                <li class="compare-slider__top--item">
+                                    <a href="#" class="compare-close-button">
+                                        <i class="close-btn"></i>
+                                    </a>
+                                    <div class="goods-compare">
+                                        <div class="goods-image goods-image--gray">
+                                            <a href="#">
+                                                <img src="img/jpeg_files/goods-md-2.png" alt="goods" height="107" width="152">
+                                            </a>
+                                        </div>
+                                        <div class="goods-link">
+                                            <a href="#">BPS 25-6ESA-180</a>
+                                        </div>
+                                        <div class="goods-price">
+                                            <span class="goods-price-current">₴ 12 600 </span>
+                                            <span class="goods-price-old">₴ 13 000</span>
+                                        </div>
 
-                                    <div class="goods-property">
-                                        <ul class="goods-property__list">
-                                            <li class="goods-property__list--item">Циркуляционный насос</b></li>
-                                            <li class="goods-property__list--item">Сеть</li>
-                                            <li class="goods-property__list--item">0.28 кВт</li>
-                                            <li class="goods-property__list--item">175.2 л/мин</li>
-                                            <li class="goods-property__list--item">Асинхронный</li>
-                                            <li class="goods-property__list--item">8.6 м</li>
-                                            <li class="goods-property__list--item">10 бар</li>
-                                            <li class="goods-property__list--item">2850 оборотов/мин</li>
-                                            <li class="goods-property__list--item">1 1/4”</li>
-                                            <li class="goods-property__list--item">1 1/4”</li>
+                                    </div>
+                                </li>
+                                <li class="compare-slider__top--item">
+                                    <a href="#" class="compare-close-button">
+                                        <i class="close-btn"></i>
+                                    </a>
+                                    <div class="goods-compare">
+                                        <div class="goods-image goods-image--gray">
+                                            <a href="#">
+                                                <img src="img/jpeg_files/goods-md-3.png" alt="goods" height="107" width="147">
+                                            </a>
+                                        </div>
+                                        <div class="goods-link">
+                                            <a href="#">BPS 25-6ESA-180</a>
+                                        </div>
+                                        <div class="goods-price">
+                                            <span class="goods-price-current">₴ 12 600 </span>
+                                            <span class="goods-price-old">₴ 13 000</span>
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li class="compare-slider__top--item">
+                                    <a href="#" class="compare-close-button">
+                                        <i class="close-btn"></i>
+                                    </a>
+                                    <div class="goods-compare">
+                                        <div class="goods-image goods-image--gray">
+                                            <a href="#">
+                                                <img src="img/jpeg_files/goods-md-3.png" alt="goods" height="107" width="147">
+                                            </a>
+                                        </div>
+                                        <div class="goods-link">
+                                            <a href="#">BPS 25-6ESA-180</a>
+                                        </div>
+                                        <div class="goods-price">
+                                            <span class="goods-price-current">₴ 12 600 </span>
+                                            <span class="goods-price-old">₴ 13 000</span>
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li class="compare-slider__top--item">
+                                    <a href="#" class="compare-close-button">
+                                        <i class="close-btn"></i>
+                                    </a>
+                                    <div class="goods-compare">
+                                        <div class="goods-image goods-image--gray">
+                                            <a href="#">
+                                                <img src="img/jpeg_files/goods-md-3.png" alt="goods" height="107" width="147">
+                                            </a>
+                                        </div>
+                                        <div class="goods-link">
+                                            <a href="#">BPS 25-6ESA-180</a>
+                                        </div>
+                                        <div class="goods-price">
+                                            <span class="goods-price-current">₴ 12 600 </span>
+                                            <span class="goods-price-old">₴ 13 000</span>
+                                        </div>
+
+                                    </div>
+                                </li>
+                            </ul>
+                            <table class="compare-slider__bottom">
+                                <tbody class="goods-property">
+                                <tr class="goods-property__list">
+                                    <td class="goods-property__list--item">Циркуляционный насос</td>
+                                    <td class="goods-property__list--item">Циркуляционный насос</td>
+                                    <td class="goods-property__list--item">Циркуляционный насос</td>
+                                    <td class="goods-property__list--item">Циркуляционный насос</td>
+                                    <td class="goods-property__list--item">Циркуляционный насос</td>
+                                </tr>
+                                <tr class="goods-property__list">
+                                    <td class="goods-property__list--item">Сеть</td>
+                                    <td class="goods-property__list--item">Сеть</td>
+                                    <td class="goods-property__list--item">Сеть</td>
+                                    <td class="goods-property__list--item">Сеть</td>
+                                    <td class="goods-property__list--item">Сеть</td>
+                                </tr>
+                                <tr class="goods-property__list">
+                                    <td class="goods-property__list--item">0.28 кВт</td>
+                                    <td class="goods-property__list--item">0.28 кВт</td>
+                                    <td class="goods-property__list--item">0.28 кВт</td>
+                                    <td class="goods-property__list--item">0.28 кВт</td>
+                                    <td class="goods-property__list--item">0.28 кВт</td>
+                                </tr>
+                                <tr class="goods-property__list">
+                                    <td class="goods-property__list--item">175.2 л/мин</td>
+                                    <td class="goods-property__list--item">175.2 л/мин</td>
+                                    <td class="goods-property__list--item">175.2 л/мин</td>
+                                    <td class="goods-property__list--item">175.2 л/мин</td>
+                                    <td class="goods-property__list--item">175.2 л/мин</td>
+                                </tr>
+
+                                <tr class="goods-property__list">
+                                    <td class="goods-property__list--item">Асинхронный с короткозамкнутым “мокрым” ротором, закрытой конструкции</td>
+                                    <td class="goods-property__list--item">Асинхронный с короткозамкнутым “мокрым” ротором, закрытой конструкции</td>
+                                    <td class="goods-property__list--item">Асинхронный с короткозамкнутым “мокрым” ротором, закрытой конструкции</td>
+                                    <td class="goods-property__list--item">Асинхронный с короткозамкнутым “мокрым” ротором, закрытой конструкции Асинхронный с короткозамкнутым “мокрым” ротором, закрытой конструкции</td>
+                                    <td class="goods-property__list--item">Асинхронный с короткозамкнутым “мокрым” ротором, закрытой конструкции Асинхронный с короткозамкнутым “мокрым” ротором, закрытой конструкции Асинхронный с короткозамкнутым “мокрым” ротором, закрытой конструкции</td>
+                                </tr>
+
+                                <tr class="goods-property__list">
+                                    <td class="goods-property__list--item">8.6 м</td>
+                                    <td class="goods-property__list--item">8.6 м</td>
+                                    <td class="goods-property__list--item">8.6 м</td>
+                                    <td class="goods-property__list--item">8.6 м</td>
+                                    <td class="goods-property__list--item">8.6 м</td>
+                                </tr>
+                                <tr class="goods-property__list">
+                                    <td class="goods-property__list--item">10 бар</td>
+                                    <td class="goods-property__list--item">10 бар</td>
+                                    <td class="goods-property__list--item">10 бар</td>
+                                    <td class="goods-property__list--item">10 бар</td>
+                                    <td class="goods-property__list--item">10 бар</td>
+                                </tr>
+                                <tr class="goods-property__list">
+                                    <td class="goods-property__list--item">2850 оборотов/мин</td>
+                                    <td class="goods-property__list--item">2850 оборотов/мин</td>
+                                    <td class="goods-property__list--item">2850 оборотов/мин</td>
+                                    <td class="goods-property__list--item">2850 оборотов/мин</td>
+                                    <td class="goods-property__list--item">2850 оборотов/мин</td>
+                                </tr>
+                                <tr class="goods-property__list">
+                                    <td class="goods-property__list--item">1 1/4”</td>
+                                    <td class="goods-property__list--item">1 1/4”</td>
+                                    <td class="goods-property__list--item">1 1/4”</td>
+                                    <td class="goods-property__list--item">1 1/4”</td>
+                                    <td class="goods-property__list--item">1 1/4”</td>
+                                </tr>
+                                <tr class="goods-property__list">
+                                    <td class="goods-property__list--item">1 1/4”</td>
+                                    <td class="goods-property__list--item">1 1/4”</td>
+                                    <td class="goods-property__list--item">1 1/4”</td>
+                                    <td class="goods-property__list--item">1 1/4”</td>
+                                    <td class="goods-property__list--item">1 1/4”</td>
+                                </tr>
+                                <tr class="goods-property__list">
+                                    <td class="goods-property__list--item">
+                                        <ul class="goods-property__ctrl">
+                                            <li class="btn btn__sm btn--green"><a
+                                                        href="#"><span class="iconmoon icon-basket"></span>Купить</a></li>
                                         </ul>
-                                    </div>
-                                    <ul class="goods-property__ctrl">
-                                        <li class="btn btn__sm btn--green"><a
-                                                href="#"><span class="iconmoon icon-basket"></span>Купить</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="compare-slider__item">
-
-                                <a href="#" class="compare-close-button">
-                                    <i class="close-btn"></i>
-                                </a>
-
-                                <div class="goods-compare">
-                                    <div class="goods-image goods-image--gray">
-                                        <a href="#">
-                                            <img src="img/jpeg_files/goods-md-2.png" alt="goods" width="152" height="107">
-                                        </a>
-                                    </div>
-                                    <div class="goods-link">
-                                        <a href="#">Garden-JP 2.4-35/1.3 </a>
-                                    </div>
-                                    <div class="goods-price">
-                                        <span class="goods-price-current">₴ 12 600 </span>
-                                        <span class="goods-price-old">₴ 13 000</span>
-                                    </div>
-
-                                    <div class="goods-property">
-                                        <ul class="goods-property__list">
-                                            <li class="goods-property__list--item">Циркуляционный насос</b></li>
-                                            <li class="goods-property__list--item">Сеть</li>
-                                            <li class="goods-property__list--item">0.28 кВт</li>
-                                            <li class="goods-property__list--item">155.2 л/мин</li>
-                                            <li class="goods-property__list--item">Асинхронный</li>
-                                            <li class="goods-property__list--item">8.6 м</li>
-                                            <li class="goods-property__list--item">10 бар</li>
-                                            <li class="goods-property__list--item">2850 оборотов/мин</li>
-                                            <li class="goods-property__list--item">1 1/4”</li>
-                                            <li class="goods-property__list--item">1 1/4”</li>
+                                    </td>
+                                    <td class="goods-property__list--item">
+                                        <ul class="goods-property__ctrl">
+                                            <li class="btn btn__sm btn--green"><a
+                                                        href="#"><span class="iconmoon icon-basket"></span>Купить</a></li>
                                         </ul>
-                                    </div>
-                                    <ul class="goods-property__ctrl">
-                                        <li class="btn btn__sm btn--green"><a
-                                                href="#"><span class="iconmoon icon-basket"></span>Купить</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="compare-slider__item">
-
-                                <a href="#" class="compare-close-button">
-                                    <i class="close-btn"></i>
-                                </a>
-
-                                <div class="goods-compare">
-                                    <div class="goods-image goods-image--gray">
-                                        <a href="#">
-                                            <img src="img/jpeg_files/goods-md-1.png" alt="goods" height="142"
-                                                 width="134">
-                                        </a>
-                                    </div>
-                                    <div class="goods-link">
-                                        <a href="#">BPS 25-6ESA-180</a>
-                                    </div>
-                                    <div class="goods-price">
-                                        <span class="goods-price-current">₴ 12 600 </span>
-                                        <span class="goods-price-old">₴ 13 000</span>
-                                    </div>
-
-                                    <div class="goods-property">
-                                        <ul class="goods-property__list">
-                                            <li class="goods-property__list--item">Циркуляционный насос</b></li>
-                                            <li class="goods-property__list--item">Сеть</li>
-                                            <li class="goods-property__list--item">0.28 кВт</li>
-                                            <li class="goods-property__list--item">175.2 л/мин</li>
-                                            <li class="goods-property__list--item">Асинхронный</li>
-                                            <li class="goods-property__list--item">8.6 м</li>
-                                            <li class="goods-property__list--item">10 бар</li>
-                                            <li class="goods-property__list--item">2850 оборотов/мин</li>
-                                            <li class="goods-property__list--item">1 1/4”</li>
-                                            <li class="goods-property__list--item">1 1/4”</li>
+                                    </td>
+                                    <td class="goods-property__list--item">
+                                        <ul class="goods-property__ctrl">
+                                            <li class="btn btn__sm btn--green"><a
+                                                        href="#"><span class="iconmoon icon-basket"></span>Купить</a></li>
                                         </ul>
-                                    </div>
-                                    <ul class="goods-property__ctrl">
-                                        <li class="btn btn__sm btn--green"><a
-                                                href="#"><span class="iconmoon icon-basket"></span>Купить</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="compare-slider__item">
-
-                                <a href="#" class="compare-close-button">
-                                    <i class="close-btn"></i>
-                                </a>
-
-                                <div class="goods-compare">
-                                    <div class="goods-image goods-image--gray">
-                                        <a href="#">
-                                            <img src="img/jpeg_files/goods-md-2.png" alt="goods" width="152" height="107">
-                                        </a>
-                                    </div>
-                                    <div class="goods-link">
-                                        <a href="#">Garden-JP 2.4-35/1.3 </a>
-                                    </div>
-                                    <div class="goods-price">
-                                        <span class="goods-price-current">₴ 12 600 </span>
-                                        <span class="goods-price-old">₴ 13 000</span>
-                                    </div>
-
-                                    <div class="goods-property">
-                                        <ul class="goods-property__list">
-                                            <li class="goods-property__list--item">Циркуляционный насос</b></li>
-                                            <li class="goods-property__list--item">Сеть</li>
-                                            <li class="goods-property__list--item">0.28 кВт</li>
-                                            <li class="goods-property__list--item">155.2 л/мин</li>
-                                            <li class="goods-property__list--item">Асинхронный</li>
-                                            <li class="goods-property__list--item">8.6 м</li>
-                                            <li class="goods-property__list--item">10 бар</li>
-                                            <li class="goods-property__list--item">2850 оборотов/мин</li>
-                                            <li class="goods-property__list--item">1 1/4”</li>
-                                            <li class="goods-property__list--item">1 1/4”</li>
+                                    </td>
+                                    <td class="goods-property__list--item">
+                                        <ul class="goods-property__ctrl">
+                                            <li class="btn btn__sm btn--green"><a
+                                                        href="#"><span class="iconmoon icon-basket"></span>Купить</a></li>
                                         </ul>
-                                    </div>
-                                    <ul class="goods-property__ctrl">
-                                        <li class="btn btn__sm btn--green"><a
-                                                href="#"><span class="iconmoon icon-basket"></span>Купить</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="compare-slider__item">
-
-                                <a href="#" class="compare-close-button">
-                                    <i class="close-btn"></i>
-                                </a>
-
-                                <div class="goods-compare">
-                                    <div class="goods-image goods-image--gray">
-                                        <a href="#">
-                                            <img src="img/jpeg_files/goods-md-2.png" alt="goods" width="152" height="107">
-                                        </a>
-                                    </div>
-                                    <div class="goods-link">
-                                        <a href="#">Garden-JP 2.4-35/1.3 </a>
-                                    </div>
-                                    <div class="goods-price">
-                                        <span class="goods-price-current">₴ 12 600 </span>
-                                        <span class="goods-price-old">₴ 13 000</span>
-                                    </div>
-
-                                    <div class="goods-property">
-                                        <ul class="goods-property__list">
-                                            <li class="goods-property__list--item">Циркуляционный насос</b></li>
-                                            <li class="goods-property__list--item">Сеть</li>
-                                            <li class="goods-property__list--item">0.28 кВт</li>
-                                            <li class="goods-property__list--item">155.2 л/мин</li>
-                                            <li class="goods-property__list--item">Асинхронный</li>
-                                            <li class="goods-property__list--item">8.6 м</li>
-                                            <li class="goods-property__list--item">10 бар</li>
-                                            <li class="goods-property__list--item">2850 оборотов/мин</li>
-                                            <li class="goods-property__list--item">1 1/4”</li>
-                                            <li class="goods-property__list--item">1 1/4”</li>
+                                    </td>
+                                    <td class="goods-property__list--item">
+                                        <ul class="goods-property__ctrl">
+                                            <li class="btn btn__sm btn--green"><a
+                                                        href="#"><span class="iconmoon icon-basket"></span>Купить</a></li>
                                         </ul>
-                                    </div>
-                                    <ul class="goods-property__ctrl">
-                                        <li class="btn btn__sm btn--green"><a
-                                                href="#"><span class="iconmoon icon-basket"></span>Купить</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                                    </td>
+                                </tr>
+
+                                </tbody>
+                            </table>
+
+
+
                     </div>
+
+
                 </div>
             </div>
         </div>
