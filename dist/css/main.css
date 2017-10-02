@@ -835,6 +835,22 @@ mark {
       -webkit-transition: .3s ease;
       transition: .3s ease; }
 
+.slick-vertical .slick-arrow.slick-prev {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 0; }
+
+.slick-vertical .slick-arrow.slick-next {
+  right: auto;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 0;
+  top: auto; }
+
 .slick-arrow {
   background-color: transparent;
   color: transparent;
@@ -2502,6 +2518,10 @@ body:after {
   .pagination > div {
     display: inline-block;
     vertical-align: middle; }
+  .pagination-left__link:hover .pagination-left__link--icon {
+    -webkit-transform: rotateZ(450deg);
+        -ms-transform: rotate(450deg);
+            transform: rotateZ(450deg); }
   .pagination-left__link--label {
     font-family: "Open-Sans-Light", sans-serif;
     font-size: 12px;
@@ -2515,7 +2535,9 @@ body:after {
     width: 32px;
     height: 32px;
     vertical-align: middle;
-    position: relative; }
+    position: relative;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out; }
     .pagination-left__link--icon:before {
       position: absolute;
       top: 50%;
@@ -2537,22 +2559,30 @@ body:after {
       vertical-align: middle;
       -webkit-border-radius: 50%;
               border-radius: 50%;
-      line-height: 2.6; }
+      line-height: 2.6;
+      -webkit-transition: .3s ease;
+      transition: .3s ease; }
+      .pagination-right__item > a:hover {
+        background-color: #f0f0f0; }
 
 .breadcrumbs {
   padding: 34px 0;
   font-family: "Proxima-Nova-Regular", sans-serif;
-  color: #707070;
-  font-size: 15px; }
+  color: #c4c4c4;
+  font-size: 13px; }
   .breadcrumbs__item a {
-    text-decoration: underline; }
+    -webkit-transition: .3s ease;
+    transition: .3s ease; }
     .breadcrumbs__item a:hover {
-      text-decoration: none; }
+      color: #064579; }
     .breadcrumbs__item a:after {
-      content: '/';
+      content: '-';
       display: inline-block;
       padding: 0 10px;
-      pointer-events: none; }
+      pointer-events: none;
+      font-size: 20px;
+      line-height: 0;
+      color: #c4c4c4; }
 
 .left-block {
   -webkit-box-flex: 0;
@@ -3274,51 +3304,65 @@ body:after {
     .compare-left-block__ctrl--add {
       margin-bottom: 20px;
       display: block; }
+      .compare-left-block__ctrl--add:hover .pagination-left__link--icon {
+        -webkit-transform: rotateZ(450deg);
+            -ms-transform: rotate(450deg);
+                transform: rotateZ(450deg); }
     .compare-left-block__ctrl--subtitle {
       font-family: "Proxima-Nova-Bold", sans-serif;
       font-size: 16px;
       text-align: center;
       max-width: 120px;
       margin: 0 auto 40px; }
-    .compare-left-block__ctrl--arrows a {
-      display: inline-block;
-      width: 40px;
-      height: 40px;
-      border: 2px solid #0d0d0d;
-      -webkit-border-radius: 50%;
-              border-radius: 50%;
-      -webkit-transition: .3s ease;
-      transition: .3s ease;
-      position: relative; }
-      .compare-left-block__ctrl--arrows a.btn-next:before {
-        -webkit-transform: rotateZ(45deg);
-            -ms-transform: rotate(45deg);
-                transform: rotateZ(45deg);
-        top: 14px;
-        left: 13px; }
-      .compare-left-block__ctrl--arrows a:before {
-        content: '';
-        width: 10px;
-        height: 10px;
-        border-top: 2px solid #0d0d0d;
-        border-right: 2px solid #0d0d0d;
-        -webkit-transform: rotateZ(-135deg);
-            -ms-transform: rotate(-135deg);
-                transform: rotateZ(-135deg);
-        top: 14px;
-        left: 12px;
-        position: absolute; }
-      .compare-left-block__ctrl--arrows a:after {
-        content: '';
-        display: block;
-        position: absolute;
+    .compare-left-block__ctrl--arrows {
+      text-align: center; }
+      .compare-left-block__ctrl--arrows a {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        border: 2px solid #0d0d0d;
+        -webkit-border-radius: 50%;
+                border-radius: 50%;
         -webkit-transition: .3s ease;
         transition: .3s ease;
-        width: 13px;
-        height: 2px;
-        background-color: #0d0d0d;
-        top: 18px;
-        left: 11px; }
+        position: relative; }
+        .compare-left-block__ctrl--arrows a:hover {
+          background-color: #0d0d0d; }
+          .compare-left-block__ctrl--arrows a:hover:after {
+            background-color: #fff; }
+          .compare-left-block__ctrl--arrows a:hover:before {
+            border-color: #fff; }
+        .compare-left-block__ctrl--arrows a.btn-next:before {
+          -webkit-transform: rotateZ(45deg);
+              -ms-transform: rotate(45deg);
+                  transform: rotateZ(45deg);
+          top: 14px;
+          left: 13px; }
+        .compare-left-block__ctrl--arrows a:before {
+          content: '';
+          width: 10px;
+          height: 10px;
+          border-top: 2px solid #0d0d0d;
+          border-right: 2px solid #0d0d0d;
+          -webkit-transform: rotateZ(-135deg);
+              -ms-transform: rotate(-135deg);
+                  transform: rotateZ(-135deg);
+          top: 14px;
+          left: 12px;
+          position: absolute;
+          -webkit-transition: .3s ease;
+          transition: .3s ease; }
+        .compare-left-block__ctrl--arrows a:after {
+          content: '';
+          display: block;
+          position: absolute;
+          width: 13px;
+          height: 2px;
+          background-color: #0d0d0d;
+          top: 18px;
+          left: 11px;
+          -webkit-transition: .3s ease;
+          transition: .3s ease; }
   .compare-left-block__property {
     font-family: "Proxima-Nova-Bold", sans-serif;
     font-size: 14px;
@@ -3443,6 +3487,32 @@ body:after {
   text-align: center; }
   .compare-close-button .close-btn {
     margin-top: 8px; }
+
+.product-name {
+  color: #343434;
+  font-family: "Proxima-Nova-Bold", sans-serif;
+  font-size: 24px;
+  max-width: 50%; }
+
+.product-code {
+  font-family: "Proxima-Nova-Regular", sans-serif;
+  font-size: 13px;
+  color: #c4c4c4;
+  position: relative;
+  bottom: 1px;
+  left: 10px; }
+
+.product-slider > div {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: -2px;
+  margin-right: -2px; }
+
+.product-slider__left {
+  width: 80%; }
+
+.product-slider__right {
+  width: 20%; }
 
 @media (max-width: 1279px) {
   .top-slider__item--left {

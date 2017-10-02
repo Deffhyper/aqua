@@ -613,6 +613,40 @@ $(function() {
     });
 
 
+    ////////////////////////////////////////// catalog detail /////////////////////////////////////////
+
+
+    $('.product-slider__left').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: false,
+        fade: true,
+        infinite: false,
+        asNavFor: '.product-slider__right'
+    });
+
+    $('.product-slider__right').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        vertical: true,
+        asNavFor: '.product-slider__left',
+        dots: false,
+        arrows: true,
+        infinite: false,
+        focusOnSelect: true,
+        draggable: false
+        // responsive: [
+        //     {
+        //         breakpoint: 1280,
+        //         settings: {
+        //             slidesToShow: 2,
+        //             slidesToScroll: 1
+        //         }
+        //     }
+        // ]
+    });
+
 
 
 

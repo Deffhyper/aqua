@@ -13,6 +13,11 @@
   }
   &-left {
     &__link {
+      &:hover {
+        .pagination-left__link--icon {
+          transform: rotateZ(450deg);
+        }
+      }
       &--label {
         font-family: $font-light;
         font-size: 12px;
@@ -27,6 +32,7 @@
         height: 32px;
         vertical-align: middle;
         position: relative;
+        transition: .3s ease-in-out;
         &:before {
           @include center;
         }
@@ -52,6 +58,10 @@
         vertical-align: middle;
         border-radius: 50%;
         line-height: 2.6;
+        transition: .3s ease;
+        &:hover {
+          background-color: #f0f0f0;
+        }
       }
     }
   }
@@ -60,20 +70,23 @@
 .breadcrumbs {
   padding: 34px 0;
   font-family: $proxima-regular;
-  color: #707070;
-  font-size: 15px;
+  color: #c4c4c4;
+  font-size: 13px;
 
   &__item {
     a {
-      text-decoration: underline;
+      transition: .3s ease;
       &:hover {
-        text-decoration: none;
+        color: $accent;
       }
       &:after {
-        content: '/';
+        content: '-';
         display: inline-block;
         padding: 0 10px;
         pointer-events: none;
+        font-size: 20px;
+        line-height: 0;
+        color: #c4c4c4;
       }
     }
   }
@@ -1011,6 +1024,12 @@
     &--add {
       margin-bottom: 20px;
       display: block;
+      &:hover {
+        .pagination-left__link--icon{
+          transform: rotateZ(450deg);
+        }
+
+      }
     }
     &--subtitle {
       font-family: $proxima-bold;
@@ -1020,6 +1039,8 @@
       margin: 0 auto 40px;
     }
     &--arrows {
+      text-align: center;
+
       a {
         display: inline-block;
         width: 40px;
@@ -1028,6 +1049,15 @@
         border-radius: 50%;
         transition: .3s ease;
         position: relative;
+        &:hover {
+          background-color: #0d0d0d;
+          &:after {
+            background-color: #fff;
+          }
+          &:before {
+            border-color: #fff;
+          }
+        }
         &.btn-next {
           &:before {
             transform: rotateZ(45deg);
@@ -1045,17 +1075,18 @@
           top: 14px;
           left: 12px;
           position: absolute;
+          transition: .3s ease;
         }
         &:after {
           content: '';
           display: block;
           position: absolute;
-          transition: .3s ease;
           width: 13px;
           height: 2px;
           background-color: #0d0d0d;
           top: 18px;
           left: 11px;
+          transition: .3s ease;
         }
 
       }
@@ -1239,6 +1270,41 @@
   }
 }
 
+
+//////////////////////////////////////// catalog-detail //////////////////////////////
+
+.product-name {
+  color: #343434;
+  font-family: $proxima-bold;
+  font-size: 24px;
+  max-width: 50%;
+}
+
+.product-code {
+  font-family: $proxima-regular;
+  font-size: 13px;
+  color: #c4c4c4;
+  position: relative;
+  bottom: 1px;
+  left: 10px;
+}
+
+.product-slider {
+  &>div {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: -2px;
+    margin-right: -2px;
+  }
+
+  &__left {
+    width: 80%;
+  }
+
+  &__right {
+    width: 20%;
+  }
+}
 
 
 
