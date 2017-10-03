@@ -57,6 +57,14 @@
       background-color: $green-hover;
     }
   }
+  &--red {
+    background-color: $red;
+    color: #fff;
+    &:hover {
+      background-color: $red-hover;
+      color: #fff;
+    }
+  }
 }
 
 
@@ -639,6 +647,23 @@ mark {
     .goods-subtitle {
       margin-bottom: 20px;
     }
+  }
+}
+
+///////////////////////////////// goods offer //////////////////////////////////
+
+.goods-offer {
+
+  .goods-add-to-cart {
+    display: inline-block;
+    vertical-align: top;
+    float: none;
+    margin-left: 10px;
+  }
+
+  .goods-image {
+    height: 150px;
+    margin-bottom: 15px;
   }
 }
 

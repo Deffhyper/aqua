@@ -290,6 +290,12 @@ img {
       margin-top: 1px; }
     .btn--green:hover {
       background-color: #069600; }
+  .btn--red {
+    background-color: #de192b;
+    color: #fff; }
+    .btn--red:hover {
+      background-color: #f2192b;
+      color: #fff; }
 
 .list-inline li {
   display: inline-block; }
@@ -763,6 +769,16 @@ mark {
       margin-left: 0; }
     .goods-horizontal .goods-subtitle {
       margin-bottom: 20px; } }
+
+.goods-offer .goods-add-to-cart {
+  display: inline-block;
+  vertical-align: top;
+  float: none;
+  margin-left: 10px; }
+
+.goods-offer .goods-image {
+  height: 150px;
+  margin-bottom: 15px; }
 
 .link-arrow {
   font-family: "Proxima-Nova-Semibold", sans-serif;
@@ -3661,6 +3677,15 @@ body:after {
     .product-prop-block table tbody tr td:last-child {
       font-family: "Proxima-Nova-Semibold", sans-serif;
       color: #343434; }
+
+.offer-slider__item {
+  max-width: 155px;
+  margin: 0 auto 20px; }
+
+.offer-slider .slick-dots {
+  position: absolute;
+  top: -40px;
+  right: 0; }
 
 @media (max-width: 1279px) {
   .top-slider__item--left {

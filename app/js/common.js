@@ -193,6 +193,34 @@ $(function() {
         ]
     });
 
+    $('.offer-slider').slick({
+        dots: true,
+        infinite: false,
+        arrows: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1279,
+                settings: {
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 766,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
+
     $('.four-image-slider').slick({
 
         infinite: true,
