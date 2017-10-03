@@ -46,7 +46,8 @@ gulp.task('scripts', function() {
 		'app/libs/bootstrap/dist/js/bootstrap.min.js',
 		'app/libs/masked-input/masked-input.js',
         'app/libs/scrollbar/jquery.mCustomScrollbar.concat.min.js', // Custom scrollbar
-		'app/libs/range/jquery-ui.min.js'
+		'app/libs/range/jquery-ui.min.js',
+		'app/libs/countdown/compiled/flipclock.js'
 
 		])
 		.pipe(concat('libs.min.js')) // Собираем их в кучу в новом файле libs.min.js

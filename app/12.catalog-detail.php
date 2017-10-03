@@ -64,11 +64,76 @@
 
                 </div>
                 <div class="col-lg-6 pull-lg-6">
-                    
+                    <div class="product-price goods-horizontal">
+                        <div class="goods-price">
+                            <span class="goods-price-current">₴ 12 600 </span>
+                            <span class="goods-price-old">₴ 13 000</span>
+                        </div>
+                        <ul class="goods-property__ctrl">
+                            <li class="goods-property__ctrl--icon goods-horizontal__compare"><a href="#"><span class="iconmoon icon-compare"></span>Сравнить</a></li>
+                            <li class="goods-property__ctrl--icon goods-horizontal__buy"><a href="#"><span class="iconmoon icon-basket"></span>Купить</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="product-sale-block">
+                        <div class="product-sale-label">
+                            <i class="sale-label"><span>-30%</span></i>
+                        </div>
+                        <div class="product-sale-counter">
+                            <div id="flipcountdown" class="product-sale-counter__item"></div>
+                            <a href="#" class="product-sale-counter__label">подробнее об акции</a>
+                        </div>
+
+                    </div>
+
+                    <div class="product-prop-block">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>Тип</td>
+                                    <td>Циркуляционные насосы</td>
+                                </tr>
+                                <tr>
+                                    <td>Питание</td>
+                                    <td>Сеть</td>
+                                </tr>
+                                <tr>
+                                    <td>Мощность</td>
+                                    <td>0.1 кВт</td>
+                                </tr>
+                                <tr>
+                                    <td>Производительность</td>
+                                    <td>49.8 л/мин</td>
+                                </tr>
+                                <tr>
+                                    <td>Высота подачи</td>
+                                    <td>6.1 м</td>
+                                </tr>
+                                <tr>
+                                    <td>Диаметр входного отверстия</td>
+                                    <td>1"</td>
+                                </tr>
+                                <tr>
+                                    <td>Диаметр выходного отверстия</td>
+                                    <td>1"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-9 col-sm-12">
+
+                </div>
+                <div class="col-lg-3 col-sm-12">
+
                 </div>
             </div>
 
+            <div class="padding-lg-block gray-border">
 
+            </div>
         </div>
     </div>
 </div>
