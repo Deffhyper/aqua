@@ -126,8 +126,16 @@ $(function() {
            }
 
            $('.header').addClass('menu-scroll');
+
+           if($('.product-sticky-block').length){
+               $('.product-sticky-block').addClass('sticky');
+               $('.header').addClass('has-sub');
+           }
        } else {
            $('.header').removeClass('menu-scroll');
+           $('.product-sticky-block').removeClass('sticky');
+           $('.header').removeClass('has-sub');
+
        }
     });
 
@@ -719,6 +727,55 @@ $(function() {
         countdown: true,
         showSeconds: true
     });
+
+    $('#flipcountdown-2').FlipClock(diff, {
+        clockFace: 'DailyCounter',
+        countdown: true,
+        showSeconds: true
+    });
+
+
+    ///////////////////////////////////// product tab /////////////////////////////////////
+
+    $('.product-tab').on('click', function (e) {
+        e.preventDefault();
+        var $target = $(e.target);
+
+        if($target.closest('li').hasClass('product-tab-ctrl__item')){
+            var itemIndex = $target.closest('li').index();
+
+            $target.closest('li').addClass('active').siblings().removeClass('active');
+
+            $(this).find('.product-tab-content__item').eq(itemIndex).addClass('active')
+                .siblings().removeClass('active');
+        }
+
+
+    });
+
+    /////////////////////////////////  product spoiler ///////////////////////////
+
+    $(document).on('click', '.product-spoiler-trigger', function () {
+
+        if(!$(this).hasClass('active')) {
+            $(this).addClass('active').text('скрыть');
+            $(this).prev().css('height', 'auto');
+
+        } else {
+            if($(this).hasClass('left')){
+                $(this).text('все отзывы');
+            } else if ($(this).hasClass('right')){
+                $(this).text('ещё');
+            }
+            
+            $(this).removeClass('active');
+            $(this).prev().removeAttr('style');
+
+        }
+
+    });
+
+
 
 
 

@@ -126,8 +126,16 @@ $(function() {
            }
 
            $('.header').addClass('menu-scroll');
+
+           if($('.product-sticky-block').length){
+               $('.product-sticky-block').addClass('sticky');
+               $('.header').addClass('has-sub');
+           }
        } else {
            $('.header').removeClass('menu-scroll');
+           $('.product-sticky-block').removeClass('sticky');
+           $('.header').removeClass('has-sub');
+
        }
     });
 
@@ -720,6 +728,12 @@ $(function() {
         showSeconds: true
     });
 
+    $('#flipcountdown-2').FlipClock(diff, {
+        clockFace: 'DailyCounter',
+        countdown: true,
+        showSeconds: true
+    });
+
 
     ///////////////////////////////////// product tab /////////////////////////////////////
 
@@ -729,8 +743,11 @@ $(function() {
 
         if($target.closest('li').hasClass('product-tab-ctrl__item')){
             var itemIndex = $target.closest('li').index();
-            $(this).find('.product-tab-content__item').removeClass('active');
-            $(this).find('.product-tab-content__item').eq(itemIndex).addClass('active');
+
+            $target.closest('li').addClass('active').siblings().removeClass('active');
+
+            $(this).find('.product-tab-content__item').eq(itemIndex).addClass('active')
+                .siblings().removeClass('active');
         }
 
 
@@ -738,36 +755,27 @@ $(function() {
 
     /////////////////////////////////  product spoiler ///////////////////////////
 
-    $(document).on('.product-spoiler-trigger a', 'click', function () {
+    $(document).on('click', '.product-spoiler-trigger', function () {
 
-    });
+        if(!$(this).hasClass('active')) {
+            $(this).addClass('active').text('скрыть');
+            $(this).prev().css('height', 'auto');
 
-    var spoilerLink = '<a href="#" class="main-news-item__prop--link">Читать подробнее</a>',
-        contentHeight = 0,
-        $mainContent = $('.main-connect-item__text');
-
-    $mainContent.find('p').each(function(){
-        contentHeight += $(this).outerHeight(true);
-    });
-
-
-    if(contentHeight > 305) {
-        $(spoilerLink).insertAfter($mainContent);
-    }
-
-    $('.main-connect-item.left').click(function(e){
-        if(e.target.className == 'main-news-item__prop--link') {
-            e.preventDefault();
-
-            if($(this).hasClass('open')) {
-                $(this).find('.main-connect-item__text').removeAttr('style');
-                $(this).removeClass('open');
-            } else {
-                $(this).find('.main-connect-item__text').css('height', contentHeight);
-                $(this).addClass('open');
+        } else {
+            if($(this).hasClass('left')){
+                $(this).text('все отзывы');
+            } else if ($(this).hasClass('right')){
+                $(this).text('ещё');
             }
+            
+            $(this).removeClass('active');
+            $(this).prev().removeAttr('style');
+
         }
+
     });
+
+
 
 
 

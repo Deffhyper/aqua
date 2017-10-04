@@ -1698,7 +1698,59 @@
   }
 }
 
+.product-sticky-block {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #f0f0f0;
+  width: 100%;
+  z-index: 6;
+  transition: .3s ease-in-out;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 
+
+  &.sticky {
+    top: 71px;
+  }
+
+  .goods-horizontal {
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .goods-horizontal .goods-image {
+    height: 65px;
+    width: 65px;
+  }
+
+  .product-sale-counter .flip-clock-wrapper ul {
+    width: 18px;
+    height: 27px;
+  }
+
+  .product-sale-counter .flip-clock-wrapper ul li a div div.inn {
+    font-size: 16px;
+  }
+
+  .product-sale-counter .flip-clock-wrapper ul li {
+    line-height: 30px;
+  }
+
+  .goods-link {
+    height: 14px;
+    font-size: 14px;
+  }
+
+  .goods-horizontal__compare a {
+    background-color: #fff;
+  }
+
+}
+
+.product-useful {
+  margin-bottom: 30px;
+}
 
 
 

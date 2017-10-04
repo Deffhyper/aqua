@@ -29,6 +29,9 @@ body.before-white:before {
   &.menu-scroll {
     padding: 4px 0;
     box-shadow: 0 0 10px 0 rgba(0,0,0, .5);
+    &.has-sub {
+      //box-shadow: none;
+    }
   }
 
 }

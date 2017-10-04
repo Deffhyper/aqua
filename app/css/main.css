@@ -1234,6 +1234,30 @@ mark {
 .rateit .rateit-hover {
   color: #343434; }
 
+.goods-label {
+  width: 75px;
+  padding: 7px 0;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 11px;
+  font-family: "Proxima-Nova-Semibold", sans-serif;
+  color: #fff;
+  position: relative; }
+  .goods-label:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-left: 5px solid transparent;
+    position: absolute;
+    left: 0;
+    bottom: -5px; }
+  .goods-label--green {
+    background-color: #00b33d; }
+    .goods-label--green:after {
+      border-top-color: #018039; }
+
 body:before {
   content: '';
   display: block;
@@ -3856,6 +3880,42 @@ body:after {
   display: none; }
   .product-tab-content__item.active {
     display: block; }
+
+.product-sticky-block {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #f0f0f0;
+  width: 100%;
+  z-index: 6;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5); }
+  .product-sticky-block.sticky {
+    top: 71px; }
+  .product-sticky-block .goods-horizontal {
+    max-width: 1000px;
+    margin: auto; }
+  .product-sticky-block .goods-horizontal .goods-image {
+    height: 65px;
+    width: 65px; }
+  .product-sticky-block .product-sale-counter .flip-clock-wrapper ul {
+    width: 18px;
+    height: 27px; }
+  .product-sticky-block .product-sale-counter .flip-clock-wrapper ul li a div div.inn {
+    font-size: 16px; }
+  .product-sticky-block .product-sale-counter .flip-clock-wrapper ul li {
+    line-height: 30px; }
+  .product-sticky-block .goods-link {
+    height: 14px;
+    font-size: 14px; }
+  .product-sticky-block .goods-horizontal__compare a {
+    background-color: #fff; }
+
+.product-useful {
+  margin-bottom: 30px; }
 
 @media (max-width: 1279px) {
   .top-slider__item--left {

@@ -10,6 +10,45 @@
             <h1 class="product-name">Циркуляционный насос Hacoch BPS25/6-180pump +
                 гайка (122009) <span class="product-code">код товара: 23456</span></h1>
 
+            <div class="product-sticky-block">
+                <div class="container">
+                    <div class="goods-horizontal">
+                        <div class="goods-image goods-image--gray">
+                            <a href="#">
+                                <img src="img/jpeg_files/goods-md-1.png" alt="goods" height="142" width="134">
+                            </a>
+                        </div>
+
+
+                        <div class="goods-property">
+                            <div class="goods-link">
+                                <a href="#">BPS 25-6ESA-180</a>
+                            </div>
+                            <div class="goods-subtitle"><span>Циркуляционный насос</span></div>
+                        </div>
+
+                        <div class="goods-sticky-sale">
+                            <div class="goods-label goods-label--green">-30%</div>
+                            <div class="product-sale-counter">
+                                <div id="flipcountdown-2" class="product-sale-counter__item"></div>
+                            </div>
+                        </div>
+
+                        <div class="goods-price">
+                            <span class="goods-price-current">₴ 12 600 </span>
+                            <span class="goods-price-old">₴ 13 000</span>
+                        </div>
+
+                        <ul class="goods-property__ctrl">
+                            <li class="goods-property__ctrl--icon goods-horizontal__compare"><a href="#"><span class="iconmoon icon-compare"></span>Сравнить</a></li>
+                            <li class="goods-property__ctrl--icon goods-horizontal__buy"><a href="#"><span class="iconmoon icon-basket"></span>Купить</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+
             <div class="row product-top-block">
                 <div class="col-lg-6 push-lg-6">
 
@@ -442,7 +481,7 @@
                                     </div>
                                 </div>
 
-                                <a href="#" class="product-spoiler-trigger">все отзывы</a>
+                                <a href="#" class="product-spoiler-trigger left">все отзывы</a>
 
                             </div>
                             <div class="product-tab-content__item">
@@ -499,7 +538,7 @@
                                         <li>- Содержание нефтепродуктов: не более 0.5 мг/дм3</li>
                                     </ul>
                                 </div>
-                                <a href="#" class="product-spoiler-trigger">еще</a>
+                                <a href="#" class="product-spoiler-trigger right">еще</a>
                             </div>
                             <div class="product-tab-content__item">
                                 <div class="tab-spoiler-container">
@@ -527,7 +566,7 @@
                                         <li>- Содержание нефтепродуктов: не более 0.5 мг/дм3</li>
                                     </ul>
                                 </div>
-                                <a href="#" class="product-spoiler-trigger">еще</a>
+                                <a href="#" class="product-spoiler-trigger right">еще</a>
                             </div>
 
                             <div class="product-tab-content__item">
@@ -556,7 +595,7 @@
                                         <li>- Содержание нефтепродуктов: не более 0.5 мг/дм3</li>
                                     </ul>
                                 </div>
-                                <a href="#" class="product-spoiler-trigger">еще</a>
+                                <a href="#" class="product-spoiler-trigger right">еще</a>
                             </div>
                         </div>
                     </div>
@@ -697,7 +736,7 @@
                     </div>
                 </div>
             </div>
-
+            <?php include_once "parts/contacts.php" ?>
 
         </div>
     </div>

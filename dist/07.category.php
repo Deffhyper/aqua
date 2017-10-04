@@ -208,7 +208,7 @@
                         </div>
 
                         <div class="seo-text">
-                            <div class="text-block mb-7">
+                            <div class="text-block">
                                 <h3>Общая классификация насосов</h3>
                                 <p>Насос это гидравлическая машина, используемая для откачки, транспортировки, подачи и
                                     обеспечения циркуляции в замкнутом пространстве различных жидких сред, в том числе
@@ -249,11 +249,12 @@
                     </div>
                 </div>
             </div>
+            <?php include_once "parts/contacts.php" ?>
         </div>
     </div>
 
 
-    <!--    --><?php //include_once "parts/contacts.php" ?>
+
     <?php include_once "parts/footer.php" ?>
 
     <script src="js/libs.min.js"></script>

@@ -1222,4 +1222,33 @@ mark {
   color: #343434;
 }
 
+////////////////////////////// goods label //////////////////////////////////
 
+.goods-label {
+  width: 75px;
+  padding: 7px 0;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 11px;
+  font-family: $proxima-semibold;
+  color: #fff;
+  position: relative;
+  &:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-left: 5px solid transparent;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+  }
+  &--green {
+    background-color: #00b33d;
+    &:after {
+      border-top-color: #018039;
+    }
+
+  }
+}
