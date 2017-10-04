@@ -138,6 +138,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-pen:before {
+  content: "\e900";
+}
 .icon-basket:before {
   content: "\e91f";
 }

@@ -352,6 +352,36 @@ $(function() {
         ]
     });
 
+    $('.one-item-slider-small').slick({dots: true,
+        infinite: true,
+        arrows: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1279,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 766,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+
     $('.one-item-slider-2').slick({
         dots: true,
         infinite: true,
@@ -688,6 +718,55 @@ $(function() {
         clockFace: 'DailyCounter',
         countdown: true,
         showSeconds: true
+    });
+
+
+    ///////////////////////////////////// product tab /////////////////////////////////////
+
+    $('.product-tab').on('click', function (e) {
+        e.preventDefault();
+        var $target = $(e.target);
+
+        if($target.closest('li').hasClass('product-tab-ctrl__item')){
+            var itemIndex = $target.closest('li').index();
+            $(this).find('.product-tab-content__item').removeClass('active');
+            $(this).find('.product-tab-content__item').eq(itemIndex).addClass('active');
+        }
+
+
+    });
+
+    /////////////////////////////////  product spoiler ///////////////////////////
+
+    $(document).on('.product-spoiler-trigger a', 'click', function () {
+
+    });
+
+    var spoilerLink = '<a href="#" class="main-news-item__prop--link">Читать подробнее</a>',
+        contentHeight = 0,
+        $mainContent = $('.main-connect-item__text');
+
+    $mainContent.find('p').each(function(){
+        contentHeight += $(this).outerHeight(true);
+    });
+
+
+    if(contentHeight > 305) {
+        $(spoilerLink).insertAfter($mainContent);
+    }
+
+    $('.main-connect-item.left').click(function(e){
+        if(e.target.className == 'main-news-item__prop--link') {
+            e.preventDefault();
+
+            if($(this).hasClass('open')) {
+                $(this).find('.main-connect-item__text').removeAttr('style');
+                $(this).removeClass('open');
+            } else {
+                $(this).find('.main-connect-item__text').css('height', contentHeight);
+                $(this).addClass('open');
+            }
+        }
     });
 
 

@@ -107,7 +107,7 @@
   }
 
   .left-block {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   }
 
   .left-sidebar {
@@ -195,6 +195,13 @@
       padding-top: 15px;
       padding-bottom: 10px;
     }
+  }
+
+  .catalog-title.catalog-title__mob {
+    display: block;
+  }
+  .catalog .catalog-title {
+    display: none;
   }
 
   .filter {

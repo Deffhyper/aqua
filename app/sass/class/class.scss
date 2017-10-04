@@ -662,8 +662,21 @@ mark {
   }
 
   .goods-image {
-    height: 150px;
+    height: 130px;
     margin-bottom: 15px;
+  }
+
+  .goods-link {
+    height: 14px;
+    font-size: 14px;
+  }
+
+  .goods-price-current {
+    font-size: 14px;
+  }
+
+  .goods-subtitle {
+    margin-bottom: 12px;
   }
 }
 
@@ -1192,6 +1205,21 @@ mark {
     }
   }
 
+}
+
+
+/////////////////////////////// rate it ///////////////////////////
+
+.rateit-font .rateit-range {
+  background: none;
+  height: auto;
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+
+.rateit .rateit-preset,
+.rateit .rateit-hover {
+  color: #343434;
 }
 
 

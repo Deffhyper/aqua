@@ -9,6 +9,7 @@
     <div class="row">
         <div class="col-12">
             <h1 class="page-title">Каталог</h1>
+            <p class="catalog-title catalog-title__mob">Фекальные насосы</p>
             <div class="row">
                 <div class="col-12 d-flex-lg">
                     <div class="left-block">
@@ -51,7 +52,7 @@
                                             </ul>
                                         </div>
                                     </div>
-                                    <div class="col-xl-3 col-lg-2 col-sm-12 text-lg-center catalog-ctrl-wrapper__item">
+                                    <div class="col-xl-3 col-lg-2 col-sm-12 hidden-sm-down text-lg-center catalog-ctrl-wrapper__item">
                                         <span class="catalog-ctrl__label">Вид:</span>
                                         <span class="catalog-ctrl__orient">
                                             <a href="#" class="catalog-ctrl__orient--vertical active">

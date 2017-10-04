@@ -193,6 +193,34 @@ $(function() {
         ]
     });
 
+    $('.offer-slider').slick({
+        dots: true,
+        infinite: false,
+        arrows: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1279,
+                settings: {
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 766,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
+
     $('.four-image-slider').slick({
 
         infinite: true,
@@ -311,6 +339,36 @@ $(function() {
                 breakpoint: 991,
                 settings: {
                     slidesToShow: 3,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 766,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+
+    $('.one-item-slider-small').slick({dots: true,
+        infinite: true,
+        arrows: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1279,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 1,
                     slidesToScroll: 1
                 }
             },
@@ -647,6 +705,20 @@ $(function() {
         // ]
     });
 
+    ///////////////////////////////////////// countdown /////////////////////////
+
+    // Grab the current date
+    var currentDate = new Date();
+    // Set some date in the future. In this case, it's always Jan 1
+    var futureDate  = new Date('11.11.2017 12:34:23');
+    // Calculate the difference in seconds between the future and current date
+    var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
+    // Instantiate a coutdown FlipClock
+    $('#flipcountdown').FlipClock(diff, {
+        clockFace: 'DailyCounter',
+        countdown: true,
+        showSeconds: true
+    });
 
 
 

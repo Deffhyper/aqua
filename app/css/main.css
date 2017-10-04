@@ -89,6 +89,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+.icon-pen:before {
+  content: "\e900"; }
+
 .icon-basket:before {
   content: "\e91f"; }
 
@@ -777,8 +780,18 @@ mark {
   margin-left: 10px; }
 
 .goods-offer .goods-image {
-  height: 150px;
+  height: 130px;
   margin-bottom: 15px; }
+
+.goods-offer .goods-link {
+  height: 14px;
+  font-size: 14px; }
+
+.goods-offer .goods-price-current {
+  font-size: 14px; }
+
+.goods-offer .goods-subtitle {
+  margin-bottom: 12px; }
 
 .link-arrow {
   font-family: "Proxima-Nova-Semibold", sans-serif;
@@ -1210,6 +1223,16 @@ mark {
       height: 9px;
       width: 1px;
       background-color: #333; }
+
+.rateit-font .rateit-range {
+  background: none;
+  height: auto;
+  font-size: 14px;
+  letter-spacing: 3px; }
+
+.rateit .rateit-preset,
+.rateit .rateit-hover {
+  color: #343434; }
 
 body:before {
   content: '';
@@ -2954,6 +2977,9 @@ body:after {
 
 .catalog {
   margin-bottom: 50px; }
+  .catalog-title.catalog-title__mob {
+    display: none;
+    font-weight: bold; }
   .catalog-ctrl {
     padding: 0 0 30px; }
     .catalog-ctrl__label {
@@ -3513,6 +3539,9 @@ body:after {
   line-height: 1.5;
   margin-bottom: 13px; }
 
+.product-top-block {
+  margin-bottom: 30px; }
+
 .product-code {
   font-family: "Proxima-Nova-Regular", sans-serif;
   font-size: 13px;
@@ -3537,7 +3566,22 @@ body:after {
     -webkit-flex: 0 0 80%;
         -ms-flex: 0 0 80%;
             flex: 0 0 80%;
-    max-width: 80%; }
+    max-width: 80%;
+    overflow: hidden; }
+    .product-slider__left--item {
+      position: relative;
+      width: 490px;
+      height: 490px;
+      overflow: hidden; }
+      .product-slider__left--item img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+        max-height: 100%;
+        max-width: 100%; }
   .product-slider__right {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 20%;
@@ -3680,12 +3724,138 @@ body:after {
 
 .offer-slider__item {
   max-width: 155px;
-  margin: 0 auto 20px; }
+  margin: 0 auto 15px; }
 
 .offer-slider .slick-dots {
   position: absolute;
   top: -40px;
   right: 0; }
+
+.product-sliders-review {
+  margin-bottom: 40px; }
+
+.product-reviews {
+  padding: 30px;
+  max-width: 325px;
+  margin-left: auto; }
+  .product-reviews .small-goods-no-hover {
+    margin-left: auto;
+    margin-right: auto; }
+
+.review-sm-block {
+  margin-bottom: 25px; }
+  .review-sm-block__top {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .review-sm-block__top .rateit {
+      vertical-align: middle; }
+    .review-sm-block__top--user {
+      display: inline-block;
+      vertical-align: middle;
+      margin-bottom: 0;
+      padding-top: 3px; }
+      .review-sm-block__top--user span {
+        font-family: "Open-Sans-Bold", sans-serif;
+        margin-right: 10px; }
+      .review-sm-block__top--user time {
+        font-family: "Open-Sans-Light", sans-serif; }
+  .review-sm-block__bottom {
+    line-height: 1.8; }
+
+.product-tab {
+  margin-bottom: 40px; }
+
+.reviews-tab {
+  padding-right: 20px; }
+
+.property-tab {
+  padding-left: 20px; }
+  .property-tab .tab-spoiler-container {
+    line-height: 1.9; }
+  .property-tab .product-tab-ctrl {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .property-tab p {
+    margin-bottom: 10px; }
+
+.product-tab-ctrl {
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 25px; }
+  .product-tab-ctrl:after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 1px;
+    background-color: #f0f0f0; }
+  .product-tab-ctrl__item {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    margin-right: 30px;
+    cursor: pointer; }
+    .product-tab-ctrl__item .icon-pen {
+      padding-left: 4px;
+      display: inline-block;
+      position: relative;
+      top: 2px; }
+    .product-tab-ctrl__item--title {
+      font-family: "Proxima-Nova-Light", sans-serif;
+      font-size: 20px;
+      line-height: 1.6; }
+    .product-tab-ctrl__item:last-child {
+      margin-right: 0; }
+    .product-tab-ctrl__item.active:after {
+      content: '';
+      width: 100%;
+      position: absolute;
+      left: 0;
+      bottom: -12px;
+      height: 5px;
+      background-color: #f0f0f0; }
+
+.product-spoiler-trigger {
+  color: #01b2e8;
+  display: inline-block;
+  border-bottom: 1px dotted #01b2e8;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  line-height: 1; }
+  .product-spoiler-trigger:hover {
+    border-color: transparent;
+    color: #0191e8; }
+
+.tab-spoiler-container {
+  height: 335px;
+  overflow: hidden;
+  margin-bottom: 15px; }
+
+.product-useful-block {
+  padding-top: 20px; }
+
+.product-tab-content__item {
+  display: none; }
+  .product-tab-content__item.active {
+    display: block; }
 
 @media (max-width: 1279px) {
   .top-slider__item--left {
@@ -3873,7 +4043,7 @@ body:after {
   .right-block {
     margin-bottom: 30px; }
   .left-block {
-    margin-bottom: 30px; }
+    margin-bottom: 15px; }
   .left-sidebar {
     display: none;
     padding-top: 10px; }
@@ -3925,6 +4095,10 @@ body:after {
     .catalog-ctrl-wrapper__item {
       padding-top: 15px;
       padding-bottom: 10px; }
+  .catalog-title.catalog-title__mob {
+    display: block; }
+  .catalog .catalog-title {
+    display: none; }
   .filter {
     margin-top: 15px; }
   .filter-wrapper {

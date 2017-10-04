@@ -1,4 +1,4 @@
-<div class="left-block__mob-title"><a href="#" role="button">Список</a></div>
+<div class="left-block__mob-title"><a href="#" role="button">Каталог</a></div>
 <ul class="left-sidebar">
     <li class="left-sidebar__item"><a href="#">Водоснабжение</a></li>
     <li class="left-sidebar__item has-child">
