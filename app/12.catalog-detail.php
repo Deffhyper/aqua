@@ -484,16 +484,29 @@
                                 <a href="#" class="product-spoiler-trigger left">все отзывы</a>
 
                             </div>
-                            <div class="product-tab-content__item">
-                                <p class="title-light">Написать отзыв</p>
-                                <form action="#">
-                                    <fieldset>
-                                        <input type="text" placeholder="Ваше Имя">
-                                    </fieldset>
-                                    <fieldset>
-                                        <textarea name="" id="" cols="30" rows="10" placeholder="Введите сообщение"></textarea>
-                                    </fieldset>
-                                </form>
+                            <div class="product-tab-content__item ">
+                                <div class="reviews-form">
+
+                                    <p class="title-light">Оцените товар</p>
+                                    <div class="rateit" data-rateit-mode="font" data-rateit-resetable="false"
+                                         data-rateit-icon="" style="font-family:fontawesome"
+                                         data-rateit-ispreset="true" data-rateit-step="1">
+                                    </div>
+
+                                    <p class="title-light">Напишите отзыв</p>
+                                    <form action="#">
+                                        <fieldset>
+                                            <input type="text" placeholder="Ваше Имя">
+                                        </fieldset>
+                                        <fieldset>
+                                            <textarea name="" id=""  cols="" rows="" placeholder="Введите сообщение"></textarea>
+                                        </fieldset>
+                                        <fieldset>
+                                            <input type="submit" class="btn btn__sm btn__sm--gray" value="Отправть">
+                                        </fieldset>
+                                    </form>
+                                </div>
+
 
                             </div>
                         </div>
@@ -542,7 +555,8 @@
                             </div>
                             <div class="product-tab-content__item">
                                 <div class="tab-spoiler-container">
-                                    <p> <b>Документация </b>Циркуляционный электронасос BPS32-8S предназначен для перекачивания рабочих
+                                    <p><b>Документация </b></p>
+                                    <p> Циркуляционный электронасос BPS32-8S предназначен для перекачивания рабочих
                                         жидкостей в одно- и двухтрубных системах отопления открытого и закрытого типа, в
                                         том числе, использующих энергию солнца, тепловых насосах, системах
                                         кондиционирования воздуха при стабильном или слабо меняющемся расходе рабочей
@@ -571,7 +585,8 @@
 
                             <div class="product-tab-content__item">
                                 <div class="tab-spoiler-container">
-                                    <p> <b>Доставка</b>Циркуляционный электронасос BPS32-8S предназначен для перекачивания рабочих
+                                    <p><b>Доставка</b></p>
+                                    <p> Циркуляционный электронасос BPS32-8S предназначен для перекачивания рабочих
                                         жидкостей в одно- и двухтрубных системах отопления открытого и закрытого типа, в
                                         том числе, использующих энергию солнца, тепловых насосах, системах
                                         кондиционирования воздуха при стабильном или слабо меняющемся расходе рабочей

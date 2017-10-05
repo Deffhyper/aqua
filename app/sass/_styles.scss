@@ -1755,7 +1755,35 @@
   margin-bottom: 30px;
 }
 
+.reviews-form {
 
+  .rateit {
+    display: block;
+    margin-bottom: 15px;
+    &.rateit-font .rateit-range {
+      font-size: 20px;
+    }
+  }
+  fieldset {margin-bottom: 10px}
+  input[type="text"] {
+    width: 300px;
+    background-color: #f0f0f0;
+    border: 0;
+    height: 30px;
+    @include placeholder {
+      font-size: 13px;
+      color: #c4c4c4;
+      text-indent: 0;
+      transition: 0.3s ease;
+      font-family: $font;
+    }
+  }
+  textarea {
+    @extend input[type="text"];
+    height: 100px;
+    resize: none;
+  }
+}
 
 
 

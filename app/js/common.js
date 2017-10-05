@@ -749,10 +749,12 @@ $(function() {
         if($target.closest('li').hasClass('product-tab-ctrl__item')){
             var itemIndex = $target.closest('li').index();
 
-            $target.closest('li').addClass('active').siblings().removeClass('active');
 
+            $target.closest('li').addClass('active').siblings().removeClass('active');
             $(this).find('.product-tab-content__item').eq(itemIndex).addClass('active')
                 .siblings().removeClass('active');
+
+            $('.rateit').rateit();
         }
 
 
@@ -779,6 +781,8 @@ $(function() {
         }
 
     });
+
+
 
 
 
