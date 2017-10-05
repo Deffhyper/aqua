@@ -201,33 +201,7 @@ $(function() {
         ]
     });
 
-    $('.offer-slider').slick({
-        dots: true,
-        infinite: false,
-        arrows: false,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        responsive: [
-            {
-                breakpoint: 1279,
-                settings: {
-                    slidesToShow: 3
-                }
-            },
-            {
-                breakpoint: 991,
-                settings: {
-                    slidesToShow: 2
-                }
-            },
-            {
-                breakpoint: 766,
-                settings: {
-                    slidesToShow: 1
-                }
-            }
-        ]
-    });
+
 
     $('.four-image-slider').slick({
 
@@ -360,6 +334,36 @@ $(function() {
         ]
     });
 
+    $('.offer-slider').slick({
+        dots: true,
+        infinite: false,
+        arrows: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1279,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3
+                }
+            },
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3
+                }
+            },
+            {
+                breakpoint: 766,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
+
     $('.one-item-slider-small').slick({dots: true,
         infinite: true,
         arrows: false,
@@ -376,7 +380,7 @@ $(function() {
             {
                 breakpoint: 991,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                     slidesToScroll: 1
                 }
             },
@@ -701,16 +705,17 @@ $(function() {
         arrows: true,
         infinite: false,
         focusOnSelect: true,
-        draggable: false
-        // responsive: [
-        //     {
-        //         breakpoint: 1280,
-        //         settings: {
-        //             slidesToShow: 2,
-        //             slidesToScroll: 1
-        //         }
-        //     }
-        // ]
+        draggable: false,
+        responsive: [
+            {
+                breakpoint: 767,
+                settings: {
+                    vertical: false,
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            }
+        ]
     });
 
     ///////////////////////////////////////// countdown /////////////////////////

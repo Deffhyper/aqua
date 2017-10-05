@@ -1652,6 +1652,10 @@
     }
 
     &.active {
+      .product-tab-ctrl__item--title {
+        font-family: $proxima-bold;
+      }
+
       &:after {
         content: '';
         width: 100%;
@@ -1708,7 +1712,6 @@
   z-index: 6;
   transition: .3s ease-in-out;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
-
 
   &.sticky {
     top: 71px;

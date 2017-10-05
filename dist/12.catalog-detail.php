@@ -166,7 +166,7 @@
             </div>
 
             <div class="row no-gutters product-sliders-review">
-                <div class="col-lg-8 col-sm-12">
+                <div class="col-lg-8 col-md-12">
                     <div class="padding-lg-block gray-border">
                         <p class="title-sm-light">Комплект к данному товару - вместе экономнее</p>
                         <div class="offer-slider">
@@ -330,7 +330,7 @@
 
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12">
+                <div class="col-lg-4 col-md-12">
                     <div class="product-reviews">
                         <p class="title-light">Просмотренные товары</p>
                         <div class="one-item-slider-small">
@@ -361,7 +361,7 @@
             </div>
 
             <div class="row product-main-property">
-                <div class="col-md-6 col-sm-12">
+                <div class="col-lg-6 col-md-12">
                     <div class="product-tab reviews-tab">
 
                         <ul class="product-tab-ctrl">
@@ -499,7 +499,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12">
+                <div class="col-lg-6 col-md-12">
                     <div class="product-tab property-tab">
                         <ul class="product-tab-ctrl">
                             <li class="product-tab-ctrl__item active"><a href="#" class="product-tab-ctrl__item--title">Общие

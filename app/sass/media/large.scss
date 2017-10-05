@@ -200,8 +200,60 @@
     max-width: 75%;
   }
 
+  ///////////////////////////////////// product detail //////////////////////////////////
 
+  .product-slider__right {
+    margin-top: 0;
+    padding-top: 49px;
+    margin-bottom: -50px;
+  }
 
+  .product-slider__left--item {
+    width: 360px;
+    height: 360px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .product-slider {
+    margin-top: 0;
+  }
+
+  .product-name {
+    max-width: 100%;
+  }
+
+  .product-tab-ctrl__item--title {
+    font-size: 16px;
+    line-height: 2;
+  }
+
+  .tab-spoiler-container {
+    height: 405px;
+  }
+
+  .product-sliders-review {
+    margin-bottom: 20px;
+  }
+
+  .product-sale-counter .flip-clock-divider {
+    width: 4px;
+  }
+
+  .product-code {
+    display: inline-block;
+    white-space: nowrap;
+  }
+
+  .product-reviews {
+    padding: 20px;
+  }
+
+  .product-reviews {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 
 
