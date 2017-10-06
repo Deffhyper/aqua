@@ -157,7 +157,7 @@
     margin-bottom: 15px;
     @include placeholder {
       font-size: 13px;
-      color: $black-background;
+      color: $black-background !important;
       text-indent: 0;
       transition: 0.3s ease;
     }

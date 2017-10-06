@@ -44,7 +44,7 @@
                         </a>
                     </div>
                     <div class="header-cart">
-                        <a href="#">
+                        <a href="#" data-toggle="modal" data-target="#modal-cart">
                             <span class="header-cart-icon">
                                 <span class="iconmoon icon-basket"></span>
                             </span>

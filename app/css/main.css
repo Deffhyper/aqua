@@ -1259,6 +1259,25 @@ mark {
     .goods-label--green:after {
       border-top-color: #018039; }
 
+.goods-amount button {
+  padding: 0;
+  background-color: #f0f0f0;
+  border: 0;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1;
+  width: 14px;
+  height: 14px;
+  text-align: center; }
+
+.goods-amount-input {
+  font-family: "Proxima-Nova-Regular", sans-serif;
+  font-size: 13px;
+  border: 0;
+  text-align: center;
+  min-width: inherit;
+  width: 15%; }
+
 body:before {
   content: '';
   display: block;
@@ -2058,25 +2077,25 @@ body:after {
   margin-bottom: 15px; }
   ::-webkit-input-placeholder {
     font-size: 13px;
-    color: #343434;
+    color: #343434 !important;
     text-indent: 0;
     -webkit-transition: 0.3s ease;
     transition: 0.3s ease; }
   :-moz-placeholder {
     font-size: 13px;
-    color: #343434;
+    color: #343434 !important;
     text-indent: 0;
     -webkit-transition: 0.3s ease;
     transition: 0.3s ease; }
   ::-moz-placeholder {
     font-size: 13px;
-    color: #343434;
+    color: #343434 !important;
     text-indent: 0;
     -webkit-transition: 0.3s ease;
     transition: 0.3s ease; }
   :-ms-input-placeholder {
     font-size: 13px;
-    color: #343434;
+    color: #343434 !important;
     text-indent: 0;
     -webkit-transition: 0.3s ease;
     transition: 0.3s ease; }
@@ -3966,6 +3985,27 @@ body:after {
 .reviews-form textarea {
   height: 100px;
   resize: none; }
+
+.cart .page-title {
+  width: 150px; }
+
+.cart-table {
+  width: 100%; }
+  .cart-table .goods-price {
+    position: relative; }
+  .cart-table .goods-label {
+    display: block;
+    position: absolute;
+    top: -40px;
+    left: 0; }
+  .cart-table__header td {
+    font-family: "Proxima-Nova-Regular", sans-serif;
+    color: #c4c4c4;
+    font-size: 13px; }
+    .cart-table__header td:first-child {
+      width: 200px; }
+    .cart-table__header td:last-child {
+      width: 100px; }
 
 @media (max-width: 1279px) {
   .top-slider__item--left {

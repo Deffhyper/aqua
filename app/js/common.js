@@ -783,6 +783,25 @@ $(function() {
     });
 
 
+    ////////////////////////////// goods amount //////////////////////////////////////////
+
+    $('.goods-amount').on('click', function (event) {
+        var $target = $(event.target);
+        var inputVal = $(this).find('.goods-amount-input').val();
+        var currentVal = Number(inputVal.trim());
+
+        if ($target.hasClass('dec') && currentVal >= 2) {
+            --currentVal;
+            $(this).find('.goods-amount-input').val(currentVal);
+        } else if ($target.hasClass('inc')) {
+            ++currentVal;
+            $(this).find('.goods-amount-input').val(currentVal);
+        }
+    });
+
+
+
+
 
 
 

@@ -1786,7 +1786,40 @@
 }
 
 
+//////////////////////////////////////// cart /////////////////////////
 
+.cart {
+  .page-title {
+    width: 150px;
+  }
+}
+
+.cart-table {
+  .goods-price {
+    position: relative;
+  }
+  .goods-label {
+    display: block;
+    position: absolute;
+    top: -40px;
+    left: 0;
+  }
+  width: 100%;
+  &__header {
+    td {
+      font-family:$proxima-regular;
+      color: #c4c4c4;
+      font-size: 13px;
+
+      &:first-child {
+        width: 200px;
+      }
+      &:last-child {
+        width: 100px;
+      }
+    }
+  }
+}
 
 
 

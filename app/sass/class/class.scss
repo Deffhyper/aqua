@@ -1253,3 +1253,30 @@ mark {
 
   }
 }
+
+
+////////////////////////////////// goods amount /////////////////////////////
+
+.goods-amount {
+ button {
+   padding: 0;
+   background-color: #f0f0f0;
+   border: 0;
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 1;
+   width: 14px;
+   height: 14px;
+   text-align: center;
+  }
+}
+
+.goods-amount-input {
+  font-family: $proxima-regular;
+  font-size: 13px;
+  border: 0;
+  text-align: center;
+  min-width: inherit;
+  width: 15%;
+
+}
