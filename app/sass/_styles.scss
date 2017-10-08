@@ -1795,6 +1795,8 @@
 }
 
 .cart-table {
+  position: relative;
+  margin-top: -50px;
   .goods-price {
     position: relative;
   }
@@ -1810,16 +1812,162 @@
       font-family:$proxima-regular;
       color: #c4c4c4;
       font-size: 13px;
+      padding-bottom: 35px;
 
       &:first-child {
-        width: 200px;
+        width: 85px;
+      }
+      &:nth-child(2){
+        width: 160px;
       }
       &:last-child {
         width: 100px;
       }
     }
   }
+  &__item {
+
+    .goods-subtitle {
+      max-width: 200px;
+      height: auto;
+    }
+
+    .goods-link {
+      height: auto;
+      max-width: 200px;
+    }
+    td {
+      padding-bottom: 5px;
+
+      &:first-child {
+        font-family:$proxima-regular;
+        color: #c4c4c4;
+        font-size: 13px;
+      }
+      &:last-child {
+        text-align: right;
+      }
+    }
+  }
 }
 
+.cart-total {
+  margin: 50px 70px 30px auto;
 
+  .goods-price-current {
+    font-size: 24px;
+  }
+  tr {
+    &:first-child {
 
+      td:first-child {
+        text-align: right;
+        font-family:$proxima-regular;
+        color: #c4c4c4;
+        font-size: 13px;
+        padding-top: 6px;
+      }
+    }
+    td {
+      vertical-align: middle;
+      padding: 7px 10px;
+
+    }
+  }
+}
+
+.five-item-slider-block {
+  .title-sm-light {
+    margin-bottom: 30px;
+  }
+}
+
+.cart-table-mob-label {
+  display: none;
+}
+
+.modal-dialog.modal-cart {
+  max-width: 1000px;
+
+  .modal-content {
+    padding: 50px 40px 20px;
+  }
+
+  .modal-body {
+    padding: 0;
+  }
+
+  .modal-header {
+    padding-left: 40px;
+  }
+
+  .cart-table {
+    margin-top: 0;
+
+    &__item {
+      td {
+        &:first-child {
+          width: 40px;
+        }
+      }
+    }
+  }
+
+  .cart-total {
+    margin: 10px 0 20px auto;
+  }
+}
+
+.modal-dialog.modal-reg {
+  max-width: 700px;
+  display: block;
+
+  .product-tab-ctrl {
+    margin-bottom: 50px;
+  }
+
+  .modal-body {
+    padding: 0;
+    margin: 35px auto;
+    max-width: 450px;
+  }
+  .modal-content {
+    padding: 20px 25px;
+    display: block;
+  }
+
+  .product-tab-ctrl__item {
+    width: 50%;
+    margin: 0 -1px;
+    &:last-child {
+      text-align: right;
+    }
+  }
+
+  .modal-header {
+    min-height: 1px;
+  }
+
+}
+
+.modal-form {
+  max-width: 235px;
+  margin: 0 auto;
+  text-align: center;
+
+  .btn {
+    width: 165px;
+    text-align: center;
+  }
+
+  &__item {
+    margin-bottom: 10px;
+    min-height: 36px;
+    position: relative;
+    .eye {
+      position: absolute;
+      top: 11px;
+      right: -30px;
+    }
+  }
+}

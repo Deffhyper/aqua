@@ -364,6 +364,37 @@ $(function() {
         ]
     });
 
+    $('.five-item-slider').slick({
+        dots: true,
+        infinite: false,
+        arrows: false,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        responsive: [
+            // {
+            //     breakpoint: 1279,
+            //     settings: {
+            //         slidesToShow: 4,
+            //         slidesToScroll: 1
+            //     }
+            // },
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 4
+                }
+            },
+            {
+                breakpoint: 766,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+
     $('.one-item-slider-small').slick({dots: true,
         infinite: true,
         arrows: false,
@@ -799,6 +830,21 @@ $(function() {
         }
     });
 
+
+    ///////////////////////////// show password //////////////////////////////////////
+
+    $(document).on('click', '.eye', function (e) {
+        e.preventDefault();
+        if(!$(this).hasClass('active')){
+            $(this).addClass('active');
+            $(this).prev('input').attr('type', 'text');
+        } else {
+            $(this).removeClass('active');
+            $(this).prev('input').attr('type', 'password');
+        }
+
+
+    });
 
 
 

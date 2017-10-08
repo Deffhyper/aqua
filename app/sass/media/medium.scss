@@ -361,6 +361,37 @@
     font-size: 20px;
   }
 
+//////////////////////////////////////// cart /////////////////////////////////////////
+
+  .cart-table__header td:first-child {
+    width: 20px;
+  }
+
+  .cart-table__header td:nth-child(2) {
+    width: 140px;
+  }
+
+  .cart-table__header td:last-child {
+    width: 40px;
+  }
+
+  .cart-table__item td,
+  .cart-table__header td {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+
+  .cart-table .goods-price .goods-price-current {
+    white-space: nowrap;
+  }
+
+  .goods-amount {
+    margin-right: 10px;
+  }
+
+  .modal-dialog.modal-cart {
+    max-width: 95%;
+  }
 
 
 

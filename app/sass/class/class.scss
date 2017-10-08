@@ -51,10 +51,12 @@
     .iconmoon {
       display: inline-block;
       margin-right: 5px;
-      margin-top: 1px;
+      position: relative;
+      top: 1px;
     }
     &:hover {
       background-color: $green-hover;
+      color: #fff;
     }
   }
   &--red {
@@ -64,6 +66,16 @@
       background-color: $red-hover;
       color: #fff;
     }
+  }
+}
+
+.btn-link-dotted {
+  color: #707070;
+  border-bottom: 1px dotted #707070;
+  transition: all .3s ease;
+  &:hover, &:active, &:focus {
+    color: #707070;
+    border-bottom-color: transparent;
   }
 }
 
@@ -367,14 +379,16 @@ mark {
   position: relative;
   cursor: pointer;
   transition: .3s ease 0s;
+
+  .goods {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
 }
 
-.goods {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
+
 
 .goods-link {
   font-family: $proxima-bold;
@@ -982,12 +996,25 @@ mark {
   }
 }
 
+.five-item-slider {
+
+  .slick-dots {
+    padding-top: 60px;
+  }
+
+  &__item {
+    max-width: 170px;
+    margin: auto;
+  }
+}
+
 /////////////////////////////// modals ///////////////////
 
 .modal {
   z-index: 103;
-  background-color: rgba(0,0,0, .8);
+  background-color: rgba(6, 69, 121, .961);
 }
+
 
 .close {
   float: right;
@@ -1000,6 +1027,33 @@ mark {
     color: #fff;
   }
 }
+
+.modal-content {
+  border: 0;
+  border-radius: 0;
+  position: relative;
+  .close {
+    position: absolute;
+    top: 0;
+    right: 5px;
+  }
+}
+
+.modal-header {
+  padding: 0;
+  border:0 ;
+  font-family: $proxima-extra;
+  font-size: 24px;
+  margin-bottom: 20px;
+  display: block;
+  position: relative;
+  min-height: 30px;
+  &__item {
+    margin-bottom: 0;
+  }
+}
+
+
 
 
 //////////////////////////////////////// slider video /////////////////////////////////
@@ -1191,6 +1245,16 @@ mark {
     transform: rotate(-45deg);
   }
 
+  &.close-btn--lg {
+
+    &:before, &:after {
+      position: absolute;
+      content: ' ';
+      height: 18px;
+      width: 1px;
+    }
+  }
+
   &.close-btn--sm {
     width: 15px;
     height: 15px;
@@ -1258,16 +1322,24 @@ mark {
 ////////////////////////////////// goods amount /////////////////////////////
 
 .goods-amount {
+  width: 90px;
+
  button {
    padding: 0;
    background-color: #f0f0f0;
    border: 0;
    font-weight: bold;
-   font-size: 18px;
-   line-height: 1;
-   width: 14px;
-   height: 14px;
+   width: 16px;
+   height: 16px;
    text-align: center;
+   font-size: 14px;
+   &:hover {
+     background-color: #d4d4d4;
+   }
+   &:active {
+     background-color: #b9b9b9;
+   }
+
   }
 }
 
@@ -1277,6 +1349,56 @@ mark {
   border: 0;
   text-align: center;
   min-width: inherit;
-  width: 15%;
+  padding: 0;
+  max-width: 50px;
+}
 
+
+///////////////////////////////// gray input /////////////////////////////////
+
+.gray-input {
+  background-color: #f0f0f0;
+  border: 0;
+  height: 32px;
+  width: 100%;
+  color: #c4c4c4;
+  font-family: $font;
+  font-size: 13px;
+
+
+  &::-webkit-input-placeholder {
+    color: #c4c4c4 !important;
+    font-family: $font;
+    font-size: 13px;
+  }
+  &:-moz-placeholder{
+    color: #c4c4c4 !important;
+    font-family: $font;
+    font-size: 13px;
+  }
+  &::-moz-placeholder {
+    color: #c4c4c4 !important;
+    font-family: $font;
+    font-size: 13px;
+  }
+  &:-ms-input-placeholder{
+    color: #c4c4c4 !important;
+    font-family: $font;
+    font-size: 13px;
+  }
+}
+
+.eye {
+  &.active {
+    &:after {
+      content: '';
+      width: 21px;
+      height: 2px;
+      background-color: #c4c4c4;
+      position: absolute;
+      top: 6px;
+      left: 0;
+      transform: rotateZ(-47deg);
+    }
+  }
 }
