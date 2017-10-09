@@ -436,7 +436,7 @@ $(function() {
                 breakpoint: 1279,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 1
+                    slidesToScroll: 2
                 }
             },
             {
@@ -844,6 +844,22 @@ $(function() {
         }
 
 
+    });
+
+
+    ///////////////////////////// lk order ////////////////////////////////////////////////////////////////////
+
+    $('.lk-order__detail').on('click', function (e) {
+        e.preventDefault();
+        if(!$(this).hasClass('open')){
+            $(this).addClass('open');
+            $(this).find('a').text('скрыть');
+        } else {
+            $(this).removeClass('open');
+            $(this).find('a').text('подробнее');
+        }
+        $(this).parent('.lk-order').toggleClass('open');
+        $(this).parent('.lk-order').next('.lk-order-list').slideToggle();
     });
 
 

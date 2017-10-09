@@ -38,13 +38,13 @@
                         </a>
                     </div>
                     <div class="header-compare">
-                        <a href="#">
+                        <a href="11.compare.php">
                             <span class="iconmoon icon-compare"></span>
                             <span class="header-compare__label">2</span>
                         </a>
                     </div>
                     <div class="header-cart">
-                        <a href="#" data-toggle="modal" data-target="#modal-cart">
+                        <a href="13.cart.php">
                             <span class="header-cart-icon">
                                 <span class="iconmoon icon-basket"></span>
                             </span>

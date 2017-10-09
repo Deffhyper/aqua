@@ -20,7 +20,7 @@
 
     <ul class="goods-property__ctrl">
         <li class="goods-property__ctrl--icon goods-horizontal__compare"><a href="#"><span class="iconmoon icon-compare"></span>Сравнить</a></li>
-        <li class="goods-property__ctrl--icon goods-horizontal__buy"><a href="#"><span class="iconmoon icon-basket"></span>Купить</a></li>
+        <li class="goods-property__ctrl--icon goods-horizontal__buy"><a href="#" data-toggle="modal" data-target="#modal-cart"><span class="iconmoon icon-basket"></span>Купить</a></li>
     </ul>
 
 </div>

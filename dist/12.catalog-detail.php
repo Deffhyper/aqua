@@ -40,8 +40,10 @@
                         </div>
 
                         <ul class="goods-property__ctrl">
-                            <li class="goods-property__ctrl--icon goods-horizontal__compare"><a href="#"><span class="iconmoon icon-compare"></span>Сравнить</a></li>
-                            <li class="goods-property__ctrl--icon goods-horizontal__buy"><a href="#"><span class="iconmoon icon-basket"></span>Купить</a></li>
+                            <li class="goods-property__ctrl--icon goods-horizontal__compare"><a href="#"><span
+                                            class="iconmoon icon-compare"></span>Сравнить</a></li>
+                            <li class="goods-property__ctrl--icon goods-horizontal__buy"><a href="#"><span
+                                            class="iconmoon icon-basket"></span>Купить</a></li>
                         </ul>
 
                     </div>
@@ -110,10 +112,16 @@
                             <span class="goods-price-old">₴ 13 000</span>
                         </div>
                         <ul class="goods-property__ctrl">
-                            <li class="goods-property__ctrl--icon goods-horizontal__compare"><a href="#"><span
-                                            class="iconmoon icon-compare"></span>Сравнить</a></li>
-                            <li class="goods-property__ctrl--icon goods-horizontal__buy"><a href="#"><span
-                                            class="iconmoon icon-basket"></span>Купить</a></li>
+                            <li class="goods-property__ctrl--icon goods-horizontal__compare">
+                                <a href="11.compare.php">
+                                    <span class="iconmoon icon-compare"></span>Сравнить
+                                </a>
+                            </li>
+                            <li class="goods-property__ctrl--icon goods-horizontal__buy">
+                                <a href="#" data-toggle="modal" data-target="#modal-cart">
+                                    <span class="iconmoon icon-basket"></span>Купить
+                                </a>
+                            </li>
                         </ul>
                     </div>
 
@@ -486,23 +494,23 @@
                             </div>
                             <div class="product-tab-content__item ">
                                 <div class="reviews-form">
-
-                                    <p class="title-light">Оцените товар</p>
-                                    <div class="rateit" data-rateit-mode="font" data-rateit-resetable="false"
-                                         data-rateit-icon="" style="font-family:fontawesome"
-                                         data-rateit-ispreset="true" data-rateit-step="1">
+                                    <div class="reviews-form__header">
+                                        <span class="title-light">Напишите отзыв</span>
+                                        <div class="rateit" data-rateit-mode="font" data-rateit-resetable="false"
+                                             data-rateit-icon="" style="font-family:fontawesome"
+                                             data-rateit-ispreset="true" data-rateit-step="1">
+                                        </div>
                                     </div>
-
-                                    <p class="title-light">Напишите отзыв</p>
                                     <form action="#">
                                         <fieldset>
-                                            <input type="text" placeholder="Ваше Имя">
+                                            <input type="text" class="gray-input" placeholder="Ваше Имя">
                                         </fieldset>
                                         <fieldset>
-                                            <textarea name="" id=""  cols="" rows="" placeholder="Введите сообщение"></textarea>
+                                            <textarea name="" id="" cols="" rows=""
+                                                      placeholder="Введите сообщение"></textarea>
                                         </fieldset>
                                         <fieldset>
-                                            <input type="submit" class="btn btn__sm btn__sm--gray" value="Отправть">
+                                            <input type="submit" class="btn btn__sm btn__sm--gray" value="Отправить">
                                         </fieldset>
                                     </form>
                                 </div>
@@ -622,7 +630,7 @@
                     <div class="left-block">
                         <div class="product-useful-block">
                             <p class="section-subtitle">Полезное</p>
-                            <p class="section-title">Материалы  к данному товару</p>
+                            <p class="section-title">Материалы к данному товару</p>
                         </div>
                     </div>
                     <div class="right-block">

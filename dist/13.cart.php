@@ -6,8 +6,8 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-12 cart">
-            <h1 class="page-title">Ваша Корзина</h1>
+        <div class="col-12">
+            <h1 class="page-title page-title-short">Ваша Корзина</h1>
             <table class="cart-table">
                 <tbody>
                     <tr class="cart-table__header">

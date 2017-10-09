@@ -638,11 +638,7 @@
     margin-bottom: 10px;
   }
 
-  .cart .page-title {
-    width: 100%;
-    font-size: 20px;
-    margin-bottom: 15px;
-  }
+
   .goods-amount button {
     width: 26px;
     height: 26px;
@@ -752,6 +748,15 @@
 
   .modal-dialog.modal-reg .product-tab-ctrl {
     margin-bottom: 30px;
+  }
+
+//////////////////////////////////////// registration ////////////////////////////////////
+
+  .registration-block {
+    margin-top: 10px;
+    &.input-block {
+      max-width: 260px;
+    }
   }
 
 

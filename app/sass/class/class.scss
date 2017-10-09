@@ -11,6 +11,26 @@
   margin-top: -72px;
 }
 
+.page-title-short {
+  width: 150px;
+}
+
+.status-success {
+  color: #01ce47;
+}
+
+.status-cancel {
+  color: #b8b8b8;
+}
+
+@media ($mobile) {
+  .page-title-short {
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+}
+
 @media ($tablet) {
   .mt-minus-top {
     margin-top: 0;
@@ -514,6 +534,15 @@ mark {
   height: 15px;
   overflow: hidden;
   margin-bottom: 20px;
+}
+
+.goods-quantity {
+  color: #707070;
+}
+
+.goods-code {
+  font-size: 11px;
+  color: #cccccc;
 }
 
 
@@ -1157,6 +1186,9 @@ mark {
       display: block;
       white-space: nowrap;
       transition: .3s ease;
+      &:hover {
+
+      }
 
       .link {
         border-color: #fff;
