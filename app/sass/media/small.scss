@@ -707,13 +707,9 @@
       display: block;
     }
     tr {
-      display: block;
-      text-align: center;
-      td {
-        display: block;
-        text-align: center;
-      }
       &:last-child {
+        display: block;
+        width: 100%;
 
         &>td {
           display: block;
@@ -725,11 +721,21 @@
         }
       }
     }
+    .cart-total__sale {
+      &>td {
+        display: inline-block;
+        text-align: left;
+      }
+    }
+
+    .cart-total__current {
+      &>td {
+        display: inline-block;
+        text-align: left;
+      }
+    }
   }
 
-  .cart-total tr:first-child td:first-child {
-    text-align: center;
-  }
 
 
   ////////////////////////// modal reg ///////////////////////////
@@ -782,9 +788,87 @@
     }
   }
 
+////////////////////////////////////// lk //////////////////////////////////////////////
 
+  .lk-order {
+    display: block;
+    padding-bottom: 0;
+  }
 
+  .lk-order__detail {
+    width: 100%;
+  }
 
+  .lk-order > li {
+    padding-right: 0;
+    margin-bottom: 5px;
+  }
+
+  .lk-order-block__item {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+
+  .lk-order-list {
+    padding-bottom: 0;
+    border-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .goods-lk-order-wrapper {
+    display: block;
+  }
+
+  .lk-order-list__item {
+
+    .goods-horizontal {
+      width: 100%;
+    }
+
+  }
+
+  .goods-lk-order-wrapper .goods-image {
+    width: 30vw;
+    max-width: 160px;
+    height: 30vw;
+    max-height: 160px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .goods-lk-order-wrapper .goods-link {
+    margin-left: 0;
+    float: right;
+    width: 58%;
+    margin-bottom: 5px;
+  }
+
+  .goods-lk-order-wrapper .goods-subtitle {
+    float: right;
+    margin-left: 0;
+    width: 58%;
+    margin-bottom: 5px;
+  }
+  .lk-order-list__item:after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+  }
+
+  .lk-order-list__item {
+    margin-bottom: 15px;
+
+    .goods-code,
+    .goods-quantity,
+    .goods-price {
+      float: right;
+      width: 58%;
+      margin-bottom: 5px;
+    }
+
+  }
 
 
 

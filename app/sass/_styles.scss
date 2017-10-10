@@ -1849,7 +1849,7 @@
     font-size: 24px;
   }
   tr {
-    &:first-child {
+    &.cart-total__sale, &.cart-total__current {
 
       td:first-child {
         text-align: right;
@@ -1863,6 +1863,16 @@
       vertical-align: middle;
       padding: 7px 10px;
 
+    }
+    &.cart-total__sale {
+      .goods-price-current {
+        font-size: 18px;
+      }
+    }
+    &.cart-total__current {
+      .goods-price-current {
+        font-size: 24px;
+      }
     }
   }
 }
@@ -2040,6 +2050,10 @@
   font-size: 14px;
   &__item {
     margin-bottom: 25px;
+    & > a{
+      text-transform: none !important;
+    }
+
     &.active {
       color: #c9c9c9;
     }

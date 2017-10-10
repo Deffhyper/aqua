@@ -171,7 +171,11 @@
             </table>
             <table class="cart-total">
                 <tbody>
-                    <tr>
+                    <tr class="cart-total__sale">
+                        <td>Скидка</td>
+                        <td><span class="goods-price-current">₴ 12 600</span></td>
+                    </tr>
+                    <tr class="cart-total__current">
                         <td>К оплате</td>
                         <td><span class="goods-price-current">₴ 12 600</span></td>
                     </tr>
