@@ -450,6 +450,25 @@ $(function() {
     });
 
 
+    $('.mob-three-item-slider').slick({
+        dots: true,
+        infinite: true,
+        arrows: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 766,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+
+
+
     $('.catalog-list-slider').slick({
         dots: true,
         infinite: false,

@@ -200,27 +200,49 @@
 
                 <div class="col-xl-9 col-md-12">
                     <p class="title-light">Рекомендуем</p>
-                    <div class="row">
-                        <div class="col-lg-4 col-sm-12">
+                    <div class="mob-three-item-slider">
+                        <div>
                             <div class="goods-combo">
                                 <?php include "parts/goods.php" ?>
                                 <?php include "parts/small-goods.php" ?>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-sm-12">
+                        <div>
                             <div class="goods-combo">
                                 <?php include "parts/goods.php" ?>
                                 <?php include "parts/small-goods.php" ?>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-sm-12">
+                        <div>
                             <div class="goods-combo">
                                 <?php include "parts/goods.php" ?>
                                 <?php include "parts/small-goods.php" ?>
                             </div>
                         </div>
+
                     </div>
                 </div>
+<!--                    <div class="row">-->
+<!--                        <div class="col-lg-4 col-sm-12">-->
+<!--                            <div class="goods-combo">-->
+<!--                                --><?php //include "parts/goods.php" ?>
+<!--                                --><?php //include "parts/small-goods.php" ?>
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="col-lg-4 col-sm-12">-->
+<!--                            <div class="goods-combo">-->
+<!--                                --><?php //include "parts/goods.php" ?>
+<!--                                --><?php //include "parts/small-goods.php" ?>
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="col-lg-4 col-sm-12">-->
+<!--                            <div class="goods-combo">-->
+<!--                                --><?php //include "parts/goods.php" ?>
+<!--                                --><?php //include "parts/small-goods.php" ?>
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
 
 
 <!--                <div class="col-xl-6 col-lg-12">-->
@@ -302,6 +324,7 @@
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
@@ -388,10 +411,10 @@
                                 трубу: возможен ли
                                 простой расчет?
                             </p>
-                            <p class="text-gray">Возможен ли сколь-нибудь простой расчет расхода воды по диаметру трубы?
+                            <p class="text-gray hidden-sm-down">Возможен ли сколь-нибудь простой расчет расхода воды по диаметру трубы?
                                 Или
                                 единственный способ — обращаться к специалистам ...</p>
-                            <div class="section-block__ctrl">
+                            <div class="section-block__ctrl hidden-sm-down">
                                 <a href="#" class="link-arrow"><span>читать далее</span></a>
                                 <a href="#" class="btn btn__sm  btn__sm--gray">все статьи</a>
                             </div>
@@ -402,6 +425,13 @@
                                 <a href="#">
                                     <img src="img/jpeg_files/news-big-1.jpg" alt="news" width="320" height="322">
                                 </a>
+                            </div>
+                            <p class="text-gray hidden-md-up">Возможен ли сколь-нибудь простой расчет расхода воды по диаметру трубы?
+                                Или
+                                единственный способ — обращаться к специалистам ...</p>
+                            <div class="section-block__ctrl hidden-md-up">
+                                <a href="#" class="link-arrow"><span>читать далее</span></a>
+                                <a href="#" class="btn btn__sm  btn__sm--gray">все статьи</a>
                             </div>
                         </div>
                     </div>
@@ -414,10 +444,10 @@
                                 трубу: возможен ли
                                 простой расчет?
                             </p>
-                            <p class="text-gray">Возможен ли сколь-нибудь простой расчет расхода воды по диаметру трубы?
+                            <p class="text-gray hidden-sm-down">Возможен ли сколь-нибудь простой расчет расхода воды по диаметру трубы?
                                 Или
                                 единственный способ — обращаться к специалистам ...</p>
-                            <div class="section-block__ctrl">
+                            <div class="section-block__ctrl hidden-sm-down">
                                 <a href="#" class="link-arrow"><span>читать далее</span></a>
                                 <a href="#" class="btn btn__sm  btn__sm--gray">все статьи</a>
                             </div>
@@ -428,6 +458,13 @@
                                 <a href="#">
                                     <img src="img/jpeg_files/news-big-1.jpg" alt="news" width="320" height="322">
                                 </a>
+                            </div>
+                            <p class="text-gray hidden-md-up">Возможен ли сколь-нибудь простой расчет расхода воды по диаметру трубы?
+                                Или
+                                единственный способ — обращаться к специалистам ...</p>
+                            <div class="section-block__ctrl hidden-md-up">
+                                <a href="#" class="link-arrow"><span>читать далее</span></a>
+                                <a href="#" class="btn btn__sm  btn__sm--gray">все статьи</a>
                             </div>
                         </div>
                     </div>
@@ -440,10 +477,10 @@
                                 трубу: возможен ли
                                 простой расчет?
                             </p>
-                            <p class="text-gray">Возможен ли сколь-нибудь простой расчет расхода воды по диаметру трубы?
+                            <p class="text-gray hidden-sm-down">Возможен ли сколь-нибудь простой расчет расхода воды по диаметру трубы?
                                 Или
                                 единственный способ — обращаться к специалистам ...</p>
-                            <div class="section-block__ctrl">
+                            <div class="section-block__ctrl hidden-sm-down">
                                 <a href="#" class="link-arrow"><span>читать далее</span></a>
                                 <a href="#" class="btn btn__sm  btn__sm--gray">все статьи</a>
                             </div>
@@ -454,6 +491,13 @@
                                 <a href="#">
                                     <img src="img/jpeg_files/news-big-1.jpg" alt="news" width="320" height="322">
                                 </a>
+                            </div>
+                            <p class="text-gray hidden-md-up">Возможен ли сколь-нибудь простой расчет расхода воды по диаметру трубы?
+                                Или
+                                единственный способ — обращаться к специалистам ...</p>
+                            <div class="section-block__ctrl hidden-md-up">
+                                <a href="#" class="link-arrow"><span>читать далее</span></a>
+                                <a href="#" class="btn btn__sm  btn__sm--gray">все статьи</a>
                             </div>
                         </div>
                     </div>
@@ -466,10 +510,10 @@
                                 трубу: возможен ли
                                 простой расчет?
                             </p>
-                            <p class="text-gray">Возможен ли сколь-нибудь простой расчет расхода воды по диаметру трубы?
+                            <p class="text-gray hidden-sm-down">Возможен ли сколь-нибудь простой расчет расхода воды по диаметру трубы?
                                 Или
                                 единственный способ — обращаться к специалистам ...</p>
-                            <div class="section-block__ctrl">
+                            <div class="section-block__ctrl hidden-sm-down">
                                 <a href="#" class="link-arrow"><span>читать далее</span></a>
                                 <a href="#" class="btn btn__sm  btn__sm--gray">все статьи</a>
                             </div>
@@ -480,6 +524,13 @@
                                 <a href="#">
                                     <img src="img/jpeg_files/news-big-1.jpg" alt="news" width="320" height="322">
                                 </a>
+                            </div>
+                            <p class="text-gray hidden-md-up">Возможен ли сколь-нибудь простой расчет расхода воды по диаметру трубы?
+                                Или
+                                единственный способ — обращаться к специалистам ...</p>
+                            <div class="section-block__ctrl hidden-md-up">
+                                <a href="#" class="link-arrow"><span>читать далее</span></a>
+                                <a href="#" class="btn btn__sm  btn__sm--gray">все статьи</a>
                             </div>
                         </div>
                     </div>
@@ -492,10 +543,10 @@
                                 трубу: возможен ли
                                 простой расчет?
                             </p>
-                            <p class="text-gray">Возможен ли сколь-нибудь простой расчет расхода воды по диаметру трубы?
+                            <p class="text-gray hidden-sm-down">Возможен ли сколь-нибудь простой расчет расхода воды по диаметру трубы?
                                 Или
                                 единственный способ — обращаться к специалистам ...</p>
-                            <div class="section-block__ctrl">
+                            <div class="section-block__ctrl hidden-sm-down">
                                 <a href="#" class="link-arrow"><span>читать далее</span></a>
                                 <a href="#" class="btn btn__sm  btn__sm--gray">все статьи</a>
                             </div>
@@ -506,6 +557,14 @@
                                 <a href="#">
                                     <img src="img/jpeg_files/news-big-1.jpg" alt="news" width="320" height="322">
                                 </a>
+                            </div>
+
+                            <p class="text-gray hidden-md-up">Возможен ли сколь-нибудь простой расчет расхода воды по диаметру трубы?
+                                Или
+                                единственный способ — обращаться к специалистам ...</p>
+                            <div class="section-block__ctrl hidden-md-up">
+                                <a href="#" class="link-arrow"><span>читать далее</span></a>
+                                <a href="#" class="btn btn__sm  btn__sm--gray">все статьи</a>
                             </div>
                         </div>
                     </div>
@@ -519,14 +578,19 @@
     <div class="row">
         <div class="col-12">
             <div class="main-completed-work">
+
+                <p class="section-subtitle hidden-md-up">Выполненные работы</p>
+                <p class="section-title hidden-md-up">Первый запуск насосной станции на базе погружного
+                    насоса</p>
+
                 <div class="main-completed-work__left">
                     <a href="#">
                         <img src="img/jpeg_files/completed.png" alt="goods" width="255" height="312">
                     </a>
                 </div>
                 <div class="main-completed-work__right">
-                    <p class="section-subtitle">Выполненные работы</p>
-                    <p class="section-title">Первый запуск насосной станции на базе погружного
+                    <p class="section-subtitle hidden-sm-down">Выполненные работы</p>
+                    <p class="section-title hidden-sm-down">Первый запуск насосной станции на базе погружного
                         насоса</p>
                     <div class="section-goods-link">
                         <a href="#" class="goods-link">Könner & Söhnen KS 80TW</a>

@@ -194,6 +194,8 @@
 }
 
 .goods-combo-small {
+  height: 435px;
+
   .small-goods-wrapper {
     margin-bottom: 17px;
   }
@@ -317,7 +319,6 @@
     .section-goods-price {
       margin-bottom: 25px;
     }
-
   }
 }
 
@@ -325,50 +326,6 @@
   margin: 25px 0;
   position: relative;
   height: 460px;
-
-
-  &:hover {
-    color: #fff;
-
-    .main-completed-work-item__overlay {
-      opacity: 1;
-      z-index: 1;
-    }
-
-    .main-completed-work-item__title {
-      margin-top: 40px;
-    }
-
-    .main-completed-work-item__image {
-      height: 0;
-      overflow: hidden;
-    }
-
-    .section-goods-link .goods-link {
-      color: #fff;
-    }
-
-    .main-completed-work-item__text {
-      height: 240px;
-      margin-bottom: 0;
-
-      .text-gray {
-        color: #fff;
-      }
-    }
-    .link-arrow {
-      color: #fff;
-      span {
-        &:before {
-          background-color: #fff;
-        }
-        &:after {
-          border-color: #fff;
-        }
-      }
-    }
-
-  }
 
   .block-w-border {
     padding: 0 15px 15px;
@@ -473,6 +430,58 @@
   }
 }
 
+@media (min-width: 768px) {
+
+  .main-completed-work-item {
+    margin: 25px 0;
+    position: relative;
+    height: 460px;
+
+    &:hover {
+      color: #fff;
+
+      .main-completed-work-item__overlay {
+        opacity: 1;
+        z-index: 1;
+      }
+
+      .main-completed-work-item__title {
+        margin-top: 40px;
+      }
+
+      .main-completed-work-item__image {
+        height: 0;
+        overflow: hidden;
+      }
+
+      .section-goods-link .goods-link {
+        color: #fff;
+      }
+
+      .main-completed-work-item__text {
+        height: 240px;
+        margin-bottom: 0;
+
+        .text-gray {
+          color: #fff;
+        }
+      }
+      .link-arrow {
+        color: #fff;
+        span {
+          &:before {
+            background-color: #fff;
+          }
+          &:after {
+            border-color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+}
+
 .main-reviews {
   margin-top: 35px;
   margin-bottom: 35px;
@@ -554,6 +563,7 @@
     .dropdown.show .dropdown-toggle:before {
       transform: rotateZ(-45deg);
       top: 8px;
+      background-color: transparent;
     }
     .dropdown-toggle {
       display: block;
@@ -562,6 +572,12 @@
       border-bottom: 2px solid $text-color;
       padding-bottom: 4px;
       margin-bottom: 10px;
+
+      &:hover {
+        &:before {
+          background-color: transparent;
+        }
+      }
 
       &:after {
         content: none;
@@ -580,6 +596,7 @@
         right: 5px;
         -webkit-transition: .3s ease;
         transition: .3s ease;
+        border-radius: 0;
       }
     }
 
@@ -591,15 +608,12 @@
       font-size: 16px;
       box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.25);
       padding: 0;
+      right: 0;
       li {
         a {
           display: block;
           padding: 7px 16px;
           transition: .3s ease;
-          &:hover {
-            background-color: #0152a1;
-            color: #fff;
-          }
         }
       }
     }
@@ -630,6 +644,8 @@
   margin-bottom: 20px;
   overflow-y: auto;
 }
+
+
 
 
 .main-video-slider {
