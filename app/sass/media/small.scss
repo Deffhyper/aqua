@@ -870,7 +870,32 @@
 
   }
 
+  .lk-info {
+    max-width: 100%;
+    &.input-block {
+      .btn {
+        width: 100%;
+      }
+    }
+  }
 
+  .input-block__item mark {
+    right: -11px;
+  }
+
+
+
+
+  ///////////////////////////////////////// order detail /////////////////////
+
+  .order-detail-cart__top .title-light {
+    font-size: 15px;
+  }
+
+  .order-detail-cart__top .order-detail-cart-reset {
+    margin-top: 3px;
+    font-size: 11px;
+  }
 
 
 

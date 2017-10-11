@@ -262,5 +262,28 @@
   }
 
 
+  ///////////////////////////////////// order detail //////////////////////////
+
+  .order-detail-cart {
+    padding-left: 0;
+    margin-bottom: 30px;
+  }
+
+  .order-detail-forms {
+
+    .product-tab-ctrl__item--title {
+      font-size: 14px;
+      background-color: transparent;
+      color: #343434;
+      padding: 0;
+    }
+    .product-tab-ctrl__item.active .product-tab-ctrl__item--title {
+      color: #343434;
+      background-color: transparent;
+    }
+  }
+
+
+
 }
 

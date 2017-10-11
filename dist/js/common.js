@@ -793,10 +793,12 @@ $(function() {
     ///////////////////////////////////// product tab /////////////////////////////////////
 
     $('.product-tab').on('click', function (e) {
-        e.preventDefault();
+
         var $target = $(e.target);
 
         if($target.closest('li').hasClass('product-tab-ctrl__item')){
+
+            e.preventDefault();
             var itemIndex = $target.closest('li').index();
 
 
