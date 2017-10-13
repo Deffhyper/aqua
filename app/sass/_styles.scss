@@ -1681,6 +1681,9 @@
       color: #0191e8;
     }
 
+    &:focus, &:active {
+      color: #01b2e8;
+    }
 }
 
 .tab-spoiler-container {
@@ -1761,7 +1764,7 @@
   &__header {
     margin-bottom: 15px;
     .title-light {
-      font-size: 18px;
+      font-size: 16px;
     }
   }
 
@@ -1769,6 +1772,7 @@
     float: right;
     &.rateit-font .rateit-range {
       font-size: 20px;
+      line-height: 1;
     }
   }
   fieldset {margin-bottom: 10px}
@@ -1777,6 +1781,21 @@
     @extend .gray-input;
     height: 100px;
     resize: none;
+  }
+}
+
+.product-tab-document {
+  &__item {
+    margin-bottom: 15px;
+    a {
+      transition: .3s ease;
+      &:hover {
+        color: #01b2e8;
+        span {
+          text-decoration: underline;
+        }
+      }
+    }
   }
 }
 
@@ -1878,6 +1897,7 @@
 }
 
 .five-item-slider-block {
+  margin-bottom: 40px;
   .title-sm-light {
     margin-bottom: 30px;
   }
@@ -2348,6 +2368,10 @@
     }
     .btn__sm--gray {
       padding: 13px 16px 4px;
+
+      .custom-checkbox-label:before {
+        border: 1px solid rgba(0, 0, 0, 0.24);
+      }
     }
   }
 }

@@ -22,263 +22,97 @@
                     <div class="right-block">
                         <ul class="">
                             <li class="lk-order-list__item">
-
                                 <div class="goods-horizontal">
-
-                                    <div class="goods-lk-order-wrapper">
-
-                                        <div class="goods-image goods-image--gray">
-                                            <a href="#">
-                                                <img src="img/jpeg_files/goods-md-1.png" alt="goods"
-                                                     height="142" width="134">
-                                            </a>
-                                        </div>
-                                        <div class="goods-link">
-                                            <a href="#">BPS 25-6ESA-180 BPS</a>
-                                        </div>
-                                        <div class="goods-subtitle"><span>Циркуляционный насос</span>
-                                        </div>
-
+                                    <div class="goods-image goods-image--gray">
+                                        <div class="goods-image__label"><i class="sprite sprite-b-new"></i></div>
+                                        <a href="#">
+                                            <img src="img/jpeg_files/goods-md-1.png" alt="goods" height="142" width="134">
+                                        </a>
                                     </div>
 
-                                    <div class="goods-code"><span>код 123456</span></div>
-
-                                    <div class="goods-quantity"><span>2 шт</span></div>
-
-                                    <div class="goods-price">
-                                        <span class="goods-price-current">₴ 12 600 </span>
-                                        <span class="goods-price-old">₴ 13 000</span>
-                                    </div>
-                                </div>
-
-                            </li>
-                            <li class="lk-order-list__item">
-                                <div class="goods-horizontal">
-
-                                    <div class="goods-lk-order-wrapper">
-
-                                        <div class="goods-image goods-image--gray">
-                                            <a href="#">
-                                                <img src="img/jpeg_files/goods-md-2.png" alt="goods">
-                                            </a>
-                                        </div>
+                                    <div class="goods-property">
                                         <div class="goods-link">
                                             <a href="#">BPS 25-6ESA-180</a>
                                         </div>
                                         <div class="goods-subtitle"><span>Циркуляционный насос</span></div>
-
                                     </div>
-
-                                    <div class="goods-code"><span>код 123456</span></div>
-
-                                    <div class="goods-quantity"><span>2 шт</span></div>
 
                                     <div class="goods-price">
                                         <span class="goods-price-current">₴ 12 600 </span>
                                         <span class="goods-price-old">₴ 13 000</span>
                                     </div>
+
+                                    <ul class="goods-property__ctrl">
+                                        <li class="goods-property__ctrl--icon goods-horizontal__buy"><a href="#" data-toggle="modal" data-target="#modal-cart"><span class="iconmoon icon-basket"></span>Купить</a></li>
+                                    </ul>
+
                                 </div>
                             </li>
+
                             <li class="lk-order-list__item">
                                 <div class="goods-horizontal">
+                                    <div class="goods-image goods-image--gray">
+                                        <div class="goods-image__label"><i class="sprite sprite-b-new"></i></div>
+                                        <a href="#">
+                                            <img src="img/jpeg_files/goods-md-1.png" alt="goods" height="142" width="134">
+                                        </a>
+                                    </div>
 
-                                    <div class="goods-lk-order-wrapper">
-
-                                        <div class="goods-image goods-image--gray">
-                                            <a href="#">
-                                                <img src="img/jpeg_files/goods-md-3.png" alt="goods">
-                                            </a>
-                                        </div>
+                                    <div class="goods-property">
                                         <div class="goods-link">
                                             <a href="#">BPS 25-6ESA-180</a>
                                         </div>
                                         <div class="goods-subtitle"><span>Циркуляционный насос</span></div>
-
                                     </div>
-
-                                    <div class="goods-code"><span>код 123456</span></div>
-
-                                    <div class="goods-quantity"><span>2 шт</span></div>
 
                                     <div class="goods-price">
                                         <span class="goods-price-current">₴ 12 600 </span>
                                         <span class="goods-price-old">₴ 13 000</span>
                                     </div>
-                                </div>
 
-                            </li>
-                            <li class="lk-order-list__item">
+                                    <ul class="goods-property__ctrl">
+                                        <li class="goods-property__ctrl--icon goods-horizontal__buy"><a href="#" data-toggle="modal" data-target="#modal-cart"><span class="iconmoon icon-basket"></span>Купить</a></li>
+                                    </ul>
 
-                                <div class="goods-horizontal">
-
-                                    <div class="goods-lk-order-wrapper">
-
-                                        <div class="goods-image goods-image--gray">
-                                            <a href="#">
-                                                <img src="img/jpeg_files/goods-md-1.png" alt="goods"
-                                                     height="142" width="134">
-                                            </a>
-                                        </div>
-                                        <div class="goods-link">
-                                            <a href="#">BPS 25-6ESA-180 BPS</a>
-                                        </div>
-                                        <div class="goods-subtitle"><span>Циркуляционный насос</span>
-                                        </div>
-
-                                    </div>
-
-                                    <div class="goods-code"><span>код 123456</span></div>
-
-                                    <div class="goods-quantity"><span>2 шт</span></div>
-
-                                    <div class="goods-price">
-                                        <span class="goods-price-current">₴ 12 600 </span>
-                                        <span class="goods-price-old">₴ 13 000</span>
-                                    </div>
-                                </div>
-
-                            </li>
-                            <li class="lk-order-list__item">
-                                <div class="goods-horizontal">
-
-                                    <div class="goods-lk-order-wrapper">
-
-                                        <div class="goods-image goods-image--gray">
-                                            <a href="#">
-                                                <img src="img/jpeg_files/goods-md-2.png" alt="goods">
-                                            </a>
-                                        </div>
-                                        <div class="goods-link">
-                                            <a href="#">BPS 25-6ESA-180</a>
-                                        </div>
-                                        <div class="goods-subtitle"><span>Циркуляционный насос</span></div>
-
-                                    </div>
-
-                                    <div class="goods-code"><span>код 123456</span></div>
-
-                                    <div class="goods-quantity"><span>2 шт</span></div>
-
-                                    <div class="goods-price">
-                                        <span class="goods-price-current">₴ 12 600 </span>
-                                        <span class="goods-price-old">₴ 13 000</span>
-                                    </div>
                                 </div>
                             </li>
-                            <li class="lk-order-list__item">
-                                <div class="goods-horizontal">
 
-                                    <div class="goods-lk-order-wrapper">
+<!--                            <li class="lk-order-list__item">-->
 
-                                        <div class="goods-image goods-image--gray">
-                                            <a href="#">
-                                                <img src="img/jpeg_files/goods-md-3.png" alt="goods">
-                                            </a>
-                                        </div>
-                                        <div class="goods-link">
-                                            <a href="#">BPS 25-6ESA-180</a>
-                                        </div>
-                                        <div class="goods-subtitle"><span>Циркуляционный насос</span></div>
+<!--                                this is old version                                                -->
 
-                                    </div>
+<!--                                <div class="goods-horizontal">-->
+<!---->
+<!--                                    <div class="goods-lk-order-wrapper">-->
+<!---->
+<!--                                        <div class="goods-image goods-image--gray">-->
+<!--                                            <a href="#">-->
+<!--                                                <img src="img/jpeg_files/goods-md-1.png" alt="goods"-->
+<!--                                                     height="142" width="134">-->
+<!--                                            </a>-->
+<!--                                        </div>-->
+<!--                                        <div class="goods-link">-->
+<!--                                            <a href="#">BPS 25-6ESA-180 BPS</a>-->
+<!--                                        </div>-->
+<!--                                        <div class="goods-subtitle"><span>Циркуляционный насос</span>-->
+<!--                                        </div>-->
+<!---->
+<!--                                    </div>-->
+<!---->
+<!--                                    <div class="goods-code"><span>код 123456</span></div>-->
+<!---->
+<!--                                    <div class="goods-quantity"><span>2 шт</span></div>-->
+<!---->
+<!--                                    <div class="goods-price">-->
+<!--                                        <span class="goods-price-current">₴ 12 600 </span>-->
+<!--                                        <span class="goods-price-old">₴ 13 000</span>-->
+<!--                                    </div>-->
+<!--                                    <ul class="goods-property__ctrl">-->
+<!--                                        <li class="goods-property__ctrl--icon goods-horizontal__buy"><a href="#" data-toggle="modal" data-target="#modal-cart"><span class="iconmoon icon-basket"></span>Купить</a></li>-->
+<!--                                    </ul>-->
+<!--                                </div>-->
 
-                                    <div class="goods-code"><span>код 123456</span></div>
-
-                                    <div class="goods-quantity"><span>2 шт</span></div>
-
-                                    <div class="goods-price">
-                                        <span class="goods-price-current">₴ 12 600 </span>
-                                        <span class="goods-price-old">₴ 13 000</span>
-                                    </div>
-                                </div>
-
-                            </li>
-                            <li class="lk-order-list__item">
-                                <div class="goods-horizontal">
-
-                                    <div class="goods-lk-order-wrapper">
-
-                                        <div class="goods-image goods-image--gray">
-                                            <a href="#">
-                                                <img src="img/jpeg_files/goods-md-2.png" alt="goods">
-                                            </a>
-                                        </div>
-                                        <div class="goods-link">
-                                            <a href="#">BPS 25-6ESA-180</a>
-                                        </div>
-                                        <div class="goods-subtitle"><span>Циркуляционный насос</span></div>
-
-                                    </div>
-
-                                    <div class="goods-code"><span>код 123456</span></div>
-
-                                    <div class="goods-quantity"><span>2 шт</span></div>
-
-                                    <div class="goods-price">
-                                        <span class="goods-price-current">₴ 12 600 </span>
-                                        <span class="goods-price-old">₴ 13 000</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="lk-order-list__item">
-                                <div class="goods-horizontal">
-
-                                    <div class="goods-lk-order-wrapper">
-
-                                        <div class="goods-image goods-image--gray">
-                                            <a href="#">
-                                                <img src="img/jpeg_files/goods-md-3.png" alt="goods">
-                                            </a>
-                                        </div>
-                                        <div class="goods-link">
-                                            <a href="#">BPS 25-6ESA-180</a>
-                                        </div>
-                                        <div class="goods-subtitle"><span>Циркуляционный насос</span></div>
-
-                                    </div>
-
-                                    <div class="goods-code"><span>код 123456</span></div>
-
-                                    <div class="goods-quantity"><span>2 шт</span></div>
-
-                                    <div class="goods-price">
-                                        <span class="goods-price-current">₴ 12 600 </span>
-                                        <span class="goods-price-old">₴ 13 000</span>
-                                    </div>
-                                </div>
-
-                            </li>
-                            <li class="lk-order-list__item">
-
-                                <div class="goods-horizontal">
-
-                                    <div class="goods-lk-order-wrapper">
-
-                                        <div class="goods-image goods-image--gray">
-                                            <a href="#">
-                                                <img src="img/jpeg_files/goods-md-1.png" alt="goods"
-                                                     height="142" width="134">
-                                            </a>
-                                        </div>
-                                        <div class="goods-link">
-                                            <a href="#">BPS 25-6ESA-180 BPS</a>
-                                        </div>
-                                        <div class="goods-subtitle"><span>Циркуляционный насос</span>
-                                        </div>
-
-                                    </div>
-
-                                    <div class="goods-code"><span>код 123456</span></div>
-
-                                    <div class="goods-quantity"><span>2 шт</span></div>
-
-                                    <div class="goods-price">
-                                        <span class="goods-price-current">₴ 12 600 </span>
-                                        <span class="goods-price-old">₴ 13 000</span>
-                                    </div>
-                                </div>
-
-                            </li>
+<!--                            </li>-->
                         </ul>
                         <?php include_once "parts/pagination.php" ?>
                     </div>

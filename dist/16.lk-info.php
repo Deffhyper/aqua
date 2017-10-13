@@ -60,6 +60,7 @@
                                 </fieldset>
 
                                 <fieldset class="input-block__item text-center mt-4">
+                                    <button type="reset" class="btn btn__sm btn__sm--gray mr-3">Сбросить</button>
                                     <button type="submit" class="btn btn--green">Сохранить изменения</button>
                                 </fieldset>
 

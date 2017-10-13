@@ -316,36 +316,9 @@
                                                             </fieldset>
 
                                                             <fieldset class="input-block__item">
-                                                                <div class="dropdown">
-                                                                    <a href="#" class="dropdown-toggle gray-input" role="button" id="city-choice" data-toggle="dropdown"
-                                                                       aria-haspopup="true" aria-expanded="false">Город</a>
-                                                                    <ul class="dropdown-menu" aria-labelledby="city-choice">
-                                                                        <li><a href="#">Город-1</a></li>
-                                                                        <li><a href="#">Город-2</a></li>
-                                                                        <li><a href="#">Город-3</a></li>
-                                                                        <li><a href="#">Город-4</a></li>
-                                                                    </ul>
-                                                                </div>
-                                                                <mark>*</mark>
+                                                                <input type="text" class="gray-input" placeholder="Введите адрес">
                                                             </fieldset>
 
-                                                            <fieldset class="input-block__item">
-                                                                <div class="dropdown">
-                                                                    <a href="#" class="dropdown-toggle gray-input" role="button" id="city-choice" data-toggle="dropdown"
-                                                                       aria-haspopup="true" aria-expanded="false">Номер отделения Новой Почты</a>
-                                                                    <ul class="dropdown-menu" aria-labelledby="city-choice">
-                                                                        <li><a href="#">Отделение 1</a></li>
-                                                                        <li><a href="#">Отделение-2</a></li>
-                                                                        <li><a href="#">Отделение-3</a></li>
-                                                                        <li><a href="#">Отделение-4</a></li>
-                                                                    </ul>
-                                                                </div>
-                                                                <mark>*</mark>
-                                                            </fieldset>
-
-                                                            <fieldset class="input-block__item">
-                                                                <input type="text" class="gray-input" placeholder="Примечания">
-                                                            </fieldset>
                                                         </div>
                                                     </div>
 
@@ -378,7 +351,7 @@
                                                         </fieldset>
 
                                                         <fieldset class="btn btn__sm btn__sm--gray input-block__item">
-                                                            <input type="checkbox" id="o-5" class="custom-checkbox" checked>
+                                                            <input type="checkbox" id="o-5" class="custom-checkbox">
                                                             <label for="o-5" class="custom-checkbox-label">Не звонить для подтверждения</label>
                                                         </fieldset>
                                                         
@@ -397,10 +370,48 @@
                                         <div class="product-tab-content__item">
                                             <form action="#">
                                                 <div class="input-block">
-
+                                                    <fieldset class="input-block__item">
+                                                        <input type="tel" class="input-error gray-input tel-input" placeholder="Телефон" required>
+                                                        <mark>*</mark>
+                                                        <span class="label-error">Введите правильно телефон</span>
+                                                    </fieldset>
+                                                    <fieldset class="input-block__item">
+                                                        <input type="password" class="gray-input" placeholder="Пароль" required>
+                                                        <mark>*</mark>
+                                                    </fieldset>
+                                                    <fieldset class="input-block__item">
+                                                        <input type="password" class="gray-input" placeholder="Подтверждение пароля" required>
+                                                        <mark>*</mark>
+                                                    </fieldset>
+                                                    <fieldset class="input-block__item">
+                                                        <input type="email" class="gray-input" placeholder="E-mail" required>
+                                                        <mark>*</mark>
+                                                    </fieldset>
                                                     <fieldset class="input-block__item">
                                                         <input type="text" class="gray-input" placeholder="Имя">
                                                     </fieldset>
+                                                    <fieldset class="input-block__item">
+                                                        <input type="text" class="gray-input" placeholder="Фамилия">
+                                                    </fieldset>
+                                                    <fieldset class="input-block__item">
+                                                        <div class="dropdown">
+                                                            <a href="#" class="dropdown-toggle gray-input" role="button" id="city-choice" data-toggle="dropdown"
+                                                               aria-haspopup="true" aria-expanded="false">Город</a>
+                                                            <ul class="dropdown-menu" aria-labelledby="city-choice">
+                                                                <li><a href="#">Город-1</a></li>
+                                                                <li><a href="#">Город-2</a></li>
+                                                                <li><a href="#">Город-3</a></li>
+                                                                <li><a href="#">Город-4</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <mark>*</mark>
+                                                    </fieldset>
+
+                                                    <fieldset class="ml-3 mb-5">
+                                                        <input type="checkbox" id="o-13" class="custom-checkbox" checked>
+                                                        <label for="o-13" class="custom-checkbox-label">Зарегистрироваться</label>
+                                                    </fieldset>
+
                                                 </div>
 
 
@@ -412,8 +423,8 @@
                                                     </fieldset>
 
                                                     <fieldset class="order-detail-delivery">
-                                                        <input type="radio" id="r-1" class="custom-radio" name="delivery" checked>
-                                                        <label for="r-1" class="custom-radio-label">На склад “Новая Почта”</label>
+                                                        <input type="radio" id="r-11" class="custom-radio" name="delivery-1" checked>
+                                                        <label for="r-11" class="custom-radio-label">На склад “Новая Почта”</label>
                                                     </fieldset>
 
                                                     <div class="lp-block">
@@ -464,8 +475,8 @@
 
                                                 <div class="input-block">
                                                     <fieldset class="order-detail-delivery">
-                                                        <input type="radio" id="r-2" class="custom-radio" name="delivery">
-                                                        <label for="r-2" class="custom-radio-label">Адресная доставка</label>
+                                                        <input type="radio" id="r-21" class="custom-radio" name="delivery-1">
+                                                        <label for="r-21" class="custom-radio-label">Адресная доставка</label>
                                                     </fieldset>
                                                     <div class="lp-block">
                                                         <fieldset class="input-block__item">
@@ -479,35 +490,7 @@
                                                         </fieldset>
 
                                                         <fieldset class="input-block__item">
-                                                            <div class="dropdown">
-                                                                <a href="#" class="dropdown-toggle gray-input" role="button" id="city-choice" data-toggle="dropdown"
-                                                                   aria-haspopup="true" aria-expanded="false">Город</a>
-                                                                <ul class="dropdown-menu" aria-labelledby="city-choice">
-                                                                    <li><a href="#">Город-1</a></li>
-                                                                    <li><a href="#">Город-2</a></li>
-                                                                    <li><a href="#">Город-3</a></li>
-                                                                    <li><a href="#">Город-4</a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <mark>*</mark>
-                                                        </fieldset>
-
-                                                        <fieldset class="input-block__item">
-                                                            <div class="dropdown">
-                                                                <a href="#" class="dropdown-toggle gray-input" role="button" id="city-choice" data-toggle="dropdown"
-                                                                   aria-haspopup="true" aria-expanded="false">Номер отделения Новой Почты</a>
-                                                                <ul class="dropdown-menu" aria-labelledby="city-choice">
-                                                                    <li><a href="#">Отделение 1</a></li>
-                                                                    <li><a href="#">Отделение-2</a></li>
-                                                                    <li><a href="#">Отделение-3</a></li>
-                                                                    <li><a href="#">Отделение-4</a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <mark>*</mark>
-                                                        </fieldset>
-
-                                                        <fieldset class="input-block__item">
-                                                            <input type="text" class="gray-input" placeholder="Примечания">
+                                                            <input type="text" class="gray-input" placeholder="Введите адрес">
                                                         </fieldset>
                                                     </div>
                                                 </div>
@@ -518,31 +501,31 @@
                                                     </fieldset>
 
                                                     <fieldset class="order-detail-delivery">
-                                                        <input type="radio" id="k-1" class="custom-radio" name="pay" checked>
-                                                        <label for="k-1" class="custom-radio-label">Онлайн”</label>
+                                                        <input type="radio" id="k-11" class="custom-radio" name="pay-2" checked>
+                                                        <label for="k-11" class="custom-radio-label">Онлайн”</label>
                                                     </fieldset>
 
                                                     <fieldset class="order-detail-delivery">
-                                                        <input type="radio" id="k-2" class="custom-radio" name="pay">
-                                                        <label for="k-2" class="custom-radio-label">На склад “Новая Почта”</label>
+                                                        <input type="radio" id="k-22" class="custom-radio" name="pay-2">
+                                                        <label for="k-22" class="custom-radio-label">На склад “Новая Почта”</label>
                                                     </fieldset>
 
                                                     <fieldset class="order-detail-delivery">
-                                                        <input type="radio" id="k-3" class="custom-radio" name="pay" >
-                                                        <label for="k-3" class="custom-radio-label">Безналичный расчет</label>
+                                                        <input type="radio" id="k-33" class="custom-radio" name="pay-2" >
+                                                        <label for="k-33" class="custom-radio-label">Безналичный расчет</label>
                                                     </fieldset>
                                                 </div>
 
                                                 <div class="input-block">
 
                                                     <fieldset class="ml-3 input-block__item">
-                                                        <input type="checkbox" id="o-4" class="custom-checkbox" checked>
-                                                        <label for="o-4" class="custom-checkbox-label">Согласен с условиями</label>
+                                                        <input type="checkbox" id="o-41" class="custom-checkbox" checked>
+                                                        <label for="o-41" class="custom-checkbox-label">Согласен с условиями</label>
                                                     </fieldset>
 
                                                     <fieldset class="btn btn__sm btn__sm--gray input-block__item">
-                                                        <input type="checkbox" id="o-5" class="custom-checkbox" checked>
-                                                        <label for="o-5" class="custom-checkbox-label">Не звонить для подтверждения</label>
+                                                        <input type="checkbox" id="o-51" class="custom-checkbox">
+                                                        <label for="o-51" class="custom-checkbox-label">Не звонить для подтверждения</label>
                                                     </fieldset>
 
                                                     <fieldset>

@@ -196,206 +196,64 @@
                 <div class="five-item-slider">
                     <div>
                         <div class="five-item-slider__item">
-                            <div class="goods-offer">
-                                <div class="goods-image">
-                                    <a href="#">
-                                        <img src="img/jpeg_files/goods-md-5.png" alt="goods" height="81"
-                                             width="124">
-                                    </a>
-                                </div>
-                                <div class="goods-link">
-                                    <a href="#">BPS 25-6ESA-180</a>
-                                </div>
-                                <div class="goods-property">
-                                    <div class="goods-subtitle"><span>Циркуляционный насос</span></div>
-                                    <div class="goods-price">
-                                        <span class="goods-price-current">₴ 12 600 </span>
-                                        <a href="#" class="goods-add-to-cart"><span
-                                                class="iconmoon icon-basket"></span></a>
-                                    </div>
-                                    <div class="goods-offer-economy">
-                                        <a href="#" class="btn btn--green btn__sm"><span class="iconmoon icon-basket"></span>Купить</a>
-                                    </div>
-                                </div>
-                            </div>
+<!--                            <div class="goods-offer">-->
+<!--                                <div class="goods-image">-->
+<!--                                    <a href="#">-->
+<!--                                        <img src="img/jpeg_files/goods-md-5.png" alt="goods" height="81"-->
+<!--                                             width="124">-->
+<!--                                    </a>-->
+<!--                                </div>-->
+<!--                                <div class="goods-link">-->
+<!--                                    <a href="#">BPS 25-6ESA-180</a>-->
+<!--                                </div>-->
+<!--                                <div class="goods-property">-->
+<!--                                    <div class="goods-subtitle"><span>Циркуляционный насос</span></div>-->
+<!--                                    <div class="goods-price">-->
+<!--                                        <span class="goods-price-current">₴ 12 600 </span>-->
+<!--                                        <a href="#" class="goods-add-to-cart"><span-->
+<!--                                                class="iconmoon icon-basket"></span></a>-->
+<!--                                    </div>-->
+<!--                                    <div class="goods-offer-economy">-->
+<!--                                        <a href="#" class="btn btn--green btn__sm"><span class="iconmoon icon-basket"></span>Купить</a>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+                            <?php include "parts/goods.php" ?>
                         </div>
                     </div>
                     <div>
                         <div class="five-item-slider__item">
-                            <div class="goods-offer">
-                                <div class="goods-image">
-                                    <a href="#">
-                                        <img src="img/jpeg_files/goods-md-4.png" alt="goods" height="107" width="93">
-                                    </a>
-                                </div>
-                                <div class="goods-link">
-                                    <a href="#">BPS 25-6ESA-180</a>
-                                </div>
-                                <div class="goods-property">
-                                    <div class="goods-subtitle"><span>Циркуляционный насос</span></div>
-                                    <div class="goods-price">
-                                        <span class="goods-price-current">₴ 12 600 </span>
-                                        <a href="#" class="goods-add-to-cart"><span
-                                                class="iconmoon icon-basket"></span></a>
-                                    </div>
-                                    <div class="goods-offer-economy">
-                                        <a href="#" class="btn btn--green btn__sm"><span class="iconmoon icon-basket"></span>Купить</a>
-                                    </div>
-                                </div>
-                            </div>
+                            <?php include "parts/goods.php" ?>
                         </div>
                     </div>
                     <div>
                         <div class="five-item-slider__item">
-                            <div class="goods-offer">
-                                <div class="goods-image">
-                                    <a href="#">
-                                        <img src="img/jpeg_files/goods-md-5.png" alt="goods" height="81"
-                                             width="124">
-                                    </a>
-                                </div>
-                                <div class="goods-link">
-                                    <a href="#">BPS 25-6ESA-180</a>
-                                </div>
-                                <div class="goods-property">
-                                    <div class="goods-subtitle"><span>Циркуляционный насос</span></div>
-                                    <div class="goods-price">
-                                        <span class="goods-price-current">₴ 12 600 </span>
-                                        <a href="#" class="goods-add-to-cart"><span
-                                                class="iconmoon icon-basket"></span></a>
-                                    </div>
-                                    <div class="goods-offer-economy">
-                                        <a href="#" class="btn btn--green btn__sm"><span class="iconmoon icon-basket"></span>Купить</a>
-                                    </div>
-                                </div>
-                            </div>
+                            <?php include "parts/goods.php" ?>
                         </div>
                     </div>
                     <div>
                         <div class="five-item-slider__item">
-                            <div class="goods-offer">
-                                <div class="goods-image">
-                                    <a href="#">
-                                        <img src="img/jpeg_files/goods-md-4.png" alt="goods" height="107" width="93">
-                                    </a>
-                                </div>
-                                <div class="goods-link">
-                                    <a href="#">BPS 25-6ESA-180</a>
-                                </div>
-                                <div class="goods-property">
-                                    <div class="goods-subtitle"><span>Циркуляционный насос</span></div>
-                                    <div class="goods-price">
-                                        <span class="goods-price-current">₴ 12 600 </span>
-                                        <a href="#" class="goods-add-to-cart"><span
-                                                class="iconmoon icon-basket"></span></a>
-                                    </div>
-                                    <div class="goods-offer-economy">
-                                        <a href="#" class="btn btn--green btn__sm"><span class="iconmoon icon-basket"></span>Купить</a>
-                                    </div>
-                                </div>
-                            </div>
+                            <?php include "parts/goods.php" ?>
                         </div>
                     </div>
                     <div>
                         <div class="five-item-slider__item">
-                            <div class="goods-offer">
-                                <div class="goods-image">
-                                    <a href="#">
-                                        <img src="img/jpeg_files/goods-md-5.png" alt="goods" height="81"
-                                             width="124">
-                                    </a>
-                                </div>
-                                <div class="goods-link">
-                                    <a href="#">BPS 25-6ESA-180</a>
-                                </div>
-                                <div class="goods-property">
-                                    <div class="goods-subtitle"><span>Циркуляционный насос</span></div>
-                                    <div class="goods-price">
-                                        <span class="goods-price-current">₴ 12 600 </span>
-                                        <a href="#" class="goods-add-to-cart"><span
-                                                class="iconmoon icon-basket"></span></a>
-                                    </div>
-                                    <div class="goods-offer-economy">
-                                        <a href="#" class="btn btn--green btn__sm"><span class="iconmoon icon-basket"></span>Купить</a>
-                                    </div>
-                                </div>
-                            </div>
+                            <?php include "parts/goods.php" ?>
                         </div>
                     </div>
                     <div>
                         <div class="five-item-slider__item">
-                            <div class="goods-offer">
-                                <div class="goods-image">
-                                    <a href="#">
-                                        <img src="img/jpeg_files/goods-md-4.png" alt="goods" height="107" width="93">
-                                    </a>
-                                </div>
-                                <div class="goods-link">
-                                    <a href="#">BPS 25-6ESA-180</a>
-                                </div>
-                                <div class="goods-property">
-                                    <div class="goods-subtitle"><span>Циркуляционный насос</span></div>
-                                    <div class="goods-price">
-                                        <span class="goods-price-current">₴ 12 600 </span>
-                                        <a href="#" class="goods-add-to-cart"><span
-                                                class="iconmoon icon-basket"></span></a>
-                                    </div>
-                                    <div class="goods-offer-economy">
-                                        <a href="#" class="btn btn--green btn__sm"><span class="iconmoon icon-basket"></span>Купить</a>
-                                    </div>
-                                </div>
-                            </div>
+                            <?php include "parts/goods.php" ?>
                         </div>
                     </div>
                     <div>
                         <div class="five-item-slider__item">
-                            <div class="goods-offer">
-                                <div class="goods-image">
-                                    <a href="#">
-                                        <img src="img/jpeg_files/goods-md-5.png" alt="goods" height="81"
-                                             width="124">
-                                    </a>
-                                </div>
-                                <div class="goods-link">
-                                    <a href="#">BPS 25-6ESA-180</a>
-                                </div>
-                                <div class="goods-property">
-                                    <div class="goods-subtitle"><span>Циркуляционный насос</span></div>
-                                    <div class="goods-price">
-                                        <span class="goods-price-current">₴ 12 600 </span>
-                                        <a href="#" class="goods-add-to-cart"><span
-                                                class="iconmoon icon-basket"></span></a>
-                                    </div>
-                                    <div class="goods-offer-economy">
-                                        <a href="#" class="btn btn--green btn__sm"><span class="iconmoon icon-basket"></span>Купить</a>
-                                    </div>
-                                </div>
-                            </div>
+                            <?php include "parts/goods.php" ?>
                         </div>
                     </div>
                     <div>
                         <div class="five-item-slider__item">
-                            <div class="goods-offer">
-                                <div class="goods-image">
-                                    <a href="#">
-                                        <img src="img/jpeg_files/goods-md-4.png" alt="goods" height="107" width="93">
-                                    </a>
-                                </div>
-                                <div class="goods-link">
-                                    <a href="#">BPS 25-6ESA-180</a>
-                                </div>
-                                <div class="goods-property">
-                                    <div class="goods-subtitle"><span>Циркуляционный насос</span></div>
-                                    <div class="goods-price">
-                                        <span class="goods-price-current">₴ 12 600 </span>
-                                        <a href="#" class="goods-add-to-cart"><span
-                                                class="iconmoon icon-basket"></span></a>
-                                    </div>
-                                    <div class="goods-offer-economy">
-                                        <a href="#" class="btn btn--green btn__sm"><span class="iconmoon icon-basket"></span>Купить</a>
-                                    </div>
-                                </div>
-                            </div>
+                            <?php include "parts/goods.php" ?>
                         </div>
                     </div>
                 </div>

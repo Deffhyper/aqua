@@ -51,7 +51,7 @@
                             </fieldset>
 
                             <fieldset class="input-block__item text-center mt-4">
-                                <button type="submit" class="btn btn--green">Оформить заказ</button>
+                                <button type="submit" class="btn btn--green">Зарегистрироваться</button>
                             </fieldset>
 
 

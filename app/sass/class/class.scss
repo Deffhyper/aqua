@@ -545,6 +545,10 @@ mark {
   color: #cccccc;
 }
 
+.goods-combo-small {
+  min-height: 255px;
+}
+
 
 
 @media (min-width: 1280px) {
@@ -1027,13 +1031,28 @@ mark {
 
 .five-item-slider {
 
+  height: 360px;
+  position: relative;
+  z-index: 1;
+
+  &.slider-hover {
+    .slick-list {
+      height: 720px;
+    }
+    .slick-dots {
+      position: relative;
+      bottom: 380px;
+      z-index: -1;
+
+    }
+  }
+
   .slick-dots {
-    padding-top: 60px;
+    padding-top: 30px;
   }
 
   &__item {
-    max-width: 170px;
-    margin: auto;
+   margin: 5px;
   }
 }
 
@@ -1476,4 +1495,15 @@ mark {
       transform: rotateZ(-47deg);
     }
   }
+}
+
+
+///////////////////////////////////////// document icon ///////////////////////
+
+.document-icon {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
 }

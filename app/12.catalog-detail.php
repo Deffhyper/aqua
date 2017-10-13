@@ -489,7 +489,7 @@
                                     </div>
                                 </div>
 
-                                <a href="#" class="product-spoiler-trigger left">все отзывы</a>
+                                <a href="javascript:void(0);" class="product-spoiler-trigger left">все отзывы</a>
 
                             </div>
                             <div class="product-tab-content__item ">
@@ -501,18 +501,25 @@
                                              data-rateit-ispreset="true" data-rateit-step="1">
                                         </div>
                                     </div>
-                                    <form action="#">
-                                        <fieldset>
-                                            <input type="text" class="gray-input" placeholder="Ваше Имя">
-                                        </fieldset>
-                                        <fieldset>
-                                            <textarea name="" id="" cols="" rows=""
-                                                      placeholder="Введите сообщение"></textarea>
-                                        </fieldset>
-                                        <fieldset>
-                                            <input type="submit" class="btn btn__sm btn__sm--gray" value="Отправить">
-                                        </fieldset>
-                                    </form>
+                                    <div class="input-block">
+                                        <form action="#">
+                                            <fieldset class="input-block__item">
+                                                <input type="text" class="gray-input" placeholder="Ваше Имя">
+                                                <mark>*</mark>
+                                            </fieldset>
+                                            <fieldset class="input-block__item">
+                                                <input type="text" class="gray-input" placeholder="Ваша Фамилия">
+                                            </fieldset>
+                                            <fieldset class="input-block__item">
+                                                <textarea name="" id="" cols="" rows=""
+                                                          placeholder="Введите сообщение"></textarea>
+                                                <mark>*</mark>
+                                            </fieldset>
+                                            <fieldset>
+                                                <input type="submit" class="btn btn__sm btn__sm--gray" value="Отправить">
+                                            </fieldset>
+                                        </form>
+                                    </div>
                                 </div>
 
 
@@ -559,21 +566,27 @@
                                         <li>- Содержание нефтепродуктов: не более 0.5 мг/дм3</li>
                                     </ul>
                                 </div>
-                                <a href="#" class="product-spoiler-trigger right">еще</a>
+                                <a href="javascript:void(0);" class="product-spoiler-trigger right">еще</a>
                             </div>
                             <div class="product-tab-content__item">
                                 <div class="tab-spoiler-container">
                                     <p><b>Документация </b></p>
-                                    <p> Циркуляционный электронасос BPS32-8S предназначен для перекачивания рабочих
-                                        жидкостей в одно- и двухтрубных системах отопления открытого и закрытого типа, в
-                                        том числе, использующих энергию солнца, тепловых насосах, системах
-                                        кондиционирования воздуха при стабильном или слабо меняющемся расходе рабочей
-                                        жидкости.</p>
-                                    <p><b>Ограничения</b></p>
-                                    <ul>
-                                        <li>- Рабочая жидкость: чистые не вязкие, неагрессивные жидкости, не содержащие
-                                            твердых частиц или волокон, сходные с водой по плотности и химической
-                                            активности
+                                    <ul class="product-tab-document">
+                                        <li class="product-tab-document__item">
+                                            <a href="#">
+                                                <span class="document-icon">
+                                                    <object data="img/svg/pdf-icon.svg" type="image/svg+xml"></object>
+                                                </span>
+                                                <span>Документ pdf</span>
+                                            </a>
+                                        </li>
+                                        <li class="product-tab-document__item">
+                                            <a href="#">
+                                                <span class="document-icon">
+                                                    <object data="img/svg/doc-icon.svg" type="image/svg+xml"></object>
+                                                </span>
+                                                <span>Документ DOC</span>
+                                            </a>
                                         </li>
                                         <li>- Общая жесткость жидкости: не более 10 мкг-экв/дм3</li>
                                         <li>- Содержание соединений железа: не более 100 мкг/дм3</li>
@@ -588,7 +601,7 @@
                                         <li>- Содержание нефтепродуктов: не более 0.5 мг/дм3</li>
                                     </ul>
                                 </div>
-                                <a href="#" class="product-spoiler-trigger right">еще</a>
+                                <a href="javascript:void(0);" class="product-spoiler-trigger right">еще</a>
                             </div>
 
                             <div class="product-tab-content__item">
@@ -618,7 +631,7 @@
                                         <li>- Содержание нефтепродуктов: не более 0.5 мг/дм3</li>
                                     </ul>
                                 </div>
-                                <a href="#" class="product-spoiler-trigger right">еще</a>
+                                <a href="javascript:void(0);" class="product-spoiler-trigger right">еще</a>
                             </div>
                         </div>
                     </div>

@@ -654,11 +654,7 @@
   }
 
   .cart-table .goods-label {
-    display: inline-block;
-    position: relative;
-    top: 0;
-    margin-right: 10px;
-    margin-bottom: 10px;
+   display: none;
   }
 
 
@@ -692,6 +688,16 @@
   .five-item-slider .slick-dots {
     padding-top: 20px;
     padding-bottom: 30px;
+  }
+
+  .five-item-slider {
+    height: auto;
+  }
+
+  .five-item-slider__item {
+    .goods-wrapper {
+      margin: 0 auto;
+    }
   }
 
   .modal-dialog.modal-cart .modal-content {
@@ -860,13 +866,7 @@
   .lk-order-list__item {
     margin-bottom: 15px;
 
-    .goods-code,
-    .goods-quantity,
-    .goods-price {
-      float: right;
-      width: 58%;
-      margin-bottom: 5px;
-    }
+
 
   }
 

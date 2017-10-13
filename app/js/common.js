@@ -371,18 +371,18 @@ $(function() {
         slidesToShow: 5,
         slidesToScroll: 1,
         responsive: [
-            // {
-            //     breakpoint: 1279,
-            //     settings: {
-            //         slidesToShow: 4,
-            //         slidesToScroll: 1
-            //     }
-            // },
+            {
+                breakpoint: 1279,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1
+                }
+            },
             {
                 breakpoint: 991,
                 settings: {
-                    slidesToShow: 4,
-                    slidesToScroll: 4
+                    slidesToShow: 3,
+                    slidesToScroll: 3
                 }
             },
             {
@@ -478,7 +478,12 @@ $(function() {
 
     });
 
-    $('.two-item-slider .goods-combo, .one-item-slider .goods-combo-small, .one-item-slider .goods-combo, .related-product__slider .goods-combo').hover(function () {
+    $('.two-item-slider .goods-combo, ' +
+        '.one-item-slider .goods-combo-small, ' +
+        '.one-item-slider .goods-combo, ' +
+        '.related-product__slider .goods-combo, ' +
+        '.five-item-slider__item'
+    ).hover(function () {
 
         if($(document).innerWidth() >= 1280) {
             $(this).closest('.slick-slider').addClass('slider-hover');
