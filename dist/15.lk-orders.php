@@ -34,6 +34,42 @@
                                 </ul>
                                 <ul class="lk-order-list">
                                     <li class="lk-order-list__item">
+                                        <div class="lk-order-list__item">
+                                            <p class="lk-order-list__item--title">Личные данные</p>
+                                            <table class="lk-order-list__item--table">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Имя:</td>
+                                                        <td>Алёна</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Фамилия:</td>
+                                                        <td>Иванова</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Телефон:</td>
+                                                        <td>970 98909 99</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Город:</td>
+                                                        <td>Киев</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>E-mail</td>
+                                                        <td>eaxample@gmail.com</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <p class="lk-order-list__item--subtitle">Информация о доставке и оплате</p>
+                                            <ul class="lk-order-list__item--list">
+                                                <li>Способ доставки: курьером</li>
+                                                <li>Адрес доставки: г. Киев ул. Лобановского 76</li>
+                                                <li>Способ оплаты: безналичный расчёт</li>
+                                            </ul>
+                                            <p class="lk-order-list__item--title">Состав заказа</p>
+                                        </div>
+                                    </li>
+                                    <li class="lk-order-list__item">
 
                                         <div class="goods-horizontal">
 
@@ -119,6 +155,24 @@
                                             </div>
                                         </div>
 
+                                    </li>
+                                    <li class="lk-order-list__item">
+                                        <table class="cart-total">
+                                            <tbody>
+                                            <tr class="cart-total__sale">
+                                                <td>Стоимость доставки:</td>
+                                                <td><span class="goods-price-current">₴ 12 600</span></td>
+                                            </tr>
+                                            <tr class="cart-total__current">
+                                                <td>Итого:</td>
+                                                <td><span class="goods-price-current">₴ 12 600</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="#" class="btn btn__sm btn--red">Повторить заказ</a></td>
+                                                <td><a href="#" class="btn btn__xs btn--border-red">Отменить заказ</a></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
                                     </li>
                                 </ul>
                             </li>

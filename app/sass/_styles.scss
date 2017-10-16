@@ -2174,6 +2174,34 @@
   }
 }
 
+.lk-order-list__item--title {
+  font-size: 18px;
+  font-family: $proxima-bold;
+  color: #6a6a6a;
+  background-color: #f0f0f0;
+  display: inline-block;
+  padding: 4px 10px 2px;
+}
+.lk-order-list__item--table {
+  margin-bottom: 30px;
+  tr {
+    td {
+      padding: 5px;
+    }
+  }
+}
+.lk-order-list__item--list {
+  margin-bottom: 30px;
+  li {
+    margin-bottom: 10px;
+  }
+}
+
+.lk-order-list__item--subtitle {
+  font-size: 16px;
+  font-family: $proxima-bold;
+}
+
 .goods-lk-order-wrapper {
   display: flex;
   align-items: center;
@@ -2422,5 +2450,45 @@
     margin-left: 5px;
     text-align: center;
     line-height: 1.5;
+  }
+}
+
+/////////////////////////////////// 404 ///////////////////////////////
+
+.ff-left {
+  .block-w-border {
+    padding: 0;
+    width: 410px;
+    height: 340px;
+    position: relative;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  .bold-text {
+    font-size: 240px;
+    font-family: $proxima-extra;
+    @include center;
+  }
+}
+
+.ff-right {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    font-size: 45px;
+    font-family: $proxima-bold;
+    line-height: 1;
+  }
+  &__subtitle {
+    font-size: 30px;
+    line-height: 1;
+    margin-bottom: 30px;
+  }
+  .btn {
+    padding: 12px 0 ;
+    width: 220px;
+    text-align: center;
   }
 }

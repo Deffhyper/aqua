@@ -897,6 +897,51 @@
     font-size: 11px;
   }
 
+  .order-detail-cart .goods-horizontal .goods-image {
+    width: auto;
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+
+  .order-detail-cart .cart-table__item > td:nth-child(2) {
+    float: right;
+    width: 57%;
+  }
+
+  .order-detail-cart .cart-table__item > td:nth-child(n+3) {
+    float: right;
+    width: 57%;
+    margin-bottom: 10px;
+  }
+
+  .order-detail-cart .goods-amount {
+    width: 90px;
+    margin-right: auto;
+  }
+
+  .cart-promo {
+    border-top: 0;
+    padding: 11px 5px 10px;
+  }
+
+  .cart-total tr.cart-total__sale td:first-child, .cart-total tr.cart-total__current td:first-child {
+    text-align: left;
+  }
+
+  .cart-promo .main-contacts__choice .dropdown {
+    margin-right: 0;
+  }
+
+  ////////////////////////////////// 404 page //////////////////////
+
+  .ff-left .block-w-border {
+    height: 50vh;
+    min-height: 225px;
+  }
+
+  .ff-left .bold-text {
+    font-size: 36vw;
+  }
 
 
 

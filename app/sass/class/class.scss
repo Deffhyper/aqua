@@ -55,11 +55,14 @@
   border-radius: 2px;
   font-size: 13px;
   transition: .3s ease;
+  &__xs {
+    padding: 7px 20px;
+  }
   &__sm {
     padding: 9px 20px;
     &--gray {
       background-color: #f0f0f0;
-      &:hover {
+      &:hover, &:active, &:focus {
         background-color: $accent-hover;
         color: #fff;
       }
@@ -74,7 +77,7 @@
       position: relative;
       top: 1px;
     }
-    &:hover {
+    &:hover, &:active, &:focus {
       background-color: $green-hover;
       color: #fff;
     }
@@ -82,7 +85,14 @@
   &--red {
     background-color: $red;
     color: #fff;
-    &:hover {
+    &:hover, &:active, &:focus {
+      background-color: $red-hover;
+      color: #fff;
+    }
+  }
+  &--border-red {
+    border: 2px solid $red;
+    &:hover, &:active, &:focus {
       background-color: $red-hover;
       color: #fff;
     }
