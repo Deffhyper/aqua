@@ -422,41 +422,16 @@
                                                                required>
                                                         <mark>*</mark>
                                                     </fieldset>
-                                                    <fieldset class="input-block__item">
-                                                        <input type="password" class="gray-input"
-                                                               placeholder="Подтверждение пароля" required>
-                                                        <mark>*</mark>
-                                                    </fieldset>
-                                                    <fieldset class="input-block__item">
-                                                        <input type="email" class="gray-input" placeholder="E-mail"
-                                                               required>
-                                                        <mark>*</mark>
-                                                    </fieldset>
-                                                    <fieldset class="input-block__item">
-                                                        <input type="text" class="gray-input" placeholder="Имя">
-                                                    </fieldset>
-                                                    <fieldset class="input-block__item">
-                                                        <input type="text" class="gray-input" placeholder="Фамилия">
-                                                    </fieldset>
-                                                    <fieldset class="input-block__item">
-                                                        <div class="dropdown">
-                                                            <a href="#" class="dropdown-toggle gray-input" role="button"
-                                                               id="city-choice" data-toggle="dropdown"
-                                                               aria-haspopup="true" aria-expanded="false">Город</a>
-                                                            <ul class="dropdown-menu" aria-labelledby="city-choice">
-                                                                <li><a href="#">Город-1</a></li>
-                                                                <li><a href="#">Город-2</a></li>
-                                                                <li><a href="#">Город-3</a></li>
-                                                                <li><a href="#">Город-4</a></li>
-                                                            </ul>
-                                                        </div>
-                                                        <mark>*</mark>
+
+
+                                                    <fieldset class="input-block__item text-center">
+                                                        <a href="#" class="btn-link-dotted">Я забыл пароль</a>
                                                     </fieldset>
 
                                                     <fieldset class="ml-3 mb-5">
                                                         <input type="checkbox" id="o-13" class="custom-checkbox"
                                                                checked>
-                                                        <label for="o-13" class="custom-checkbox-label">Зарегистрироваться</label>
+                                                        <label for="o-13" class="custom-checkbox-label">Войти</label>
                                                     </fieldset>
 
                                                 </div>

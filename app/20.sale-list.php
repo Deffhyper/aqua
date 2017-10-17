@@ -7,7 +7,7 @@
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <h1 class="page-title">Отзывы</h1>
+            <h1 class="page-title">Акции</h1>
             <div class="row">
                 <div class="col-12 d-flex-lg">
                     <div class="left-block">
@@ -22,9 +22,7 @@
                                     </a>
                                 </div>
                                 <div class="media-body">
-                                    <p class="media-body__time">
-                                        <time datetime="27.08.2017">27.08.2017</time> <span class="media-body__time--user">Иван Стругацкий</span>
-                                    </p>
+                                    <time class="media-body__time" datetime="27.08.2017">27.08.2017</time>
                                     <p class="media-body__title"><a href="#">Правильный выбор насоса для садового участка:
                                             мнение профессионалов и опыт дачников</a></p>
                                     <p class="media-body__text">Возможен ли сколь-нибудь простой расчет расхода воды по диаметру
@@ -40,9 +38,7 @@
                                     </a>
                                 </div>
                                 <div class="media-body">
-                                    <p class="media-body__time">
-                                        <time datetime="27.08.2017">27.08.2017</time> <span class="media-body__time--user">Людмила</span>
-                                    </p>
+                                    <time class="media-body__time" datetime="27.08.2017">27.08.2017</time>
                                     <p class="media-body__title"><a href="#">Правильный выбор насоса для садового участка:
                                             мнение профессионалов и опыт дачников</a></p>
                                     <p class="media-body__text">Возможен ли сколь-нибудь простой расчет расхода воды по диаметру
@@ -53,9 +49,7 @@
                             </li>
                             <li class="media">
                                 <div class="media-body">
-                                    <p class="media-body__time">
-                                        <time datetime="27.08.2017">27.08.2017</time> <span class="media-body__time--user">Иван</span>
-                                    </p>
+                                    <time class="media-body__time" datetime="27.08.2017">27.08.2017</time>
                                     <p class="media-body__title"><a href="#">Правильный выбор насоса для садового участка:
                                             мнение профессионалов и опыт дачников</a></p>
                                     <p class="media-body__text">Возможен ли сколь-нибудь простой расчет расхода воды по диаметру
@@ -71,9 +65,7 @@
                                     </a>
                                 </div>
                                 <div class="media-body">
-                                    <p class="media-body__time">
-                                        <time datetime="27.08.2017">27.08.2017</time> <span class="media-body__time--user">Илья Наумов</span>
-                                    </p>
+                                    <time class="media-body__time" datetime="27.08.2017">27.08.2017</time>
                                     <p class="media-body__title"><a href="#">Правильный выбор насоса для садового участка:
                                             мнение профессионалов и опыт дачников</a></p>
                                     <p class="media-body__text">Возможен ли сколь-нибудь простой расчет расхода воды по диаметру

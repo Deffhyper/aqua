@@ -166,7 +166,7 @@
                     <div id="map" class="contact-map">
                         <script>
                             function initMap() {
-                                var image = 'http://front.webvision.in.ua/promSIZ/img/jpeg_files/m-icon.png';
+                                var image = 'http://front.webvision.in.ua/aqua/img/jpeg_files/map-picker.png';
                                 var map = new google.maps.Map(document.getElementById('map'), {
                                     center: {lat: 50.4434022, lng: 30.5202183},
                                     scrollwheel: false,

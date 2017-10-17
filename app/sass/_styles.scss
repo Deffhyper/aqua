@@ -2198,6 +2198,7 @@
       &:first-child {
         width: 150px;
         font-family: $font-bold;
+        color: $text-gray;
       }
     }
   }
@@ -2318,6 +2319,14 @@
   .product-tab-ctrl {
     display: flex;
     justify-content: space-between;
+  }
+}
+
+
+.input-block__item {
+  textarea.gray-input {
+    height: 120px;
+    resize: none;
   }
 }
 
@@ -2498,4 +2507,26 @@
     width: 220px;
     text-align: center;
   }
+}
+
+///////////////////////////////////////// contacts page /////////////////////////
+
+.contacts-left {
+  margin-bottom:  30px;
+
+  .block-w-border {
+    padding: 20px;
+    text-align: left;
+  }
+  .main-contacts-block {
+    height: auto;
+    margin-bottom: 0;
+    overflow: visible;
+  }
+}
+
+.contacts-right {
+  margin-bottom:  30px;
+  max-width: 460px;
+  margin-left: auto;
 }
