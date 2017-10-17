@@ -38,6 +38,42 @@
   }
 }
 
+.top-banner-label {
+  @include sprite($big-sale-label);
+  display: inline-block;
+  position: absolute;
+  right: 85px;
+  bottom: 27vh;
+  color: #fff;
+  font-family: $font-bold;
+  font-style: italic;
+
+  &__text {
+    position: absolute;
+    top: 153px;
+    left: 55px;
+    margin-bottom: 0;
+
+    &>span {
+      display: block;
+      &:first-child {
+        padding-left: 13px;
+        max-width: 110px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+    b {
+      font-size: 24px;
+      padding-right: 5px;
+      display: inline-block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin-bottom: -5px;
+    }
+  }
+}
+
 .top-slider-subtitle {
   font-family: $proxima-semibold;
   color: #c4c4c4;

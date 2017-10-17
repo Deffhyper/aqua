@@ -12,6 +12,10 @@
     height: 200px;
   }
 
+  .top-banner-label {
+    transform: scale(0.4);
+  }
+
   .top-slider-block {
     height: 230px;
   }
@@ -808,6 +812,7 @@
   .lk-order > li {
     padding-right: 0;
     margin-bottom: 5px;
+    display: block;
   }
 
   .lk-order-block__item {
@@ -843,7 +848,10 @@
     margin-right: 10px;
   }
 
-  .goods-lk-order-wrapper .goods-link {
+  .goods-lk-order-wrapper .goods-link,
+  .lk-order-list__item .goods-code,
+  .lk-order-list__item .goods-quantity,
+  .lk-order-list__item .goods-price {
     margin-left: 0;
     float: right;
     width: 58%;

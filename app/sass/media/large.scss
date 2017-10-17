@@ -22,6 +22,14 @@
     height: 560px;
   }
 
+  .top-banner-label {
+    width: 196px;
+    height: 296px;
+    right: -51px;
+    bottom: 211px;
+    transform: scale(.6);
+  }
+
   .block-orange-bg {
     height: inherit;
     margin-bottom: 20px;
@@ -259,6 +267,28 @@
 
   .modal-dialog.modal-cart {
     max-width: 960px;
+  }
+
+  //////////////////////////////////// lk orders /////////////////////////
+
+
+  .lk-order__prop {
+    width: 165px;
+    padding-right: 30px;
+  }
+
+  .lk-order__amount {
+    width: 230px;
+    padding-right: 30px;
+  }
+
+  .lk-order__prop--num {
+    margin-bottom: 5px;
+    display: block;
+  }
+
+  .lk-order__prop--num:after {
+    content: none;
   }
 
 

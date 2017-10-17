@@ -35,7 +35,7 @@
                                 <ul class="lk-order-list">
                                     <li class="lk-order-list__item">
                                         <div class="lk-order-list__item">
-                                            <p class="lk-order-list__item--title">Личные данные</p>
+                                            <p class="lk-order-list__item--subtitle">Личные данные</p>
                                             <table class="lk-order-list__item--table">
                                                 <tbody>
                                                     <tr>
@@ -61,12 +61,23 @@
                                                 </tbody>
                                             </table>
                                             <p class="lk-order-list__item--subtitle">Информация о доставке и оплате</p>
-                                            <ul class="lk-order-list__item--list">
-                                                <li>Способ доставки: курьером</li>
-                                                <li>Адрес доставки: г. Киев ул. Лобановского 76</li>
-                                                <li>Способ оплаты: безналичный расчёт</li>
-                                            </ul>
-                                            <p class="lk-order-list__item--title">Состав заказа</p>
+                                            <table class="lk-order-list__item--table">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Способ доставки:</td>
+                                                        <td>курьером</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Адрес доставки:</td>
+                                                        <td>г. Киев ул. Лобановского 76</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Способ оплаты:</td>
+                                                        <td>безналичный расчёт</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <p class="lk-order-list__item--subtitle">Состав заказа</p>
                                         </div>
                                     </li>
                                     <li class="lk-order-list__item">
@@ -168,8 +179,8 @@
                                                 <td><span class="goods-price-current">₴ 12 600</span></td>
                                             </tr>
                                             <tr>
-                                                <td><a href="#" class="btn btn__sm btn--red">Повторить заказ</a></td>
-                                                <td><a href="#" class="btn btn__xs btn--border-red">Отменить заказ</a></td>
+                                                <td><a href="#" class="btn btn__sm btn--green">Повторить заказ</a></td>
+                                                <td><a href="#" class="btn btn__sm btn__sm--gray">Отменить заказ</a></td>
                                             </tr>
                                             </tbody>
                                         </table>

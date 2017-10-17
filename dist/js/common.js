@@ -875,17 +875,23 @@ $(function() {
 
     ///////////////////////////// lk order ////////////////////////////////////////////////////////////////////
 
-    $('.lk-order__detail').on('click', function (e) {
-        e.preventDefault();
+    $('.lk-order').on('click', function (e) {
+        var $target = $(e.target);
+
+        if($target.hasClass('btn-link-dotted')) {
+            e.preventDefault();
+        }
+
         if(!$(this).hasClass('open')){
             $(this).addClass('open');
-            $(this).find('a').text('скрыть');
+            $(this).find('.lk-order__detail > a').text('скрыть');
+
         } else {
             $(this).removeClass('open');
-            $(this).find('a').text('подробнее');
+            $(this).find('.lk-order__detail > a').text('подробнее');
         }
-        $(this).parent('.lk-order').toggleClass('open');
-        $(this).parent('.lk-order').next('.lk-order-list').slideToggle();
+
+        $(this).next('.lk-order-list').slideToggle();
     });
 
 

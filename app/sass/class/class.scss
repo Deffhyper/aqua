@@ -1517,3 +1517,46 @@ mark {
   vertical-align: middle;
   margin-right: 5px;
 }
+
+////////////////////////////////////// tooltip ////////////////////////
+
+.tooltip-sm {
+  position: relative;
+
+  & > a {
+
+    &:hover {
+      & + .tooltip-sm-popover {
+        display: block;
+      }
+    }
+  }
+}
+
+.tooltip-sm-popover {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: -15px;
+  margin-top: 10px;
+  border: 1px solid #ff1d1d;
+  background-color: #f0f0f0;
+  width: 200px;
+  z-index: 1;
+  padding: 10px 10px 0;
+
+  &:after {
+    content: '';
+    border-top: 1px solid #ff1d1d;
+    border-right: 1px solid #ff1d1d;
+    width: 6px;
+    height: 6px;
+    background-color: #f0f0f0;
+    z-index: 2;
+    position: absolute;
+    top: -4px;
+    right: 20px;
+    transform: rotateZ(-45deg);
+  }
+
+}

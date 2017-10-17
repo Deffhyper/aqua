@@ -37,6 +37,12 @@
                             <div class="top-slider__item--right">
                                 <a href="#">
                                     <img src="img/jpeg_files/top-slider-image.png" alt="photo" width="427" height="380">
+                                    <span class="top-banner-label">
+                                        <p class="top-banner-label__text">
+                                            <span>всего от</span>
+                                            <span><b>120 000</b>грн</span>
+                                        </p>
+                                    </span>
                                 </a>
                             </div>
                         </div>
