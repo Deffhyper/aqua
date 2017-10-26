@@ -148,7 +148,7 @@ body.before-white:before {
 
 .header-compare {
   display: inline-block;
-  margin-right: 30px;
+  margin-right: 25px;
   position: relative;
 
   &:hover {
@@ -178,10 +178,22 @@ body.before-white:before {
   }
 }
 
+.header-wish {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 25px;
+  .fa-heart-o {
+    font-size: 16px;
+    &:hover {
+      color: #d3d3d3;
+    }
+  }
+}
+
 .header-auth {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 30px;
+  margin-right: 25px;
   a {
 
     &:hover {
@@ -339,6 +351,12 @@ body.before-white:before {
   .header-ctrl-block {
     position: relative;
     z-index: 11;
+  }
+
+  .header-wish {
+    .fa {
+      color: #fff;
+    }
   }
   .header-cart-icon {
     background-color: #fff;
@@ -674,6 +692,7 @@ body.before-white:before {
     margin-right: 15px;
   }
 
+
   .menu-trigger {
     left: -10px;
     width: 30px;
@@ -699,5 +718,31 @@ body.before-white:before {
     right: -13px;
   }
 
+
 }
 
+@media (max-width: 440px) {
+  .header-wrapper {
+    padding-top: 60px;
+    position: relative;
+  }
+
+  .header-logo {
+    position: absolute;
+    top: 7px;
+    left: 50%;
+    margin-left: -55px;
+  }
+
+  .menu-open .header-logo {
+    position: absolute;
+  }
+
+  .header-auth {
+    margin-right: 25px;
+  }
+
+  .header-compare {
+    margin-right: 25px;
+  }
+}

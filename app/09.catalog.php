@@ -76,6 +76,7 @@
                                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
                                    <?php include "parts/goods.php" ?>
                                </div>
+
                                <div class="col-xl-6 col-lg-absolute">
                                    <div class="catalog-list-slider">
                                        <div>
@@ -101,6 +102,7 @@
                                        </div>
                                    </div>
                                </div>
+
                                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
                                    <?php include "parts/goods.php" ?>
                                </div>

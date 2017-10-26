@@ -1,6 +1,7 @@
 <div class="goods-horizontal">
     <div class="goods-image goods-image--gray">
         <div class="goods-image__label"><i class="sprite sprite-b-new"></i></div>
+<!--        <a href="#" class="goods-wish"><i class="fa fa-heart-o" aria-hidden="true"></i></a>-->
         <a href="#">
             <img src="img/jpeg_files/goods-md-1.png" alt="goods" height="142" width="134">
         </a>

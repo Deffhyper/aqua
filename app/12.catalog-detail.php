@@ -59,21 +59,25 @@
                         <div class="product-slider__left">
                             <div>
                                 <div class="product-slider__left--item">
+                                    <a href="#" class="goods-wish"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
                                     <img src="img/jpeg_files/prod.jpg" alt="prod" height="500" width="482">
                                 </div>
                             </div>
                             <div>
                                 <div class="product-slider__left--item">
+                                    <a href="#" class="goods-wish"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                                    <img src="img/jpeg_files/vod.png" alt="prod" height="500" width="482">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="product-slider__left--item">
+                                    <a href="#" class="goods-wish"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
                                     <img src="img/jpeg_files/prod.jpg" alt="prod" height="500" width="482">
                                 </div>
                             </div>
                             <div>
                                 <div class="product-slider__left--item">
-                                    <img src="img/jpeg_files/prod.jpg" alt="prod" height="500" width="482">
-                                </div>
-                            </div>
-                            <div>
-                                <div class="product-slider__left--item">
+                                    <a href="#" class="goods-wish"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
                                     <img src="img/jpeg_files/prod.jpg" alt="prod" height="500" width="482">
                                 </div>
                             </div>
@@ -82,12 +86,12 @@
                         <div class="product-slider__right">
                             <div>
                                 <div class="product-slider__right--item">
-                                    <img src="img/jpeg_files/prod-sm-1.jpg" alt="goods image" width="77" height="80">
+                                    <img src="img/jpeg_files/prod.jpg" alt="prod" height="500" width="482">
                                 </div>
                             </div>
                             <div>
                                 <div class="product-slider__right--item">
-                                    <img src="img/jpeg_files/prod-sm-2.jpg" alt="goods image" width="82" height="85">
+                                    <img src="img/jpeg_files/vod.png" alt="goods image" width="82" height="85">
                                 </div>
                             </div>
                             <div>

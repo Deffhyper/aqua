@@ -32,6 +32,11 @@
                     </div>
                 </div>
                 <div class="header-ctrl-block">
+                    <div class="header-wish">
+                        <a href="#">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </a>
+                    </div>
                     <div class="header-auth">
                         <a href="#" data-toggle="modal" data-target="#modal-reg">
                             <span class="iconmoon icon-user2"></span>

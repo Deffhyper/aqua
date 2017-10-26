@@ -894,6 +894,24 @@ $(function() {
         $(this).next('.lk-order-list').slideToggle();
     });
 
+    /////////////////////////////////////////////// like heart /////////////////////////////////////
+
+    $('.goods-wish').click(function () {
+        var heart = $(this).find('i');
+        if (heart.hasClass('fa-heart-o')) {
+            heart.fadeOut("fast", function () {
+                heart.removeClass('fa-heart-o').addClass('fa-heart');
+                heart.fadeIn('fast');
+            });
+
+        } else {
+            heart.fadeOut("normal", function () {
+                heart.removeClass('fa-heart').addClass('fa-heart-o');
+                heart.fadeIn('normal');
+            });
+        }
+    });
+
 
 
 
