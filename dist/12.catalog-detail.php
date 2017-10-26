@@ -59,25 +59,21 @@
                         <div class="product-slider__left">
                             <div>
                                 <div class="product-slider__left--item">
-                                    <a href="#" class="goods-wish"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
                                     <img src="img/jpeg_files/prod.jpg" alt="prod" height="500" width="482">
                                 </div>
                             </div>
                             <div>
                                 <div class="product-slider__left--item">
-                                    <a href="#" class="goods-wish"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
                                     <img src="img/jpeg_files/vod.png" alt="prod" height="500" width="482">
                                 </div>
                             </div>
                             <div>
                                 <div class="product-slider__left--item">
-                                    <a href="#" class="goods-wish"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
                                     <img src="img/jpeg_files/prod.jpg" alt="prod" height="500" width="482">
                                 </div>
                             </div>
                             <div>
                                 <div class="product-slider__left--item">
-                                    <a href="#" class="goods-wish"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
                                     <img src="img/jpeg_files/prod.jpg" alt="prod" height="500" width="482">
                                 </div>
                             </div>
@@ -125,6 +121,13 @@
                                 <a href="#" data-toggle="modal" data-target="#modal-cart">
                                     <span class="iconmoon icon-basket"></span>Купить
                                 </a>
+                            </li>
+                            <li class="goods-property__ctrl--icon goods-horizontal__wish">
+                                <a href="#" class="goods-wish">
+                                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    <span class="goods-wish__tip">Добавить в Избранное</span>
+                                </a>
+
                             </li>
                         </ul>
                     </div>

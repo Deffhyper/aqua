@@ -573,6 +573,11 @@
     width: 100%;
   }
 
+  .product-slider__left--item img {
+    max-height: 310px;
+    max-width: 310px;
+  }
+
   ////////////////////////////////// cart /////////////////////
 
   .cart-table-mob-label {

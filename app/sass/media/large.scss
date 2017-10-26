@@ -263,6 +263,11 @@
     margin-right: auto;
   }
 
+  .product-slider__left--item img {
+    max-height: 350px;
+    max-width: 350px;
+  }
+
   ////////////////////////////////// cart //////////////////////////////
 
   .modal-dialog.modal-cart {

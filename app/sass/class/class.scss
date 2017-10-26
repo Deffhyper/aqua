@@ -493,7 +493,7 @@ mark {
   }
 }
 
-.goods, .goods-horizontal, .goods-offer{
+.goods, .goods-offer{
 
   .goods-wish {
     position: absolute;
@@ -516,6 +516,52 @@ mark {
     top: 20px;
     right: 20px;
     z-index: 2;
+    & > i {
+      font-size: 22px;
+    }
+  }
+}
+
+.product-price {
+
+  .goods-wish {
+    display: inline-block;
+    position: relative;
+    &:hover {
+      .goods-wish__tip {
+        visibility: visible;
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+      }
+    }
+    &__tip {
+      border: 2px solid #0d0d0d;
+      position: absolute;
+      top: -45px;
+      left: 50%;
+      padding: 7px 15px;
+      background-color: #f0f0f0;
+      white-space: nowrap;
+      transform: translateX(-50%) translateY(5px);
+      margin-left: -4px;
+      transition: .3s ease;
+      opacity: 0;
+      visibility: hidden;
+
+      &:after {
+        content: '';
+        width: 8px;
+        height: 8px;
+        border-top: 2px solid #0d0d0d;
+        border-right: 2px solid #0d0d0d;
+        background-color: #f0f0f0;
+        position: absolute;
+        left: 50%;
+        bottom: -10px;
+        transform: translateY(-50%) rotateZ(135deg);
+        z-index: 2;
+      }
+    }
     & > i {
       font-size: 22px;
     }
@@ -675,6 +721,12 @@ mark {
       }
     }
   }
+
+  &__wish {
+    position: relative;
+    text-align: center;
+  }
+
   .goods-subtitle {
     margin-bottom: 0;
     color: #707070;
@@ -703,6 +755,11 @@ mark {
     border: 0;
     margin-right: 0;
     margin-left: 10px;
+
+    &.goods-horizontal__wish {
+      width: 80px;
+      vertical-align: middle;
+    }
 
     .iconmoon {
       position: relative;
