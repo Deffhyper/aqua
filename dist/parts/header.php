@@ -35,6 +35,7 @@
                     <div class="header-wish">
                         <a href="#">
                             <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            <span class="header-wish__label">2</span>
                         </a>
                     </div>
                     <div class="header-auth">

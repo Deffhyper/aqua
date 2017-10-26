@@ -182,11 +182,25 @@ body.before-white:before {
   display: inline-block;
   vertical-align: middle;
   margin-right: 25px;
-  .fa-heart-o {
-    font-size: 16px;
+  position: relative;
+  .fa {
+    font-size: 18px;
     &:hover {
       color: #d3d3d3;
     }
+  }
+
+  &__label {
+    display: inline-block;
+    color: #fff;
+    background-color: #005abb;
+    font-size: 11px;
+    padding: 3px 6px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: -9px;
+    right: -12px;
   }
 }
 
@@ -194,6 +208,7 @@ body.before-white:before {
   display: inline-block;
   vertical-align: middle;
   margin-right: 25px;
+
   a {
 
     &:hover {
