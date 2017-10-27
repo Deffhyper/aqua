@@ -2244,6 +2244,25 @@
   }
 }
 
+
+.lk-wish-list {
+
+  &__item {
+    margin-bottom: 15px;
+
+    .goods-horizontal .goods-property__ctrl--icon.goods-horizontal__wish {
+      width: 40px;
+      vertical-align: top;
+      text-align: right;
+    }
+
+    .goods-horizontal .goods-wish {
+      position: absolute;
+    }
+
+  }
+}
+
 .order-detail-cart {
   padding-left: 25px;
 

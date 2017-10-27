@@ -20,11 +20,12 @@
                         </ul>
                     </div>
                     <div class="right-block">
-                        <ul class="">
-                            <li class="lk-order-list__item">
+                        <ul class="lk-wish-list">
+                            <li class="lk-wish-list__item">
                                 <div class="goods-horizontal">
                                     <div class="goods-image goods-image--gray">
                                         <div class="goods-image__label"><i class="sprite sprite-b-new"></i></div>
+                                        <a href="#" class="goods-wish"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
                                         <a href="#">
                                             <img src="img/jpeg_files/goods-md-1.png" alt="goods" height="142" width="134">
                                         </a>
@@ -32,9 +33,9 @@
 
                                     <div class="goods-property">
                                         <div class="goods-link">
-                                            <a href="#">BPS 25-6ESA-180</a>
+                                            <a href="#">BPS 25-6ESA-180. Здесь будет очень длинное название товара.</a>
                                         </div>
-                                        <div class="goods-subtitle"><span>Циркуляционный насос</span></div>
+                                        <div class="goods-subtitle"><span>Циркуляционный насос.</span></div>
                                     </div>
 
                                     <div class="goods-price">
@@ -43,13 +44,17 @@
                                     </div>
 
                                     <ul class="goods-property__ctrl">
-                                        <li class="goods-property__ctrl--icon goods-horizontal__buy"><a href="#" data-toggle="modal" data-target="#modal-cart"><span class="iconmoon icon-basket"></span>Купить</a></li>
+                                        <li class="goods-property__ctrl--icon goods-horizontal__compare"><a href="#"><span class="iconmoon icon-compare"></span>Сравнить</a></li>
+                                        <li class="goods-property__ctrl--icon goods-horizontal__buy">
+                                            <a href="#" data-toggle="modal" data-target="#modal-cart">
+                                                <span class="iconmoon icon-basket"></span>Купить</a>
+                                        </li>
                                     </ul>
 
                                 </div>
                             </li>
 
-                            <li class="lk-order-list__item">
+                            <li class="lk-wish-list__item">
                                 <div class="goods-horizontal">
                                     <div class="goods-image goods-image--gray">
                                         <div class="goods-image__label"><i class="sprite sprite-b-new"></i></div>
@@ -71,13 +76,24 @@
                                     </div>
 
                                     <ul class="goods-property__ctrl">
-                                        <li class="goods-property__ctrl--icon goods-horizontal__buy"><a href="#" data-toggle="modal" data-target="#modal-cart"><span class="iconmoon icon-basket"></span>Купить</a></li>
+                                        <li class="goods-property__ctrl--icon goods-horizontal__compare"><a href="#"><span class="iconmoon icon-compare"></span>Сравнить</a></li>
+                                        <li class="goods-property__ctrl--icon goods-horizontal__buy">
+                                            <a href="#" data-toggle="modal" data-target="#modal-cart">
+                                                <span class="iconmoon icon-basket"></span>Купить</a>
+                                        </li>
+                                        <li class="goods-property__ctrl--icon goods-horizontal__wish">
+                                            <a href="#" class="goods-wish">
+                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                <span class="goods-wish__tip">Добавить в Избранное</span>
+                                            </a>
+
+                                        </li>
                                     </ul>
 
                                 </div>
                             </li>
 
-                            <li class="lk-order-list__item">
+                            <li class="lk-wish-list__item">
                                 <div class="goods-horizontal">
                                     <div class="goods-image goods-image--gray">
                                         <div class="goods-image__label"><i class="sprite sprite-b-new"></i></div>
@@ -99,13 +115,24 @@
                                     </div>
 
                                     <ul class="goods-property__ctrl">
-                                        <li class="goods-property__ctrl--icon goods-horizontal__buy"><a href="#" data-toggle="modal" data-target="#modal-cart"><span class="iconmoon icon-basket"></span>Купить</a></li>
+                                        <li class="goods-property__ctrl--icon goods-horizontal__compare"><a href="#"><span class="iconmoon icon-compare"></span>Сравнить</a></li>
+                                        <li class="goods-property__ctrl--icon goods-horizontal__buy">
+                                            <a href="#" data-toggle="modal" data-target="#modal-cart">
+                                                <span class="iconmoon icon-basket"></span>Купить</a>
+                                        </li>
+                                        <li class="goods-property__ctrl--icon goods-horizontal__wish">
+                                            <a href="#" class="goods-wish">
+                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                <span class="goods-wish__tip">Добавить в Избранное</span>
+                                            </a>
+
+                                        </li>
                                     </ul>
 
                                 </div>
                             </li>
 
-                            <li class="lk-order-list__item">
+                            <li class="lk-wish-list__item">
                                 <div class="goods-horizontal">
                                     <div class="goods-image goods-image--gray">
                                         <div class="goods-image__label"><i class="sprite sprite-b-new"></i></div>
@@ -127,13 +154,24 @@
                                     </div>
 
                                     <ul class="goods-property__ctrl">
-                                        <li class="goods-property__ctrl--icon goods-horizontal__buy"><a href="#" data-toggle="modal" data-target="#modal-cart"><span class="iconmoon icon-basket"></span>Купить</a></li>
+                                        <li class="goods-property__ctrl--icon goods-horizontal__compare"><a href="#"><span class="iconmoon icon-compare"></span>Сравнить</a></li>
+                                        <li class="goods-property__ctrl--icon goods-horizontal__buy">
+                                            <a href="#" data-toggle="modal" data-target="#modal-cart">
+                                                <span class="iconmoon icon-basket"></span>Купить</a>
+                                        </li>
+                                        <li class="goods-property__ctrl--icon goods-horizontal__wish">
+                                            <a href="#" class="goods-wish">
+                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                <span class="goods-wish__tip">Добавить в Избранное</span>
+                                            </a>
+
+                                        </li>
                                     </ul>
 
                                 </div>
                             </li>
 
-                            <li class="lk-order-list__item">
+                            <li class="lk-wish-list__item">
                                 <div class="goods-horizontal">
                                     <div class="goods-image goods-image--gray">
                                         <div class="goods-image__label"><i class="sprite sprite-b-new"></i></div>
@@ -155,13 +193,24 @@
                                     </div>
 
                                     <ul class="goods-property__ctrl">
-                                        <li class="goods-property__ctrl--icon goods-horizontal__buy"><a href="#" data-toggle="modal" data-target="#modal-cart"><span class="iconmoon icon-basket"></span>Купить</a></li>
+                                        <li class="goods-property__ctrl--icon goods-horizontal__compare"><a href="#"><span class="iconmoon icon-compare"></span>Сравнить</a></li>
+                                        <li class="goods-property__ctrl--icon goods-horizontal__buy">
+                                            <a href="#" data-toggle="modal" data-target="#modal-cart">
+                                                <span class="iconmoon icon-basket"></span>Купить</a>
+                                        </li>
+                                        <li class="goods-property__ctrl--icon goods-horizontal__wish">
+                                            <a href="#" class="goods-wish">
+                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                <span class="goods-wish__tip">Добавить в Избранное</span>
+                                            </a>
+
+                                        </li>
                                     </ul>
 
                                 </div>
                             </li>
 
-                            <li class="lk-order-list__item">
+                            <li class="lk-wish-list__item">
                                 <div class="goods-horizontal">
                                     <div class="goods-image goods-image--gray">
                                         <div class="goods-image__label"><i class="sprite sprite-b-new"></i></div>
@@ -183,13 +232,24 @@
                                     </div>
 
                                     <ul class="goods-property__ctrl">
-                                        <li class="goods-property__ctrl--icon goods-horizontal__buy"><a href="#" data-toggle="modal" data-target="#modal-cart"><span class="iconmoon icon-basket"></span>Купить</a></li>
+                                        <li class="goods-property__ctrl--icon goods-horizontal__compare"><a href="#"><span class="iconmoon icon-compare"></span>Сравнить</a></li>
+                                        <li class="goods-property__ctrl--icon goods-horizontal__buy">
+                                            <a href="#" data-toggle="modal" data-target="#modal-cart">
+                                                <span class="iconmoon icon-basket"></span>Купить</a>
+                                        </li>
+                                        <li class="goods-property__ctrl--icon goods-horizontal__wish">
+                                            <a href="#" class="goods-wish">
+                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                <span class="goods-wish__tip">Добавить в Избранное</span>
+                                            </a>
+
+                                        </li>
                                     </ul>
 
                                 </div>
                             </li>
 
-                            <li class="lk-order-list__item">
+                            <li class="lk-wish-list__item">
                                 <div class="goods-horizontal">
                                     <div class="goods-image goods-image--gray">
                                         <div class="goods-image__label"><i class="sprite sprite-b-new"></i></div>
@@ -211,13 +271,24 @@
                                     </div>
 
                                     <ul class="goods-property__ctrl">
-                                        <li class="goods-property__ctrl--icon goods-horizontal__buy"><a href="#" data-toggle="modal" data-target="#modal-cart"><span class="iconmoon icon-basket"></span>Купить</a></li>
+                                        <li class="goods-property__ctrl--icon goods-horizontal__compare"><a href="#"><span class="iconmoon icon-compare"></span>Сравнить</a></li>
+                                        <li class="goods-property__ctrl--icon goods-horizontal__buy">
+                                            <a href="#" data-toggle="modal" data-target="#modal-cart">
+                                                <span class="iconmoon icon-basket"></span>Купить</a>
+                                        </li>
+                                        <li class="goods-property__ctrl--icon goods-horizontal__wish">
+                                            <a href="#" class="goods-wish">
+                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                <span class="goods-wish__tip">Добавить в Избранное</span>
+                                            </a>
+
+                                        </li>
                                     </ul>
 
                                 </div>
                             </li>
 
-                            <li class="lk-order-list__item">
+                            <li class="lk-wish-list__item">
                                 <div class="goods-horizontal">
                                     <div class="goods-image goods-image--gray">
                                         <div class="goods-image__label"><i class="sprite sprite-b-new"></i></div>
@@ -239,7 +310,18 @@
                                     </div>
 
                                     <ul class="goods-property__ctrl">
-                                        <li class="goods-property__ctrl--icon goods-horizontal__buy"><a href="#" data-toggle="modal" data-target="#modal-cart"><span class="iconmoon icon-basket"></span>Купить</a></li>
+                                        <li class="goods-property__ctrl--icon goods-horizontal__compare"><a href="#"><span class="iconmoon icon-compare"></span>Сравнить</a></li>
+                                        <li class="goods-property__ctrl--icon goods-horizontal__buy">
+                                            <a href="#" data-toggle="modal" data-target="#modal-cart">
+                                                <span class="iconmoon icon-basket"></span>Купить</a>
+                                        </li>
+                                        <li class="goods-property__ctrl--icon goods-horizontal__wish">
+                                            <a href="#" class="goods-wish">
+                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                <span class="goods-wish__tip">Добавить в Избранное</span>
+                                            </a>
+
+                                        </li>
                                     </ul>
 
                                 </div>

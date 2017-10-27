@@ -493,7 +493,7 @@ mark {
   }
 }
 
-.goods, .goods-offer{
+.goods, .goods-offer, .goods-horizontal{
 
   .goods-wish {
     position: absolute;
@@ -522,7 +522,7 @@ mark {
   }
 }
 
-.product-price {
+.product-price, .goods-horizontal {
 
   .goods-wish {
     display: inline-block;
@@ -771,19 +771,36 @@ mark {
     }
   }
   .goods-property {
-    max-width: 300px;
+    width: 300px;
     padding-left: 15px;
     padding-right: 15px;
     .goods-link, .goods-subtitle {
       height: auto;
     }
   }
+  .goods-price {
+    width: 190px;
+  }
+}
+
+@media ($desktop) {
+
+  .goods-horizontal .goods-property__ctrl {
+    display: block;
+    width: 165px;
+    text-align: center;
+  }
+
+  .goods-horizontal .goods-property__ctrl--icon {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
 }
 
 @media ($tablet){
 
   .goods-horizontal .goods-property {
-    max-width: 190px;
+    width: 290px;
   }
 }
 
@@ -793,6 +810,10 @@ mark {
     max-width:100%;
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .goods-horizontal .goods-property__ctrl {
+    width: 100%;
   }
 
   .goods-horizontal {
