@@ -569,7 +569,8 @@ mark {
 }
 
 .fa-heart {
-  color: #ff4800;
+  //color: #ff4800;
+  color: #343434;
 }
 
 .goods-property {
@@ -756,10 +757,6 @@ mark {
     margin-right: 0;
     margin-left: 10px;
 
-    &.goods-horizontal__wish {
-      width: 80px;
-      vertical-align: middle;
-    }
 
     .iconmoon {
       position: relative;
@@ -781,6 +778,11 @@ mark {
   .goods-price {
     width: 190px;
   }
+}
+
+.goods-horizontal__wish {
+  width: 80px;
+  vertical-align: top;
 }
 
 @media ($desktop) {

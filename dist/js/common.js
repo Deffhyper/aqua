@@ -911,7 +911,7 @@ $(function() {
             $(this).find('.goods-wish__tip').text('Добавить в Избранное');
             heart.fadeOut("normal", function () {
                 heart.removeClass('fa-heart').addClass('fa-heart-o');
-                heart.fadeIn('normal');
+                heart.fadeIn('fast');
             });
         }
     });

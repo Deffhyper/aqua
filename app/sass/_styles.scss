@@ -1402,6 +1402,15 @@
     }
   }
 
+  &.goods-horizontal .goods-property__ctrl--icon.goods-horizontal__wish {
+    width: 65px;
+  }
+
+  &.goods-horizontal .goods-property__ctrl--icon {
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
 }
 
 .product-sale-block {
@@ -1751,6 +1760,10 @@
 
   .goods-horizontal__compare a {
     background-color: #fff;
+  }
+
+  .goods-horizontal .goods-property {
+    width: 190px;
   }
 
 }

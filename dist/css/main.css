@@ -717,7 +717,7 @@ mark {
     font-size: 22px; }
 
 .fa-heart {
-  color: #ff4800; }
+  color: #343434; }
 
 .goods-property__list {
   height: 0;
@@ -860,9 +860,6 @@ mark {
     border: 0;
     margin-right: 0;
     margin-left: 10px; }
-    .goods-horizontal .goods-property__ctrl--icon.goods-horizontal__wish {
-      width: 80px;
-      vertical-align: middle; }
     .goods-horizontal .goods-property__ctrl--icon .iconmoon {
       position: relative;
       top: 1px;
@@ -880,6 +877,10 @@ mark {
       height: auto; }
   .goods-horizontal .goods-price {
     width: 190px; }
+
+.goods-horizontal__wish {
+  width: 80px;
+  vertical-align: top; }
 
 @media (max-width: 1279px) {
   .goods-horizontal .goods-property__ctrl {
@@ -4056,6 +4057,12 @@ body:after {
       margin-left: 40px;
       display: inline-block;
       vertical-align: middle; }
+  .product-price.goods-horizontal .goods-property__ctrl--icon.goods-horizontal__wish {
+    width: 65px; }
+  .product-price.goods-horizontal .goods-property__ctrl--icon {
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 10px; }
 
 .product-sale-block {
   border-top: 1px solid #f0f0f0;
@@ -4317,6 +4324,8 @@ body:after {
     font-size: 14px; }
   .product-sticky-block .goods-horizontal__compare a {
     background-color: #fff; }
+  .product-sticky-block .goods-horizontal .goods-property {
+    width: 190px; }
 
 .product-useful {
   margin-bottom: 30px; }
@@ -5049,6 +5058,24 @@ body:after {
   .product-slider__left--item img {
     max-height: 350px;
     max-width: 350px; }
+  .product-sticky-block .goods-horizontal .goods-price {
+    width: 140px; }
+  .product-sticky-block .goods-horizontal .goods-property__ctrl {
+    width: auto; }
+  .product-sticky-block .goods-horizontal .goods-property__ctrl {
+    margin-right: 10px;
+    margin-bottom: 0; }
+  .product-price.goods-horizontal .goods-property__ctrl {
+    margin-left: 0;
+    width: auto; }
+  .product-price.goods-horizontal .goods-property__ctrl {
+    margin-left: 0;
+    width: auto; }
+  .product-price .goods-wish, .goods-horizontal .goods-wish {
+    display: inline-block;
+    position: relative;
+    top: 8px;
+    left: 0; }
   .modal-dialog.modal-cart {
     max-width: 960px; }
   .lk-order__prop {
@@ -5706,6 +5733,15 @@ body:after {
   .product-slider__left--item img {
     max-height: 310px;
     max-width: 310px; }
+  .product-price.goods-horizontal .goods-property__ctrl--icon {
+    margin-left: 0;
+    margin-bottom: 0; }
+  .product-price.goods-horizontal .goods-property__ctrl {
+    width: 100%;
+    text-align: left; }
+  .product-price.goods-horizontal .goods-property__ctrl--icon.goods-horizontal__wish {
+    width: 100%;
+    padding-top: 10px; }
   .cart-table-mob-label {
     display: block;
     font-family: "Proxima-Nova-Bold", sans-serif;
@@ -5890,6 +5926,10 @@ body:after {
       width: 100%; }
   .input-block__item mark {
     right: -11px; }
+  .lk-wish-list__item {
+    margin-bottom: 25px;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 15px; }
   .order-detail-cart__top .title-light {
     font-size: 15px; }
   .order-detail-cart__top .order-detail-cart-reset {

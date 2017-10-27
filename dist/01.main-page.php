@@ -38,6 +38,7 @@
                                 <a href="#">
                                     <img src="img/jpeg_files/top-slider-image.png" alt="photo" width="427" height="380">
                                     <span class="top-banner-label">
+                                        <img src="img/jpeg_files/big-sale-label.png" alt="/">
                                         <p class="top-banner-label__text">
                                             <span>всего от</span>
                                             <span><b>120 000</b>грн</span>
