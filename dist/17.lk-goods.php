@@ -15,8 +15,9 @@
                         <ul class="lk-navigate left-sidebar">
                             <li class="lk-navigate__item"><a href="#">Регистрационный данные</a></li>
                             <li class="lk-navigate__item"><a href="#">Личные данные</a></li>
-                            <li class="lk-navigate__item  active"><a href="#">Мои заказы</a></li>
-                            <li class="lk-navigate__item"><a href="#">Просмотренные товары</a></li>
+                            <li class="lk-navigate__item"><a href="#">Мои заказы</a></li>
+                            <li class="lk-navigate__item  active"><a href="#">Просмотренные товары</a></li>
+                            <li class="lk-navigate__item"><a href="#">Избранное</a></li>
                         </ul>
                     </div>
                     <div class="right-block">

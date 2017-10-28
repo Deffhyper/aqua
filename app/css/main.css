@@ -5093,6 +5093,8 @@ body:after {
     width: 115px; }
   .goods-lk-order-wrapper .goods-link {
     width: 90px; }
+  .product-price .goods-wish__tip, .goods-horizontal .goods-wish__tip {
+    margin-left: 0; }
   .order-detail-cart {
     padding-left: 0;
     margin-bottom: 30px; }
