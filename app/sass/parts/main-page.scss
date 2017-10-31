@@ -835,3 +835,17 @@
     max-width: 100%;
   }
 }
+
+.modal-dialog-image {
+  margin-top: 50px;
+  @extend .modal-dialog-video;
+  text-align: center;
+  img {
+    display: inline-block;
+  }
+  .close {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+  }
+}

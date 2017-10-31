@@ -67,38 +67,48 @@
                         <div class="four-image-slider">
                             <div>
                                 <div class="four-image-slider__item">
-                                    <a href="#">
-                                        <img src="img/jpeg_files/img-1.jpg" alt="ef" height="220" width="220">
+                                    <a href="img/jpeg_files/brian-sugden-200843.jpg" class="image-modal-launcher" role="button" data-toggle="modal" data-target="#image-modal">
+                                        <img src="img/jpeg_files/brian-sugden-200843.jpg" alt="ef" height="220" width="220">
                                     </a>
                                 </div>
                             </div>
                             <div>
                                 <div class="four-image-slider__item">
-                                    <a href="#">
+                                    <a href="img/jpeg_files/img-2.jpg" class="image-modal-launcher" role="button" data-toggle="modal" data-target="#image-modal">
                                         <img src="img/jpeg_files/img-2.jpg" alt="ef" height="220" width="220">
                                     </a>
                                 </div>
                             </div>
                             <div>
                                 <div class="four-image-slider__item">
-                                    <a href="#">
+                                    <a href="img/jpeg_files/img-3.jpg" class="image-modal-launcher" role="button" data-toggle="modal" data-target="#image-modal">
                                         <img src="img/jpeg_files/img-3.jpg" alt="ef" height="220" width="220">
                                     </a>
                                 </div>
                             </div>
                             <div>
                                 <div class="four-image-slider__item">
-                                    <a href="#">
+                                    <a href="img/jpeg_files/img-4.jpg" class="image-modal-launcher" role="button" data-toggle="modal" data-target="#image-modal">
                                         <img src="img/jpeg_files/img-4.jpg" alt="ef" height="220" width="220">
                                     </a>
                                 </div>
                             </div>
                             <div>
                                 <div class="four-image-slider__item">
-                                    <a href="#">
+                                    <a href="img/jpeg_files/img-1.jpg" class="image-modal-launcher" role="button" data-toggle="modal" data-target="#image-modal">
                                         <img src="img/jpeg_files/img-1.jpg" alt="ef" height="220" width="220">
                                     </a>
                                 </div>
+                            </div>
+                        </div>
+
+                        <!-- Modal for image -->
+                        <div class="modal fade" id="image-modal" tabindex="-1" role="dialog">
+                            <div class="modal-dialog modal-dialog-image" role="document">
+
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <img id="image-modal-item" src="" alt="ef">
+
                             </div>
                         </div>
                         

@@ -542,7 +542,7 @@ $(function() {
         return false;
     });
     
-    ////////////////////////////////// video slider //////////////////////////////
+    ////////////////////////////////// video modal slider //////////////////////////////
 
     $("#video-modal").on("hidden.bs.modal",function(){
         $("#iframeYoutube").attr("src","");
@@ -551,6 +551,19 @@ $(function() {
     $('.video-modal-launcher').on('click', function () {
         var videoAddress = $(this).data('address');
         $("#iframeYoutube").attr("src","https://www.youtube.com/embed/"+videoAddress);
+    });
+
+
+    ////////////////////////////////// image modal slider //////////////////////////////
+
+    $("#image-modal").on("hidden.bs.modal",function(){
+        $("#image-modal-item").attr("src","");
+    });
+
+    $('.image-modal-launcher').on('click', function (e) {
+        e.preventDefault();
+        var imageAddress = $(this).attr('href');
+        $("#image-modal-item").attr("src", imageAddress);
     });
 
     
