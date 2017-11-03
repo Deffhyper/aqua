@@ -202,6 +202,7 @@
     <div class="row">
         <div class="col-xl-10 col-lg-12 offset-xl-1 offset-lg-0">
             <div class="row">
+
                 <div class="col-xl-6 col-lg-12">
                     <p class="title-light">Просмотренные товары</p>
                     <div class="two-item-slider">
@@ -225,6 +226,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-xl-3 col-md-12">
                     <p class="title-light">Рекомендуем</p>
                     <div class="one-item-slider">

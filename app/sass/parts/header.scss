@@ -472,6 +472,12 @@ body.before-white:before {
     font-size: 36px;
     li {
       margin-bottom: 3px;
+
+      &.hovered {
+        a:before {
+          width: 50px;
+        }
+      }
       a {
         &:before {
           content: "";

@@ -1991,6 +1991,8 @@ body.before-white:before {
     font-size: 36px; }
     .header-catalog__left li {
       margin-bottom: 3px; }
+      .header-catalog__left li.hovered a:before {
+        width: 50px; }
       .header-catalog__left li a:before {
         content: "";
         display: inline-block;

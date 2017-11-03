@@ -201,38 +201,42 @@
 <div class="container section-block">
     <div class="row">
         <div class="col-xl-10 col-lg-12 offset-xl-1 offset-lg-0">
-            <p class="title-light">Рекомендуем</p>
-            <div class="mob-four-item-slider">
-                <div>
-                    <div class="goods-combo">
-                        <?php include "parts/goods.php" ?>
-                        <?php include "parts/small-goods.php" ?>
-                    </div>
-                </div>
-                <div>
-                    <div class="goods-combo">
-                        <?php include "parts/goods.php" ?>
-                        <?php include "parts/small-goods.php" ?>
-                    </div>
-                </div>
-                <div>
-                    <div class="goods-combo">
-                        <?php include "parts/goods.php" ?>
-                        <?php include "parts/small-goods.php" ?>
-                    </div>
-                </div>
+            <div class="row">
+                <div class="col-12">
+                    <p class="title-light">Рекомендуем</p>
+                    <div class="mob-four-item-slider">
+                        <div>
+                            <div class="goods-combo">
+                                <?php include "parts/goods.php" ?>
+                                <?php include "parts/small-goods.php" ?>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="goods-combo">
+                                <?php include "parts/goods.php" ?>
+                                <?php include "parts/small-goods.php" ?>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="goods-combo">
+                                <?php include "parts/goods.php" ?>
+                                <?php include "parts/small-goods.php" ?>
+                            </div>
+                        </div>
 
-                <div>
-                    <div class="goods-combo">
-                        <?php include "parts/goods.php" ?>
-                        <?php include "parts/small-goods.php" ?>
-                    </div>
-                </div>
+                        <div>
+                            <div class="goods-combo">
+                                <?php include "parts/goods.php" ?>
+                                <?php include "parts/small-goods.php" ?>
+                            </div>
+                        </div>
 
-                <div>
-                    <div class="goods-combo">
-                        <?php include "parts/goods.php" ?>
-                        <?php include "parts/small-goods.php" ?>
+                        <div>
+                            <div class="goods-combo">
+                                <?php include "parts/goods.php" ?>
+                                <?php include "parts/small-goods.php" ?>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

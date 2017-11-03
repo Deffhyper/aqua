@@ -105,6 +105,8 @@ $(function() {
 
         var index = $(this).parent('li').index();
 
+        $(this).parent('li').addClass('hovered').siblings().removeClass('hovered');
+
         if($(document).innerWidth() >= 1280) {
             $('.header-catalog__right').find('.header-catalog__right--tab').addClass('active').eq(index).siblings().removeClass('active');
         }
