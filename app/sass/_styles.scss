@@ -1383,7 +1383,7 @@
 .product-price {
   margin-bottom: 15px;
   &.goods-horizontal {
-    display: block;
+    //display: block;
 
     .goods-price {
       display: inline-block;
@@ -1773,8 +1773,6 @@
 }
 
 .reviews-form {
-  max-width: 350px;
-
   &__header {
     margin-bottom: 15px;
     .title-light {

@@ -655,7 +655,8 @@ mark {
   .goods-image__label {
     position: absolute;
     top: -5px;
-    left: -5px; }
+    left: -5px;
+    z-index: 2; }
   .goods-image--gray {
     background-color: #f0f0f0;
     -webkit-transition: height .6s ease;
@@ -4088,18 +4089,16 @@ body:after {
 
 .product-price {
   margin-bottom: 15px; }
-  .product-price.goods-horizontal {
-    display: block; }
-    .product-price.goods-horizontal .goods-price {
-      display: inline-block;
-      vertical-align: middle;
-      padding-bottom: 3px; }
-    .product-price.goods-horizontal .goods-price-current {
-      font-size: 24px; }
-    .product-price.goods-horizontal .goods-property__ctrl {
-      margin-left: 40px;
-      display: inline-block;
-      vertical-align: middle; }
+  .product-price.goods-horizontal .goods-price {
+    display: inline-block;
+    vertical-align: middle;
+    padding-bottom: 3px; }
+  .product-price.goods-horizontal .goods-price-current {
+    font-size: 24px; }
+  .product-price.goods-horizontal .goods-property__ctrl {
+    margin-left: 40px;
+    display: inline-block;
+    vertical-align: middle; }
   .product-price.goods-horizontal .goods-property__ctrl--icon.goods-horizontal__wish {
     width: 65px; }
   .product-price.goods-horizontal .goods-property__ctrl--icon {
@@ -4373,22 +4372,23 @@ body:after {
 .product-useful {
   margin-bottom: 30px; }
 
-.reviews-form {
-  max-width: 350px; }
-  .reviews-form__header {
-    margin-bottom: 15px; }
-    .reviews-form__header .title-light {
-      font-size: 16px; }
-  .reviews-form .rateit {
-    float: right; }
-    .reviews-form .rateit.rateit-font .rateit-range {
-      font-size: 20px;
-      line-height: 1; }
-  .reviews-form fieldset {
-    margin-bottom: 10px; }
-  .reviews-form textarea {
-    height: 100px;
-    resize: none; }
+.reviews-form__header {
+  margin-bottom: 15px; }
+  .reviews-form__header .title-light {
+    font-size: 16px; }
+
+.reviews-form .rateit {
+  float: right; }
+  .reviews-form .rateit.rateit-font .rateit-range {
+    font-size: 20px;
+    line-height: 1; }
+
+.reviews-form fieldset {
+  margin-bottom: 10px; }
+
+.reviews-form textarea {
+  height: 100px;
+  resize: none; }
 
 .product-tab-document__item {
   margin-bottom: 15px; }
@@ -5122,6 +5122,8 @@ body:after {
     position: relative;
     top: 8px;
     left: 0; }
+  .product-price.goods-horizontal {
+    display: block; }
   .modal-dialog.modal-cart {
     max-width: 960px; }
   .lk-order__prop {
