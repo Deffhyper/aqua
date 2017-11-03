@@ -482,7 +482,8 @@ $(function() {
         '.one-item-slider .goods-combo-small, ' +
         '.one-item-slider .goods-combo, ' +
         '.related-product__slider .goods-combo, ' +
-        '.five-item-slider__item'
+        '.five-item-slider__item, ' +
+        '.mob-three-item-slider .goods-combo'
     ).hover(function () {
 
         if($(document).innerWidth() >= 1280) {
@@ -554,19 +555,6 @@ $(function() {
     });
 
 
-    ////////////////////////////////// image modal slider //////////////////////////////
-
-    $("#image-modal").on("hidden.bs.modal",function(){
-        $("#image-modal-item").attr("src","");
-    });
-
-    $('.image-modal-launcher').on('click', function (e) {
-        e.preventDefault();
-        var imageAddress = $(this).attr('href');
-        $("#image-modal-item").attr("src", imageAddress);
-    });
-
-    
     ////////////////////////////////////////////// left sidebar ///////////////////////////////////////
     
     $('.left-sidebar__item.has-child').on('click', 'a', function (e) {
@@ -929,6 +917,15 @@ $(function() {
         }
     });
 
+
+    ////////////////////////////// light gallery ///////////////////////////////
+
+    $('#light-gallery').lightGallery({
+        selector: '.four-image-slider .four-image-slider__item',
+        thumbnail:true,
+        animateThumb: false,
+        showThumbByDefault: false
+    });
 
 
 

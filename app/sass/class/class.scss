@@ -1116,7 +1116,7 @@ mark {
   }
 }
  /////////////////////////////////////// one -two item slider
-.two-item-slider, .one-item-slider, .related-product__slider {
+.two-item-slider, .one-item-slider, .related-product__slider, .mob-three-item-slider {
   height: 455px;
   position: relative;
   z-index: 1;
@@ -1693,4 +1693,14 @@ mark {
     transform: rotateZ(-45deg);
   }
 
+}
+
+/////////////////////////////////////// gallery //////////////////////////////////
+
+.lg-backdrop {
+  background-color: #064579;
+  z-index: 30;
+}
+.lg-outer {
+  z-index: 31;
 }

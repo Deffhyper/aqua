@@ -70,6 +70,13 @@
   font-weight: normal; }
 
 @font-face {
+  font-family: 'lg';
+  src: url("../fonts/lg/lg.eot?hbse7a");
+  src: url("../fonts/lg/lg.eot?hbse7a#iefix") format("embedded-opentype"), url("../fonts/lg/lg.ttf?hbse7a") format("truetype"), url("../fonts/lg/lg.woff?hbse7a") format("woff"), url("../fonts/lg/lg.svg?hbse7a#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
   font-family: 'icomoon';
   src: url("../fonts/iconmoon/icomoon.eot?hbse7a");
   src: url("../fonts/iconmoon/icomoon.eot?hbse7a#iefix") format("embedded-opentype"), url("../fonts/iconmoon/icomoon.ttf?hbse7a") format("truetype"), url("../fonts/iconmoon/icomoon.woff?hbse7a") format("woff"), url("../fonts/iconmoon/icomoon.svg?hbse7a#icomoon") format("svg");
@@ -1143,15 +1150,15 @@ mark {
             transform: translate(-50%, -50%);
     font-size: 20px; }
 
-.two-item-slider, .one-item-slider, .related-product__slider {
+.two-item-slider, .one-item-slider, .related-product__slider, .mob-three-item-slider {
   height: 455px;
   position: relative;
   z-index: 1; }
-  .two-item-slider.height-auto, .one-item-slider.height-auto, .related-product__slider.height-auto {
+  .two-item-slider.height-auto, .one-item-slider.height-auto, .related-product__slider.height-auto, .mob-three-item-slider.height-auto {
     height: auto; }
-  .two-item-slider.slider-hover .slick-list, .one-item-slider.slider-hover .slick-list, .related-product__slider.slider-hover .slick-list {
+  .two-item-slider.slider-hover .slick-list, .one-item-slider.slider-hover .slick-list, .related-product__slider.slider-hover .slick-list, .mob-three-item-slider.slider-hover .slick-list {
     height: 720px; }
-  .two-item-slider.slider-hover .slick-dots, .one-item-slider.slider-hover .slick-dots, .related-product__slider.slider-hover .slick-dots {
+  .two-item-slider.slider-hover .slick-dots, .one-item-slider.slider-hover .slick-dots, .related-product__slider.slider-hover .slick-dots, .mob-three-item-slider.slider-hover .slick-dots {
     position: relative;
     bottom: 285px;
     z-index: -1; }
@@ -1577,6 +1584,13 @@ mark {
     -webkit-transform: rotateZ(-45deg);
         -ms-transform: rotate(-45deg);
             transform: rotateZ(-45deg); }
+
+.lg-backdrop {
+  background-color: #064579;
+  z-index: 30; }
+
+.lg-outer {
+  z-index: 31; }
 
 body:before {
   content: '';

@@ -46,9 +46,10 @@ gulp.task('scripts', function() {
 		'app/libs/bootstrap/dist/js/bootstrap.min.js',
 		'app/libs/masked-input/masked-input.js',
         'app/libs/scrollbar/jquery.mCustomScrollbar.concat.min.js', // Custom scrollbar
-		'app/libs/range/jquery-ui.min.js',
-		'app/libs/countdown/compiled/flipclock.js',
-		'app/libs/jquery.rateit/scripts/jquery.rateit.js'
+		'app/libs/range/jquery-ui.min.js', // ui jQuery
+		'app/libs/countdown/compiled/flipclock.js', // counter
+		'app/libs/jquery.rateit/scripts/jquery.rateit.js', // rating
+        'app/libs/light-gallery/js/lightgallery-all.min.js' // gallery
 
 		])
 		.pipe(concat('libs.min.js')) // Собираем их в кучу в новом файле libs.min.js
@@ -106,7 +107,7 @@ gulp.task('build', ['clean', 'img', 'sass', 'scripts'], function() {
 	var buildHtml = gulp.src('app/*.html') // Переносим HTML в продакшен
 	.pipe(gulp.dest('dist'));
 
-	var buildPhp = gulp.src('app/*.php') // Переносим HTML в продакшен
+	var buildPhp = gulp.src('app/*.php') // Переносим PHP в продакшен
 	.pipe(gulp.dest('dist'));
 
 });
