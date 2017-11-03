@@ -1116,10 +1116,15 @@ mark {
   }
 }
  /////////////////////////////////////// one -two item slider
-.two-item-slider, .one-item-slider, .related-product__slider, .mob-three-item-slider {
+.two-item-slider,
+.one-item-slider,
+.related-product__slider,
+.mob-three-item-slider,
+.mob-four-item-slider {
   height: 455px;
   position: relative;
   z-index: 1;
+  width: 100%;
 
   &.height-auto {
     height: auto;

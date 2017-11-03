@@ -468,6 +468,31 @@ $(function() {
     });
 
 
+    $('.mob-four-item-slider').slick({
+        dots: true,
+        infinite: true,
+        arrows: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 766,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+
+
 
     $('.catalog-list-slider').slick({
         dots: true,
@@ -483,7 +508,8 @@ $(function() {
         '.one-item-slider .goods-combo, ' +
         '.related-product__slider .goods-combo, ' +
         '.five-item-slider__item, ' +
-        '.mob-three-item-slider .goods-combo'
+        '.mob-three-item-slider .goods-combo, '+
+        '.mob-four-item-slider .goods-combo'
     ).hover(function () {
 
         if($(document).innerWidth() >= 1280) {
