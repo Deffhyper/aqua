@@ -202,56 +202,6 @@
     <div class="row">
         <div class="col-xl-10 col-lg-12 offset-xl-1 offset-lg-0">
             <div class="row">
-
-<!--                либо два слайдера, либо блок вместо них -->
-
-                <div class="col-xl-9 col-md-12">
-<!--                    <p class="title-light">Рекомендуем</p>-->
-<!--                    <div class="mob-three-item-slider">-->
-<!--                        <div>-->
-<!--                            <div class="goods-combo">-->
-<!--                                --><?php //include "parts/goods.php" ?>
-<!--                                --><?php //include "parts/small-goods.php" ?>
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div>-->
-<!--                            <div class="goods-combo">-->
-<!--                                --><?php //include "parts/goods.php" ?>
-<!--                                --><?php //include "parts/small-goods.php" ?>
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div>-->
-<!--                            <div class="goods-combo">-->
-<!--                                --><?php //include "parts/goods.php" ?>
-<!--                                --><?php //include "parts/small-goods.php" ?>
-<!--                            </div>-->
-<!--                        </div>-->
-<!---->
-<!--                    </div>-->
-                </div>
-                    <div class="row">
-                        <div class="col-lg-4 col-sm-12">
-                            <div class="goods-combo">
-                                <?php include "parts/goods.php" ?>
-                                <?php include "parts/small-goods.php" ?>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-12">
-                            <div class="goods-combo">
-                                <?php include "parts/goods.php" ?>
-                                <?php include "parts/small-goods.php" ?>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-12">
-                            <div class="goods-combo">
-                                <?php include "parts/goods.php" ?>
-                                <?php include "parts/small-goods.php" ?>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
                 <div class="col-xl-6 col-lg-12">
                     <p class="title-light">Просмотренные товары</p>
                     <div class="two-item-slider">

@@ -202,32 +202,10 @@
     <div class="row">
         <div class="col-xl-10 col-lg-12 offset-xl-1 offset-lg-0">
             <div class="row">
-                <div class="col-xl-6 col-lg-12">
-                    <p class="title-light">Просмотренные товары</p>
-                    <div class="two-item-slider">
-                        <div>
-                            <div class="goods-combo">
-                                <?php include "parts/goods.php" ?>
-                                <?php include "parts/small-goods.php" ?>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="goods-combo">
-                                <?php include "parts/goods.php" ?>
-                                <?php include "parts/small-goods.php" ?>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="goods-combo">
-                                <?php include "parts/goods.php" ?>
-                                <?php include "parts/small-goods.php" ?>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-12">
+
+                <div class="col-xl-9 col-md-12">
                     <p class="title-light">Рекомендуем</p>
-                    <div class="one-item-slider">
+                    <div class="mob-three-item-slider">
                         <div>
                             <div class="goods-combo">
                                 <?php include "parts/goods.php" ?>
@@ -246,6 +224,14 @@
                                 <?php include "parts/small-goods.php" ?>
                             </div>
                         </div>
+
+                        <div>
+                            <div class="goods-combo">
+                                <?php include "parts/goods.php" ?>
+                                <?php include "parts/small-goods.php" ?>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
 
@@ -708,16 +694,16 @@
                 </video>
             </div>
         </div>
-<!--        <div>-->
-<!--            <div class="main-video-slider__back--item">-->
-<!--                <img src="img/jpeg_files/video-bg.jpg" alt="v" width="1360" height="476">-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div>-->
-<!--            <div class="main-video-slider__back--item">-->
-<!--                <img src="img/jpeg_files/video-bg.jpg" alt="v" width="1360" height="476">-->
-<!--            </div>-->
-<!--        </div>-->
+        <!--        <div>-->
+        <!--            <div class="main-video-slider__back--item">-->
+        <!--                <img src="img/jpeg_files/video-bg.jpg" alt="v" width="1360" height="476">-->
+        <!--            </div>-->
+        <!--        </div>-->
+        <!--        <div>-->
+        <!--            <div class="main-video-slider__back--item">-->
+        <!--                <img src="img/jpeg_files/video-bg.jpg" alt="v" width="1360" height="476">-->
+        <!--            </div>-->
+        <!--        </div>-->
     </div>
     <div class="container">
         <div class="row">
@@ -801,9 +787,9 @@
     <div class="modal fade" id="video-modal" tabindex="-1" role="dialog">
         <div class="modal-dialog modal-dialog-video" role="document">
 
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <iframe id="iframeYoutube" width="100%" height="475" src="https://www.youtube.com/embed/" frameborder="0" allowfullscreen></iframe>
-           
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <iframe id="iframeYoutube" width="100%" height="475" src="https://www.youtube.com/embed/" frameborder="0" allowfullscreen></iframe>
+
         </div>
     </div>
 </div>
