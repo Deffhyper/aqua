@@ -415,21 +415,48 @@ mark {
 .sprite {
   display: inline-block; }
 
-.sprite-black-cart {
-  background-image: url(../img/png_sprite/sprite.png);
-  background-position: -348px -86px;
-  width: 16px;
-  height: 13px; }
-
 .sprite-b-new {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -320px -27px;
+  background-position: -197px -253px;
   width: 73px;
   height: 27px; }
   .sprite-b-new:hover {
     background-image: url(../img/png_sprite/sprite.png);
     background-position: -320px 0px;
     width: 73px;
+    height: 27px; }
+
+.sprite-b-action {
+  background-image: url(../img/png_sprite/sprite.png);
+  background-position: -197px -226px;
+  width: 73px;
+  height: 27px; }
+  .sprite-b-action:hover {
+    background-image: url(../img/png_sprite/sprite.png);
+    background-position: -320px -27px;
+    width: 73px;
+    height: 27px; }
+
+.sprite-b-sale {
+  background-image: url(../img/png_sprite/sprite.png);
+  background-position: -197px -172px;
+  width: 111px;
+  height: 27px; }
+  .sprite-b-sale:hover {
+    background-image: url(../img/png_sprite/sprite.png);
+    background-position: -197px -199px;
+    width: 111px;
+    height: 27px; }
+
+.sprite-b-recomend {
+  background-image: url(../img/png_sprite/sprite.png);
+  background-position: -197px -118px;
+  width: 111px;
+  height: 27px; }
+  .sprite-b-recomend:hover {
+    background-image: url(../img/png_sprite/sprite.png);
+    background-position: -197px -145px;
+    width: 111px;
     height: 27px; }
 
 .small-goods-no-hover {

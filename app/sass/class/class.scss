@@ -216,14 +216,32 @@ mark {
   display: inline-block;
 }
 
-.sprite-black-cart {
-  @include sprite($black-cart);
-}
 
 .sprite-b-new {
   @include sprite($b-new);
   &:hover {
     @include sprite($b-new-dark);
+  }
+}
+
+.sprite-b-action {
+  @include sprite($b-action);
+  &:hover {
+    @include sprite($b-action-dark);
+  }
+}
+
+.sprite-b-sale {
+  @include sprite($b-sale);
+  &:hover {
+    @include sprite($b-sale-dark);
+  }
+}
+
+.sprite-b-recomend {
+  @include sprite($b-recomend);
+  &:hover {
+    @include sprite($b-recomend-dark);
   }
 }
 
