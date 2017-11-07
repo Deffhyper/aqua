@@ -675,6 +675,8 @@ body.before-white:before {
 
 }
 
+
+
 @media ($mobile) {
 
   body:before {
@@ -682,7 +684,11 @@ body.before-white:before {
   }
 
   .header-compare {
-    margin-right: 18px;
+    display: none;
+  }
+
+  .header-wish {
+    margin-right: 20px;
   }
 
   .header-menu__item--title {
@@ -742,28 +748,3 @@ body.before-white:before {
 
 }
 
-@media (max-width: 440px) {
-  .header-wrapper {
-    padding-top: 60px;
-    position: relative;
-  }
-
-  .header-logo {
-    position: absolute;
-    top: 7px;
-    left: 50%;
-    margin-left: -55px;
-  }
-
-  .menu-open .header-logo {
-    position: absolute;
-  }
-
-  .header-auth {
-    margin-right: 25px;
-  }
-
-  .header-compare {
-    margin-right: 25px;
-  }
-}

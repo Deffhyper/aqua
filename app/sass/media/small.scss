@@ -5,6 +5,10 @@
     font-size: 13px;
   }
 
+  .section-title > br {
+    display: none;
+  }
+
   .top-slider-goods-set__list {
     display: none;
   }
@@ -333,6 +337,8 @@
   }
 
 
+  /////////////////////////////// compare ////////////////////////////////////////////////
+
   .goods-compare .goods-image {
     height: 160px;
   }
@@ -390,6 +396,10 @@
 
   .compare-slider .goods-property__ctrl {
     text-align: left;
+  }
+
+  .compare-ctrl-wrapper, .compare {
+    display: none;
   }
 
   /////////////////////////////////// product detail ////////////////////////////////////
@@ -589,10 +599,8 @@
     text-align: left;
   }
 
-
-  .product-price.goods-horizontal .goods-property__ctrl--icon.goods-horizontal__wish {
-    width: 100%;
-    padding-top: 10px;
+  .goods-property__ctrl--icon.goods-horizontal__compare {
+    display: none;
   }
 
   ////////////////////////////////// cart /////////////////////
@@ -977,6 +985,9 @@
   .ff-left .bold-text {
     font-size: 36vw;
   }
+
+
+
 
 
 
