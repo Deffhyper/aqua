@@ -94,9 +94,11 @@
 
                         
                         <div class="detail-ctrl">
-                            <a href="#" class="link-arrow inverse"><span>предыдущая</span></a>
-                            <a href="#" class="btn btn__sm  btn__sm--gray" tabindex="0">все статьи</a>
-                            <a href="#" class="link-arrow"><span>следующая</span></a>
+                            <div class="row">
+                                <div class="col-4 text-left"><a href="#" class="link-arrow inverse"><span>предыдущая</span></a></div>
+                                <div class="col-4 text-center"><a href="#" class="btn btn__sm  btn__sm--gray" tabindex="0">все статьи</a></div>
+                                <div class="col-4 text-right"><a href="#" class="link-arrow"><span>следующая</span></a></div>
+                            </div>
                         </div>
                     </div>
                 </div>

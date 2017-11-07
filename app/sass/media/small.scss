@@ -56,8 +56,6 @@
     font-size: 30px;
   }
 
-
-
   .main-contacts__choice .dropdown-menu {
     right: 0;
   }
@@ -71,7 +69,6 @@
   .main-news-slider {
     padding: 35px 0 30px;
   }
-
 
   .main-news-item__left {
     width: 100%;
@@ -197,7 +194,7 @@
     }
   }
 
-  .main-video-slider__front .slick-arrow{
+  .main-video-slider__front .slick-arrow {
     opacity: .5;
   }
 
@@ -268,6 +265,7 @@
   .detail-ctrl {
     .link-arrow {
       line-height: 3;
+      padding: 0;
       span {
         color: transparent;
         font-size: 6px;
@@ -335,7 +333,6 @@
   .catalog-list.catalog-list--horizontal .goods-horizontal {
     margin-bottom: 25px;
   }
-
 
   /////////////////////////////// compare ////////////////////////////////////////////////
 
@@ -588,7 +585,6 @@
     max-width: 310px;
   }
 
-
   .product-price.goods-horizontal .goods-property__ctrl--icon {
     margin-left: 0;
     margin-bottom: 0;
@@ -640,8 +636,7 @@
       clear: both;
     }
 
-
-    &>td {
+    & > td {
       display: inline-block;
       padding-right: 4px;
       padding-left: 0;
@@ -688,9 +683,8 @@
   }
 
   .cart-table .goods-label {
-   display: none;
+    display: none;
   }
-
 
   .goods-amount button {
     width: 26px;
@@ -751,7 +745,7 @@
         display: block;
         width: 100%;
 
-        &>td {
+        & > td {
           display: block;
           width: 100%;
           .btn {
@@ -762,29 +756,27 @@
       }
     }
     .cart-total__sale {
-      &>td {
+      & > td {
         display: inline-block;
         text-align: left;
       }
     }
 
     .cart-total__current {
-      &>td {
+      & > td {
         display: inline-block;
         text-align: left;
       }
     }
   }
 
-
-
   ////////////////////////// modal reg ///////////////////////////
 
   .modal-reg {
-    .product-tab-ctrl__item{
+    .product-tab-ctrl__item {
       display: inline-block;
       &.active {
-        .product-tab-ctrl__item--title{
+        .product-tab-ctrl__item--title {
           background-color: transparent;
           color: #343434;
         }
@@ -819,7 +811,7 @@
     margin-bottom: 30px;
   }
 
-//////////////////////////////////////// registration ////////////////////////////////////
+  //////////////////////////////////////// registration ////////////////////////////////////
 
   .registration-block {
     margin-top: 10px;
@@ -828,7 +820,7 @@
     }
   }
 
-////////////////////////////////////// lk //////////////////////////////////////////////
+  ////////////////////////////////////// lk //////////////////////////////////////////////
 
   .lk-order {
     display: block;
@@ -904,8 +896,6 @@
   .lk-order-list__item {
     margin-bottom: 15px;
 
-
-
   }
 
   .lk-info {
@@ -926,8 +916,6 @@
     border-bottom: 1px solid #f0f0f0;
     padding-bottom: 15px;
   }
-
-
 
   ///////////////////////////////////////// order detail /////////////////////
 
@@ -985,11 +973,5 @@
   .ff-left .bold-text {
     font-size: 36vw;
   }
-
-
-
-
-
-
 
 }

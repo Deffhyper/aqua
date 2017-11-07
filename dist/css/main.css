@@ -3293,19 +3293,10 @@ body:after {
         padding-right: 5px; }
 
 .detail-ctrl {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
   padding: 15px 0; }
+  .detail-ctrl .link-arrow {
+    padding: 9px 0;
+    display: inline-block; }
 
 .related-product__title {
   font-family: "Proxima-Nova-Bold", sans-serif;
@@ -5589,7 +5580,8 @@ body:after {
     max-height: none;
     font-size: 20px; }
   .detail-ctrl .link-arrow {
-    line-height: 3; }
+    line-height: 3;
+    padding: 0; }
     .detail-ctrl .link-arrow span {
       color: transparent;
       font-size: 6px;
