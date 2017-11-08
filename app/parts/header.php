@@ -131,63 +131,61 @@
                             </ul>
                         </li>
                     </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
                     <div class="header-catalog">
                         <ul class="header-catalog__left">
-                            <li><a href="#">О компании</a></li>
-                            <li><a href="#">Наши работы</a></li>
-                            <li><a href="#">Отзывы</a></li>
-                            <li><a href="#">Статьи</a></li>
-                            <li><a href="#">Контакты</a></li>
+                            <li class="header-catalog__left--item has-child">
+                                <a href="#">О компании</a>
+                                <ul class="header-catalog__right--tab">
+                                    <li><a href="#" class="mob-menu-back">Назад</a></li>
+                                    <li><a href="#">Водоснабжение</a></li>
+                                    <li><a href="#">Водоотведение</a></li>
+                                    <li><a href="#">Трубопроводы и арматура</a></li>
+                                    <li><a href="#">Отопление</a></li>
+                                    <li><a href="#">Фильтрация</a></li>
+                                </ul>
+                            </li>
+                            <li class="header-catalog__left--item has-child">
+                                <a href="#">Наши работы</a>
+                                <ul class="header-catalog__right--tab">
+                                    <li><a href="#" class="mob-menu-back">Назад</a></li>
+                                    <li><a href="#">Водоснабжение2</a></li>
+                                    <li><a href="#">Водоотведение2</a></li>
+                                    <li><a href="#">Трубопроводы и арматура2</a></li>
+                                    <li><a href="#">Отопление2</a></li>
+                                    <li><a href="#">Фильтрация2</a></li>
+                                </ul>
+                            </li>
+                            <li class="header-catalog__left--item has-child">
+                                <a href="#">Отзывы</a>
+                                <ul class="header-catalog__right--tab">
+                                    <li><a href="#" class="mob-menu-back">Назад</a></li>
+                                    <li><a href="#">Водоснабжение3</a></li>
+                                    <li><a href="#">Водоотведение3</a></li>
+                                    <li><a href="#">Трубопроводы и арматура3</a></li>
+                                    <li><a href="#">Отопление3</a></li>
+                                    <li><a href="#">Фильтрация3</a></li>
+                                </ul>
+                            </li>
+                            <li class="header-catalog__left--item has-child">
+                                <a href="#">Статьи</a>
+                                <ul class="header-catalog__right--tab">
+                                    <li><a href="#" class="mob-menu-back">Назад</a></li>
+                                    <li><a href="#">Водоснабжение4</a></li>
+                                    <li><a href="#">Водоотведение4</a></li>
+                                    <li><a href="#">Трубопроводы и арматура4</a></li>
+                                    <li><a href="#">Отопление4</a></li>
+                                    <li><a href="#">Фильтрация4</a></li>
+                                </ul>
+                            </li>
+                            <li class="header-catalog__left--item">
+                                <a href="/">Контакты</a>
+                            </li>
                         </ul>
-                        <div class="header-catalog__right">
-                            <ul class="header-catalog__right--tab">
-                                <li><a href="#">Водоснабжение</a></li>
-                                <li><a href="#">Водоотведение</a></li>
-                                <li><a href="#">Трубопроводы и арматура</a></li>
-                                <li><a href="#">Отопление</a></li>
-                                <li><a href="#">Фильтрация</a></li>
-                            </ul>
-                            <ul class="header-catalog__right--tab">
-                                <li><a href="#">Водоснабжение2</a></li>
-                                <li><a href="#">Водоотведение2</a></li>
-                                <li><a href="#">Трубопроводы и арматура2</a></li>
-                                <li><a href="#">Отопление2</a></li>
-                                <li><a href="#">Фильтрация2</a></li>
-                            </ul>
-                            <ul class="header-catalog__right--tab">
-                                <li><a href="#">Водоснабжение3</a></li>
-                                <li><a href="#">Водоотведение3</a></li>
-                                <li><a href="#">Трубопроводы и арматура3</a></li>
-                                <li><a href="#">Отопление3</a></li>
-                                <li><a href="#">Фильтрация3</a></li>
-                            </ul>
-                            <ul class="header-catalog__right--tab">
-                                <li><a href="#">Водоснабжение4</a></li>
-                                <li><a href="#">Водоотведение4</a></li>
-                                <li><a href="#">Трубопроводы и арматура4</a></li>
-                                <li><a href="#">Отопление4</a></li>
-                                <li><a href="#">Фильтрация4</a></li>
-                            </ul>
-                            <ul class="header-catalog__right--tab">
-                                <li><a href="#">Водоснабжение</a></li>
-                                <li><a href="#">Водоотведение</a></li>
-                                <li><a href="#">Трубопроводы и арматура</a></li>
-                                <li><a href="#">Отопление</a></li>
-                                <li><a href="#">Фильтрация</a></li>
-                            </ul>
-
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
 
     </div>
 </header>
