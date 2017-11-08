@@ -96,6 +96,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+.icon-logout:before {
+  content: "\e901"; }
+
 .icon-pen:before {
   content: "\e900"; }
 
@@ -1816,6 +1819,12 @@ body.before-white:before {
     color: #090909;
     -webkit-transition: .3s ease;
     transition: .3s ease; }
+  .header-auth .icon-logout {
+    font-size: 19px;
+    color: #5C5C5C;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+    line-height: 1; }
 
 .header-cart {
   display: inline-block;

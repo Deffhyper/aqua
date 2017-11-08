@@ -150,6 +150,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-logout:before {
+  content: "\e901";
+}
 .icon-pen:before {
   content: "\e900";
 }

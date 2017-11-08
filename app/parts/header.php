@@ -40,7 +40,7 @@
                     </div>
                     <div class="header-auth">
                         <a href="#" data-toggle="modal" data-target="#modal-reg">
-                            <span class="iconmoon icon-user2"></span>
+                            <span class="iconmoon icon-logout"></span>
                         </a>
                     </div>
                     <div class="header-compare">
