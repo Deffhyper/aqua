@@ -111,12 +111,17 @@ $(function() {
         }
     });
 
+    $(window).resize(function () {
+        $('.header-catalog__left').find('li').removeClass('hovered');
+    });
+
 
 
     $('.header-catalog__left').find('li').children('a').click(function (event) {
 
-        if($(this).parent('li').hasClass('has-child')){
+        if( $(this).parent('li').hasClass('has-child') && $(document).innerWidth() < 992 ){
             event.preventDefault();
+
             if($(this).next('.header-catalog__right--tab').length &&
                 !$(this).next('.header-catalog__right--tab').hasClass('active')) {
 
