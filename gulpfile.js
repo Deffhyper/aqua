@@ -49,7 +49,8 @@ gulp.task('scripts', function() {
 		'app/libs/range/jquery-ui.min.js', // ui jQuery
 		'app/libs/countdown/compiled/flipclock.js', // counter
 		'app/libs/jquery.rateit/scripts/jquery.rateit.js', // rating
-        'app/libs/light-gallery/js/lightgallery-all.min.js' // gallery
+        'app/libs/light-gallery/js/lightgallery-all.min.js', // gallery
+        'app/libs/jquery-ui-touch-punch-master/jquery.ui.touch-punch.min.js' // drag and drop jQuery UI
 
 		])
 		.pipe(concat('libs.min.js')) // Собираем их в кучу в новом файле libs.min.js
