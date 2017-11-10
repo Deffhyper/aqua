@@ -1818,6 +1818,14 @@ body.before-white:before {
   .header-auth .dropdown-menu {
     right: -13px;
     top: 25px; }
+    .header-auth .dropdown-menu:before {
+      content: '';
+      width: 100%;
+      height: 20px;
+      position: absolute;
+      top: -20px;
+      left: 0;
+      right: 0; }
     .header-auth .dropdown-menu li {
       text-align: left;
       font-size: 14px; }
