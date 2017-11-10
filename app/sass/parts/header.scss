@@ -208,6 +208,25 @@ body.before-white:before {
   display: inline-block;
   vertical-align: middle;
   margin-right: 25px;
+  position: relative;
+  &:hover {
+    .dropdown-menu {
+      display: block;
+    }
+  }
+
+  .dropdown-menu {
+    right: -13px;
+    top: 25px;
+    li {
+      text-align: left;
+      font-size: 14px;
+      a {
+        display: inline-block;
+        padding: 5px 10px;
+      }
+    }
+  }
 
   a {
 
@@ -224,10 +243,13 @@ body.before-white:before {
   }
 
   .icon-logout {
-    font-size: 19px;
-    color: #5C5C5C;
+    font-size: 15px;
+    //color: #5C5C5C;
+    color: #fff;
     transition: .3s ease;
-    line-height: 1;
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
   }
 
 }
@@ -368,6 +390,28 @@ body.before-white:before {
         border-bottom-color: #fff;
       }
     }
+  }
+
+  .header-auth:hover .dropdown-menu {
+    background-color: #fff;
+    color: $text-color;
+    li {
+      a:hover {
+        .icon-logout {
+          color: #ff7038;
+        }
+        .link {
+            color: #ff7038;
+        }
+      }
+    }
+    &:after {
+      border-bottom-color: #fff;
+    }
+  }
+
+  .header-auth .icon-logout {
+    color: $text-color;
   }
 
   .header-ctrl-block {

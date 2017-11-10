@@ -40,8 +40,20 @@
                     </div>
                     <div class="header-auth">
                         <a href="#" data-toggle="modal" data-target="#modal-reg">
-                            <span class="iconmoon icon-logout"></span>
+                            <span class="iconmoon icon-user2"></span>
                         </a>
+                        <ul class="dropdown-menu" aria-labelledby="header-tel">
+                            <li><a href="#">Личные данные</a></li>
+                            <li><a href="#">Избранные</a></li>
+                            <li><a href="#">Мои заказы</a></li>
+                            <li><a href="#">Просмотренные товары  </a></li>
+                            <li class="text-right">
+                                <a href="#">
+                                    <span class="iconmoon icon-logout"></span>
+                                    <span class="link">Выйти</span>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                     <div class="header-compare">
                         <a href="11.compare.php">
